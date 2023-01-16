@@ -338,7 +338,7 @@ export default function Pricing() {
                       delay={300}
                       question={"Can I pay with crypto?"}
                       answer={
-                        <div>Yes, <a href={beConfig.supportUrl}>talk to us</a>.</div>
+                        <div>Yes, click "Pay with crypto" above for automated checkout. <a href={"https://blockeden.xyz/blog/2023/01/04/how-to-pay-blockeden-xyz-with-apt/"}>It supports APT, USDC, USDT on Aptos</a>. Please <a href={"https://discord.gg/4Yfvs2HWey"}>contact us</a> if you want to pay tokens in other blockchain networks.</div>
                       }
                     />
 
