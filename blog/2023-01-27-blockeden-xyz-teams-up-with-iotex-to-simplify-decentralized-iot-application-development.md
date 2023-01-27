@@ -1,5 +1,5 @@
 ---
-title: BlockEden.xyz teams up with IoTeX to simplify decentralized IoT DApp development
+title: BlockEden.xyz teams up with IoTeX to simplify decentralized IoT application development
 authors: [dora]
 tags: [company, partnership]
 image: https://tp-misc.b-cdn.net/blockeden/iotex-and-blockeden-xyz.png
@@ -7,13 +7,13 @@ image: https://tp-misc.b-cdn.net/blockeden/iotex-and-blockeden-xyz.png
 
 
 
-IoTeX has been heralded as a revolutionary force in the blockchain-for-IoT world, with countless developers striving to capitalize on its potential. BlockEden.xyz is now teaming up with IoTeX to deliver secure, trusted, and interoperable services that will power smart devices to connect to smart contracts. This collaboration marks a new era for developers to develop IoT DApp with an approachable SaaS and unlock new opportunities with fewer costs and reduced IT burden. 
+IoTeX has been heralded as a revolutionary force in the blockchain-for-IoT world, with countless developers striving to capitalize on its potential. BlockEden.xyz is now teaming up with IoTeX to deliver secure, trusted, and interoperable services that will power smart devices to connect to smart contracts. This collaboration marks a new era for developers to develop IoT DApp with an approachable SaaS and unlock new opportunities with fewer costs and reduced IT burden.
 
 ![BlockEden.xyz teams up with IoTeX to simplify decentralized IoT Application](https://tp-misc.b-cdn.net/blockeden/iotex-and-blockeden-xyz.png "BlockEden.xyz teams up with IoTeX to simplify decentralized IoT Application")
 
 ## What is IoTeX?
 
-IoTeX is an open-source platform founded in 2017 with a vision of blockchain for the Internet of Trusted Things. The platform enables various machines and people to interact securely and trustingly with each other. In doing so, IoTeX ensures that everyday people and businesses own their devices and the data/value they generate from them. By connecting physical and digital worlds, IoTeX aims to democratize access to machine-backed DApps, assets, and services while delivering value to users and fueling the new machine economy. 
+IoTeX is an open-source platform founded in 2017 with a vision of blockchain for the Internet of Trusted Things. The platform enables various machines and people to interact securely and trustingly with each other. In doing so, IoTeX ensures that everyday people and businesses own their devices and the data/value they generate from them. By connecting physical and digital worlds, IoTeX aims to democratize access to machine-backed DApps, assets, and services while delivering value to users and fueling the new machine economy.
 
 ## What is BlockEden.xyz?
 
@@ -23,7 +23,7 @@ As a result of this collaboration, developers using BlockEden.xyz will now have 
 
 ## What does this mean for developers?
 
-This partnership will enable developers across different industries, such as finance, insurance, supply chain management, healthcare, etc., who are looking for a reliable partner in their journey towards building robust DApps — whether on IoTeX, Ethereum, Aptos, or Sui. 
+This partnership will enable developers across different industries, such as finance, insurance, supply chain management, healthcare, etc., who are looking for a reliable partner in their journey towards building robust DApps — whether on IoTeX, Ethereum, Aptos, or Sui.
 
 More specifically, BlockEden.xyz will collaborate IoTeX to offer developers with the following services:
 
@@ -39,7 +39,7 @@ With this exciting collaboration, there are great things ahead for IoT DApp deve
 
 **Is the partnership hurting the decentralization of IoTeX because BlockEden.xyz is a managed service vendor?**
 
-We are a professional SaaS vendor. There has to be a place to host servers and register their locations - like your website also needs servers or DNS. If it is not your own data center, you must work with a cloud vendor. We have worked in the cloud and SaaS Fintech industries for many years and will get more compliance when our business grows to a specific size. If the managed service does not work for you, we also serve on-premise deployment. If you want the software to run on your own servers (on-premise deployment), you can hire us ($599/hour) to help you. We are not the customer’s only choice and have no motivation to do evil. We offer the customer an option - a simplified and efficient development experience so that developers to experience IoTeX’s magic as soon as possible. 
+We are a professional SaaS vendor. There has to be a place to host servers and register their locations - like your website also needs servers or DNS. If it is not your own data center, you must work with a cloud vendor. We have worked in the cloud and SaaS Fintech industries for many years and will get more compliance when our business grows to a specific size. If the managed service does not work for you, we also serve on-premise deployment. If you want the software to run on your own servers (on-premise deployment), you can hire us ($599/hour) to help you. We are not the customer’s only choice and have no motivation to do evil. We offer the customer an option - a simplified and efficient development experience so that developers to experience IoTeX’s magic as soon as possible.
 
 **How do both companies profit from the partnership?**
 
@@ -58,7 +58,7 @@ For BlockEden.xyz, go to
 
 * Discord: https://discord.gg/4Yfvs2HWey
 
-  
+
 
   Source Link: https://blockeden.xyz/blog/2023/01/27/blockeden-xyz-teams-up-with-iotex-to-simplify-decentralized-iot-application-development/
 
