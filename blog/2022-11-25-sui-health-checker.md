@@ -1,7 +1,7 @@
 ---
 title: Sui Health Checker
 authors: [jack]
-tags: [product]
+tags: [product, sui]
 image: https://tp-misc.b-cdn.net/blockeden/sui-api-health-checker.png
 ---
 
