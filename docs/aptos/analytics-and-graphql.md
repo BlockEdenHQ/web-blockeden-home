@@ -90,7 +90,7 @@ The `coin_activities` table contains all the coin transfter activity history.
 | activity_type              | Varchar | The type of the activity among `0x1::coin::DepositEvent`, `0x1::aptos_coin::GasFeeEvent,` `0x1::coin::WithdrawEvent` |
 | is_gas_fee                | Bool | indicates if the transaction is a gas fee or not |
 | is_transaction_success    | Bool | indicates if the transaction is successful or not |
-| entry_function_id_str     | Nullable<Varchar> | entry function identifier of the transaction |
+| entry_function_id_str     | `Nullable<Varchar>` | entry function identifier of the transaction |
 | block_height              | Int8 | height of the block where the transaction is recorded |
 | transaction_timestamp     | Timestamp | when is the transaction minted |
 | inserted_at               | Timestamp | time when the transaction was inserted into the database |
