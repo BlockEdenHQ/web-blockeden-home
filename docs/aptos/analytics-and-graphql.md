@@ -335,52 +335,55 @@ Variables:
 
 ### [events](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjM4fSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
 
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**sequence_number** |  Int8|  |
-|**creation_number** |  Int8|  |
-|**account_address** |  Varchar|  |
-|transaction_version |  Int8|  |
-|transaction_block_height |  Int8|  |
-|type_ |  Text|  |
-|data |  Jsonb|  |
-|inserted_at |  Timestamp|  |
+| Field                         | Type      | Description                                                |
+|-------------------------------|-----------|------------------------------------------------------------|
+| **sequence_number**           | Int8      | Unique sequence number of the event                        |
+| **creation_number**           | Int8      | Creation number of the event                               |
+| **account_address**           | Varchar   | Address of the account                                     |
+| transaction_version           | Int8      | Version of the transaction                                 |
+| transaction_block_height      | Int8      | Height of the block in which the event was included        |
+| type_                         | Text      | Type of the event                                          |
+| data                          | Jsonb     | Data related to the event                                  |
+| inserted_at                   | Timestamp | Timestamp of when the event was inserted into the database |
 
 
 
 
 ### [indexer_status](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjQ0fSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**db** |  Varchar|  |
-|is_indexer_up |  Bool|  |
-|inserted_at |  Timestamp|  |
 
-
+| Field         | Type      | Description                                    |
+|---------------|-----------|------------------------------------------------|
+| **db**        | Varchar   | Name of the database                           |
+| is_indexer_up | Bool      | Whether the indexer is up or down              |
+| inserted_at   | Timestamp | Timestamp when the indexer status was recorded |
 
 
 ### [ledger_infos](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjE1fSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**chain_id** |  Int8|  |
+
+| Field                        | Type  | Description            |
+|------------------------------|-------|------------------------|
+| **chain_id**                 | Int8  | Chain ID of the ledger |
 
 
 
 
 ### [move_modules](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjE3fSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**transaction_version** |  Int8|  |
-|**write_set_change_index** |  Int8|  |
-|transaction_block_height |  Int8|  |
-|name |  Text|  |
-|address |  Varchar|  |
-|bytecode |  `Nullable<Bytea>`|  |
-|friends | `Nullable<Jsonb>` |  |
-|exposed_functions | `Nullable<Jsonb>` |  |
-|structs | `Nullable<Jsonb>` |  |
-|is_deleted |  Bool|  |
-|inserted_at |  Timestamp|  |
+
+
+| Field                        | Type              | Description                                   |
+|------------------------------|-------------------|-----------------------------------------------|
+| **transaction_version**      | Int8              | Version number of the transaction             |
+| **write_set_change_index**   | Int8              | Index of the change made in the write set     |
+| transaction_block_height     | Int8              | Block height of the transaction               |
+| name                         | Text              | Name of the module                            |
+| address                      | Varchar           | Address of the module                         |
+| bytecode                     | `Nullable<Bytea>` | Bytecode of the module                        |
+| friends                      | `Nullable<Jsonb>` | Friends of the module                         |
+| exposed_functions            | `Nullable<Jsonb>` | List of functions exposed by the module       |
+| structs                      | `Nullable<Jsonb>` | Structs defined in the module                 |
+| is_deleted                   | Bool              | Indicates whether the module has been deleted |
+| inserted_at                  | Timestamp         | Timestamp of when the module was inserted     |
+
 
 
 
