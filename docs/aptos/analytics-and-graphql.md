@@ -334,6 +334,7 @@ Variables:
 | last_transaction_timestamp    | Timestamp | Timestamp of the last transaction     |
 
 ### [events](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjM4fSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
+
 | Field                       | Type | Description |
 |-----------------------------| ---- | ----------- |
 |**sequence_number** |  Int8|  |
@@ -341,7 +342,6 @@ Variables:
 |**account_address** |  Varchar|  |
 |transaction_version |  Int8|  |
 |transaction_block_height |  Int8|  |
-|#[sql_name = "type"]|||
 |type_ |  Text|  |
 |data |  Jsonb|  |
 |inserted_at |  Timestamp|  |

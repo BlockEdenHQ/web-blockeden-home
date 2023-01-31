@@ -5,7 +5,7 @@ tags: [company, product]
 image: https://tp-misc.b-cdn.net/blockeden/how-to-pay-blockeden-xyz-with-apt.png
 ---
 
-Are you looking for an easy way to pay for your subscription to BlockEden's API service? Look no further! We are happy to announce that we accept APT as a payment method. 
+Are you looking for an easy way to pay for your subscription to BlockEden's API service? Look no further! We are happy to announce that we accept APT as a payment method.
 
 APT is the token of the Aptos blockchain, and it's a great way to pay for our products. Soon, we will also be accepting SUI when Sui mainnet launches. Read on to learn how you can pay for our services with APT!
 
@@ -33,4 +33,4 @@ We believe that our platform will help to accelerate the development of the Apto
 
 - Twitter: https://twitter.com/BlockEdenHQ
 - Discord: https://discord.gg/4Yfvs2HWey
-- Source Link: https://blockeden.xyz/blog/2022/12/13/blockeden-xyz-partners-with-secure3-to-bolster-blockchain-security
+- Source Link: https://blockeden.xyz/blog/2023/01/04/how-to-pay-blockeden-xyz-with-apt/
