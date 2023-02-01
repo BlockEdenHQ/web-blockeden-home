@@ -39,15 +39,15 @@ With this exciting collaboration, there are great things ahead for IoT DApp deve
 
 **Is the partnership hurting the decentralization of IoTeX because BlockEden.xyz is a managed service vendor?**
 
-We are a professional SaaS vendor. There has to be a place to host servers and register their locations - like your website also needs servers or DNS. If it is not your own data center, you must work with a cloud vendor. We have worked in the cloud and SaaS Fintech industries for many years and will get more compliance when our business grows to a specific size. 
+We are a professional SaaS vendor. There has to be a place to host servers and register their locations - like your website also needs servers or DNS. If it is not your own data center, you must work with a cloud vendor. We have worked in the cloud and SaaS Fintech industries for many years and will get more compliance when our business grows to a specific size.
 
-If the managed service does not work for you, we also serve on-premise deployment. If you want the software to run on your own servers (on-premise deployment), you can hire us ($599/hour) to help you. 
+If the managed service does not work for you, we also serve on-premise deployment. If you want the software to run on your own servers (on-premise deployment), you can hire us ($599/hour) to help you.
 
 We are not the customer’s only choice and have no motivation to do evil. We offer the customer an option - a simplified and efficient development experience so that developers to experience IoTeX’s magic as soon as possible.
 
 **How do both companies profit from the partnership?**
 
-BlockEden.xyz offers developers pay-as-you-go and subscription-based payment plans to cover server costs. If we can profit from the staking business, we will lower the fee or charge no fee for the developers to access IoTeX. 
+BlockEden.xyz offers developers pay-as-you-go and subscription-based payment plans to cover server costs. If we can profit from the staking business, we will lower the fee or charge no fee for the developers to access IoTeX.
 
 IoTeX could refer potential customers to try us for free, or enterprise customers for a worry-free managed service. We will rebate the SaaS subscription in a certain percentage to IoTeX. IoTeX ecosystem will acquire developers that are more comfortable with cloud services through BlockEden.xyz.
 
@@ -65,6 +65,11 @@ For BlockEden.xyz, go to
 * Discord: https://discord.gg/4Yfvs2HWey
 
 
+Source Link: https://blockeden.xyz/blog/2023/01/27/blockeden-xyz-teams-up-with-iotex-to-simplify-decentralized-iot-application-development/
 
-  Source Link: https://blockeden.xyz/blog/2023/01/27/blockeden-xyz-teams-up-with-iotex-to-simplify-decentralized-iot-application-development/
+<div class="alert alert-success" role="alert">
+  <h2 class="alert-heading">❤️ We need your kind support!</h2>
+
+If you are an IOTX holder and would kindly like to support our development, vote for us at <a href="https://stake.iotex.io/delegate/blockedenxyz">https://stake.iotex.io/delegate/blockedenxyz</a>
+</div>
 
