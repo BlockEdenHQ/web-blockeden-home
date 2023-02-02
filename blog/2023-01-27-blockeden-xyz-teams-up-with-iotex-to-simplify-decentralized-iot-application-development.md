@@ -35,6 +35,14 @@ More specifically, BlockEden.xyz will collaborate IoTeX to offer developers with
 
 With this exciting collaboration, there are great things ahead for IoT DApp development. Developers can now easily build powerful & secure decentralized apps using cutting-edge technologies from IoTeX and the out-of-box APIs and SaaS from BlockEden.xyz.
 
+
+<div class="alert alert-success" role="alert">
+  <h2 class="alert-heading">❤️ We need your kind support!</h2>
+
+If you are an IOTX holder and would kindly like to support our development, vote for us at <a href="https://stake.iotex.io/delegate/blockedenxyz">https://stake.iotex.io/delegate/blockedenxyz</a>
+</div>
+
+
 ## FAQ
 
 **Is the partnership hurting the decentralization of IoTeX because BlockEden.xyz is a managed service vendor?**
@@ -65,11 +73,12 @@ For BlockEden.xyz, go to
 * Discord: https://discord.gg/4Yfvs2HWey
 
 
-Source Link: https://blockeden.xyz/blog/2023/01/27/blockeden-xyz-teams-up-with-iotex-to-simplify-decentralized-iot-application-development/
-
 <div class="alert alert-success" role="alert">
   <h2 class="alert-heading">❤️ We need your kind support!</h2>
 
 If you are an IOTX holder and would kindly like to support our development, vote for us at <a href="https://stake.iotex.io/delegate/blockedenxyz">https://stake.iotex.io/delegate/blockedenxyz</a>
 </div>
 
+
+
+Source Link: https://blockeden.xyz/blog/2023/01/27/blockeden-xyz-teams-up-with-iotex-to-simplify-decentralized-iot-application-development/
