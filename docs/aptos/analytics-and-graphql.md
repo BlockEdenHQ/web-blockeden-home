@@ -389,20 +389,22 @@ Variables:
 
 
 ### [move_resources](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjEzfSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**transaction_version** |  Int8|  |
-|**write_set_change_index** |  Int8|  |
-|transaction_block_height |  Int8|  |
-|name |  Text|  |
-|address |  Varchar|  |
-|#[sql_name = "type"]|||
-|type_ |  Text|  |
-|module |  Text|  |
-|generic_type_params | `Nullable<Jsonb>` |  |
-|data | `Nullable<Jsonb>` |  |
-|is_deleted |  Bool|  |
-|inserted_at |  Timestamp|  |
+
+| Field                      | Type              | Description                                         |
+|----------------------------|-------------------|-----------------------------------------------------|
+| **transaction_version**    | Int8              | Version of the transaction                          |
+| **write_set_change_index** | Int8              | The index of the change in the write set            |
+| transaction_block_height   | Int8              | Block height in which the transaction was processed |
+| name                       | Text              | Name of the resource                                |
+| address                    | Varchar           | Address of the resource                             |
+| type                       | Text              | Type of the resource                                |
+| module                     | Text              | Module where the resource belongs to                |
+| generic_type_params        | `Nullable<Jsonb>` | Generic type parameters for the resource            |
+| data                       | `Nullable<Jsonb>` | Data stored in the resource                         |
+| is_deleted                 | Bool              | Indicates if the resource has been deleted          |
+| inserted_at                | Timestamp         | Timestamp of when the resource was inserted         |
+
+
 
 Examples
 
@@ -441,220 +443,216 @@ Variables:
 
 
 ### [processor_status](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjI0fSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**processor** |  Varchar|  |
-|last_success_version |  Int8|  |
-|last_updated |  Timestamp|  |
 
+| Field                | Type      | Description                                                           |
+|----------------------|-----------|-----------------------------------------------------------------------|
+| **processor**        | Varchar   | Name of the processor                                                 |
+| last_success_version | Int8      | Version of the last successful transaction processed by the processor |
+| last_updated         | Timestamp | Timestamp of when the processor was last updated                      |
 
 
 
 ### [processor_statuses](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjE5fSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**name** |  Varchar|  |
-|**version** |  Int8|  |
-|success |  Bool|  |
-|details | `Nullable<Text>` |  |
-|last_updated |  Timestamp|  |
 
+| Field                       | Type             | Description                                     |
+|-----------------------------|------------------|-------------------------------------------------|
+| **name**                    | Varchar          | Name of the object                              |
+| **version**                 | Int8             | Version number of the object                    |
+| success                     | Bool             | Flag indicating the success of the operation    |
+| details                     | `Nullable<Text>` | Detailed information about the operation        |
+| last_updated                | Timestamp        | Timestamp of the last update made to the object |
 
 
 
 ### [signatures](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjd9LCJ0eXBlIjoicXVlcnkifSwiZGlzcGxheSI6InRhYmxlIiwidmlzdWFsaXphdGlvbl9zZXR0aW5ncyI6e319)
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**transaction_version** |  Int8|  |
-|**multi_agent_index** |  Int8|  |
-|**multi_sig_index** |  Int8|  |
-|transaction_block_height |  Int8|  |
-|signer |  Varchar|  |
-|**is_sender_primary** |  Bool|  |
-|#[sql_name = "type"]|||
-|type_ |  Varchar|  |
-|public_key |  Varchar|  |
-|signature |  Varchar|  |
-|threshold |  Int8|  |
-|public_key_indices |  Jsonb|  |
-|inserted_at |  Timestamp|  |
+
+| Field                    | Type      | Description                                              |
+|--------------------------|-----------|----------------------------------------------------------|
+| **transaction_version**  | Int8      | Version of the transaction                               |
+| **multi_agent_index**    | Int8      | Index of the multi-agent involved in the transaction     |
+| **multi_sig_index**      | Int8      | Index of the multi-signature involved in the transaction |
+| transaction_block_height | Int8      | Block height at which the transaction was included       |
+| signer                   | Varchar   | The signer of the transaction                            |
+| **is_sender_primary**    | Bool      | Flag indicating if the signer is the primary sender      |
+| type                     | Varchar   | Type of the transaction                                  |
+| public_key               | Varchar   | Public key of the signer                                 |
+| signature                | Varchar   | Signature of the transaction                             |
+| threshold                | Int8      | Threshold required for the transaction to be valid       |
+| public_key_indices       | Jsonb     | Indices of the public keys involved in the transaction   |
+| inserted_at              | Timestamp | Timestamp of when the transaction was inserted           |
+
 
 
 
 
 ### [table_items](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjExfSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|key |  Text|  |
-|**transaction_version** |  Int8|  |
-|**write_set_change_index** |  Int8|  |
-|transaction_block_height |  Int8|  |
-|table_handle |  Varchar|  |
-|decoded_key |  Jsonb|  |
-|decoded_value | `Nullable<Jsonb>` |  |
-|is_deleted |  Bool|  |
-|inserted_at |  Timestamp|  |
 
-
+| Field                      | Type              | Description                                             |
+|----------------------------|-------------------|---------------------------------------------------------|
+| key                        | Text              | Key identifying the object in the database              |
+| **transaction_version**    | Int8              | Version of the transaction that wrote to the object     |
+| **write_set_change_index** | Int8              | Index of the change made to the write set of the object |
+| transaction_block_height   | Int8              | Block height at which the transaction was included      |
+| table_handle               | Varchar           | Handle of the table that the object belongs to          |
+| decoded_key                | Jsonb             | Decoded key of the object                               |
+| decoded_value              | `Nullable<Jsonb>` | Decoded value of the object                             |
+| is_deleted                 | Bool              | Flag indicating if the object has been deleted          |
+| inserted_at                | Timestamp         | Timestamp of when the object was inserted               |
 
 
 ### [table_metadatas](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjh9LCJ0eXBlIjoicXVlcnkifSwiZGlzcGxheSI6InRhYmxlIiwidmlzdWFsaXphdGlvbl9zZXR0aW5ncyI6e319)
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**handle** |  Varchar|  |
-|key_type |  Text|  |
-|value_type |  Text|  |
-|inserted_at |  Timestamp|  |
 
-
+| Field            | Type      | Description                              |
+|------------------|-----------|------------------------------------------|
+| **handle**       | Varchar   | Unique identifier for the metadata       |
+| key_type         | Text      | Type of the key for the metadata         |
+| value_type       | Text      | Type of the value for the metadata       |
+| inserted_at      | Timestamp | Timestamp when the metadata was inserted |
 
 
 ### [token_activities](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjEwfSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
+
 | Field                       | Type | Description |
 |-----------------------------| ---- | ----------- |
-|**transaction_version** |  Int8|  |
-|**event_account_address** |  Varchar|  |
-|**event_creation_number** |  Int8|  |
-|**event_sequence_number** |  Int8|  |
-|collection_data_id_hash |  Varchar|  |
-|token_data_id_hash |  Varchar|  |
-|property_version |  Numeric|  |
-|creator_address |  Varchar|  |
-|collection_name |  Varchar|  |
-|name |  Varchar|  |
-|transfer_type |  Varchar|  |
-|from_address | `Nullable<Varchar>` |  |
-|to_address | `Nullable<Varchar>` |  |
-|token_amount |  Numeric|  |
-|coin_type | `Nullable<Text>` |  |
-|coin_amount | `Nullable<Numeric>` |  |
-|inserted_at |  Timestamp|  |
-|transaction_timestamp |  Timestamp|  |
+|**transaction_version** |  Int8| Version of the transaction |
+|**event_account_address** |  Varchar| Address of the event account |
+|**event_creation_number** |  Int8| Creation number of the event |
+|**event_sequence_number** |  Int8| Sequence number of the event |
+|collection_data_id_hash |  Varchar| Hash of the collection data id |
+|token_data_id_hash |  Varchar| Hash of the token data id |
+|property_version |  Numeric| Version of the property |
+|creator_address |  Varchar| Address of the creator |
+|collection_name |  Varchar| Name of the collection |
+|name |  Varchar| Name of the token |
+|transfer_type |  Varchar| Type of transfer of the token |
+|from_address | `Nullable<Varchar>` | Address the token was transferred from, if applicable |
+|to_address | `Nullable<Varchar>` | Address the token was transferred to, if applicable |
+|token_amount |  Numeric| Amount of tokens involved in the transfer |
+|coin_type | `Nullable<Text>` | Type of the coin involved in the transfer, if applicable |
+|coin_amount | `Nullable<Numeric>` | Amount of the coin involved in the transfer, if applicable |
+|inserted_at |  Timestamp| Timestamp when the activity was inserted into the table |
+|transaction_timestamp |  Timestamp| Timestamp of the transaction |
 
 
 
 
 ### [token_datas](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjQwfSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**token_data_id_hash** |  Varchar|  |
-|**transaction_version** |  Int8|  |
-|creator_address |  Varchar|  |
-|collection_name |  Varchar|  |
-|name |  Varchar|  |
-|maximum |  Numeric|  |
-|supply |  Numeric|  |
-|largest_property_version |  Numeric|  |
-|metadata_uri |  Varchar|  |
-|payee_address |  Varchar|  |
-|royalty_points_numerator |  Numeric|  |
-|royalty_points_denominator |  Numeric|  |
-|maximum_mutable |  Bool|  |
-|uri_mutable |  Bool|  |
-|description_mutable |  Bool|  |
-|properties_mutable |  Bool|  |
-|royalty_mutable |  Bool|  |
-|default_properties |  Jsonb|  |
-|inserted_at |  Timestamp|  |
-|collection_data_id_hash |  Varchar|  |
-|transaction_timestamp |  Timestamp|  |
-|description |  Text|  |
 
+| Field                      | Type      | Description                                                |
+|----------------------------|-----------|------------------------------------------------------------|
+| **token_data_id_hash**     | Varchar   | Unique identifier of the token data                        |
+| **transaction_version**    | Int8      | Version of the transaction                                 |
+| creator_address            | Varchar   | Address of the creator of the token                        |
+| collection_name            | Varchar   | Name of the token collection                               |
+| name                       | Varchar   | Name of the token                                          |
+| maximum                    | Numeric   | Maximum number of tokens in circulation                    |
+| supply                     | Numeric   | Current number of tokens in circulation                    |
+| largest_property_version   | Numeric   | Largest version of the token properties                    |
+| metadata_uri               | Varchar   | URI containing the metadata of the token                   |
+| payee_address              | Varchar   | Address of the payee                                       |
+| royalty_points_numerator   | Numeric   | Numerator of the royalty points                            |
+| royalty_points_denominator | Numeric   | Denominator of the royalty points                          |
+| maximum_mutable            | Bool      | Flag indicating if the maximum number of tokens is mutable |
+| uri_mutable                | Bool      | Flag indicating if the metadata URI is mutable             |
+| description_mutable        | Bool      | Flag indicating if the description of the token is mutable |
+| properties_mutable         | Bool      | Flag indicating if the properties of the token are mutable |
+| royalty_mutable            | Bool      | Flag indicating if the royalty of the token is mutable     |
+| default_properties         | Jsonb     | Default properties of the token                            |
+| inserted_at                | Timestamp | Timestamp when the record was inserted                     |
+| collection_data_id_hash    | Varchar   | Unique identifier of the collection data                   |
+| transaction_timestamp      | Timestamp | Timestamp of the transaction                               |
+| description                | Text      | Description of the token                                   |
 
 
 
 ### [token_ownerships](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjQ4fSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**token_data_id_hash** |  Varchar|  |
-|**property_version** |  Numeric|  |
-|**transaction_version** |  Int8|  |
-|**table_handle** |  Varchar|  |
-|creator_address |  Varchar|  |
-|collection_name |  Varchar|  |
-|name |  Varchar|  |
-|owner_address |  `Nullable<Varchar>`|  |
-|amount |  Numeric|  |
-|table_type |  `Nullable<Text>`|  |
-|inserted_at |  Timestamp|  |
-|collection_data_id_hash |  Varchar|  |
-|transaction_timestamp |  Timestamp|  |
 
-
+| Field                   | Type                | Description                               |
+|-------------------------|---------------------|-------------------------------------------|
+| **token_data_id_hash**  | Varchar             | Unique identifier of the token data       |
+| **property_version**    | Numeric             | Version of the token properties           |
+| **transaction_version** | Int8                | Version of the transaction                |
+| **table_handle**        | Varchar             | Unique identifier of the table            |
+| creator_address         | Varchar             | Address of the creator of the token       |
+| collection_name         | Varchar             | Name of the token collection              |
+| name                    | Varchar             | Name of the token                         |
+| owner_address           | `Nullable<Varchar>` | Address of the token owner, can be `NULL` |
+| amount                  | Numeric             | Number of tokens owned by the owner       |
+| table_type              | `Nullable<Text>`    | Type of the table, can be `NULL`          |
+| inserted_at             | Timestamp           | Timestamp when the record was inserted    |
+| collection_data_id_hash | Varchar             | Unique identifier of the collection data  |
+| transaction_timestamp   | Timestamp           | Timestamp of the transaction              |
 
 
 ### [tokens](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjE0fSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**token_data_id_hash** |  Varchar|  |
-|**property_version** |  Numeric|  |
-|**transaction_version** |  Int8|  |
-|creator_address |  Varchar|  |
-|collection_name |  Varchar|  |
-|name |  Varchar|  |
-|token_properties |  Jsonb|  |
-|inserted_at |  Timestamp|  |
-|collection_data_id_hash |  Varchar|  |
-|transaction_timestamp |  Timestamp|  |
+
+| Field                        | Type      | Description                                                  |
+|------------------------------|-----------|--------------------------------------------------------------|
+| **token_data_id_hash**       | Varchar   | The unique identifier of the token data                      |
+| **property_version**         | Numeric   | The version of the token properties                          |
+| **transaction_version**      | Int8      | The version of the transaction that created the token        |
+| creator_address              | Varchar   | The address of the creator of the token                      |
+| collection_name              | Varchar   | The name of the collection the token belongs to              |
+| name                         | Varchar   | The name of the token                                        |
+| token_properties             | Jsonb     | The properties of the token                                  |
+| inserted_at                  | Timestamp | The time the token was inserted into the database            |
+| collection_data_id_hash      | Varchar   | The unique identifier of the collection data                 |
+| transaction_timestamp        | Timestamp | The time the transaction that created the token was executed |
+
 
 
 
 
 ### [transactions](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjMwfSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**version** |  Int8| version is the sequence id of the transaction |
-|block_height |  Int8|  |
-|hash |  Varchar|  |
-|#[sql_name = "type"]|||
-|type_ |  Varchar|  |
-|payload | `Nullable<Jsonb>` | The payload contains arguments, code, function, type, type arguments if it is a function call |
-|state_change_hash |  Varchar|  |
-|event_root_hash |  Varchar|  |
-|state_checkpoint_hash | `Nullable<Varchar>` |  |
-|gas_used |  Numeric|  |
-|success |  Bool|  |
-|vm_status |  Text|  |
-|accumulator_root_hash |  Varchar|  |
-|num_events |  Int8|  |
-|num_write_set_changes |  Int8|  |
-|inserted_at |  Timestamp|  |
-|epoch |  Int8|  |
 
-
-
+| Field                       | Type                | Description                                                                                   |
+|-----------------------------|---------------------|-----------------------------------------------------------------------------------------------|
+| **version**                 | Int8                | version is the sequence id of the transaction                                                 |
+| block_height                | Int8                | The block height of the transaction                                                           |
+| hash                        | Varchar             | The unique identifier of the transaction                                                      |
+| type                        | Varchar             | The type of the transaction (e.g. function call, contract creation)                           |
+| payload                     | `Nullable<Jsonb>`   | The payload contains arguments, code, function, type, type arguments if it is a function call |
+| state_change_hash           | Varchar             | The hash representing the state changes of the transaction                                    |
+| event_root_hash             | Varchar             | The root hash of all events produced by the transaction                                       |
+| state_checkpoint_hash       | `Nullable<Varchar>` | The hash of the state checkpoint at the time of the transaction                               |
+| gas_used                    | Numeric             | The amount of gas used by the transaction                                                     |
+| success                     | Bool                | Whether the transaction was successful or not                                                 |
+| vm_status                   | Text                | The status of the virtual machine after executing the transaction                             |
+| accumulator_root_hash       | Varchar             | The root hash of the accumulator after executing the transaction                              |
+| num_events                  | Int8                | The number of events produced by the transaction                                              |
+| num_write_set_changes       | Int8                | The number of write set changes made by the transaction                                       |
+| inserted_at                 | Timestamp           | The time the transaction was inserted into the database                                       |
+| epoch                       | Int8                | The epoch of the transaction                                                                  |
 
 
 
 ### [user_transactions](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjQxfSwidHlwZSI6InF1ZXJ5In0sImRpc3BsYXkiOiJ0YWJsZSIsInZpc3VhbGl6YXRpb25fc2V0dGluZ3MiOnt9fQ==)
 
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**version** |  Int8|  |
-|block_height |  Int8|  |
-|parent_signature_type |  Varchar|  |
-|sender |  Varchar|  |
-|sequence_number |  Int8|  |
-|max_gas_amount |  Numeric|  |
-|expiration_timestamp_secs |  Timestamp|  |
-|gas_unit_price |  Numeric|  |
-|timestamp |  Timestamp|  |
-|entry_function_id_str |  Text|  |
-|inserted_at |  Timestamp|  |
-|epoch |  Int8|  |
-
+| Field                        | Type      | Description                                                                                |
+|------------------------------|-----------|--------------------------------------------------------------------------------------------|
+| **version**                  | Int8      | version of the user transaction                                                            |
+| block_height                 | Int8      | block height at which the transaction was confirmed                                        |
+| parent_signature_type        | Varchar   | signature type used for the transaction                                                    |
+| sender                       | Varchar   | address of the sender of the transaction                                                   |
+| sequence_number              | Int8      | sequence number of the transaction                                                         |
+| max_gas_amount               | Numeric   | maximum gas amount allowed for the transaction to be executed                              |
+| expiration_timestamp_secs    | Timestamp | expiration time of the transaction in seconds                                              |
+| gas_unit_price               | Numeric   | gas unit price in smallest unit of the currency                                            |
+| timestamp                    | Timestamp | time at which the transaction was confirmed                                                |
+| entry_function_id_str        | Text      | string representation of the ID of the entry function of the smart contract being executed |
+| inserted_at                  | Timestamp | time at which the transaction was inserted in the user_transactions table                  |
+| epoch                        | Int8      | epoch of the transaction                                                                   |
 
 
 
 ### [write_set_changes](https://blockeden.xyz/analytics/question#eyJkYXRhc2V0X3F1ZXJ5Ijp7ImRhdGFiYXNlIjoyLCJxdWVyeSI6eyJzb3VyY2UtdGFibGUiOjZ9LCJ0eXBlIjoicXVlcnkifSwiZGlzcGxheSI6InRhYmxlIiwidmlzdWFsaXphdGlvbl9zZXR0aW5ncyI6e319)
-| Field                       | Type | Description |
-|-----------------------------| ---- | ----------- |
-|**transaction_version** |  Int8|  |
-|**index** |  Int8|  |
-|hash |  Varchar|  |
-|transaction_block_height |  Int8|  |
-|#[sql_name = "type"]|||
-|type_ |  Text|  |
-|address |  Varchar|  |
-|inserted_at |  Timestamp|  |
 
+| Field                    | Type      | Description                                                                                                        |
+|--------------------------|-----------|--------------------------------------------------------------------------------------------------------------------|
+| **transaction_version**  | Int8      | version of the transaction                                                                                         |
+| **index**                | Int8      | index of the change in the write set                                                                               |
+| hash                     | Varchar   | hash of the transaction                                                                                            |
+| transaction_block_height | Int8      | block height at which the transaction was confirmed                                                                |
+| type_                    | Text      | type of write set change, among delete_resource, delete_table_item, write_module, write_resource, write_table_item |
+| address                  | Varchar   | address of the change in the write set                                                                             |
+| inserted_at              | Timestamp | time at which the change was inserted in the write_set_changes table                                               |
