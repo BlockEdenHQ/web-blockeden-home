@@ -111,7 +111,7 @@ export const CustomerReferences: React.FC = () => {
                 <div className="ml-2">
                   <strong>Benjamin Cameron</strong>
                   <br/>
-                  <span>DApp Developer</span>
+                  <span>Blockroma.com</span>
                 </div>
               </div>
             </div>
@@ -333,7 +333,7 @@ export const CustomerReferences: React.FC = () => {
                 <div className="ml-2">
                   <strong>Helen Li</strong>
                   <br/>
-                  <span>Business Owner</span>
+                  <span>Decentity Wallet</span>
                 </div>
               </div>
             </div>
