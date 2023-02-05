@@ -47,7 +47,7 @@ export default function Dstore() {
           >
             <div className="col-lg-10">
               <img
-                src="assets/img/desktop-app-4.png"
+                src="/assets/img/desktop-app-4.png"
                 alt="Image"
                 className="rounded shadow-lg"
               />
@@ -56,7 +56,7 @@ export default function Dstore() {
         </div>
         <div className="divider">
           <img
-            src="assets/img/dividers/divider-2.svg"
+            src="/assets/img/dividers/divider-2.svg"
             alt="graphical divider"
             data-inject-svg
           />
@@ -74,7 +74,7 @@ export default function Dstore() {
               <div className="icon-round bg-primary mx-auto mb-4">
                 <img
                   className="icon bg-primary"
-                  src="assets/img/icons/theme/general/shield-protected.svg"
+                  src="/assets/img/icons/theme/general/shield-protected.svg"
                   alt="icon"
                   data-inject-svg
                 />
@@ -86,7 +86,7 @@ export default function Dstore() {
               <div className="icon-round bg-primary mx-auto mb-4">
                 <img
                   className="icon bg-primary"
-                  src="assets/img/icons/theme/code/code.svg"
+                  src="/assets/img/icons/theme/code/code.svg"
                   alt="icon"
                   data-inject-svg
                 />
@@ -98,7 +98,7 @@ export default function Dstore() {
               <div className="icon-round bg-primary mx-auto mb-4">
                 <img
                   className="icon bg-primary"
-                  src="assets/img/icons/theme/shopping/box-2.svg"
+                  src="/assets/img/icons/theme/shopping/box-2.svg"
                   alt="icon"
                   data-inject-svg
                 />
@@ -112,7 +112,7 @@ export default function Dstore() {
       <section className="has-divider bg-primary-2-alt">
         <div className="divider flip-y">
           <img
-            src="assets/img/dividers/divider-2.svg"
+            src="/assets/img/dividers/divider-2.svg"
             alt="graphical divider"
             data-inject-svg
           />
@@ -122,7 +122,7 @@ export default function Dstore() {
 
         <div className="divider flip-x">
           <img
-            src="assets/img/dividers/divider-3.svg"
+            src="/assets/img/dividers/divider-3.svg"
             alt="graphical divider"
             data-inject-svg
           />
@@ -136,7 +136,7 @@ export default function Dstore() {
               data-aos="fade-right"
             >
               <img
-                src="assets/img/desktop-app-1.jpg"
+                src="/assets/img/desktop-app-1.jpg"
                 alt="Image"
                 className="rounded shadow"
               />
@@ -162,7 +162,7 @@ export default function Dstore() {
               data-aos="fade-left"
             >
               <img
-                src="assets/img/desktop-app-2.jpg"
+                src="/assets/img/desktop-app-2.jpg"
                 alt="Image"
                 className="rounded shadow"
               />
@@ -187,13 +187,13 @@ export default function Dstore() {
       >
         <div className="divider flip-y">
           <img
-            src="assets/img/dividers/divider-2.svg"
+            src="/assets/img/dividers/divider-2.svg"
             alt="graphical divider"
             data-inject-svg
           />
         </div>
         <img
-          src="assets/img/event-1.jpg"
+          src="/assets/img/event-1.jpg"
           alt="Image"
           className="jarallax-img opacity-20"
         />
@@ -208,7 +208,7 @@ export default function Dstore() {
               >
                 <img
                   className="icon"
-                  src="img/discord.svg"
+                  src="/img/discord.svg"
                   alt="play icon"
                   data-inject-svg
                 />
@@ -225,7 +225,7 @@ export default function Dstore() {
         </div>
         <div className="divider">
           <img
-            src="assets/img/dividers/divider-2.svg"
+            src="/assets/img/dividers/divider-2.svg"
             alt="graphical divider"
             data-inject-svg
           />
@@ -246,7 +246,7 @@ export default function Dstore() {
       {/*    <div className="carousel-cell col-xl-3 col-lg-4 col-md-5 col-9 pb-1">*/}
       {/*      <div className="card card-body">*/}
       {/*        <div className="mb-3 mb-md-4">*/}
-      {/*          <img src="assets/img/avatars/male-1.jpg" alt="Avatar" className="avatar avatar-lg" />*/}
+      {/*          <img src="/assets/img/avatars/male-1.jpg" alt="Avatar" className="avatar avatar-lg" />*/}
       {/*        </div>*/}
       {/*        <div className="flex-grow-1 pt-md-3">*/}
       {/*          <h4>*/}
@@ -262,7 +262,7 @@ export default function Dstore() {
       {/*    <div className="carousel-cell col-xl-3 col-lg-4 col-md-5 col-9 pb-1">*/}
       {/*      <div className="card card-body">*/}
       {/*        <div className="mb-3 mb-md-4">*/}
-      {/*          <img src="assets/img/avatars/male-4.jpg" alt="Avatar" className="avatar avatar-lg" />*/}
+      {/*          <img src="/assets/img/avatars/male-4.jpg" alt="Avatar" className="avatar avatar-lg" />*/}
       {/*        </div>*/}
       {/*        <div className="flex-grow-1 pt-md-3">*/}
       {/*          <h4>*/}
@@ -278,7 +278,7 @@ export default function Dstore() {
       {/*    <div className="carousel-cell col-xl-3 col-lg-4 col-md-5 col-9 pb-1">*/}
       {/*      <div className="card card-body">*/}
       {/*        <div className="mb-3 mb-md-4">*/}
-      {/*          <img src="assets/img/avatars/female-4.jpg" alt="Avatar" className="avatar avatar-lg" />*/}
+      {/*          <img src="/assets/img/avatars/female-4.jpg" alt="Avatar" className="avatar avatar-lg" />*/}
       {/*        </div>*/}
       {/*        <div className="flex-grow-1 pt-md-3">*/}
       {/*          <h4>*/}
@@ -294,7 +294,7 @@ export default function Dstore() {
       {/*    <div className="carousel-cell col-xl-3 col-lg-4 col-md-5 col-9 pb-1">*/}
       {/*      <div className="card card-body">*/}
       {/*        <div className="mb-3 mb-md-4">*/}
-      {/*          <img src="assets/img/avatars/female-3.jpg" alt="Avatar" className="avatar avatar-lg" />*/}
+      {/*          <img src="/assets/img/avatars/female-3.jpg" alt="Avatar" className="avatar avatar-lg" />*/}
       {/*        </div>*/}
       {/*        <div className="flex-grow-1 pt-md-3">*/}
       {/*          <h4>*/}
@@ -310,7 +310,7 @@ export default function Dstore() {
       {/*    <div className="carousel-cell col-xl-3 col-lg-4 col-md-5 col-9 pb-1">*/}
       {/*      <div className="card card-body">*/}
       {/*        <div className="mb-3 mb-md-4">*/}
-      {/*          <img src="assets/img/avatars/female-2.jpg" alt="Avatar" className="avatar avatar-lg" />*/}
+      {/*          <img src="/assets/img/avatars/female-2.jpg" alt="Avatar" className="avatar avatar-lg" />*/}
       {/*        </div>*/}
       {/*        <div className="flex-grow-1 pt-md-3">*/}
       {/*          <h4>*/}
@@ -326,7 +326,7 @@ export default function Dstore() {
       {/*    <div className="carousel-cell col-xl-3 col-lg-4 col-md-5 col-9 pb-1">*/}
       {/*      <div className="card card-body">*/}
       {/*        <div className="mb-3 mb-md-4">*/}
-      {/*          <img src="assets/img/avatars/male-5.jpg" alt="Avatar" className="avatar avatar-lg" />*/}
+      {/*          <img src="/assets/img/avatars/male-5.jpg" alt="Avatar" className="avatar avatar-lg" />*/}
       {/*        </div>*/}
       {/*        <div className="flex-grow-1 pt-md-3">*/}
       {/*          <h4>*/}
@@ -341,7 +341,7 @@ export default function Dstore() {
       {/*    </div>*/}
       {/*  </div>*/}
       {/*  <div className="divider">*/}
-      {/*    <img src="assets/img/dividers/divider-2.svg" alt="graphical divider" data-inject-svg />*/}
+      {/*    <img src="/assets/img/dividers/divider-2.svg" alt="graphical divider" data-inject-svg />*/}
       {/*  </div>*/}
       {/*</section>*/}
       <section>
@@ -486,7 +486,7 @@ export default function Dstore() {
                 <li className="mx-3 mb-5">
                   <img
                     className="icon icon-md bg-primary-3 opacity-20"
-                    src="assets/img/logos/brand/apple.svg"
+                    src="/assets/img/logos/brand/apple.svg"
                     alt="icon"
                     data-inject-svg
                   />
@@ -494,7 +494,7 @@ export default function Dstore() {
                 <li className="mx-3 mb-5">
                   <img
                     className="icon icon-md bg-primary-3 opacity-20"
-                    src="assets/img/logos/brand/buzzfeed.svg"
+                    src="/assets/img/logos/brand/buzzfeed.svg"
                     alt="icon"
                     data-inject-svg
                   />
@@ -502,7 +502,7 @@ export default function Dstore() {
                 <li className="mx-3 mb-5">
                   <img
                     className="icon icon-md bg-primary-3 opacity-20"
-                    src="assets/img/logos/brand/intercom.svg"
+                    src="/assets/img/logos/brand/intercom.svg"
                     alt="icon"
                     data-inject-svg
                   />
@@ -510,7 +510,7 @@ export default function Dstore() {
                 <li className="mx-3 mb-5">
                   <img
                     className="icon icon-md bg-primary-3 opacity-20"
-                    src="assets/img/logos/brand/slack.svg"
+                    src="/assets/img/logos/brand/slack.svg"
                     alt="icon"
                     data-inject-svg
                   />
@@ -518,7 +518,7 @@ export default function Dstore() {
                 <li className="mx-3 mb-5">
                   <img
                     className="icon icon-md bg-primary-3 opacity-20"
-                    src="assets/img/logos/brand/spotify.svg"
+                    src="/assets/img/logos/brand/spotify.svg"
                     alt="icon"
                     data-inject-svg
                   />
@@ -526,7 +526,7 @@ export default function Dstore() {
                 <li className="mx-3 mb-5">
                   <img
                     className="icon icon-md bg-primary-3 opacity-20"
-                    src="assets/img/logos/brand/target.svg"
+                    src="/assets/img/logos/brand/target.svg"
                     alt="icon"
                     data-inject-svg
                   />
@@ -534,7 +534,7 @@ export default function Dstore() {
                 <li className="mx-3 mb-5">
                   <img
                     className="icon icon-md bg-primary-3 opacity-20"
-                    src="assets/img/logos/brand/time.svg"
+                    src="/assets/img/logos/brand/time.svg"
                     alt="icon"
                     data-inject-svg
                   />
@@ -588,7 +588,7 @@ export default function Dstore() {
                   <a href="https://github.com/blockedenhq" className="nav-link">
                     <img
                       className="icon "
-                      src="assets/img/icons/social/github.svg"
+                      src="/assets/img/icons/social/github.svg"
                       alt="github social icon"
                       data-inject-svg
                     />
@@ -601,7 +601,7 @@ export default function Dstore() {
                   >
                     <img
                       className="icon "
-                      src="assets/img/icons/social/twitter.svg"
+                      src="/assets/img/icons/social/twitter.svg"
                       alt="twitter social icon"
                       data-inject-svg
                     />
@@ -614,7 +614,7 @@ export default function Dstore() {
                   >
                     <img
                       className="icon "
-                      src="assets/img/icons/social/medium.svg"
+                      src="/assets/img/icons/social/medium.svg"
                       alt="medium social icon"
                       data-inject-svg
                     />
@@ -636,7 +636,7 @@ export default function Dstore() {
       >
         <img
           className="icon"
-          src="assets/img/icons/theme/navigation/arrow-up.svg"
+          src="/assets/img/icons/theme/navigation/arrow-up.svg"
           alt="arrow-up icon"
           data-inject-svg
         />

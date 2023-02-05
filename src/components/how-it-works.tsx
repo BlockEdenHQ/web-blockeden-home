@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import classNames from "classnames";
 
 export const HowItWorks = () => {
-  const [activeIndex, setActiveIndex] = useState(2);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <div className="container pt-3 pb-0">
@@ -36,7 +36,7 @@ export const HowItWorks = () => {
               >
                 <img
                   className="icon bg-primary"
-                  src="assets/img/icons/theme/design/subtract.svg"
+                  src="/assets/img/icons/theme/design/subtract.svg"
                   alt="subtract icon"
                   data-inject-svg
                 />
@@ -60,7 +60,7 @@ export const HowItWorks = () => {
               >
                 <img
                   className="icon bg-primary"
-                  src="assets/img/icons/theme/design/pixels.svg"
+                  src="/assets/img/icons/theme/design/pixels.svg"
                   alt="pixels icon"
                   data-inject-svg
                 />
@@ -84,7 +84,7 @@ export const HowItWorks = () => {
               >
                 <img
                   className="icon bg-primary"
-                  src="assets/img/icons/theme/design/saturation.svg"
+                  src="/assets/img/icons/theme/design/saturation.svg"
                   alt="saturation icon"
                   data-inject-svg
                 />
@@ -106,7 +106,7 @@ export const HowItWorks = () => {
             >
               <div className="popover-image">
                 <img
-                  src="assets/img/desktop-app-2.png"
+                  src="/assets/img/desktop-app-2.png"
                   alt="Image"
                   className="rounded shadow-lg"
                 />
@@ -123,7 +123,7 @@ export const HowItWorks = () => {
             >
               <div className="popover-image">
                 <img
-                  src="assets/img/desktop-app-1.png"
+                  src="/assets/img/desktop-app-1.png"
                   alt="Image"
                   className="rounded shadow-lg"
                 />
@@ -140,7 +140,7 @@ export const HowItWorks = () => {
             >
               <div className="popover-image">
                 <img
-                  src="assets/img/desktop-app-5.png"
+                  src="/assets/img/desktop-app-5.png"
                   alt="Image"
                   className="rounded shadow-lg"
                 />
