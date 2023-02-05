@@ -24,7 +24,7 @@ export default function Dstore() {
               </h1>
               <p className="lead">
                 dStore is a managed storage solution for creators and
-                developers. It's user-friendly, EVM-compatible, low-cost, and
+                developers from any blockchain. It's user-friendly, EVM-compatible, low-cost, and
                 petabyte-level scale, all powered by EthStorage.
               </p>
               <div className="d-flex flex-column flex-sm-row justify-content-center mt-4">
