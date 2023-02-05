@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 import Layout from "@theme/Layout";
 import { useAos } from "@site/src/components/use-aos";
-import { jarallax } from "jarallax";
-import SVGInjector from "svg-injector";
-import { HowItWorks } from "@site/src/pages/dstore/how-it-works";
+import { HowItWorks } from "@site/src/components/how-it-works";
 
 export default function Dstore() {
   useAos();
   useEffect(() => {
+    const SVGInjector = require("svg-injector");
+    const { jarallax } = require("jarallax");
     jarallax(document.querySelectorAll(".jarallax"), {
       speed: 0.2,
     });
