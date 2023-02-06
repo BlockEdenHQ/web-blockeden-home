@@ -23,9 +23,9 @@ export default function Dstore() {
                 Drag and drop onto a decentralized storage
               </h1>
               <p className="lead">
-                dStore is a managed storage solution for creators and
-                developers from any blockchain. It's user-friendly, EVM-compatible, low-cost, and
-                petabyte-level scale, all powered by EthStorage.
+                dStore is a managed storage solution for creators and developers
+                from any blockchain. It's user-friendly, EVM-compatible,
+                low-cost, and petabyte-level scale, all powered by EthStorage.
               </p>
               <div className="d-flex flex-column flex-sm-row justify-content-center mt-4">
                 <a
@@ -47,7 +47,7 @@ export default function Dstore() {
           >
             <div className="col-lg-10">
               <img
-                src="/assets/img/desktop-app-4.png"
+                src="https://tp-misc.b-cdn.net/blockeden/dstore-screenshot-1.png"
                 alt="Image"
                 className="rounded shadow-lg"
               />
@@ -92,7 +92,7 @@ export default function Dstore() {
                 />
               </div>
               <h4 className={"display-6"}>Scalability</h4>
-              <p className="lead mx-xl-3">Scalable for any size project</p>
+              <p className="lead mx-xl-3">Scalable for any size of project</p>
             </div>
             <div className="col-md-4" data-aos="fade-up" data-aos-delay={300}>
               <div className="icon-round bg-primary mx-auto mb-4">
@@ -136,7 +136,7 @@ export default function Dstore() {
               data-aos="fade-right"
             >
               <img
-                src="/assets/img/desktop-app-1.jpg"
+                src="https://tp-misc.b-cdn.net/blockeden/illustration_for_Trust-centric_Access_Control_of_digital_a_dd737c38-e1c9-4198-8753-77ec06474ad8.png"
                 alt="Image"
                 className="rounded shadow"
               />
@@ -162,7 +162,7 @@ export default function Dstore() {
               data-aos="fade-left"
             >
               <img
-                src="/assets/img/desktop-app-2.jpg"
+                src="https://tp-misc.b-cdn.net/blockeden/illustration_for_api_documentation_that_is_fast_and_powerf_d2b4b40b-d889-4098-95b0-33a2a1a0f752.png"
                 alt="Image"
                 className="rounded shadow"
               />
