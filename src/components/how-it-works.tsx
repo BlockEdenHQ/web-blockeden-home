@@ -40,7 +40,7 @@ export const HowItWorks = () => {
                   alt="subtract icon"
                   data-inject-svg
                 />
-                Go to dashboard
+                Architecture
               </a>
             </li>
             <li className="nav-item">
@@ -96,7 +96,7 @@ export const HowItWorks = () => {
         <div className="col mb-lg-n7 layer-2">
           <div className="tab-content">
             <div
-              className={classNames("tab-pane fade", {
+              className={classNames("tab-pane", {
                 active: activeIndex === 0,
                 show: activeIndex === 0,
               })}
@@ -106,14 +106,14 @@ export const HowItWorks = () => {
             >
               <div className="popover-image">
                 <img
-                  src="/assets/img/desktop-app-2.png"
+                  src="https://tp-misc.b-cdn.net/blockeden/dstore-arch-pub-v2.png"
                   alt="Image"
                   className="rounded shadow-lg"
                 />
               </div>
             </div>
             <div
-              className={classNames("tab-pane fade", {
+              className={classNames("tab-pane", {
                 active: activeIndex === 1,
                 show: activeIndex === 1,
               })}
@@ -130,7 +130,7 @@ export const HowItWorks = () => {
               </div>
             </div>
             <div
-              className={classNames("tab-pane fade", {
+              className={classNames("tab-pane", {
                 active: activeIndex === 2,
                 show: activeIndex === 2,
               })}
