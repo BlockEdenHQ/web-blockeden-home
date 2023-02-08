@@ -123,7 +123,7 @@ export const HowItWorks = () => {
             >
               <div className="popover-image">
                 <img
-                  src="/assets/img/desktop-app-1.png"
+                  src="https://tp-misc.b-cdn.net/blockeden/dstore-drag-and-drop-1.png"
                   alt="Image"
                   className="rounded shadow-lg"
                 />
@@ -140,7 +140,7 @@ export const HowItWorks = () => {
             >
               <div className="popover-image">
                 <img
-                  src="/assets/img/desktop-app-5.png"
+                  src="https://tp-misc.b-cdn.net/blockeden/dstore-menu.png"
                   alt="Image"
                   className="rounded shadow-lg"
                 />
