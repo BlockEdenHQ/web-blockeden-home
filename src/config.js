@@ -3,6 +3,7 @@ module.exports = {
     signUp: "https://blockeden.xyz/dash/sign-up/",
     signIn: "https://blockeden.xyz/dash/login/",
     supportUrl: "https://discord.gg/GqzTYQ4YNa",
+    apis: "https://blockeden.xyz/keys/",
     analytics: "https://blockeden.xyz/analytics/",
 
     tagline: 'Most reliable web3 infra for Aptos & Sui developers',
