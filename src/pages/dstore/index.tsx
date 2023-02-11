@@ -92,7 +92,7 @@ export default function Dstore() {
                 />
               </div>
               <h4 className={"display-6"}>Scalability</h4>
-              <p className="lead mx-xl-3">Scalable for any size of project</p>
+              <p className="lead mx-xl-3">Scalable for any size of projects</p>
             </div>
             <div className="col-md-4" data-aos="fade-up" data-aos-delay={300}>
               <div className="icon-round bg-primary mx-auto mb-4">
@@ -215,10 +215,10 @@ export default function Dstore() {
               </a>
               <h4 className="display-3">More than a storage</h4>
               <p className="lead">
-                We are a community of web3 builders that establish long-term
-                relationships with protocols, investors, and developers. We host
-                managed node services and API gateways to blockchains. We are
-                open for collaborations and ecosystem contributions.
+                BlockEden.xyz is A service infra for developers' next billion web3 customers. We are a community
+                of web3 builders that establish long-term relationships with protocol builders,
+                investors, and developers. We host managed node services, API gateways, and staking services to
+                blockchains. We are open to collaborations and ecosystem contributions.
               </p>
             </div>
           </div>
