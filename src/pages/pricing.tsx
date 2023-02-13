@@ -349,6 +349,13 @@ export default function Pricing() {
                         alt="icon"
                       />
                     </li>
+                    <li className="mx-3 mb-5">
+                      <img
+                        className="icon icon-md"
+                        src="https://tp-misc.b-cdn.net/blockeden/Harvard_University_logo.svg.png"
+                        alt="icon"
+                      />
+                    </li>
                   </ul>
                 </div>
               </div>

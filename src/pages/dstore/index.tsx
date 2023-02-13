@@ -29,14 +29,14 @@ export default function Dstore() {
               </p>
               <div className="d-flex flex-column flex-sm-row justify-content-center mt-4">
                 <a
-                  href="#"
+                  href="https://blockeden.xyz/dash/sign-up/?next=%2Fdstore%2F"
                   className="btn btn-lg btn-primary mx-2 mb-2 mb-sm-0"
                 >
                   Get started for Free
                 </a>
-                <a href="#" className="btn btn-lg btn-outline-primary mx-2">
-                  <span>Learn more</span>
-                </a>
+                {/*<a href="#" className="btn btn-lg btn-outline-primary mx-2">*/}
+                {/*  <span>Learn more</span>*/}
+                {/*</a>*/}
               </div>
             </div>
           </div>
@@ -147,8 +147,11 @@ export default function Dstore() {
                 Eject the managed directory to your self-sovereign address
                 anytime.
               </p>
-              <a href="#" className="lead hover-arrow">
-                Learn more
+              {/*<a href="#" className="lead hover-arrow">*/}
+              {/*  Learn more*/}
+              {/*</a>*/}
+              <a className="lead hover-arrow">
+                Coming soon
               </a>
             </div>
           </div>
@@ -173,8 +176,11 @@ export default function Dstore() {
                 The solution is friendly to artists with a web portal and
                 programmable to developers with APIs.
               </p>
-              <a href="#" className="lead hover-arrow">
-                Start building
+              {/*<a href="#" className="lead hover-arrow">*/}
+              {/*  Start building*/}
+              {/*</a>*/}
+              <a className="lead hover-arrow disabled">
+                Coming soon
               </a>
             </div>
           </div>
@@ -215,10 +221,12 @@ export default function Dstore() {
               </a>
               <h4 className="display-3">More than a storage</h4>
               <p className="lead">
-                BlockEden.xyz is A service infra for developers' next billion web3 customers. We are a community
-                of web3 builders that establish long-term relationships with protocol builders,
-                investors, and developers. We host managed node services, API gateways, and staking services to
-                blockchains. We are open to collaborations and ecosystem contributions.
+                BlockEden.xyz is A service infra for developers' next billion
+                web3 customers. We are a community of web3 builders that
+                establish long-term relationships with protocol builders,
+                investors, and developers. We host managed node services, API
+                gateways, and staking services to blockchains. We are open to
+                collaborations and ecosystem contributions.
               </p>
             </div>
           </div>
@@ -370,43 +378,23 @@ export default function Dstore() {
                   <span className="h3">$</span>
                   <span className="display-4 mb-0">0</span>
                 </div>
-                <span className="text-small text-muted">
-                  Per user, per month
-                </span>
+                <span className="text-small text-muted">Per month</span>
                 <ul className="text-center list-unstyled my-2 my-md-4">
                   <li className="py-1">
-                    <span>10k Visitors/mo</span>
+                    <span>100 files</span>
                   </li>
                   <li className="py-1">
-                    <span>10 Funnels, 50 Pages</span>
+                    <span>1 GB</span>
                   </li>
                   <li className="py-1">
-                    <span>Unlimited Transactions</span>
-                  </li>
-                  <li className="py-1">
-                    <span>Analytics</span>
-                  </li>
-                  <li className="py-1">
-                    <span>Integrations</span>
-                  </li>
-                  <li className="py-1">
-                    <span className="text-muted text-strikethrough">
-                      Audience Data
-                    </span>
-                  </li>
-                  <li className="py-1">
-                    <span className="text-muted text-strikethrough">
-                      Premium Templates
-                    </span>
-                  </li>
-                  <li className="py-1">
-                    <span className="text-muted text-strikethrough">
-                      White Labelling
-                    </span>
+                    <span>Unlimited bandwidth</span>
                   </li>
                 </ul>
-                <a href="#" className="btn btn-outline-primary">
-                  Get Basic
+                <a
+                  href="https://blockeden.xyz/dash/"
+                  className="btn btn-outline-primary"
+                >
+                  Get started
                 </a>
               </div>
             </div>
@@ -418,44 +406,28 @@ export default function Dstore() {
               <div className="card card-body align-items-center shadow-3d">
                 <span className="badge badge-top badge-dark">Most Popular</span>
                 <div className="pt-md-2">
-                  <h4>Professional</h4>
+                  <h4>Pro</h4>
                 </div>
                 <div className="d-flex align-items-start pb-md-2">
                   <span className="h3">$</span>
                   <span className="display-4 mb-0">49</span>
                 </div>
-                <span className="text-small text-muted">
-                  Per user, per month
-                </span>
+                <span className="text-small text-muted">Per month</span>
                 <ul className="text-center list-unstyled my-2 my-md-4">
                   <li className="py-1">
-                    <span>10k Visitors/mo</span>
+                    <span>20,000 files</span>
                   </li>
                   <li className="py-1">
-                    <span>10 Funnels, 50 Pages</span>
+                    <span>50 GB</span>
                   </li>
                   <li className="py-1">
-                    <span>Unlimited Transactions</span>
-                  </li>
-                  <li className="py-1">
-                    <span>Analytics</span>
-                  </li>
-                  <li className="py-1">
-                    <span>Integrations</span>
-                  </li>
-                  <li className="py-1">
-                    <span>Audience Data</span>
-                  </li>
-                  <li className="py-1">
-                    <span>Premium Templates</span>
-                  </li>
-                  <li className="py-1">
-                    <span className="text-muted text-strikethrough">
-                      White Labelling
-                    </span>
+                    <span>Unlimited bandwidth</span>
                   </li>
                 </ul>
-                <a href="#" className="btn btn-primary">
+                <a
+                  href="https://blockeden.xyz/dash/create-payment-subscription"
+                  className="btn btn-primary"
+                >
                   Get Pro
                 </a>
               </div>
@@ -473,77 +445,77 @@ export default function Dstore() {
           </div>
         </div>
       </section>
-      <section className="pt-0">
-        <div className="container text-center">
-          <div className="row mb-5">
-            <div className="col">
-              <h5>Trusted by over 30,000 of the world’s leading companies</h5>
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-9">
-              <ul className="d-flex flex-wrap justify-content-center list-unstyled">
-                <li className="mx-3 mb-5">
-                  <img
-                    className="icon icon-md bg-primary-3 opacity-20"
-                    src="/assets/img/logos/brand/apple.svg"
-                    alt="icon"
-                    data-inject-svg
-                  />
-                </li>
-                <li className="mx-3 mb-5">
-                  <img
-                    className="icon icon-md bg-primary-3 opacity-20"
-                    src="/assets/img/logos/brand/buzzfeed.svg"
-                    alt="icon"
-                    data-inject-svg
-                  />
-                </li>
-                <li className="mx-3 mb-5">
-                  <img
-                    className="icon icon-md bg-primary-3 opacity-20"
-                    src="/assets/img/logos/brand/intercom.svg"
-                    alt="icon"
-                    data-inject-svg
-                  />
-                </li>
-                <li className="mx-3 mb-5">
-                  <img
-                    className="icon icon-md bg-primary-3 opacity-20"
-                    src="/assets/img/logos/brand/slack.svg"
-                    alt="icon"
-                    data-inject-svg
-                  />
-                </li>
-                <li className="mx-3 mb-5">
-                  <img
-                    className="icon icon-md bg-primary-3 opacity-20"
-                    src="/assets/img/logos/brand/spotify.svg"
-                    alt="icon"
-                    data-inject-svg
-                  />
-                </li>
-                <li className="mx-3 mb-5">
-                  <img
-                    className="icon icon-md bg-primary-3 opacity-20"
-                    src="/assets/img/logos/brand/target.svg"
-                    alt="icon"
-                    data-inject-svg
-                  />
-                </li>
-                <li className="mx-3 mb-5">
-                  <img
-                    className="icon icon-md bg-primary-3 opacity-20"
-                    src="/assets/img/logos/brand/time.svg"
-                    alt="icon"
-                    data-inject-svg
-                  />
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/*<section className="pt-0">*/}
+      {/*  <div className="container text-center">*/}
+      {/*    <div className="row mb-5">*/}
+      {/*      <div className="col">*/}
+      {/*        <h5>Trusted by over 30,000 of the world’s leading companies</h5>*/}
+      {/*      </div>*/}
+      {/*    </div>*/}
+      {/*    <div className="row justify-content-center">*/}
+      {/*      <div className="col-xl-8 col-lg-9">*/}
+      {/*        <ul className="d-flex flex-wrap justify-content-center list-unstyled">*/}
+      {/*          <li className="mx-3 mb-5">*/}
+      {/*            <img*/}
+      {/*              className="icon icon-md bg-primary-3 opacity-20"*/}
+      {/*              src="/assets/img/logos/brand/apple.svg"*/}
+      {/*              alt="icon"*/}
+      {/*              data-inject-svg*/}
+      {/*            />*/}
+      {/*          </li>*/}
+      {/*          <li className="mx-3 mb-5">*/}
+      {/*            <img*/}
+      {/*              className="icon icon-md bg-primary-3 opacity-20"*/}
+      {/*              src="/assets/img/logos/brand/buzzfeed.svg"*/}
+      {/*              alt="icon"*/}
+      {/*              data-inject-svg*/}
+      {/*            />*/}
+      {/*          </li>*/}
+      {/*          <li className="mx-3 mb-5">*/}
+      {/*            <img*/}
+      {/*              className="icon icon-md bg-primary-3 opacity-20"*/}
+      {/*              src="/assets/img/logos/brand/intercom.svg"*/}
+      {/*              alt="icon"*/}
+      {/*              data-inject-svg*/}
+      {/*            />*/}
+      {/*          </li>*/}
+      {/*          <li className="mx-3 mb-5">*/}
+      {/*            <img*/}
+      {/*              className="icon icon-md bg-primary-3 opacity-20"*/}
+      {/*              src="/assets/img/logos/brand/slack.svg"*/}
+      {/*              alt="icon"*/}
+      {/*              data-inject-svg*/}
+      {/*            />*/}
+      {/*          </li>*/}
+      {/*          <li className="mx-3 mb-5">*/}
+      {/*            <img*/}
+      {/*              className="icon icon-md bg-primary-3 opacity-20"*/}
+      {/*              src="/assets/img/logos/brand/spotify.svg"*/}
+      {/*              alt="icon"*/}
+      {/*              data-inject-svg*/}
+      {/*            />*/}
+      {/*          </li>*/}
+      {/*          <li className="mx-3 mb-5">*/}
+      {/*            <img*/}
+      {/*              className="icon icon-md bg-primary-3 opacity-20"*/}
+      {/*              src="/assets/img/logos/brand/target.svg"*/}
+      {/*              alt="icon"*/}
+      {/*              data-inject-svg*/}
+      {/*            />*/}
+      {/*          </li>*/}
+      {/*          <li className="mx-3 mb-5">*/}
+      {/*            <img*/}
+      {/*              className="icon icon-md bg-primary-3 opacity-20"*/}
+      {/*              src="/assets/img/logos/brand/time.svg"*/}
+      {/*              alt="icon"*/}
+      {/*              data-inject-svg*/}
+      {/*            />*/}
+      {/*          </li>*/}
+      {/*        </ul>*/}
+      {/*      </div>*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*</section>*/}
       <footer className="pb-4 bg-primary-3 text-light" id="footer">
         <div className="container">
           <div className="row mb-5">
@@ -556,7 +528,10 @@ export default function Dstore() {
                   >
                     Build the next big thing with dStore
                   </h3>
-                  <a href="/brand-assets" className="btn btn-lg btn-white">
+                  <a
+                    href="https://blockeden.xyz/dash/sign-up/?next=%2Fdstore%2F"
+                    className="btn btn-lg btn-white"
+                  >
                     Get started
                   </a>
                 </div>
