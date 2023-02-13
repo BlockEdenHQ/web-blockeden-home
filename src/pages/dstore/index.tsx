@@ -34,9 +34,9 @@ export default function Dstore() {
                 >
                   Get started for Free
                 </a>
-                {/*<a href="#" className="btn btn-lg btn-outline-primary mx-2">*/}
-                {/*  <span>Learn more</span>*/}
-                {/*</a>*/}
+                <a href="https://blockeden.xyz/dash/dstore/" className="btn btn-lg btn-outline-primary mx-2">
+                  <span>Login</span>
+                </a>
               </div>
             </div>
           </div>
