@@ -9,7 +9,7 @@ Hello, world! We are a group of software engineers from the San Francisco Bay Ar
 
 ![Genesis of BlockEden.xyz](https://tp-misc.b-cdn.net/blockeden/blockeden-xyz-banner-black-background.png "Genesis of BlockEden.xyz")
 
-We were fascinated by the Bitcoin whitepaper and its disruptive technology back in 2012 and then started to build our own blockchains in 2017. During the trip, along with the fast-moving industry, we find that:
+We were fascinated by the Bitcoin whitepaper and its disruptive technology back in 2012 and then started to build our own blockchain and its ecosystem at IoTeX in 2017. During the trip, along with the fast-moving industry, we find that:
 
 1. **There are huge gaps between developers and new blockchains**. Blockchain installment is like software in the 90s - complex, slow, error-prone, and unscalable.
 2. **Web3 developer experience is quite fragmented**. Blockchain raw data, derived data, API, push notification, blob store - all those APIs are scattered into different places for the developers to find out and make integrations.
