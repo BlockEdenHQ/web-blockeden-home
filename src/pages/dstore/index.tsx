@@ -2,6 +2,10 @@ import React, { useEffect } from "react";
 import Layout from "@theme/Layout";
 import { useAos } from "@site/src/components/use-aos";
 import { HowItWorks } from "@site/src/components/how-it-works";
+import {
+  dstoreSeo,
+  DstoreSeoHead,
+} from "@site/src/pages/dstore/dstore-seo-head";
 
 export default function Dstore() {
   useAos();
@@ -14,7 +18,9 @@ export default function Dstore() {
     SVGInjector(document.querySelectorAll("img[data-inject-svg]"));
   }, []);
   return (
-    <Layout>
+    <Layout title={dstoreSeo.title} description={dstoreSeo.description}>
+      <DstoreSeoHead />
+
       <section className="bg-primary-3 text-light text-center has-divider header-desktop-app">
         <div className="container">
           <div className="row justify-content-center">
@@ -34,7 +40,10 @@ export default function Dstore() {
                 >
                   Get started for Free
                 </a>
-                <a href="https://blockeden.xyz/dash/dstore/" className="btn btn-lg btn-outline-primary mx-2">
+                <a
+                  href="https://blockeden.xyz/dash/dstore/"
+                  className="btn btn-lg btn-outline-primary mx-2"
+                >
                   <span>Login</span>
                 </a>
               </div>
@@ -150,9 +159,7 @@ export default function Dstore() {
               {/*<a href="#" className="lead hover-arrow">*/}
               {/*  Learn more*/}
               {/*</a>*/}
-              <a className="lead hover-arrow">
-                Coming soon
-              </a>
+              <a className="lead hover-arrow">Coming soon</a>
             </div>
           </div>
         </div>
@@ -179,9 +186,7 @@ export default function Dstore() {
               {/*<a href="#" className="lead hover-arrow">*/}
               {/*  Start building*/}
               {/*</a>*/}
-              <a className="lead hover-arrow disabled">
-                Coming soon
-              </a>
+              <a className="lead hover-arrow disabled">Coming soon</a>
             </div>
           </div>
         </div>
