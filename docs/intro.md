@@ -28,7 +28,7 @@ BlockEden.xyz is a suite of APIs powering DApps of all sizes for Aptos and Sui b
 
 💰 Staking
 
-- Mining tokens with us and [contact our BD to get started](https://t.me/mikethrift).
+- Mining tokens with us and [contact our BD to get started](https://t.me/mikethrift)
 
 How much do these services charge? They are free for hobbyists. Professional or enterprise usage is measured in [compute units](compute-unit.md). Learn more in [pricing plans](/pricing).
 
