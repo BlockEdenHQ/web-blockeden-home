@@ -113,6 +113,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/pricing", label: "Pricing", position: "left" },
+          { to: "/dstore", label: "dStore 🆕", position: "left" },
           { to: beConfig.apis, label: "ChainPlus API", position: "right" },
           { to: beConfig.analytics, label: "Analytics", position: "right" },
           { to: beConfig.signIn, label: "Login", position: "right" },
