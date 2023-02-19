@@ -226,7 +226,7 @@ export function DstorePage() {
               </a>
               <h4 className="display-3">More than a storage</h4>
               <p className="lead">
-                BlockEden.xyz is A service infra for developers' next billion
+                BlockEden.xyz is a service infra for developers' next billion
                 web3 customers. We are a community of web3 builders that
                 establish long-term relationships with protocol builders,
                 investors, and developers. We host managed node services, API
