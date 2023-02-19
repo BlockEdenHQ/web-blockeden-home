@@ -23,7 +23,7 @@ Dive straight into the different products and APIs below or [learn more about Bl
   - [Browse and write SQL on Aptos Indexed DB](https://blockeden.xyz/analytics/browse/2/schema/public)
 - 🔷 Ethereum JSON RPC API
 
-📦 dStore: is a managed storage solution for creators and developers from any blockchain. It's user-friendly, EVM-compatible, low-cost, and petabyte-level scale, all powered by EthStorage.
+📦 dStore · a managed storage solution for creators and developers from any blockchain. It's user-friendly, EVM-compatible, low-cost, and petabyte-level scale, all powered by EthStorage.
 
 - [Get started](/dstore/)
 
