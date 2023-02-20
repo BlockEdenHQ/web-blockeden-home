@@ -71,7 +71,11 @@ We will provide API access to EthStorage testnet and mainnet blockchain nodes af
 
 Admittedly, the current version of dStore has some limitations. We don't support uploading directories and large files (size > 2MB). It may take tens of seconds to upload mid-sized images. However, this is just an initial version, and we will keep improving the product in the long run.
 
-[//]: # (Dr Qi Zhou, Founder of EthStorage, says "" \_)
+Dr. Qi Zhou, founder of EthStorage, share his praise on twitter -
+
+<blockquote className="twitter-tweet"><p lang="en" dir="ltr">Introducing dStore <a href="https://twitter.com/BlockEdenHQ?ref_src=twsrc%5Etfw">@BlockEdenHQ</a>! <br /><br />dStore makes it super easy for devs and creators to manage files on <a href="https://twitter.com/EthStorage?ref_src=twsrc%5Etfw">@EthStorage</a> with web3:// protocol without their own keys. We expect to see more integrations from it and more early teams like the capable <a href="https://twitter.com/BlockEdenHQ?ref_src=twsrc%5Etfw">@BlockEdenHQ</a> to build our ecosystem.</p>— Qi Zhou (@qc_qizhou) <a href="https://twitter.com/qc_qizhou/status/1627530354587488256?ref_src=twsrc%5Etfw">February 20, 2023</a></blockquote>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Mike Thrift, BD at BlockEden.xyz, commented, "dStore enriched our bundled offering to the creators and developers and laid a solid foundation for our aggregated function API services to blockchains. It made us an active contributor to the Ethereum ecosystem and gave our Aptos and Sui developers a more cost-effective and flexible choice than IPFS or Arweave."
 
