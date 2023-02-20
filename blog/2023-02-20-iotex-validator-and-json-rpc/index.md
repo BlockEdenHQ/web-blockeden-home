@@ -34,26 +34,43 @@ BlockEden.xyz's mission is to empower dApps, and we decided to bring this to IoT
 ### Why JSON-RPC first?
 
 IoTeX blockchain provides 2 types of RPC endpoints: **gRPC** and **JSON-RPC**, and we choose to support **JSON-RPC** first because:
- - This RPC type could easily integrate with MetaMask for wallet service.
- - It's the RPC type of Ethereum blockchain and its L2 blockchains. It will be easier for an Ethereum developer to migrate to IoTeX. 
 
+- This RPC type could easily integrate with MetaMask for wallet service.
+- It's the RPC type of Ethereum blockchain and its L2 blockchains. It will be easier for an Ethereum developer to migrate to IoTeX.
 
 ### gRPC vs JSON-RPC
 
 There are some other deep thinking about **gRPC** and **JSON-RPC**. Please let us know your thoughts about whether you want **gRPC**.
 
-| Criteria            | gRPC                                                        | JSON-RPC                                                     |
-| ------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ |
-| Underlying protocol | HTTP/2                                                      | Can be used with various protocols, including HTTP and TCP   |
-| Data serialization  | Protocol Buffers (binary format)                            | JSON (text format)                                           |
-| Performance         | High performance with efficient multiplexing                | Lower performance compared to gRPC                           |
-| Language support    | Wide range of languages, including Java, Python, and C++    | Wide range of languages, including Java, Python, and C++     |
-| Streaming support   | Supports server-side and bidirectional streaming            | Supports only one-way streaming                              |
-| Setup complexity    | More complex setup, especially with non-standard protocols  | Simple setup                                                 |
-| Human-readability   | Less human-readable due to use of binary format             | More human-readable due to use of text format                |
-| Learning curve      | Higher learning curve due to different programming paradigm | Lower learning curve due to simpler protocol and programming |
-| Flexibility         | Limited flexibility in terms of transport protocols         | Can be used with various transport protocols                 |
-| Service discovery   | Built-in support for service discovery and load balancing   | No built-in support for service discovery or load balancing  |
+#### gRPC
+
+Pros:
+
+- High performance: gRPC is based on the high-performance, low-latency protocol called HTTP/2, which allows for efficient multiplexing of requests and responses over a single TCP connection. This can lead to faster response times and lower network overhead compared to traditional REST APIs that use HTTP/1.1.
+- Efficient data serialization: gRPC uses Protocol Buffers as its default data serialization format, which is more compact and efficient than JSON or XML. This can reduce the amount of network bandwidth and CPU time required to serialize and deserialize data.
+- Language-agnostic: gRPC supports a wide range of programming languages, including Java, Python, C++, and many more, making it a good choice for heterogeneous systems.
+- Built-in support for streaming: gRPC supports both server-side and bidirectional streaming, which can be useful for real-time applications or long-running processes that need to exchange data in real-time.
+
+Cons:
+
+- More complex setup: gRPC requires a more complex setup compared to JSON-RPC, especially if you're using it with non-standard protocols like HTTP/2 or TLS.
+- Less readable format: While Protocol Buffers are more compact and efficient, they are also less human-readable than JSON, which can make debugging more difficult.
+- Higher learning curve: gRPC uses a different programming paradigm compared to traditional REST APIs, which can make it more challenging for developers to learn and adopt.
+
+#### JSON-RPC
+
+Pros:
+
+- Simplicity: JSON-RPC is a simple, lightweight protocol that is easy to learn and use. It can be a good choice for small-to-medium-sized applications or simple microservices.
+- Human-readable format: JSON is a human-readable format that is easy to read and debug, which can be helpful for developers.
+- Flexible: JSON-RPC is a flexible protocol that can be used over a variety of transport protocols, including HTTP, TCP, and WebSockets.
+- Language-agnostic: Like gRPC, JSON-RPC is also language-agnostic and can be used with a wide range of programming languages.
+
+Cons:
+
+- Lower performance: JSON-RPC uses JSON as its default data serialization format, which can be less efficient in terms of network bandwidth and CPU time compared to Protocol Buffers or other binary formats.
+- Limited support for streaming: JSON-RPC supports only one-way streaming, which may not be sufficient for some real-time applications or long-running processes.
+- No built-in support for service discovery or load balancing: JSON-RPC doesn't provide built-in support for service discovery or load balancing, which means you may need to implement these features yourself.
 
 ## What is IoTeX?
 
