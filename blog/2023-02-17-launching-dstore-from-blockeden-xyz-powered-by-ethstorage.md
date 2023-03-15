@@ -83,4 +83,4 @@ BlockEden.xyz is committed to providing the best developer experiences to web3 d
 
 - Twitter: https://twitter.com/BlockEdenHQ
 - Discord: https://discord.gg/4Yfvs2HWey
-- Source Link: https://blockeden.xyz/blog/2023/02/17/launching-dstore-from-blockeden-xyz-powered-by-ethstorage/
+- Source Link: https://blockeden.xyz/blog/2023/03/15/boost-your-web3-development-with-blockeden-xyz-chat/
