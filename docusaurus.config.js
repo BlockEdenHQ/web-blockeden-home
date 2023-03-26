@@ -94,7 +94,7 @@ const config = {
       metadata: [
         {
           name: "keywords",
-          content: "aptos graphql, aptos api, sui api, block eden",
+          content: "aptos graphql, aptos api, sui api, block eden, BlockEden.xyz",
         },
       ],
 

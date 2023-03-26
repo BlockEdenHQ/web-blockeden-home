@@ -58,8 +58,13 @@ const sidebars = {
         },
         {
           type: 'doc',
-          id: 'sui/api-reference',
+          id: 'sui/sui-api-reference',
           label: "Sui API Reference"
+        },
+        {
+          type: 'doc',
+          id: 'sui/sui-typescript-sdk',
+          label: "Sui TypeScript SDK"
         },
       ],
     },
