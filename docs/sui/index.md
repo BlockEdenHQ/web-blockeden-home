@@ -46,13 +46,3 @@ const { JsonRpcProvider, devnetConnection } = require("@mysten/sui.js");
   console.log(`${providerUrl} getTotalTransactionNumber: ${totalTxNumber}`);
 })();
 ```
-
-## API Reference
-
-Please refer to the official
-[API docs](https://docs.sui.io/sui-jsonrpc).
-
-## Starting to Build!
-
-If there’s anything else you need, join us on
-[Discord](https://discord.gg/GqzTYQ4YNa)!
