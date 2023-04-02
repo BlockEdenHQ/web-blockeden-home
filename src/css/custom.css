@@ -33,44 +33,8 @@ td {
   word-break: break-all;
 }
 
-@media (max-width: 766px) {
-  article {
-    font-size: 16px;
-    line-height: 24px;
-    font-variation-settings: "wght" 500;
-    letter-spacing: -0.02em;
-    margin: 0px 0px 24px;
-  }
-}
-
-@media (min-width: 767px) and (max-width: 1279px) {
-  .breadcrumbs__link>svg {
-    height: 1.8rem!important;
-    width: 1.8rem!important;;
-  }
-
-  article {
-    font-size: 20px;
-    line-height: 32px;
-    font-variation-settings: "wght" 500;
-    letter-spacing: -0.02em;
-    margin: 0px 0px 32px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .breadcrumbs__link>svg {
-    height: 1.8rem!important;
-    width: 1.8rem!important;;
-  }
-
-  article {
-    font-size: 20px;
-    line-height: 32px;
-    font-variation-settings: "wght" 500;
-    letter-spacing: -0.02em;
-    margin: 0px 0px 32px;
-  }
+article {
+  line-height: 24px;
 }
 
 .footer.footer--dark {
