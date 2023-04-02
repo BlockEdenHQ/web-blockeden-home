@@ -37,15 +37,14 @@ curl -X POST https://sui-devnet.blockeden.xyz/<access_key> \
 Using TypeScript SDK to connect Sui
 
 ```typescript
-const { JsonRpcProvider } = require("@mysten/sui.js");
+const { JsonRpcProvider, devnetConnection } = require("@mysten/sui.js");
 
 (async () => {
-  const providerUrl = "https://sui-devnet.blockeden.xyz/<access_key>"
-  const provider = new JsonRpcProvider(providerUrl);
-  const totalTxNumber = await provider.getTotalTransactionNumber(
-  );
-  console.log(`${providerUrl} getTotalTransactionNumber: ` + totalTxNumber);
-})()
+  const providerUrl = "https://sui-devnet.blockeden.xyz/<access_key>";
+  const provider = new JsonRpcProvider(devnetConnection);
+  const totalTxNumber = await provider.getTotalTransactionNumber();
+  console.log(`${providerUrl} getTotalTransactionNumber: ${totalTxNumber}`);
+})();
 ```
 
 ## API Reference
