@@ -94,7 +94,8 @@ const config = {
       metadata: [
         {
           name: "keywords",
-          content: "aptos graphql, aptos api, sui api, block eden, BlockEden.xyz",
+          content:
+            "aptos graphql, aptos api, sui api, block eden, BlockEden.xyz",
         },
       ],
 
@@ -116,7 +117,11 @@ const config = {
           { to: "/dstore", label: "dStore", position: "left" },
           { to: beConfig.apis, label: "ChainPlus API", position: "right" },
           { to: beConfig.analytics, label: "Analytics", position: "right" },
-          { to: "https://blockeden.xyz/chat", label: "ChatGPT", position: "right" },
+          {
+            to: "https://blockeden.xyz/chat",
+            label: "ChatGPT",
+            position: "right",
+          },
           { to: beConfig.signIn, label: "Login", position: "right" },
           { to: beConfig.signUp, label: "Sign Up", position: "right" },
         ],
@@ -197,6 +202,10 @@ const config = {
               {
                 label: "Stargately Home",
                 href: "https://stargately.com/",
+              },
+              {
+                label: "10x.pub Web3 Guild (W3G)",
+                href: "https://10x.pub/",
               },
             ],
           },
