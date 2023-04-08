@@ -179,6 +179,10 @@ const config = {
                 to: "https://mirror.xyz/0x1De85782A08Ee77371D7A711B1370fA369b01A89",
               },
               {
+                label: "Linkedin",
+                to: "https://www.linkedin.com/in/dora-noda-35952622a/",
+              },
+              {
                 label: "info@BlockEden.xyz",
                 to: "mailto:info@BlockEden.xyz",
               },
