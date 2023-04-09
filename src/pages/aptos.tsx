@@ -318,7 +318,7 @@ export default function Aptos(): JSX.Element {
                 <CountUp
                   className="display-4 text-primary-2 d-block"
                   start={0}
-                  end={100}
+                  end={99.9}
                   suffix={"%"}
                   duration={3}
                 />
