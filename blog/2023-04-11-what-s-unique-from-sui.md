@@ -7,6 +7,8 @@ image: https://tp-misc.b-cdn.net/blockeden/sui-blockeden-xyz.png
 
 In the world of blockchain, speed and efficiency are vital for the success of any platform. Enter Sui Blockchain, a platform that promises to deliver low latency transaction processing and smart contract execution.
 
+![Sui and BlockEden.xyz](https://tp-misc.b-cdn.net/blockeden/sui-blockeden-xyz.png "Sui and BlockEden.xyz")
+
 One of the unique features of Sui Blockchain is its ability to distinguish between different kinds of object ownership. Unlike other blockchain platforms where every contract and object is mutably shared, Sui allows an object to be owned by an address and can be mutably owned, immutably owned, or mutably shared. This feature is leveraged for parallel execution of smart contracts and asset management.
 
 Sui uses a decentralized permissionless smart contract platform, biased towards low-latency management of assets. It uses the Move programming language to define assets as objects that may be owned by an address. The platform is maintained by a permissionless set of authorities that play a role similar to validators or miners in other blockchain systems.
