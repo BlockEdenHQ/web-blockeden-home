@@ -1,7 +1,7 @@
 ---
 title: BlockEden.xyz and Aptools Partner to Strengthen the Aptos Developer Ecosystem
 authors: [dora]
-tags: [partnership]
+tags: [partnership, aptos]
 image: https://0x9C61566175E20204D7Ee56F5ca8F420136729fdA.w3q-g.w3link.io/blockeden-xyz-aptools-partnership.jpg
 ---
 

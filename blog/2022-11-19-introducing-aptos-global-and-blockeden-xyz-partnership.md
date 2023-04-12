@@ -1,7 +1,7 @@
 ---
 title: Introducing Aptos Global and BlockEden.xyz Partnership
 authors: [dora]
-tags: [partnership, company]
+tags: [partnership, company, aptos]
 image: https://tp-misc.b-cdn.net/blockeden/AptosGlobal%20and%20BlockEden.xyz.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: How to Pay BlockEden.xyz with APT, USDC, USDT on Aptos
 authors: [dora]
-tags: [company, product]
+tags: [company, product, aptos]
 image: https://tp-misc.b-cdn.net/blockeden/how-to-pay-blockeden-xyz-with-apt.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Partnership between Aptos Eden and BlockEden.xyz
 authors: [dora]
-tags: [partnership, company]
+tags: [partnership, company, aptos]
 image: https://tp-misc.b-cdn.net/blockeden/aptos-eden-and-block-eden-xyz.png
 ---
 

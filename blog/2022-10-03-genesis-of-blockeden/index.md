@@ -1,7 +1,7 @@
 ---
 title: Genesis of BlockEden.xyz
 authors: [dora]
-tags: [company]
+tags: [company, aptos]
 image: https://tp-misc.b-cdn.net/blockeden/blockeden-xyz-banner-black-background.png
 ---
 

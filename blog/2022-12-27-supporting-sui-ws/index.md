@@ -1,14 +1,11 @@
 ---
-title: Supporting Sui WebSocket
+title: Sui WebSocket now available at BlockEden.xyz
 authors: [jack]
 tags: [product, sui, websocket]
 abstract: We expand Sui API service support to WebSocket.
 ---
 
-We are among [the first Sui Devnet JSON-RPC providers](https://blockeden.xyz/blog/2022/11/24/blockeden-xyz-becomes-one-of-the-first-sui-devnet-api-providers/).
-Now we are excited to expand our API Service to **WebSocket** too. WebSocket
-would be useful to those dApps that need to take action on real-time on-chain
-events.
+We are among the first Sui Devnet JSON-RPC providers. Now we are excited to expand our API Service to **WebSocket** too. WebSocket  would be useful to those dApps that need to take action on real-time on-chain events.
 
 ## How to get started?
 

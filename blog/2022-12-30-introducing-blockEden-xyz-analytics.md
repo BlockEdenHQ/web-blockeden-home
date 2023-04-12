@@ -1,7 +1,7 @@
 ---
 title: Introducing BlockEden.xyz Analytics
 authors: [dora]
-tags: [company, product]
+tags: [company, product, aptos]
 image: https://tp-misc.b-cdn.net/blockeden/BlockEden-xyz-analytics-share-dashboard.png
 ---
 # Introducing BlockEden.xyz Analytics

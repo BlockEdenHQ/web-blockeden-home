@@ -5,8 +5,19 @@ import clsx from "clsx";
 
 const {blogPosts} = require("../../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json");
 
-export const News = () => {
-  const recent = blogPosts.slice(0, 3);
+type Props = {
+  filterTag?: string;
+}
+
+export const News = ({filterTag}: Props) => {
+  console.log(blogPosts)
+  const recent = blogPosts.filter(p => {
+    if (!filterTag) {
+      return true;
+    } else {
+      return p.metadata.tags.some(t => t.label === filterTag);
+    }
+  }).slice(0, 3);
   return (
     <section className="bg-primary-2-alt">
       <div className="container">
@@ -49,19 +60,6 @@ export const News = () => {
                       {bp.metadata.description}
                     </Link>
                   </p>
-
-                  <div className="d-flex align-items-center mt-3">
-                    <div className="avatar margin-bottom--sm"><img
-                      className="avatar__photo" src={bp.metadata.authors[0].imageURL}
-                      alt={bp.metadata.authors[0].name}/>
-                      <div className="avatar__intro" itemProp="author"
-                           itemType="https://schema.org/Person">
-                        <div className="avatar__name"><span
-                          itemProp="name">{bp.metadata.authors[0].name}</span>
-                        </div>
-                        <small className="avatar__subtitle" itemProp="description">{bp.metadata.authors[0].title}</small></div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -69,13 +67,12 @@ export const News = () => {
         </div>
         <div className="row">
           <div className="col">
-            <Link href="/blog/" className="hover-arrow">
+            <Link href={filterTag ? `/blog/tags/${filterTag}/` : "/blog/"} className="hover-arrow">
               View more news
             </Link>
           </div>
         </div>
       </div>
     </section>
-
   )
 }

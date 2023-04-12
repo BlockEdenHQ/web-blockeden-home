@@ -1,7 +1,7 @@
 ---
 title: Aptos GraphQL API now available at BlockEden.xyz
 authors: [dora]
-tags: [company, product]
+tags: [company, product, aptos]
 abstract: Aptos developers now have a reliable GraphQL data source for their wallet, NFT marketplace, DeFi swap, and other DApps.
 ---
 

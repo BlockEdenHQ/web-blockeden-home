@@ -7,6 +7,7 @@ import CountUp from "react-countup";
 import Link from "@docusaurus/Link";
 import styles from "./aptos.module.css";
 import clsx from "clsx";
+import {News} from "@site/src/components/news";
 
 export default function Aptos(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -196,6 +197,7 @@ export default function Aptos(): JSX.Element {
                   className="display-4 text-primary-2 d-block"
                   start={0}
                   end={99.9}
+                  decimals={1}
                   suffix={"%"}
                   duration={3}
                 />
@@ -320,7 +322,7 @@ export default function Aptos(): JSX.Element {
             </div>
           </div>
         </section>
-        <section className="pt-md-0">
+        <div className="bg-primary-2-alt pb-4 pt-4">
           <div className="container">
             <div className="row">
               <div className="col">
@@ -345,7 +347,7 @@ export default function Aptos(): JSX.Element {
               </div>
             </div>
           </div>
-        </section>
+        </div>
         {/*<section className="pt-0">*/}
         {/*  <div className="container">*/}
         {/*<div className="row justify-content-center text-center">*/}
@@ -404,6 +406,8 @@ export default function Aptos(): JSX.Element {
         {/*</div>*/}
         {/*  </div>*/}
         {/*</section>*/}
+
+        <News filterTag={"sui"}/>
       </main>
     </Layout>
   );

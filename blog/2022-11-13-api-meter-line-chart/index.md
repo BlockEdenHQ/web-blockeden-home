@@ -1,7 +1,7 @@
 ---
 title: Improving dashboard with API usage monitor
 authors: [dora]
-tags: [product]
+tags: [product, aptos]
 image: https://tp-misc.b-cdn.net/blockeden/block-eden-api-calls-line-charts-d2f230217b157657924a0658ee972488.png
 ---
 
