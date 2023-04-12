@@ -213,6 +213,27 @@ const config = {
               },
             ],
           },
+          {
+            title: "Ecosystem Showcase",
+            items: [
+              {
+                label: "Scalp Empire",
+                href: "https://scalp-empire.com/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
+              },
+              {
+                label: "Blockroma",
+                href: "https://blockroma.com/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
+              },
+              {
+                label: "Secure3",
+                href: "https://www.secure3.io/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
+              },
+              {
+                label: "Fewcha Wallet",
+                href: "https://fewcha.app/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Stargately, Inc.`,
       },
