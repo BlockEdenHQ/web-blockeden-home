@@ -104,7 +104,3 @@ Don't let the complexities of Optimism Rollup hold you back from creating the be
 - Twitter: https://twitter.com/BlockEdenHQ
 - Discord: https://discord.gg/4Yfvs2HWey
 - Source Link: https://blockeden.xyz/blog/2023/04/11/introduction-to-optimism/
-
-
-
-

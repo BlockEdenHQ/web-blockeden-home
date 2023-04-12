@@ -21,3 +21,7 @@ The consistency requirements on stores for objects and transactions are very loo
 
 Overall, Sui Blockchain's design choices and optimizations make it a promising platform for applications that require fast and efficient processing of transactions. Its ability to 1) distinguish between different kinds of object ownership, 2) acquiring distributed locks at the granularity of objects, and 3) parallel execution of smart contracts are key features that set it apart from other blockchain platforms. With Sui Blockchain, the future of fast and efficient transaction processing is here.
 
+
+- Twitter: https://twitter.com/BlockEdenHQ
+- Discord: https://discord.gg/4Yfvs2HWey
+- Source Link: https://blockeden.xyz/blog/2023/04/11/what-s-unique-from-sui/
