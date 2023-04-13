@@ -87,7 +87,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={"BlockEden.xyz - Sui API | Aptos API Node Service | Aptos GraphQL | Aptos Data Analytics"}
+      title={beConfig.title}
       description={siteConfig.tagline}>
       <SeoHead/>
 
