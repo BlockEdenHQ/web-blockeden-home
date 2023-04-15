@@ -1,0 +1,63 @@
+---
+title: "Optimism Architecture"
+authors: [tian]
+tags: [engineering]
+image: https://tp-misc.b-cdn.net/blockeden/optimism-blockeden-xyz.png
+---
+
+Optimism is an EVM equivalent, optimistic rollup protocol designed to scale Ethereum. Scaling Ethereum means increasing the number of useful transactions the Ethereum network can process. [Optimistic rollup](https://vitalik.ca/general/2021/01/05/rollup.html) is a layer 2 scalability technique which increases the computation & storage capacity of Ethereum without sacrificing security or decentralization. [EVM Equivalence](https://medium.com/ethereum-optimism/introducing-evm-equivalence-5c2021deb306) is complete compliance with the state transition function described in the Ethereum yellow paper, the formal definition of the protocol.
+
+## Overall Architecture
+
+![Optimism Architecture](https://tp-misc.b-cdn.net/blockeden/Optimism%20Architecture@2x%20(4).png "Optimism Architecture")
+
+#### op-node + op-geth
+
+The rollup node can run either in validator or sequencer mode:
+
+1. validator (aka verifier): Similar to running an Ethereum node, it simulates L2 transactions locally, without rate limiting. It also lets the [validator](https://tianpan.co/optimism-bedrock-specs/glossary.html#validator) verify the work of the [sequencer](https://tianpan.co/optimism-bedrock-specs/glossary.html#sequencer), by re-deriving [output roots](https://tianpan.co/optimism-bedrock-specs/glossary.html#l2-output-root) and comparing them against those submitted by the [sequencer](https://tianpan.co/optimism-bedrock-specs/glossary.html#sequencer). In case of a mismatch, the [validator](https://tianpan.co/optimism-bedrock-specs/glossary.html#validator) can perform a [fault proof](https://tianpan.co/optimism-bedrock-specs/glossary.html#fault-proof).
+2. sequencer: The [sequencer](https://tianpan.co/optimism-bedrock-specs/glossary.html#sequencer) is a priviledged actor, which receives L2 transactions from L2 users, creates L2 blocks using them, which it then submits to [data availability provider](https://tianpan.co/optimism-bedrock-specs/glossary.html#data-availability-provider) (via a [batcher](https://tianpan.co/optimism-bedrock-specs/glossary.html#batcher)). It also submits [output roots](https://tianpan.co/optimism-bedrock-specs/glossary.html#l2-output-root) to L1. There is only one sequencer in the entire stack for now, and it's where people critisize that OP stack is not decenralized.
+
+#### op-batcher
+
+The batch submitter, also referred to as the [batcher](https://tianpan.co/optimism-bedrock-specs/glossary.html#batcher), is the entity submitting the L2 [sequencer](https://tianpan.co/optimism-bedrock-specs/glossary.html#sequencer) data to L1, to make it available for verifiers.
+
+#### op-proposer
+
+Proposer generates and submitting L2 Output checkpoints to the L2 output oracle contract on Ethereum. After finalization period has passed, this data enables withdrawals.
+
+> Both batcher and proposer submit states to L1. Why are they separated?
+>
+> Batcher collect and submit tx data into L1 with a batch, while proposer submits the commitments (output roots) to the L2's state, which finalizes the view of L2 account states. They are decoupled so that they can work in parallel for efficiency.
+
+#### contracts-bedrock
+
+Various contracts for L2 to interact with the L1:
+
+* OptimismPortal: A feed of L2 transactions which originated as smart contract calls in the L1 state.
+* Batch inbox: An L1 address to which the Batch Submitter submits transaction batches.
+* L2 output oracle: A smart contract that stores [L2 output roots](https://tianpan.co/optimism-bedrock-specs/glossary.html#l2-output) for use with withdrawals and fault proofs.
+
+![Optimism components](https://tp-misc.b-cdn.net/blockeden/optimism-components.svg "Optimism components")
+
+
+
+### How to deposit?
+
+![](https://tp-misc.b-cdn.net/blockeden/sequencer-handling-deposits-and-transactions.svg)
+
+### How to withdraw?
+
+![](https://tp-misc.b-cdn.net/blockeden/user-withdrawing-to-l1.svg)
+
+
+## Feedback to Optimism's Documentation
+
+Understanding the OP stack can be challenging due to a number of factors. One such factor is the numerous components that are referred to multiple times with slightly different names in code and documentation. For example, the terms "op-batcher" and "batch-submitter" / "verifiers" and "validators"  may be used interchangeably, leading to confusion and difficulty in understanding the exact function of each component.
+
+Another challenge in understanding the OP stack is the evolving architecture, which may result in some design elements becoming deprecated over time. Unfortunately, the documentation may not always be updated to reflect these changes. This can lead to further confusion and difficulty in understanding the system, as users may be working with outdated or inaccurate information.
+
+To overcome these challenges, it is important to carefully review all available documentation, to keep concepts consistently across places, and to stay up-to-date with any changes or updates to the OP stack. This may require additional research and collaboration with other users or developers, but it is essential in order to fully understand and effectively utilize this complex system.
+
+* Source: https://tianpan.co/notes/288-how-does-optimism-work
+
