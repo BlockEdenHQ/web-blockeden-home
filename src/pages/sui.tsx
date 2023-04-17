@@ -7,7 +7,9 @@ import CountUp from "react-countup";
 import Link from "@docusaurus/Link";
 import styles from "./aptos.module.css";
 import clsx from "clsx";
-import {News} from "@site/src/components/news";
+import { News } from "@site/src/components/news";
+import { DappGallery } from "@site/src/components/dapp-gallery";
+import projects from "@site/src/projects-data.json";
 
 export default function Aptos(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -143,6 +145,8 @@ export default function Aptos(): JSX.Element {
             </div>
           </div>
         </section>
+
+        <News filterTag={"sui"} />
 
         <section className="bg-primary-alt has-divider">
           <div className="container pb-0">
@@ -407,8 +411,44 @@ export default function Aptos(): JSX.Element {
         {/*  </div>*/}
         {/*</section>*/}
 
-        <News filterTag={"sui"}/>
+        <section className="bg-primary-2-alt">
+          <div className="container">
+            <div className="row mb-4">
+              <div className="col">
+                <h3 className="h1">Randomly selected ecosystem projects</h3>
+              </div>
+            </div>
+            <DappGallery
+              projects={shuffle(
+                projects.data.projects.filter((p) =>
+                  p?.tags?.some((t) => t.name === "Sui")
+                )
+              ).slice(0, 3)}
+              viewMore={"/dapp-shop/sui/"}
+            />
+          </div>
+        </section>
       </main>
     </Layout>
   );
+}
+
+function shuffle(array) {
+  let currentIndex = array.length,
+    randomIndex;
+
+  // While there remain elements to shuffle.
+  while (currentIndex != 0) {
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
+  }
+
+  return array;
 }

@@ -13,11 +13,15 @@ export default function Sui() {
           </div>
         </section>
       </header>
-      <DappGallery
-        projects={projects.data.projects.filter((p) =>
-          p?.tags?.some((t) => t.name === "Sui")
-        )}
-      />
+      <section className="bg-primary-2-alt">
+        <div className="container">
+          <DappGallery
+            projects={projects.data.projects.filter((p) =>
+              p?.tags?.some((t) => t.name === "Sui")
+            )}
+          />
+        </div>
+      </section>
     </Layout>
   );
 }
