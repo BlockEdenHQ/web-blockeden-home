@@ -2,16 +2,12 @@
 title: BlockEden.xyz is riding Sui testnet wave 2
 authors: [dora]
 tags: [product, sui]
-image: https://tp-misc.b-cdn.net/blockeden/BlockEden.xyz%20Sui%20Testnet%20Wave%202.png
+image: https://tp-misc.b-cdn.net/blockeden/sui-testnet-wave-2.png
 ---
-
-
 
 On January 25, the second wave of the Sui testnet went live and it would endure for 2 to 3 weeks. As part of this wave, BlockEden.xyz is helping hundreds of projects test and build on a secure and high-performance Sui network. This latest wave will bring more clarity to developers and users as they get ready for full deployment of the Sui network. Let’s take a closer look at what makes this testnet wave so important.
 
-
-
-![](https://tp-misc.b-cdn.net/blockeden/BlockEden.xyz%20Sui%20Testnet%20Wave%202.png)
+![](https://tp-misc.b-cdn.net/blockeden/sui-testnet-wave-2.png)
 
 ## What is Testnet Wave 2?
 
@@ -39,7 +35,6 @@ For a developer,
 Grab a free public API key along with the endpoint from https://blockeden.xyz/keys and apply it to your SDK or HTTP clients. If you need a dedicated key, please [sign up](https://blockeden.xyz/dash/sign-up/) and it's free.
 
 <img alt="Sui RPC keys" src="https://tp-misc.b-cdn.net/blockeden/sui-testnet.png" style={{height: "300px"}}/>
-
 
 ## What Does Testnet Wave 2 Mean for Developers?
 
