@@ -4,12 +4,19 @@ import { DappGallery } from "@site/src/components/dapp-gallery";
 import Layout from "@theme/Layout";
 
 export default function Sui() {
+  const title = "Sui Ecosystem Projects";
+
   return (
-    <Layout title={"dstoreSeo.title"} description={"dstoreSeo.description"}>
+    <Layout
+      title={title}
+      description={
+        "Sui is a decentralized permission smart contract platform biased towards low-latency management of assets."
+      }
+    >
       <header>
         <section>
           <div className="d-flex justify-content-center">
-            <h1 className="hero__title">{"Sui Ecosystem Projects"}</h1>
+            <h1 className="hero__title">{title}</h1>
           </div>
         </section>
       </header>
