@@ -33,6 +33,23 @@ export function DappGallery({ projects, viewMore }) {
 
                   <p className="flex-grow-1">{bp.introduction}</p>
 
+                  {bp.website && (
+                    <>
+                      <br />
+
+                      <Link href={bp.website}>
+                        <div>
+                          <img
+                            className="icon bg-primary"
+                            src="/assets/img/icons/theme/general/attachment-1.svg"
+                            alt="subtract icon"
+                            data-inject-svg
+                          />
+                        </div>
+                      </Link>
+                    </>
+                  )}
+
                   <div className="d-flex justify-content-between">
                     <div className="text-small d-flex">
                       <div className={clsx("mr-2", styles.label)}>
@@ -41,19 +58,6 @@ export function DappGallery({ projects, viewMore }) {
                       <span className="text-muted"></span>
                     </div>
                   </div>
-
-                  <br />
-
-                  <Link href={bp.website}>
-                    <div>
-                      <img
-                        className="icon bg-primary"
-                        src="/assets/img/icons/theme/general/attachment-1.svg"
-                        alt="subtract icon"
-                        data-inject-svg
-                      />
-                    </div>
-                  </Link>
                 </div>
               </div>
             </div>

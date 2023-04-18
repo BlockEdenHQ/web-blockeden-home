@@ -90,6 +90,30 @@
         ]
       },
       {
+        "id": "rec60SdBb81dajFAc",
+        "name": "Morphis Wallet",
+        "introduction": "Morphis wallet is a friendly wallet to get started with your web3 journey. Morphis allows you to manage all your web3 assets in one place, from tokens and NFTs to game assets and your gateway to thousands of dApps. Morphis will be your single access point to the unlimited potential of the web3 world.",
+        "website": null,
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recjlK9nrNPVACbL0",
+            "name": "Wallet"
+          },
+          {
+            "id": "recHOrUklCxHX0go3",
+            "name": "Sui"
+          }
+        ]
+      },
+      {
         "id": "rec6Tw1wWJdKdtTOM",
         "name": "Dragon SUI",
         "introduction": "An NFT market built on Sui and enables minting, collecting and trading NFTs.",
@@ -106,6 +130,30 @@
           {
             "id": "recAaP55eAVmXWO7x",
             "name": "NFT Markets"
+          },
+          {
+            "id": "recHOrUklCxHX0go3",
+            "name": "Sui"
+          }
+        ]
+      },
+      {
+        "id": "rec6x0kE3DkkbkmL2",
+        "name": "Glass Wallet",
+        "introduction": "Glass Wallet is a non-custodial cryptocurrency wallet that provides users with a secure and easy-to-use platform to manage their digital assets. It supports various cryptocurrencies, including Bitcoin, Ethereum, and Litecoin, and allows users to store, send, receive, and exchange their digital assets. Glass Wallet is available for mobile devices.",
+        "website": null,
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recjlK9nrNPVACbL0",
+            "name": "Wallet"
           },
           {
             "id": "recHOrUklCxHX0go3",
@@ -162,6 +210,30 @@
         ]
       },
       {
+        "id": "rec8UxgEE74XQ08aK",
+        "name": "Fewcha Wallet",
+        "introduction": "Fewcha Wallet is a non-custodial cryptocurrency wallet that offers users a simple and secure platform to manage their digital assets. It supports various cryptocurrencies, including Bitcoin, Ethereum, and Litecoin, and allows users to store, send, receive, and exchange their digital assets. Fewcha Wallet is available for mobile devices.",
+        "website": null,
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recjlK9nrNPVACbL0",
+            "name": "Wallet"
+          },
+          {
+            "id": "recHOrUklCxHX0go3",
+            "name": "Sui"
+          }
+        ]
+      },
+      {
         "id": "rec9dxvKbwnTVJPvW",
         "name": "Deeper Network",
         "introduction": "Deeper Network is an innovative blockchain project that aims to provide a secure, private, and fair internet experience for users worldwide. Combining hardware and software solutions, it offers a decentralized VPN service, ensuring online privacy and security. The native token, DPR, is used to incentivize users and power the ecosystem's various services and functionalities.",
@@ -180,21 +252,6 @@
             "name": "Decentralized VPN"
           }
         ]
-      },
-      {
-        "id": "recA4vcPxiFj8BCxN",
-        "name": null,
-        "introduction": null,
-        "website": null,
-        "twitter": null,
-        "marketCap": null,
-        "tokenSymbol": null,
-        "explorerUrl": null,
-        "mediumUrl": null,
-        "redditUrl": null,
-        "githubUrl": null,
-        "whitepaperUrl": null,
-        "tags": []
       },
       {
         "id": "recBjI0mvWH7uHb2x",
@@ -219,21 +276,6 @@
             "name": "Sui"
           }
         ]
-      },
-      {
-        "id": "recChtTRDSurLub6s",
-        "name": "Sui",
-        "introduction": null,
-        "website": null,
-        "twitter": null,
-        "marketCap": null,
-        "tokenSymbol": null,
-        "explorerUrl": null,
-        "mediumUrl": null,
-        "redditUrl": null,
-        "githubUrl": null,
-        "whitepaperUrl": null,
-        "tags": []
       },
       {
         "id": "recCxYdDNR74Hlnrh",
@@ -356,6 +398,30 @@
         ]
       },
       {
+        "id": "recLtQc2DDPEQfqkg",
+        "name": "Coin98",
+        "introduction": "Coin98 Wallet is a secure and user-friendly non-custodial cryptocurrency wallet that supports multiple blockchains, including Ethereum, Binance Smart Chain, and Solana.",
+        "website": null,
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recjlK9nrNPVACbL0",
+            "name": "Wallet"
+          },
+          {
+            "id": "recHOrUklCxHX0go3",
+            "name": "Sui"
+          }
+        ]
+      },
+      {
         "id": "recNDGg7hLzcgVC6r",
         "name": "PLASMAVERSE",
         "introduction": "A metaverse ARPG game running on Aptos/Sui blockchains.",
@@ -464,6 +530,30 @@
           {
             "id": "recjij7AtXPBhoL3j",
             "name": "Dex"
+          },
+          {
+            "id": "recHOrUklCxHX0go3",
+            "name": "Sui"
+          }
+        ]
+      },
+      {
+        "id": "recU1VuO5ybmV4nj2",
+        "name": "Wave Wallet",
+        "introduction": "Waves is a wallet built with a security-first principles for the Sui blockchain. An enclave for your digital assets.",
+        "website": null,
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recjlK9nrNPVACbL0",
+            "name": "Wallet"
           },
           {
             "id": "recHOrUklCxHX0go3",
@@ -628,6 +718,30 @@
           {
             "id": "recjij7AtXPBhoL3j",
             "name": "Dex"
+          },
+          {
+            "id": "recHOrUklCxHX0go3",
+            "name": "Sui"
+          }
+        ]
+      },
+      {
+        "id": "rechifdfsaLh5XIaD",
+        "name": "Ethos",
+        "introduction": "Ethos Wallet is a non-custodial cryptocurrency wallet that provides users with a simple and secure platform to manage their digital assets. It allows users to store, send, receive, and exchange various cryptocurrencies, including Bitcoin, Ethereum, and Litecoin. Ethos Wallet is available for mobile devices and desktop computers.",
+        "website": null,
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recjlK9nrNPVACbL0",
+            "name": "Wallet"
           },
           {
             "id": "recHOrUklCxHX0go3",
@@ -836,6 +950,30 @@
           {
             "id": "recjij7AtXPBhoL3j",
             "name": "Dex"
+          },
+          {
+            "id": "recHOrUklCxHX0go3",
+            "name": "Sui"
+          }
+        ]
+      },
+      {
+        "id": "recyayLOsvuuy3YsQ",
+        "name": "Suiet",
+        "introduction": "the Sui wallet made for everyone",
+        "website": null,
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recjlK9nrNPVACbL0",
+            "name": "Wallet"
           },
           {
             "id": "recHOrUklCxHX0go3",
