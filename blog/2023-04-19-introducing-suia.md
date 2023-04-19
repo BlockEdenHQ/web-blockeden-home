@@ -25,8 +25,6 @@ Anyone can create POAP events on Suia, with all creation and distribution occurr
 
 1. Visit the Suia website at https://suia.io/, click "connect wallet" to link a wallet, currently supporting Sui wallet and Suiet Wallet.
 
-   Note: As the SUI test network is not yet live, the devnet environment may be unstable, and wallet connection issues may occur. Refreshing the page can help.
-
 2. After connecting the wallet, click "create Suia" to experience creating a POAP NFT distribution event on the SUI blockchain. Follow the prompts to upload the NFT's type, name, description, amount, and whitelist restrictions if needed. Click "create" to complete the process, which requires a small amount of SUI tokens in the devnet environment.
 
 3. After creating the event, it will appear on the homepage, allowing other users to discover and claim your POAP.
@@ -35,4 +33,4 @@ Anyone can create POAP events on Suia, with all creation and distribution occurr
 
 Suia, developed by the Mynft team (creators of the first vote-to-earn web3 platform on the Flow blockchain), has a mature market and development experience, as well as a solid community foundation. Developing Suia on the SUI blockchain leverages the team's NFT expertise while filling the gap in POAP applications.
 
-With a well-developed product and clear roadmap, strong project collaboration, and community management capabilities, Suia has attracted over 6,000 participants on its first day of testing, despite the mainnet not yet being live. SUI World DAO will continue to monitor Suia's future collaborations and user growth as the SUI mainnet launches.
+With a well-developed product and clear roadmap, strong project collaboration, and community management capabilities, Suia has attracted over 6,000 participants on its first day of testing. SUI World DAO will continue to monitor Suia's future collaborations and user growth as the SUI mainnet launches.
