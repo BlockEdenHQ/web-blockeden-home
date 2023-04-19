@@ -7,6 +7,8 @@ image: https://tp-misc.b-cdn.net/blockeden/optimism-blockeden-xyz.png
 
 Optimism is an EVM equivalent, optimistic rollup protocol designed to scale Ethereum. Scaling Ethereum means increasing the number of useful transactions the Ethereum network can process. [Optimistic rollup](https://vitalik.ca/general/2021/01/05/rollup.html) is a layer 2 scalability technique which increases the computation & storage capacity of Ethereum without sacrificing security or decentralization. [EVM Equivalence](https://medium.com/ethereum-optimism/introducing-evm-equivalence-5c2021deb306) is complete compliance with the state transition function described in the Ethereum yellow paper, the formal definition of the protocol.
 
+Optimistic rollup works by bundling multiple transactions into a single transaction, which is then verified by a smart contract on the Ethereum network. This process is called “rolling up” because the individual transactions are combined into a larger transaction that is submitted to the Ethereum network. The term “optimistic” refers to the fact that the system assumes that transactions are valid unless proven otherwise, which allows for faster and more efficient processing of transactions.
+
 ## Overall Architecture
 
 ![Optimism Architecture](https://tp-misc.b-cdn.net/blockeden/Optimism%20Architecture@2x%20(4).png "Optimism Architecture")

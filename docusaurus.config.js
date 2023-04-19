@@ -114,7 +114,6 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/pricing", label: "Pricing", position: "left" },
-          { to: "/dstore", label: "dStore", position: "left" },
           { to: beConfig.apis, label: "ChainPlus API", position: "right" },
           { to: beConfig.analytics, label: "Analytics", position: "right" },
           {
@@ -155,6 +154,10 @@ const config = {
               {
                 label: "Sui",
                 to: "/sui",
+              },
+              {
+                label: "dStore",
+                to: "/dstore",
               },
             ],
           },
