@@ -239,6 +239,10 @@ const config = {
                 label: "Fewcha Wallet",
                 href: "https://fewcha.app/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
               },
+              {
+                label: "Payton Wallet",
+                href: "https://payton.so/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
+              },
             ],
           },
         ],
