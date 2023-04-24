@@ -5,7 +5,7 @@ tags: [ecosystem, sui]
 image: https://tp-misc.b-cdn.net/blockeden/sui-suia.png
 ---
 
-The SUI Network is a high-performance public blockchain developed by former Meta engineers. Built with the Move programming language, it prioritizes security, scalability, and upgradability. Mysten Labs, the development team behind SUI, has recently secured $300 million in funding, led by FTX Ventures.
+The SUI Network is a high-performance public blockchain developed by former Meta engineers. Built with the Move programming language, it prioritizes security, scalability, and upgradability.
 
 ## What is POAP?
 
