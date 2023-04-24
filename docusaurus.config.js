@@ -107,6 +107,10 @@ const config = {
         },
         items: [
           {
+            to: "/sui",
+            label: "Sui",
+          },
+          {
             type: "doc",
             docId: "intro",
             position: "left",
