@@ -4,6 +4,8 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const { beConfig } = require("./src/config");
 // const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const fs = require("fs");
+const solutionsHTML = fs.readFileSync("./src/snippets/solutions.html", "utf-8");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -107,9 +109,16 @@ const config = {
         },
         items: [
           {
-            to: "/sui",
-            label: "Sui",
+            label: "Solutions",
+            type: "dropdown",
+            items: [
+              {
+                type: "html",
+                value: solutionsHTML,
+              },
+            ],
           },
+          { to: beConfig.apis, label: "API Marketplace", position: "left" },
           {
             type: "doc",
             docId: "intro",
@@ -117,14 +126,7 @@ const config = {
             label: "Doc",
           },
           { to: "/blog", label: "Blog", position: "left" },
-          { to: "/pricing", label: "Pricing", position: "left" },
-          { to: beConfig.apis, label: "ChainPlus API", position: "right" },
-          { to: beConfig.analytics, label: "Analytics", position: "right" },
-          {
-            to: "https://blockeden.xyz/chat",
-            label: "ChatGPT",
-            position: "right",
-          },
+          { to: "/pricing", label: "Pricing", position: "right" },
           { to: beConfig.signIn, label: "Login", position: "right" },
           { to: beConfig.signUp, label: "Sign Up", position: "right" },
         ],
