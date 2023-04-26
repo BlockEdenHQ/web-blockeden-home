@@ -76,7 +76,8 @@ a:hover {
 .photobanner img,
 .photobanner2 img {
   margin-right: 64px;
-  height: 42px;
+  height: 32px;
+  filter: grayscale(1);
 }
 
 .photobanner img {
