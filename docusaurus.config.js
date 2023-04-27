@@ -119,7 +119,7 @@ const config = {
             ],
           },
           {
-            value: `<a href=\"${beConfig.apis}\" class=\"navbar__link\">API Marketplace</a>`,
+            value: `<a href=\"${beConfig.apis}\" class=\"menu__link\">API Marketplace</a>`,
             position: "left",
             type: "html",
           },
@@ -132,12 +132,12 @@ const config = {
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/pricing", label: "Pricing", position: "right" },
           {
-            value: `<a href=\"${beConfig.signIn}\" class=\"navbar__link\">Login</a>`,
+            value: `<a href=\"${beConfig.signIn}\" class=\"menu__link\">Login</a>`,
             position: "right",
             type: "html",
           },
           {
-            value: `<a href=\"${beConfig.signUp}\" class=\"navbar__link\">Sign Up</a>`,
+            value: `<a href=\"${beConfig.signUp}\" class=\"menu__link\">Sign Up</a>`,
             position: "right",
             type: "html",
           },
