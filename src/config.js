@@ -6,9 +6,11 @@ module.exports = {
     apis: "https://blockeden.xyz/keys/",
     analytics: "https://blockeden.xyz/analytics/",
 
-    tagline: 'Most reliable web3 infra for Aptos & Sui developers',
-    previewImageUrl: "https://tp-misc.b-cdn.net/blockeden/block-eden-xyz-preview.png",
+    tagline: "Connect your DApps to blockchains instantly and reliably",
+    previewImageUrl:
+      "https://tp-misc.b-cdn.net/blockeden/block-eden-xyz-preview.png",
     title: `BlockEden.xyz - Sui API | Aptos API Node Service | Aptos GraphQL | Aptos Data Analytics`,
-    description: "BlockEden.xyz is a suite of APIs powering DApps of all sizes for Aptos and Sui blockchains. Build DApp and scale faster.",
+    description:
+      "RPCs for Sui, Aptos, and 12 EVM blockchains. BlockEden.xyz is an API marketplace powering DApps of all sizes. Build DApp and scale faster.",
   },
-}
+};

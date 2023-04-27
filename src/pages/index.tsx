@@ -11,6 +11,7 @@ import { beConfig } from "../config";
 import { useAos } from "@site/src/components/use-aos";
 import { SeoHead } from "@site/src/components/seo-head";
 import { SlidingLogos } from "@site/src/components/sliding-logos";
+import Link from "@docusaurus/Link";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -64,19 +65,31 @@ function HomepageHeader() {
         <source ref={sourceRef} />
       </video>
       <div className={clsx("container", styles.heroContainer)}>
-        <div className="row align-items-center min-vh-50">
-          <div className="col-lg-6 text-center text-lg-left mb-lg-0 m-4">
-            <h1 className="hero__title">{siteConfig.tagline}</h1>
-            <div className="my-4">
-              <p className="lead">{beConfig.description}</p>
+        <div className="row justify-content-center text-center m-1">
+          <div className="col-xl-8 col-lg-9 col-md-10">
+            <h1 className={clsx("hero__title", styles.heroTitle)}>
+              {siteConfig.tagline}
+            </h1>
+            <p className={clsx("lead", styles.lead)}>{beConfig.description}</p>
+            <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center align-items-sm-start mt-5">
+              <div className="d-flex flex-column mx-1 text-center">
+                <a
+                  href="/dash/sign-up/"
+                  className="btn btn-lg btn-primary mb-2 d-flex align-items-center"
+                >
+                  <span>Sign up for free</span>
+                </a>
+                <Link href="/docs/aptos/" className="text-small hover-arrow">
+                  View Documentation
+                </Link>
+              </div>
+              <a
+                href="/keys"
+                className="mx-1 btn btn-lg btn-secondary mt-3 mt-sm-0"
+              >
+                Explore APIs
+              </a>
             </div>
-
-            <a
-              className={clsx("btn btn-lg btn-primary", styles.noShadow)}
-              href={beConfig.signUp}
-            >
-              Get started for free
-            </a>
           </div>
         </div>
       </div>

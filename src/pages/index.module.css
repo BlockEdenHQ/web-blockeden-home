@@ -44,13 +44,12 @@
 }
 
 .hero__title {
-  color: white!important;
+  color: white !important;
 }
 
 .heroContainer {
   z-index: 1;
   color: white;
-  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
   max-width: initial !important;
   width: 100%;
   /* height should add .heroBanner padding */
@@ -66,4 +65,37 @@
 
 .noShadow {
   text-shadow: none;
+}
+
+.heroTitle {
+  font-size: 60px;
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+.lead {
+  font-size: 20px !important;
+}
+
+@media (max-width: 766px) {
+  .heroTitle {
+    font-size: 28px !important;
+  }
+  .lead {
+    font-size: 18px !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1279px) {
+  .heroTitle {
+    font-size: 48px;
+  }
+  .lead {
+    font-size: 20px !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .heroTitle {
+    font-size: 60px !important;
+  }
 }
