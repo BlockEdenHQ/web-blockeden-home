@@ -79,7 +79,7 @@ function HomepageHeader() {
                 >
                   <span>Sign up for free</span>
                 </a>
-                <Link href="/docs/aptos/" className="text-small hover-arrow">
+                <Link href="/docs/intro/" className="text-small hover-arrow">
                   View Documentation
                 </Link>
               </div>
