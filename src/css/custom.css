@@ -195,14 +195,6 @@ a:hover {
   }
 }
 
-.navbar {
-  height: 52px;
-}
-
-.navbar-sidebar__brand {
-  height: 52px;
-}
-
 .card1 {
   position: relative;
   display: flex;
