@@ -118,11 +118,7 @@ const config = {
               },
             ],
           },
-          {
-            value: `<a href=\"${beConfig.apis}\" class=\"menu__link\">API Marketplace</a>`,
-            position: "left",
-            type: "html",
-          },
+          { to: beConfig.apis, label: "API Marketplace", position: "left" },
           {
             type: "doc",
             docId: "intro",
@@ -131,16 +127,8 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/pricing", label: "Pricing", position: "right" },
-          {
-            value: `<a href=\"${beConfig.signIn}\" class=\"menu__link\">Login</a>`,
-            position: "right",
-            type: "html",
-          },
-          {
-            value: `<a href=\"${beConfig.signUp}\" class=\"menu__link\">Sign Up</a>`,
-            position: "right",
-            type: "html",
-          },
+          { to: beConfig.signIn, label: "Login", position: "right" },
+          { to: beConfig.signUp, label: "Sign Up", position: "right" },
         ],
       },
       footer: {
