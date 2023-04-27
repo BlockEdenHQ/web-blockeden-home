@@ -33,7 +33,7 @@ Dive straight into the different products and APIs below or [learn more about Bl
 
 How much do these services charge? They are free for hobbyists. Professional or enterprise usage is measured in [compute units](compute-unit.md). Learn more in [pricing plans](/pricing).
 
-![Sui API and Aptos API Node Service](https://tp-misc.b-cdn.net/blockeden/block-eden-xyz-preview.png "Sui API and Aptos API Node Service")
+![Sui API and Aptos API Node Service](https://tp-misc.b-cdn.net/blockeden/BlockEden-xyz-image.png "Sui API and Aptos API Node Service")
 
 ## Why choose BlockEden.xyz?
 

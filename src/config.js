@@ -8,7 +8,7 @@ module.exports = {
 
     tagline: "Connect your DApps to blockchains instantly and reliably",
     previewImageUrl:
-      "https://tp-misc.b-cdn.net/blockeden/block-eden-xyz-preview.png",
+      "https://tp-misc.b-cdn.net/blockeden/BlockEden-xyz-image.png",
     title: `BlockEden.xyz - Sui API | Aptos API Node Service | Aptos GraphQL | Aptos Data Analytics`,
     description:
       "RPCs for Sui, Aptos, and 12 EVM blockchains. BlockEden.xyz is an API marketplace powering DApps of all sizes. Build DApp and scale faster.",
