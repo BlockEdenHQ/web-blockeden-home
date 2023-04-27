@@ -93,6 +93,13 @@ const config = {
   themeConfig:
     /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
     ({
+      algolia: {
+        appId: 'HL0HSV62RK',
+        apiKey: '72ebf02146698733b7114c7b36da0945',
+        indexName: 'docs',
+        contextualSearch: true,
+        searchParameters: {},
+      },
       metadata: [
         {
           name: "keywords",
@@ -131,6 +138,10 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/pricing", label: "Pricing", position: "right" },
+          {
+            type: 'search',
+            position: 'right',
+          },
           {
             value: `<a href=\"${beConfig.signIn}\" class=\"menu__link\">Login</a>`,
             position: "right",
