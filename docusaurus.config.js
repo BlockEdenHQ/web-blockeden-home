@@ -94,9 +94,9 @@ const config = {
     /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
     ({
       algolia: {
-        appId: 'HL0HSV62RK',
-        apiKey: '72ebf02146698733b7114c7b36da0945',
-        indexName: 'docs',
+        appId: 'FBMVMT1Q0I',
+        apiKey: '0657a612849ca61a5a3e9c465c6fee16',
+        indexName: 'blockeden',
         contextualSearch: true,
         searchParameters: {},
       },
