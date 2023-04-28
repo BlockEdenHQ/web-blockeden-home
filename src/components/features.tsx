@@ -50,7 +50,7 @@ export const Features = () => {
             data-aos-delay={300}
           >
             <img src="/img/discord.svg" alt="Image" className="mb-4" />
-            <h4 className={styles.h4}>Hands-on support</h4>
+            <h4 className={styles.h4}>Superior support</h4>
             <p className="px-xl-4">
               Partner engineers at your service now. Singapore Time (SGT) Mon - Fri 7am - 3pm. Stay connected with the community.
             </p>

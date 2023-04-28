@@ -18,7 +18,7 @@ export const RecentNews = () => {
               <ul>
                 <li>Focus on building unique dapps instead of running nodes.</li>
                   <li>Performant, dynamically scalable infrastructure.</li>
-                  <li>Hands-on support when you need it.</li>
+                  <li>Superior support when you need it.</li>
               </ul>
             </article>
           </div>

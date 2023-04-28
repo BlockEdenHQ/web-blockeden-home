@@ -244,7 +244,7 @@ export default function Aptos(): JSX.Element {
                     </div>
                     <div>
                       <h4 className={clsx("mb-2", styles.h4)}>
-                        Hands-on Support
+                        Superior Support
                       </h4>
                       <p className="lead pr-xl-4">
                         We work with Aptos developers daily and build the future
