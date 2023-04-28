@@ -77,7 +77,7 @@ const config = {
           ],
         },
         gtag: {
-          trackingID: "G-V2HNMTR1D0",
+          trackingID: "G-JTFEWE1TFD",
         },
         sitemap: {
           changefreq: "daily",
