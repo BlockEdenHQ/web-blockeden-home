@@ -133,6 +133,13 @@ const config = {
       },
       footer: {
         style: "dark",
+        logo: {
+          href: "/",
+          src: "/img/favicon.svg",
+          srcDark: "/img/favicon.svg",
+          alt: "BlockEden.xyz",
+          height: "36px",
+        },
         links: [
           {
             title: "Navigate",
@@ -144,10 +151,6 @@ const config = {
               {
                 label: "Blog",
                 to: "/blog",
-              },
-              {
-                label: "About Us",
-                to: "/about-us",
               },
               {
                 label: "GitHub",
@@ -164,6 +167,10 @@ const config = {
               {
                 label: "dStore",
                 to: "/dstore",
+              },
+              {
+                label: "About Us",
+                to: "/about-us",
               },
             ],
           },

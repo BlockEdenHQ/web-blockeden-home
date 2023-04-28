@@ -1,5 +1,5 @@
-import React from "react"
-import {beConfig} from "@site/src/config";
+import React from "react";
+import { beConfig } from "@site/src/config";
 import Link from "@docusaurus/Link";
 import styles from "./features.module.css";
 
@@ -11,7 +11,8 @@ export const Features = () => {
           <div className="col-xl-8 col-lg-9">
             <h2 className="display-4 mx-xl-6">API with high availability</h2>
             <p className="lead">
-              BlockEden.xyz scales with dedicated distributed systems, and maintains data correctness in real-time.
+              BlockEden.xyz scales with dedicated distributed systems, and
+              maintains data correctness in real-time.
             </p>
           </div>
         </div>
@@ -24,7 +25,8 @@ export const Features = () => {
             <img src="/img/aptos-pure-logo.svg" alt="Image" className="mb-4" />
             <h4 className={styles.h4}>Aptos</h4>
             <p className="px-xl-4">
-              Connect your dApp to Aptos blockchain RPC, GraphQL. Get coin and NFT data analytics in 3 minutes. Scale with your users.
+              Build upon Aptos blockchain RPC, GraphQL. Get coin and NFT data
+              analytics in 3 minutes. Scale with your users.
             </p>
             <Link href="/aptos" className="hover-arrow">
               Learn more
@@ -38,43 +40,51 @@ export const Features = () => {
             <img src="/img/sui-logo.svg" alt="Image" className="mb-4" />
             <h4 className={styles.h4}>Sui</h4>
             <p className="px-xl-4">
-              Connect your dApp to Reliable DevNet JSON RPC and websocket. Scale your DApp and get prepared for the mainnet launch.
+              Build upon Reliable TestNet JSON RPC and websocket. Scale your
+              DApp and get prepared for the mainnet launch.
             </p>
             <Link href="/sui/" className="hover-arrow">
               Learn more
             </Link>
           </div>
+
           <div
             className="col-md-6 col-lg-3 mb-4 mb-lg-0"
             data-aos="fade-up"
             data-aos-delay={300}
           >
-            <img src="/img/discord.svg" alt="Image" className="mb-4" />
-            <h4 className={styles.h4}>Superior support</h4>
+            <img
+              src="/assets/img/saas-sketch-5.svg"
+              alt="Image"
+              className="mb-4"
+            />
+            <h4 className={styles.h4}>API Marketplace</h4>
             <p className="px-xl-4">
-              Partner engineers at your service now. Singapore Time (SGT) Mon - Fri 7am - 3pm. Stay connected with the community.
+              Ethereum, IoTeX, Solana, Polygon, Filecoin, Harmony, BSC,
+              Arbitrum, Optimism, Gnosis, Arbitrum Nova, EthStorage, etc.
             </p>
-            <a href={beConfig.supportUrl} className="hover-arrow">
-              Join Discord
-            </a>
+            <Link className="hover-arrow" href="/keys/">
+              Explorer APIs
+            </Link>
           </div>
+
           <div
             className="col-md-6 col-lg-3 mb-4 mb-lg-0"
             data-aos="fade-up"
             data-aos-delay={400}
           >
-            <img src="/assets/img/saas-sketch-5.svg" alt="Image" className="mb-4" />
-            <h4 className={styles.h4}>Product Roadmap</h4>
+            <img src="/img/discord.svg" alt="Image" className="mb-4" />
+            <h4 className={styles.h4}>Superior support</h4>
             <p className="px-xl-4">
-              Product delivered to you from a team who built blockchains and infrastructures at Google, Meta, and IoTeX.
+              Partner engineers at your service now. Singapore Time (SGT) Mon -
+              Fri 7am - 3pm. Stay connected with the community.
             </p>
-            <Link className="hover-arrow" href="/about-us/">
-              About us
-            </Link>
+            <a href={beConfig.supportUrl} className="hover-arrow">
+              Join Discord
+            </a>
           </div>
         </div>
       </div>
     </section>
-
-  )
-}
+  );
+};
