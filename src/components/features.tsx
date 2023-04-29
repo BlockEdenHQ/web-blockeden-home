@@ -63,7 +63,7 @@ export const Features = () => {
               Ethereum, IoTeX, Solana, Polygon, Filecoin, Harmony, BSC,
               Arbitrum, Optimism, Gnosis, Arbitrum Nova, EthStorage, etc.
             </p>
-            <Link className="hover-arrow" href="https://blockeden.xyz/keys/">
+            <Link className="hover-arrow" href={beConfig.apis}>
               Explorer APIs
             </Link>
           </div>

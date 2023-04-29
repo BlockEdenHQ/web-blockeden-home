@@ -3,7 +3,7 @@ module.exports = {
     signUp: "https://blockeden.xyz/dash/sign-up/",
     signIn: "https://blockeden.xyz/dash/login/",
     supportUrl: "https://discord.gg/GqzTYQ4YNa",
-    apis: "https://blockeden.xyz/keys/",
+    apis: "https://blockeden.xyz/api-marketplace/",
     analytics: "https://blockeden.xyz/analytics/",
 
     tagline: "Connect your DApps to blockchains instantly and reliably",
