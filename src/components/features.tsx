@@ -58,9 +58,9 @@ export const Features = () => {
               alt="Image"
               className="mb-4"
             />
-            <h4 className={styles.h4}>API Marketplace</h4>
+            <h4 className={styles.h4}>EVM Blockchains</h4>
             <p className="px-xl-4">
-              Ethereum, IoTeX, Solana, Polygon, Filecoin, Harmony, BSC,
+              Ethereum, IoTeX, Solana, Filecoin, Harmony, BSC,
               Arbitrum, Optimism, Gnosis, Arbitrum Nova, EthStorage, etc.
             </p>
             <Link className="hover-arrow" href={beConfig.apis}>
