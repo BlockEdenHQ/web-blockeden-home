@@ -84,7 +84,7 @@ function HomepageHeader() {
                 </Link>
               </div>
               <a
-                href="/keys"
+                href={beConfig.apis}
                 className="mx-1 btn btn-lg btn-secondary mt-3 mt-sm-0"
               >
                 Explore APIs
