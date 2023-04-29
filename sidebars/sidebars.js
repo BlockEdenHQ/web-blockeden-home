@@ -77,6 +77,7 @@ const sidebars = {
           type: "category",
           label: "Solidity",
           collapsible: false,
+          collapsed: true,
           items: [
             "solidity/01",
             "solidity/02",
