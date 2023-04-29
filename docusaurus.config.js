@@ -152,18 +152,6 @@ const config = {
             title: "Navigate",
             items: [
               {
-                label: "Documentation",
-                to: "/docs/intro",
-              },
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/blockedenhq",
-              },
-              {
                 label: "Aptos",
                 to: "/aptos",
               },
@@ -176,8 +164,9 @@ const config = {
                 to: "/dstore",
               },
               {
-                label: "About Us",
-                to: "/about-us",
+                label:
+                  "Ethereum, IoTeX, Solana, Polygon, Polygon zkEVM, Filecoin, Harmony, BSC, Arbitrum, Optimism, Gnosis, Arbitrum Nova, EthStorage Galileo",
+                to: beConfig.apis,
               },
             ],
           },
@@ -219,6 +208,22 @@ const config = {
             title: "Resources",
             items: [
               {
+                label: "Brand Assets",
+                href: "/brand-assets",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/blockedenhq",
+              },
+              {
+                label: "Documentation",
+                to: "/docs/intro",
+              },
+              {
+                label: "Blog",
+                to: "/blog",
+              },
+              {
                 label: "Privacy Policy",
                 href: "/privacy-policy",
               },
@@ -227,16 +232,16 @@ const config = {
                 href: "/terms-of-service",
               },
               {
-                label: "Brand Assets",
-                href: "/brand-assets",
-              },
-              {
                 label: "Stargately Home",
                 href: "https://stargately.com/",
               },
               {
                 label: "10x.pub Web3 Guild (W3G)",
                 href: "https://10x.pub/",
+              },
+              {
+                label: "About Us",
+                to: "/about-us",
               },
             ],
           },
@@ -258,6 +263,18 @@ const config = {
               {
                 label: "Fewcha Wallet",
                 href: "https://fewcha.app/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
+              },
+              {
+                label: "Switchboard Oracle",
+                href: "https://switchboard.xyz/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
+              },
+              {
+                label: "Top Ledger Analytics",
+                href: "https://topledger.xyz/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
+              },
+              {
+                label: "Noves Blockchain Data",
+                href: "https://noves.fi/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
               },
               {
                 label: "Payton Wallet",
