@@ -65,6 +65,7 @@ const sidebars = {
           id: "sui/sui-api-reference",
           label: "Sui API Reference",
         },
+        require("./sidebar-sui-move"),
       ],
     },
     {

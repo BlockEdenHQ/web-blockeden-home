@@ -65,7 +65,7 @@ const config = {
           editUrl:
             "https://github.com/BlockEdenHQ/web-blockeden-home/edit/main",
           sidebarCollapsed: false,
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: require.resolve("./sidebars/sidebars.js"),
         },
         blog: {
           showReadingTime: true,
@@ -94,9 +94,9 @@ const config = {
     /** @type {import('docusaurus-preset-openapi').ThemeConfig} */
     ({
       algolia: {
-        appId: 'FBMVMT1Q0I',
-        apiKey: '0657a612849ca61a5a3e9c465c6fee16',
-        indexName: 'blockeden',
+        appId: "FBMVMT1Q0I",
+        apiKey: "0657a612849ca61a5a3e9c465c6fee16",
+        indexName: "blockeden",
         contextualSearch: true,
         searchParameters: {},
       },

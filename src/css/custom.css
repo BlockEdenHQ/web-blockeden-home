@@ -246,3 +246,7 @@ a:hover {
 .DocSearch-Hits {
   padding: 0 !important;
 }
+
+.theme-doc-footer {
+  padding: 32px;
+}
