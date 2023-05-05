@@ -428,6 +428,15 @@ export default function Aptos(): JSX.Element {
             />
           </div>
         </section>
+        <section className="bg-primary-3 row justify-content-around align-items-center">
+          <a
+            className="btn btn-lg btn-white"
+            href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fblockeden.xyz%2F&region=follow_link&screen_name=BlockedenHQ"
+            data-size="large"
+          >
+            Follow @BlockEdenHQ
+          </a>
+        </section>
       </main>
     </Layout>
   );

@@ -180,7 +180,7 @@ const config = {
               },
               {
                 label: "Twitter",
-                to: "https://twitter.com/BlockedenHQ",
+                to: "https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fblockeden.xyz%2F&region=follow_link&screen_name=BlockedenHQ",
               },
               {
                 label: "Medium",

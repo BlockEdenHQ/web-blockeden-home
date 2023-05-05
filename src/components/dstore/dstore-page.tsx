@@ -576,7 +576,7 @@ export function DstorePage() {
                 </li>
                 <li className="nav-item">
                   <a
-                    href="https://twitter.com/BlockedenHQ"
+                    href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fblockeden.xyz%2F&region=follow_link&screen_name=BlockedenHQ"
                     className="nav-link"
                   >
                     <img

@@ -7,7 +7,7 @@ import CountUp from "react-countup";
 import Link from "@docusaurus/Link";
 import styles from "./aptos.module.css";
 import clsx from "clsx";
-import {News} from "@site/src/components/news";
+import { News } from "@site/src/components/news";
 
 export default function Aptos(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -539,8 +539,16 @@ export default function Aptos(): JSX.Element {
         {/*  </div>*/}
         {/*</section>*/}
 
-        <News filterTag={"aptos"}/>
-
+        <News filterTag={"aptos"} />
+        <section className="bg-primary-3 row justify-content-around align-items-center">
+          <a
+            className="btn btn-lg btn-white"
+            href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fblockeden.xyz%2F&region=follow_link&screen_name=BlockedenHQ"
+            data-size="large"
+          >
+            Follow @BlockEdenHQ
+          </a>
+        </section>
       </main>
     </Layout>
   );
