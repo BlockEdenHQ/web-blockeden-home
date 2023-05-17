@@ -11,6 +11,12 @@ import { News } from "@site/src/components/news";
 import { DappGallery } from "@site/src/components/dapp-gallery";
 import projects from "@site/src/projects-data.json";
 
+const desc = `
+Welcome to BlockEden.xyz, your premier destination for Sui blockchain node operations and Remote Procedure
+Call (RPC) services. We're dedicated to providing developers with the most efficient, reliable, and scalable blockchain
+infrastructure solutions.
+`
+
 export default function Aptos(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   useAos();
@@ -19,7 +25,7 @@ export default function Aptos(): JSX.Element {
     SVGInject(document.querySelectorAll("[data-inject-svg]"));
   }, []);
   return (
-    <Layout title={"Sui Node and Sui API"} description={siteConfig.tagline}>
+    <Layout title={"Sui Node and Sui API"} description={desc}>
       <SeoHead />
 
       <main>
@@ -29,7 +35,7 @@ export default function Aptos(): JSX.Element {
               <div className="col-xl-8 col-lg-9 col-md-10">
                 <h1 className="display-3">Connect to Sui RPC and websocket</h1>
                 <p className="lead">
-                  BlockEden.xyz provides the most reliable Sui API services
+                  {desc}
                 </p>
                 <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center align-items-sm-start mt-5">
                   <div className="d-flex flex-column mx-1 text-center">
