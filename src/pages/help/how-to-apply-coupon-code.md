@@ -1,6 +1,10 @@
 # How to apply coupon code
 
 <head>
+  <meta name="twitter:site" content="@BlockEdenHQ"/>
+  <meta name="twitter:title" content="How to apply coupon code"/>
+  <meta name="twitter:description" content="Coupon codes are a fantastic way to save on purchases, but sometimes, applying them can be a bit confusing. In this guide, we will walk you through the process of applying coupon codes to ensure that you never miss out on potential savings."/>
+  <meta name="og:description" content="Coupon codes are a fantastic way to save on purchases, but sometimes, applying them can be a bit confusing. In this guide, we will walk you through the process of applying coupon codes to ensure that you never miss out on potential savings."/>
   <meta
     property="og:image"
     content="https://tp-misc.b-cdn.net/blockeden/how-to-apply-coupon-code.png"
