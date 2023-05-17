@@ -1,10 +1,19 @@
----
-image: https://tp-misc.b-cdn.net/blockeden/how-to-apply-coupon-code.png
----
-
 # How to apply coupon code
 
+<head>
+  <meta
+    property="og:image"
+    content="https://tp-misc.b-cdn.net/blockeden/how-to-apply-coupon-code.png"
+  />
+  <meta
+    name="twitter:image"
+    content="https://tp-misc.b-cdn.net/blockeden/how-to-apply-coupon-code.png"
+  />
+</head>
+
 Coupon codes are a fantastic way to save on purchases, but sometimes, applying them can be a bit confusing. In this guide, we will walk you through the process of applying coupon codes to ensure that you never miss out on potential savings.
+
+![How to apply coupon code](https://tp-misc.b-cdn.net/blockeden/how-to-apply-coupon-code.png "How to apply coupon code")
 
 ## Payment Options
 
@@ -15,8 +24,6 @@ To apply a discount code when paying with a credit card, simply follow these ste
 1. Visit the pricing page at https://blockeden.xyz/pricing/
 2. Proceed to the checkout process.
 3. Enter your coupon code in the "Add Promotion Code" field provided.
-
-![Checkout Screenshot](/Users/tp/Downloads/Telegram Desktop/photo_2023-05-10_01-14-30.jpg)
 
 ### Cryptocurrency Payments
 

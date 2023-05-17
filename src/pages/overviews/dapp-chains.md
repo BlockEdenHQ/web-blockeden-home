@@ -4,6 +4,18 @@ image: https://tp-misc.b-cdn.net/blockeden/demystifying-app-chains-the-future-of
 
 # Demystifying App Chains: The Future of Web3
 
+<head>
+  <meta
+    property="og:image"
+    content="https://tp-misc.b-cdn.net/blockeden/demystifying-app-chains-the-future-of-web3.png"
+  />
+  <meta
+    name="twitter:image"
+    content="https://tp-misc.b-cdn.net/blockeden/demystifying-app-chains-the-future-of-web3.png"
+  />
+</head>
+
+
 As the world evolves and embraces the decentralized revolution, the Web3 ecosystem has grown exponentially. A crucial part of this decentralized future is App Chains. In this overview, we will delve into the concept of App Chains, their benefits, downsides, use cases, and even explore some of the best App Chains available.
 
 ![Demystifying App Chains: The Future of Web3](https://tp-misc.b-cdn.net/blockeden/demystifying-app-chains-the-future-of-web3.png "Demystifying App Chains: The Future of Web3")
