@@ -1,0 +1,36 @@
+---
+title: "Introducing the Ethereum Cancun Upgrade"
+authors: [dora]
+tags: [ethereum]
+image: https://tp-misc.b-cdn.net/blockeden/ethereum_cinematic_kodak_portra_800_105_mm_f1_1.png
+---
+
+Ethereum, the world's most adopted blockchain platform for smart contracts, is known for its regular upgrades, each bringing forth new features, parameter adjustments, or enhanced security. These upgrades, driven by both proactive innovation and the need to mitigate potential security threats, have punctuated Ethereum's evolution over the years.
+
+![A Major Leap Towards a Faster, More Economical Network](https://tp-misc.b-cdn.net/blockeden/ethereum_cinematic_kodak_portra_800_105_mm_f1_1.png "A Major Leap Towards a Faster, More Economical Network")
+
+Before the Ethereum merge last September, the platform had seen 14 upgrades. Notably, a reactive upgrade occurred in 2016 after the DAO Fork incident when Ethereum Classic (ETC) emerged following a cyber-attack that jeopardized the DAO project's ETH funding.
+
+Over the past few years, significant upgrades have taken place. The London upgrade in August 2020 introduced EIP-1599, introducing ETH burning and dynamic adjustment of the Base Fee for every transaction. In September 2022, the Paris upgrade transitioned Ethereum's consensus mechanism from Proof of Work (POW) to Proof of Stake (POS), signaling the end of the machine mining era.
+
+After the Shanghai upgrade, Ethereum's core development team announced that the most important update this year would be the Cancun upgrade, expected to occur later this year.
+
+## Cancun Upgrade: What Is It and Why Does It Matter?
+
+Named after the city that hosted the Ethereum Developer Conference (Devcon), the upcoming Cancun upgrade will implement crucial improvements to the Ethereum network.
+
+The star of the upgrade, EIP-4844, aims to allow Ethereum nodes to temporarily store and retrieve off-chain data, fulfilling the data and storage needs of blockchain applications. If successfully implemented, EIP-4844 is expected to reduce the costs of Layer 2 (L2) rollup solutions. Reportedly, EIP-4844 has already been tested on four development networks, with a fifth testing network about to launch.
+
+Originally intended for completion during the Shanghai upgrade, EIP-4844 was postponed to the Cancun upgrade. Developers have also agreed to include EIP-6780 (preparing for future application of Verkle Trees), EIP-6475 (providing improved readability and compact serialization), and EIP-1153 (introducing transient storage opcode) in the upgrade.
+
+## The Principle Behind the Upgrade
+
+The essence of Ethereum's scalability efforts lies in increasing data processing volume and speed. Two directions are pursued concurrently – Layer 2 rollups and sharding on the mainnet. The implementation of EIP-4844 is the first step towards complete sharding.
+
+Prior to the Cancun upgrade, L2 information was stored in the Calldata of L1 information. This method was costly and limited due to Calldata's limited space.
+
+With the Cancun upgrade, L1 will be stored in a new location called "Blob". Blob storage is more affordable and offers more space, allowing Ethereum to host more data, increase its transactions per second (TPS), and reduce costs. As Blob is a temporary data package cleaned up every 30 days, nodes only need to download a fixed amount of data per month, decreasing node burden.
+
+In essence, the Cancun upgrade will make L2 cheaper and faster. This will not only benefit L2 protocols but will also foster rapid development for ecosystems built on L2.
+
+In conclusion, the upcoming Ethereum Cancun upgrade promises to be an important milestone, heralding a new era of efficient, affordable, and scalable blockchain applications. Stay tuned for further updates as the Ethereum community continues its pioneering work in advancing decentralized technologies.
