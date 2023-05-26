@@ -8,6 +8,9 @@ import Link from "@docusaurus/Link";
 import styles from "./aptos.module.css";
 import clsx from "clsx";
 import { News } from "@site/src/components/news";
+import { DappGallery } from "@site/src/components/dapp-gallery";
+import projects from "@site/src/projects-data.json";
+import { shuffle } from "@site/src/components/shuffle";
 
 export default function Aptos(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -267,6 +270,9 @@ export default function Aptos(): JSX.Element {
             </div>
           </div>
         </section>
+
+        <News filterTag={"aptos"} />
+
         <section className="bg-primary-alt has-divider">
           <div className="container pb-0">
             <div className="row justify-content-center text-center mb-6">
@@ -539,7 +545,26 @@ export default function Aptos(): JSX.Element {
         {/*  </div>*/}
         {/*</section>*/}
 
-        <News filterTag={"aptos"} />
+        <section className="bg-primary-2-alt">
+          <div className="container">
+            <div className="row mb-4">
+              <div className="col">
+                <h3 className="h1">Randomly selected ecosystem projects</h3>
+              </div>
+            </div>
+            <DappGallery
+              projects={shuffle(
+                projects.data.projects.filter(
+                  (p) =>
+                    p?.tags?.some((t) => t.name === "Aptos") ||
+                    p?.chains?.some((t) => t.name === "Aptos")
+                )
+              ).slice(0, 3)}
+              viewMore={"/dapp-shop/aptos/"}
+            />
+          </div>
+        </section>
+
         <section className="bg-primary-3 row justify-content-around align-items-center">
           <a
             className="btn btn-lg btn-white"

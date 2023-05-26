@@ -4,14 +4,14 @@ import { DappGallery } from "@site/src/components/dapp-gallery";
 import Layout from "@theme/Layout";
 
 export default function Sui() {
-  const title = "Sui Ecosystem Projects";
-  const tag = "Sui";
+  const title = "Aptos Ecosystem Projects";
+  const tag = "Aptos";
   const myProjects = projects.data.projects.filter(
     (p) =>
       p?.tags?.some((t) => t.name === tag) ||
       p?.chains?.some((t) => t.name === tag)
   );
-  const description = `List of ${myProjects.length} Sui projects. Sui is a decentralized permission smart contract platform biased towards low-latency management of assets.`;
+  const description = `List of ${myProjects.length} Aptos projects. Aptos is a decentralized permission smart contract platform biased towards low-latency management of assets.`;
 
   return (
     <Layout title={title} description={description}>

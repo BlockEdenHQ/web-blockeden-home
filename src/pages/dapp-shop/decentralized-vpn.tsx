@@ -6,7 +6,7 @@ import Layout from "@theme/Layout";
 export default function DecentralizedVpn() {
   const title = "Decentralized VPNs";
   const description =
-    "Sui is a decentralized permission smart contract platform biased towards low-latency management of assets.";
+    "Decentralized VPNs are virtual private networks that utilize blockchain technology to distribute network management across multiple nodes, thereby enhancing privacy and security by preventing any single entity from having complete control over users' data.";
   const tag = "Decentralized VPN";
 
   return (

@@ -20,7 +20,16 @@
             "name": "Decentralized VPN"
           }
         ],
-        "chains": []
+        "chains": [
+          {
+            "id": "rece94Ok0M65eqMog",
+            "name": "Ethereum"
+          },
+          {
+            "id": "rec7sH1K2F8vDfna1",
+            "name": "Gnosis Chain"
+          }
+        ]
       },
       {
         "id": "rec0QOfGctiduqNTX",
@@ -45,6 +54,32 @@
           {
             "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
+          }
+        ]
+      },
+      {
+        "id": "rec0o5pFWpDx0HX5o",
+        "name": "Superposition",
+        "introduction": "Superposition is a next-generation omnichain lending protocol. It is powered by the Concordia protocol, a universal cross-chain credit reservoir shared across blue-chip DeFi applications. Superposition's high-efficiency architecture results in superior credit pool utilization, unlocking cheap cost of capital for borrowers.",
+        "website": "https://www.superposition.finance/",
+        "twitter": "https://twitter.com/SuperpositionFi",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
           }
         ]
       },
@@ -75,6 +110,58 @@
         ]
       },
       {
+        "id": "rec1Ym26VLlcYVL4G",
+        "name": "PancakeSwap",
+        "introduction": "PancakeSwap is the premier decentralized exchange on BNB Smart Chain, boasting the highest trading volumes in the market. It offers a platform for trading various cryptocurrencies in a decentralized and secure manner, making it a top choice for traders operating on the BNB Smart Chain.",
+        "website": "https://aptos.pancakeswap.finance/swap",
+        "twitter": "https://twitter.com/pancakeswap",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/pancakeswap/",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "rec5RfpYdHDEKj7HW",
+        "name": "Celer",
+        "introduction": "Celer is a blockchain interoperability protocol enabling a one-click user experience accessing tokens, DeFi, GameFi, NFTs, governance, and more across multiple chains. Developers can build inter-chain-native dApps using the Celer Inter-chain Message SDK to gain access to efficient liquidity utilization, coherent application logic, and shared states. Users of Celer-enabled dApps will enjoy the benefits of a diverse multi-blockchain ecosystem with the simplicity of a single-transaction UX, all from a single chain.",
+        "website": "https://www.celer.network/",
+        "twitter": "https://twitter.com/CelerNetwork",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/celer-network",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recHw8cINcIMu9B07",
+            "name": "Cross-chain Bridge"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
         "id": "rec5dUoAkukJ6mRVH",
         "name": "Mysterium",
         "introduction": "Mysterium is a decentralized, open-source VPN platform that leverages blockchain technology to provide a secure and anonymous internet experience. By creating a peer-to-peer network of VPN service providers, Mysterium ensures data privacy and security for users. The native token, MYST, is used to access services, reward providers, and govern the platform.",
@@ -93,7 +180,20 @@
             "name": "Decentralized VPN"
           }
         ],
-        "chains": []
+        "chains": [
+          {
+            "id": "rece94Ok0M65eqMog",
+            "name": "Ethereum"
+          },
+          {
+            "id": "recafdsESaixl7aJJ",
+            "name": "Binance Smart Chain"
+          },
+          {
+            "id": "rec17leN1lW22bWvK",
+            "name": "Polygon"
+          }
+        ]
       },
       {
         "id": "rec60SdBb81dajFAc",
@@ -200,6 +300,32 @@
         ]
       },
       {
+        "id": "rec7TiOblv64OEvfH",
+        "name": "Cetus",
+        "introduction": "Cetus is a pioneering decentralized exchange (DEX) and concentrated liquidity protocol developed on the Sui and Aptos blockchain. Its mission is to create a robust and flexible underlying liquidity network to simplify trading for all users and assets. Cetus is dedicated to providing the best trading experience and superior liquidity efficiency to DeFi users by developing its concentrated liquidity protocol and a range of interoperable functional modules.",
+        "website": "https://www.cetus.zone/",
+        "twitter": "https://twitter.com/CetusProtocol",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/CetusProtocol",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
         "id": "rec7XygwzN5Yrommk",
         "name": "Suia.io",
         "introduction": "The first POAP application built on Sui and it has been launched on Devnet.",
@@ -270,7 +396,42 @@
             "name": "Decentralized VPN"
           }
         ],
-        "chains": []
+        "chains": [
+          {
+            "id": "rece94Ok0M65eqMog",
+            "name": "Ethereum"
+          },
+          {
+            "id": "recafdsESaixl7aJJ",
+            "name": "Binance Smart Chain"
+          }
+        ]
+      },
+      {
+        "id": "recALS3ffv9icKNR4",
+        "name": "Jujube Finance",
+        "introduction": "A Dex&NFTs platform on the Aptos / Sui. Community-driven, trade safely, fast and user-friendly AMM protocol.",
+        "website": "https://www.jujube.finance",
+        "twitter": "https://twitter.com/JujubeFinance",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/jujubefinance",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
       },
       {
         "id": "recBjI0mvWH7uHb2x",
@@ -295,6 +456,84 @@
           {
             "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
+          }
+        ]
+      },
+      {
+        "id": "recBzUsSnxxIqC1fT",
+        "name": "Koizumi",
+        "introduction": "Koizumi is an NFT Aggregator Tool that showcases the best deals from the first multi-chain marketplaces. It provides users with the ability to quickly \"snipe\" or acquire NFT collections, making it an efficient tool for those looking to expand their NFT portfolios or seize profitable opportunities in the NFT market.",
+        "website": "https://koizumi.io",
+        "twitter": "https://twitter.com/KoizumiAPT",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/KoizumiAPT",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "recCOXEuP14yNFx4O",
+        "name": "Thala Labs",
+        "introduction": "Thala Labs enables seamless borrowing of dollars and efficient liquidity provisioning. Users can provide liquidity, stake, or utilize recursive borrows with $MOD to generate sustainable yields. Thala's weighted multi-asset AMM is designed for versatility, unlocking capital efficient swaps and liquidity provisioning.",
+        "website": "https://www.thala.fi/",
+        "twitter": "https://twitter.com/ThalaLabs",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/ThalaLabs",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "recCqhQhJQnQMb6CU",
+        "name": "HoustonSwap",
+        "introduction": "HoustonSwap is the first concentrated liquidity market maker on Aptos and Sui designed to automate the whole operation. The goal of this protocol is to make better use of capital, minimize impermanent losses for liquidity providers, and give traders the best trading price. We also know that the concentrated liquidity mechanism is not friendly for project owners, so we offer a few unique features to help the ecosystem.",
+        "website": "https://houstonswap.io/",
+        "twitter": "https://twitter.com/Houston_swap",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
           }
         ]
       },
@@ -325,6 +564,32 @@
         ]
       },
       {
+        "id": "recDtQtg55jotYWvV",
+        "name": "Pontem Network",
+        "introduction": "Pontem is a product development studio committed to promoting global financial inclusion through blockchain technology. In partnership with Aptos, they are building foundational decentralized applications (dApps) and other infrastructure to facilitate the adoption of Aptos's Layer 1. This includes development tooling, Ethereum Virtual Machines (EVMs), Automated Market Makers (AMMs), and more. ",
+        "website": "https://pontem.network/",
+        "twitter": "https://twitter.com/PontemNetwork",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/pontem-network",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
         "id": "recEEymBiCypNEXQn",
         "name": "TokenMaskaLabs",
         "introduction": "An NFT collection built on Sui.",
@@ -347,6 +612,84 @@
           {
             "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
+          }
+        ]
+      },
+      {
+        "id": "recENtoOSRxAW5IME",
+        "name": "Mole",
+        "introduction": "Mole is a DeFi protocol that offers a range of financial services including savings, leveraged yield farms, and funds. It's designed to cater to the diverse needs of DeFi users, providing opportunities for both savings and higher-risk, higher-reward yield farming, as well as fund management.",
+        "website": "https://mole.fi/",
+        "twitter": "https://twitter.com/moledefi",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/Mole-Fi",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "recFubzlS5RCsOl00",
+        "name": "Ditto",
+        "introduction": "Ditto is a liquid staking solution constructed on the Aptos blockchain. It allows users to stake their Aptos tokens to earn yield and contribute to the decentralization of the network, all while maintaining liquidity. This means users can earn rewards from staking while still having the flexibility to use their tokens as needed.",
+        "website": "https://www.dittofinance.io/",
+        "twitter": "https://twitter.com/Ditto_Finance",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "recHmSfs3wLcnfnL3",
+        "name": "Tsunami Finance",
+        "introduction": "Tsunami Finance is a platform that offers margin trading and spot exchange services. It's a dynamic platform with documentation that is continually being updated and improved. Users are encouraged to contribute by submitting a pull request for any changes they deem necessary.",
+        "website": "https://tsunami.finance/",
+        "twitter": "https://twitter.com/TsunamiFinance_",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
           }
         ]
       },
@@ -403,6 +746,32 @@
         ]
       },
       {
+        "id": "recJ5nh3AreC6RCVH",
+        "name": "Seam Money",
+        "introduction": "Seam pools are multi-protocol composite positions for staking, liquidity pools, lending, on-chain order-books, and other derivatives.",
+        "website": "https://seam.money/",
+        "twitter": "https://twitter.com/SeamMoney",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/seammoney/",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
         "id": "recK8G7lnDpLlAm1t",
         "name": "Sui Name Service",
         "introduction": "A decentralized digital identity service in the Sui ecosystem and is currently in beta.",
@@ -455,6 +824,32 @@
         ]
       },
       {
+        "id": "recN1JEdZY4pX8fUz",
+        "name": "Patronus",
+        "introduction": "Patronus is a DeFi Liquidity Protocol which aims to provide a suite of DeFi products and services for a safer and more efficient capital flow.",
+        "website": "https://patronus.fi/",
+        "twitter": "https://twitter.com/Patronus_Fi",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/patronusfi",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
         "id": "recNDGg7hLzcgVC6r",
         "name": "PLASMAVERSE",
         "introduction": "A metaverse ARPG game running on Aptos/Sui blockchains.",
@@ -477,6 +872,32 @@
           {
             "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
+          }
+        ]
+      },
+      {
+        "id": "recONudniFwCGInkg",
+        "name": "BaptSwap",
+        "introduction": "BAPT SWAP - Introducing the first DEX to support fee-on-transfer tokens with dedicated launching and locking services on Aptos. Brought to you by BaptLabs. Driving innovation and adoption on Aptos.",
+        "website": "https://baptswap.com",
+        "twitter": "https://twitter.com/baptswap",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/baptswap",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
           }
         ]
       },
@@ -551,7 +972,12 @@
             "name": "Decentralized VPN"
           }
         ],
-        "chains": []
+        "chains": [
+          {
+            "id": "rece94Ok0M65eqMog",
+            "name": "Ethereum"
+          }
+        ]
       },
       {
         "id": "recREiahJH0dPKIa2",
@@ -576,6 +1002,58 @@
           {
             "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
+          }
+        ]
+      },
+      {
+        "id": "recS6ysSTEhNTxHPm",
+        "name": "Wormhole",
+        "introduction": "Wormhole allows developers to easily build decentralized applications that span the entire blockchain ecosystem. The Wormhole SDK covers a wide range of use cases that makes going cross-chain simple for tokens, NFTs, apps, and other messaging applications. With Wormhole, applications on different chains work better together. It supports multiple runtimes including EVM, EVM+, Solana, CosmWASM, and Algorand.",
+        "website": "https://wormhole.com/",
+        "twitter": "https://twitter.com/wormholecrypto",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/wormhole-foundation/wormhole",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recHw8cINcIMu9B07",
+            "name": "Cross-chain Bridge"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "recTGnaLPe5GsJlYY",
+        "name": "Forbitswap",
+        "introduction": "Forbitswap is an all-in-one DeFi platform that offers a comprehensive range of services. It provides an Automated Market Maker (AMM) for efficient and decentralized trading, as well as a Decentralized Prediction Market, allowing users to speculate on the outcomes of future events in a decentralized manner.",
+        "website": "https://forbitswap.com/",
+        "twitter": "https://twitter.com/forbitswap",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
           }
         ]
       },
@@ -606,6 +1084,58 @@
         ]
       },
       {
+        "id": "recUoXZX3zxQdKaIw",
+        "name": "Argo",
+        "introduction": "Argo is a secure, decentralized stablecoin for Aptos. USDA live on Aptos mainnet day 1.",
+        "website": "https://argo.fi/",
+        "twitter": "https://twitter.com/ArgoUSD",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "recUqqfHbQZC3WiC2",
+        "name": "Wing Finance",
+        "introduction": "Wing Finance is a credit-based, cross-chain DeFi platform. The content from this URL could not be retrieved, so I'm unable to provide a detailed introduction.",
+        "website": "https://flash.wing.finance/aptos",
+        "twitter": "https://twitter.com/Wing_Finance",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
         "id": "recV53gGZzB1YwICB",
         "name": "Tachyon Protocol",
         "introduction": "Tachyon Protocol is a decentralized, privacy-focused internet protocol designed to improve online security, privacy, and access to restricted content. Built on the V SYSTEMS blockchain, Tachyon Protocol leverages advanced encryption and routing techniques to create a fast and secure VPN-like experience. The native token, IPX, is used for accessing services and governing the ecosystem.",
@@ -625,6 +1155,32 @@
           }
         ],
         "chains": []
+      },
+      {
+        "id": "recVno1uqqENhL8Zl",
+        "name": "Spectrum Protocol",
+        "introduction": "Spectrum Protocol is an Innovative, Decentralized Yield Optimizer platform that allows users to earn compound interest on their crypto assets farming.",
+        "website": "https://aptos.spec.finance/",
+        "twitter": "https://twitter.com/SpecProtocol",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/spectrumprotocol",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
       },
       {
         "id": "recWLzyqhq4lXXkz6",
@@ -649,6 +1205,32 @@
           {
             "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
+          }
+        ]
+      },
+      {
+        "id": "recWvL2Mlkb0U7YuD",
+        "name": "Ferum",
+        "introduction": "Ferum is an on-chain order book on Aptos that stands out for its developer-friendly features. It provides a platform that is easy to navigate and use, making it an ideal choice for developers working with Aptos.",
+        "website": "https://www.ferum.xyz/",
+        "twitter": "https://twitter.com/ferumxyz",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/ferum-dex/",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
           }
         ]
       },
@@ -679,6 +1261,58 @@
         ]
       },
       {
+        "id": "recXA1ukffAhyLqVl",
+        "name": "Econia",
+        "introduction": "Econia is a back-end settlement layer developed on Aptos's Block-STM execution engine. It utilizes a Move-native codebase and leverages Aptos for composability and parallelism, offering a suite of extensible features to integrating protocols and market makers. Designed by developers, for developers, and incorporating developer feedback, Econia unlocks the foundational layer of Aptos DeFi, enhancing its functionality and versatility.",
+        "website": "https://econialabs.com",
+        "twitter": "https://twitter.com/EconiaLabs",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/econia-labs/econia",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "recXNuHX20BojRiVI",
+        "name": "Kana Labs",
+        "introduction": "Kana Labs is a cross-chain bridge aggregator that caters to all key DeFi needs across multiple networks. Users can swap, stake, farm, lend, borrow, and more in a single multi-chain.",
+        "website": "https://app.kanalabs.io/",
+        "twitter": "https://twitter.com/kanalabs",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
         "id": "recXlb0MfQjsLIv20",
         "name": "OmniBTC",
         "introduction": "A decentralized omnichain financial platform built by the ChainX team based on the LayerZero protocol. OmniBTC proposed a new pathway for OmniLending.",
@@ -705,6 +1339,32 @@
         ]
       },
       {
+        "id": "recYaX5isTq4phWF6",
+        "name": "Blocto",
+        "introduction": "Blocto Wallet - Your Web3 tomorrow starts today. Make crypto transactions in your control, get full royalties for your creativity, and more.",
+        "website": "https://token.blocto.app/",
+        "twitter": "https://twitter.com/BloctoApp",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/portto",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
         "id": "recZsMQSiIGYzwDxH",
         "name": "BlueMove",
         "introduction": "The first-ever NFT market for communities built on Aptos and Sui that proactively rewards investors, collectors and artists.",
@@ -727,6 +1387,162 @@
           {
             "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
+          }
+        ]
+      },
+      {
+        "id": "recbMQAJJptW3GvZN",
+        "name": "Aries Markets",
+        "introduction": "Aries Markets is a decentralized exchange on Move, aiming to simplify DeFi user experience. It offers a unified margin account for earning interest, borrowing against collateral, leveraged swaps, and margin trading via an on-chain order book. It also provides easy access to other Aptos DeFi products.",
+        "website": "https://ariesmarkets.xyz/",
+        "twitter": "https://twitter.com/AriesMarkets",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "recbtha0z6n32iHZo",
+        "name": "Aptin Labs",
+        "introduction": "Aptin is a decentralised non-custodial liquidity market protocol where users can participate as depositors or borrowers.",
+        "website": "https://aptin.io",
+        "twitter": "https://twitter.com/aptinlabs",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/AptinLabs",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "reccYovTfJlTlKOxQ",
+        "name": "Axelar",
+        "introduction": "Axelar delivers secure cross-chain communication for Web3. Our infrastructure enables dApp users to interact with any asset or application, on any chain, with one click.",
+        "website": "https://axelar.network/",
+        "twitter": "https://twitter.com/axelarcore",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/axelarnetwork",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recHw8cINcIMu9B07",
+            "name": "Cross-chain Bridge"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "reccziaENsJV6EwGP",
+        "name": "AnimeSwap",
+        "introduction": "AnimeSwap is a peer-to-contracts protocol designed for cryptocurrency exchange on the Aptos blockchain. It's built on a set of persistent smart contracts, emphasizing censorship resistance, security, and self-custody, eliminating the need for trusted intermediaries. Once deployed, AnimeSwap will operate indefinitely with 100% uptime, contingent on the ongoing existence of the Aptos blockchain.",
+        "website": "https://app.animeswap.org/",
+        "twitter": "https://twitter.com/animeswap_org",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "http://github.com/AnimeSwap",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "receGLhmHrMOG20HR",
+        "name": "AptoScan.xyz",
+        "introduction": "AptoScan is an Aptos Blockchain Explorer",
+        "website": "https://aptoscan.xyz",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recDBsMXVvsaL4k93",
+            "name": "Explorer"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "recgcYSwYPm9F38fA",
+        "name": "LayerZero",
+        "introduction": "LayerZero is an omnichain interoperability protocol. LayerZero enables the realization of cross-chain applications with a low level communication primitive.",
+        "website": "https://layerzero.network/",
+        "twitter": "https://twitter.com/layerzero_labs",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/LayerZero-Labs/LayerZero-Aptos-Contract",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recHw8cINcIMu9B07",
+            "name": "Cross-chain Bridge"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
           }
         ]
       },
@@ -905,7 +1721,124 @@
             "name": "Decentralized VPN"
           }
         ],
-        "chains": []
+        "chains": [
+          {
+            "id": "rece94Ok0M65eqMog",
+            "name": "Ethereum"
+          },
+          {
+            "id": "recenzy1sHtOZJQq3",
+            "name": "Cosmos"
+          },
+          {
+            "id": "rec17leN1lW22bWvK",
+            "name": "Polygon"
+          }
+        ]
+      },
+      {
+        "id": "reclOiigK2ZJg69Dt",
+        "name": "TraceMove",
+        "introduction": "TraceMove is a blockchain explorer and analytics platform for Aptos. It enables users to search the version, transactions, addresses, tokens on Aptos.",
+        "website": "https://tracemove.io",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recDBsMXVvsaL4k93",
+            "name": "Explorer"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "recllgn2Oe2VSTUgw",
+        "name": "Abel Finance",
+        "introduction": "Abel Finance is a pioneering cross-chain lending platform on Aptos and Sui. It supports lending of coins, AMM LP coins, and NFTs, and facilitates cross-chain lending to enhance multi-chain asset liquidity. With Official Treasury insurance and full decentralization, it promotes community autonomy. Its implementation is based on CompoundV2 and developed using the MOVE language.",
+        "website": "https://abelfinance.xyz/",
+        "twitter": "https://twitter.com/abelfinance",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/abelfinance",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "recnty7qMNt1S0h5j",
+        "name": "Multichain",
+        "introduction": "Multichain is a non-custodial cross-chain router protocol symbolizing decentralization. It processes Multichain cross-chain bridging and smart contract methods on other chains. Multichain’s 1:1 bridge enables users to perform 0 slippage transfers and eliminate the hidden cost associated with AMM. Multichain Router allows users to swap between any two chains freely, reducing fees and making it easier to move between chains.",
+        "website": "https://multichain.org/",
+        "twitter": "https://twitter.com/MultichainOrg",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/anyswap",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recHw8cINcIMu9B07",
+            "name": "Cross-chain Bridge"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "recoMDUwvaWtOAMOp",
+        "name": "Umi",
+        "introduction": "Umi.ag is a blazing DEX aggregator on Sui & Aptos that unleashes your trading potential. It optimizes your trades, minimizes fees, and maximizes profits, making it the smart choice for savvy traders.",
+        "website": "https://umi.ag",
+        "twitter": "https://twitter.com/umi_protocol",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/umi-ag",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
       },
       {
         "id": "recp7n7ILqN1vKs2O",
@@ -926,7 +1859,12 @@
             "name": "Decentralized VPN"
           }
         ],
-        "chains": []
+        "chains": [
+          {
+            "id": "rece94Ok0M65eqMog",
+            "name": "Ethereum"
+          }
+        ]
       },
       {
         "id": "recrFU1MaYBa6md2I",
@@ -951,6 +1889,32 @@
           {
             "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
+          }
+        ]
+      },
+      {
+        "id": "rect6gU03mqKDuZC1",
+        "name": "AUX",
+        "introduction": "AUX Exchange - Our mission is to provide the best decentralized trading experience possible. Now available on Aptos.",
+        "website": "https://aux.exchange/",
+        "twitter": "https://twitter.com/AuxExchange",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/aux-exchange",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
           }
         ]
       },
@@ -981,6 +1945,32 @@
         ]
       },
       {
+        "id": "recuafElJtcJ7qvMe",
+        "name": "AptoScan",
+        "introduction": "AptoScan is a platform to explore Aptos blockchain transactions and chain analytics. Developer APIs and useful resources are available on AptoScan.",
+        "website": "https://aptoscan.com/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recDBsMXVvsaL4k93",
+            "name": "Explorer"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
         "id": "reculZIaLHC0qiCdV",
         "name": "Wormhole",
         "introduction": "A cross-chain protocol backed by Solana. In October 2022, Solana released an Ethereum token cross-chain bridge.",
@@ -1003,6 +1993,84 @@
           {
             "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
+          }
+        ]
+      },
+      {
+        "id": "recurpXx9ncswSJa7",
+        "name": "Apscan",
+        "introduction": "Apscan is the Aptos Blockchain Explorer and allows you to explore and search the accounts, blocks, transactions, assets and other network activities within the Aptos Network (APT).",
+        "website": "https://apscan.io/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recDBsMXVvsaL4k93",
+            "name": "Explorer"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "recw0vyUkd35Ammdo",
+        "name": "Starswap",
+        "introduction": "StarSwap is a full-featured decentralized exchange (DEX) on Aptos and Starcoin. It allows developers, traders, and liquidity providers to participate in a financial marketplace that is open and accessible to all. Users can freely exchange tokens on StarSwap and become automated market makers by providing and staking liquidity.",
+        "website": "https://starswap.xyz/",
+        "twitter": "https://twitter.com/StarswapEN",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/Elements-Studio/starswap-core-aptos",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "recwBbu0qgL6r6cce",
+        "name": "Aptos Explorer",
+        "introduction": "Aptos Labs Explorer allows you to explore transactions, accounts, events, nodes, gas fees and other network activity within the Aptos Network.",
+        "website": "https://explorer.aptoslabs.com/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/aptos-labs/explorer",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recDBsMXVvsaL4k93",
+            "name": "Explorer"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
           }
         ]
       },
@@ -1033,6 +2101,32 @@
         ]
       },
       {
+        "id": "recxXFBXWYN91DcV5",
+        "name": "Tortuga",
+        "introduction": "Tortuga Finance is a unique platform where users can stake APT. In addition to staking, Tortuga issues tAPT (Tortuga Staked APT), enabling users to remain staked while actively participating in the Aptos DeFi ecosystem.",
+        "website": "https://tortuga.finance/",
+        "twitter": "https://twitter.com/TortugaFinance",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
         "id": "recyayLOsvuuy3YsQ",
         "name": "Suiet",
         "introduction": "the Sui wallet made for everyone",
@@ -1055,6 +2149,58 @@
           {
             "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
+          }
+        ]
+      },
+      {
+        "id": "reczNcuSDbUIGE0aH",
+        "name": "Foil Labs",
+        "introduction": "Foil is developing a DeFi Super app, aiming to revolutionize the Move Ecosystem. It is committed to providing the lowest fee stable swap and cross-chain liquidity protocol, making it a cost-effective and efficient solution for users navigating the DeFi landscape.",
+        "website": "https://foil.so/",
+        "twitter": "https://twitter.com/foil_labs",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
+          }
+        ]
+      },
+      {
+        "id": "reczUxRF9k27cm2xh",
+        "name": "Aptools",
+        "introduction": "Aptools - All-in-one tools for Aptos blockchain. Simple, Elegant and Easy to use like a Swiss-army knife. Coin tool that enables you to create a coin without any developer needed. Airdrop tool lets you to spread your coins to a wide range of users. Locker enables you the ability to lock your any coin to show your faith of your project. Three tools are all available on Aptos mainnet!",
+        "website": "https://aptools.xyz/",
+        "twitter": "https://twitter.com/aptools_",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recDpAX5fIjzGzjgS",
+            "name": "Aptos"
           }
         ]
       }
