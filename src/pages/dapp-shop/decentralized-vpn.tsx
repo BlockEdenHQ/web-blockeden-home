@@ -3,11 +3,11 @@ import projects from "../../projects-data.json";
 import { DappGallery } from "@site/src/components/dapp-gallery";
 import Layout from "@theme/Layout";
 
-export default function Sui() {
-  const title = "Sui Ecosystem Projects";
+export default function DecentralizedVpn() {
+  const title = "Decentralized VPNs";
   const description =
     "Sui is a decentralized permission smart contract platform biased towards low-latency management of assets.";
-  const tag = "Sui";
+  const tag = "Decentralized VPN";
 
   return (
     <Layout title={title} description={description}>

@@ -14,7 +14,7 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "download": "curl 'https://api.baseql.com/airtable/graphql/appHENMf239lCORVM' -H 'Content-Type: application/json' -H 'Accept: application/json' --data-binary '{\"query\":\"query Projects {\\n  projects {\\n    id\\n    name\\n    introduction\\n    website\\n    twitter\\n    marketCap\\n    tokenSymbol\\n    explorerUrl\\n    mediumUrl\\n    redditUrl\\n    githubUrl\\n    whitepaperUrl\\n    tags {\\n      id\\n      name\\n    }\\n  }\\n}\"}' --compressed > src/projects-data.json",
+    "download": "curl 'https://api.baseql.com/airtable/graphql/appHENMf239lCORVM' -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'Connection: keep-alive' -H 'DNT: 1' -H 'Origin: https://tianpan.co' --data-binary '{\"query\":\"query Projects {\\n  projects {\\n    id\\n    name\\n    introduction\\n    website\\n    twitter\\n    marketCap\\n    tokenSymbol\\n    explorerUrl\\n    mediumUrl\\n    redditUrl\\n    githubUrl\\n    whitepaperUrl\\n    tags {\\n      id\\n      name\\n    }\\n    chains {\\n      id\\n      name\\n    }\\n  }\\n}\"}' --compressed > src/projects-data.json",
     "bs": "docusaurus build && docusaurus serve"
   },
   "dependencies": {

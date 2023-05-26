@@ -19,7 +19,8 @@
             "id": "recgqAdiHbbhN3qwr",
             "name": "Decentralized VPN"
           }
-        ]
+        ],
+        "chains": []
       },
       {
         "id": "rec0QOfGctiduqNTX",
@@ -38,9 +39,11 @@
           {
             "id": "recruNGUb5CjfScHw",
             "name": "Infrastructure"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -62,9 +65,11 @@
           {
             "id": "recAaP55eAVmXWO7x",
             "name": "NFT Markets"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -87,14 +92,15 @@
             "id": "recgqAdiHbbhN3qwr",
             "name": "Decentralized VPN"
           }
-        ]
+        ],
+        "chains": []
       },
       {
         "id": "rec60SdBb81dajFAc",
         "name": "Morphis Wallet",
         "introduction": "Morphis wallet is a friendly wallet to get started with your web3 journey. Morphis allows you to manage all your web3 assets in one place, from tokens and NFTs to game assets and your gateway to thousands of dApps. Morphis will be your single access point to the unlimited potential of the web3 world.",
-        "website": null,
-        "twitter": null,
+        "website": "https://morphiswallet.com/",
+        "twitter": "https://twitter.com/morphis_network",
         "marketCap": null,
         "tokenSymbol": null,
         "explorerUrl": null,
@@ -106,9 +112,11 @@
           {
             "id": "recjlK9nrNPVACbL0",
             "name": "Wallet"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -130,9 +138,11 @@
           {
             "id": "recAaP55eAVmXWO7x",
             "name": "NFT Markets"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -141,8 +151,8 @@
         "id": "rec6x0kE3DkkbkmL2",
         "name": "Glass Wallet",
         "introduction": "Glass Wallet is a non-custodial cryptocurrency wallet that provides users with a secure and easy-to-use platform to manage their digital assets. It supports various cryptocurrencies, including Bitcoin, Ethereum, and Litecoin, and allows users to store, send, receive, and exchange their digital assets. Glass Wallet is available for mobile devices.",
-        "website": null,
-        "twitter": null,
+        "website": "https://glasswallet.app/",
+        "twitter": "https://twitter.com/GlassWalletapp",
         "marketCap": null,
         "tokenSymbol": null,
         "explorerUrl": null,
@@ -154,9 +164,11 @@
           {
             "id": "recjlK9nrNPVACbL0",
             "name": "Wallet"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -178,9 +190,11 @@
           {
             "id": "recjij7AtXPBhoL3j",
             "name": "Dex"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -202,9 +216,11 @@
           {
             "id": "reccOPMXhhegGDuTP",
             "name": "NFT Collection"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -226,9 +242,11 @@
           {
             "id": "recjlK9nrNPVACbL0",
             "name": "Wallet"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -251,7 +269,8 @@
             "id": "recgqAdiHbbhN3qwr",
             "name": "Decentralized VPN"
           }
-        ]
+        ],
+        "chains": []
       },
       {
         "id": "recBjI0mvWH7uHb2x",
@@ -270,9 +289,11 @@
           {
             "id": "recAaP55eAVmXWO7x",
             "name": "NFT Markets"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -294,9 +315,11 @@
           {
             "id": "recjij7AtXPBhoL3j",
             "name": "Dex"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -318,9 +341,11 @@
           {
             "id": "reccOPMXhhegGDuTP",
             "name": "NFT Collection"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -342,9 +367,11 @@
           {
             "id": "rec9txQaAdTdKG8aS",
             "name": "Defi"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -366,9 +393,11 @@
           {
             "id": "reccOPMXhhegGDuTP",
             "name": "NFT Collection"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -390,9 +419,11 @@
           {
             "id": "recruNGUb5CjfScHw",
             "name": "Infrastructure"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -414,9 +445,11 @@
           {
             "id": "recjlK9nrNPVACbL0",
             "name": "Wallet"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -437,10 +470,12 @@
         "tags": [
           {
             "id": "recurwxmBmR0NX6iU",
-            "name": "GAMEFI"
-          },
+            "name": "GameFi"
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -461,10 +496,12 @@
         "tags": [
           {
             "id": "recurwxmBmR0NX6iU",
-            "name": "GAMEFI"
-          },
+            "name": "GameFi"
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -486,9 +523,11 @@
           {
             "id": "recjij7AtXPBhoL3j",
             "name": "Dex"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -511,7 +550,8 @@
             "id": "recgqAdiHbbhN3qwr",
             "name": "Decentralized VPN"
           }
-        ]
+        ],
+        "chains": []
       },
       {
         "id": "recREiahJH0dPKIa2",
@@ -530,9 +570,11 @@
           {
             "id": "recjij7AtXPBhoL3j",
             "name": "Dex"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -554,9 +596,11 @@
           {
             "id": "recjlK9nrNPVACbL0",
             "name": "Wallet"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -579,7 +623,8 @@
             "id": "recgqAdiHbbhN3qwr",
             "name": "Decentralized VPN"
           }
-        ]
+        ],
+        "chains": []
       },
       {
         "id": "recWLzyqhq4lXXkz6",
@@ -598,9 +643,11 @@
           {
             "id": "recruNGUb5CjfScHw",
             "name": "Infrastructure"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -622,9 +669,11 @@
           {
             "id": "recruNGUb5CjfScHw",
             "name": "Infrastructure"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -646,9 +695,11 @@
           {
             "id": "rec9txQaAdTdKG8aS",
             "name": "Defi"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -670,9 +721,11 @@
           {
             "id": "recAaP55eAVmXWO7x",
             "name": "NFT Markets"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -694,9 +747,11 @@
           {
             "id": "rec9txQaAdTdKG8aS",
             "name": "Defi"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -718,9 +773,11 @@
           {
             "id": "recjij7AtXPBhoL3j",
             "name": "Dex"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -742,9 +799,11 @@
           {
             "id": "recjlK9nrNPVACbL0",
             "name": "Wallet"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -766,9 +825,11 @@
           {
             "id": "rec9txQaAdTdKG8aS",
             "name": "Defi"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -790,9 +851,11 @@
           {
             "id": "reccOPMXhhegGDuTP",
             "name": "NFT Collection"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -813,10 +876,12 @@
         "tags": [
           {
             "id": "recurwxmBmR0NX6iU",
-            "name": "GAMEFI"
-          },
+            "name": "GameFi"
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -839,7 +904,8 @@
             "id": "recgqAdiHbbhN3qwr",
             "name": "Decentralized VPN"
           }
-        ]
+        ],
+        "chains": []
       },
       {
         "id": "recp7n7ILqN1vKs2O",
@@ -859,7 +925,8 @@
             "id": "recgqAdiHbbhN3qwr",
             "name": "Decentralized VPN"
           }
-        ]
+        ],
+        "chains": []
       },
       {
         "id": "recrFU1MaYBa6md2I",
@@ -878,9 +945,11 @@
           {
             "id": "recAaP55eAVmXWO7x",
             "name": "NFT Markets"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -902,9 +971,11 @@
           {
             "id": "recHw8cINcIMu9B07",
             "name": "Cross-chain Bridge"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -926,9 +997,11 @@
           {
             "id": "recHw8cINcIMu9B07",
             "name": "Cross-chain Bridge"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -950,9 +1023,11 @@
           {
             "id": "recjij7AtXPBhoL3j",
             "name": "Dex"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]
@@ -974,9 +1049,11 @@
           {
             "id": "recjlK9nrNPVACbL0",
             "name": "Wallet"
-          },
+          }
+        ],
+        "chains": [
           {
-            "id": "recHOrUklCxHX0go3",
+            "id": "recsjTJv52vVYdOqg",
             "name": "Sui"
           }
         ]

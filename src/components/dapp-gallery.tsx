@@ -4,8 +4,11 @@ import React, { useEffect } from "react";
 import { useAos } from "@site/src/components/use-aos";
 import Link from "@docusaurus/Link";
 import { useSvg } from "@site/src/components/hooks/use-svg";
+import { Project } from "./dapp-shop-components/dapp-shop-types";
 
-export function DappGallery({ projects, viewMore }) {
+type Props = { projects: Project[]; viewMore?: string };
+
+export function DappGallery({ projects, viewMore }: Props) {
   useAos();
   useSvg();
   return (
