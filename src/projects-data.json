@@ -136,6 +136,69 @@
         ]
       },
       {
+        "id": "rec2IHUmTHHHLu6Rq",
+        "name": "Blockus",
+        "introduction": "Blockus is your Web 2.5 gaming economy platform, enabling game studios to build fast, reduce costs and laser focus on gameplay. Blockus provides seamlessly integrated Wallet-as-a-service account + wallet management, first party NFT marketplace, and fiat + crypto payments.",
+        "website": "https://www.blockus.gg/",
+        "twitter": "https://twitter.com/HelloBlockus",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rech8ZZffiG9zOQga",
+            "name": "a16z crypto"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "rec3kb96V4c4wCSBU",
+        "name": "ChainPatrol.io",
+        "introduction": "a Real-Time Security Platform for Web3 Communities",
+        "website": "https://chainpatrol.io/",
+        "twitter": "https://twitter.com/chainpatrol",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rech8ZZffiG9zOQga",
+            "name": "a16z crypto"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "rec4C3AX7pQ8UGgIE",
+        "name": "mbd.xyz",
+        "introduction": "mbd.xyz is building better AI recommendation systems for the world by making them accessible to anyone. We do this by enabling anyone to create and customize their own social feed. We hope to remediate to some of the harms created by social media and kickstart what we call \"The Curation Economy\"",
+        "website": "https://www.mbd.xyz/",
+        "twitter": "https://twitter.com/mbdtheworld",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rech8ZZffiG9zOQga",
+            "name": "a16z crypto"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "rec5RfpYdHDEKj7HW",
         "name": "Celer",
         "introduction": "Celer is a blockchain interoperability protocol enabling a one-click user experience accessing tokens, DeFi, GameFi, NFTs, governance, and more across multiple chains. Developers can build inter-chain-native dApps using the Celer Inter-chain Message SDK to gain access to efficient liquidity utilization, coherent application logic, and shared states. Users of Celer-enabled dApps will enjoy the benefits of a diverse multi-blockchain ecosystem with the simplicity of a single-transaction UX, all from a single chain.",
@@ -876,6 +939,65 @@
         ]
       },
       {
+        "id": "recNGhrHcJxvYSXZI",
+        "name": "Web3Analytic",
+        "introduction": "No-code user analytics to help Web3 product and marketing teams convert, engage, and retain more users.",
+        "website": "https://web3analytic.xyz/",
+        "twitter": "https://twitter.com/web3analytic",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rech8ZZffiG9zOQga",
+            "name": "a16z crypto"
+          }
+        ],
+        "chains": [
+          {
+            "id": "rece94Ok0M65eqMog",
+            "name": "Ethereum"
+          },
+          {
+            "id": "rec17leN1lW22bWvK",
+            "name": "Polygon"
+          },
+          {
+            "id": "rec83sK9xZYe0grQM",
+            "name": "Optimism"
+          },
+          {
+            "id": "recLUPl9cA6js34h3",
+            "name": "Arbitrum"
+          }
+        ]
+      },
+      {
+        "id": "recOACMtjC6ARBSMe",
+        "name": "KIKI world",
+        "introduction": "KIKI  is building the future of customer-owned beauty where anyone can co-create and co-own the products they love to use. [yes, we make physical beauty products as well as on-chain products!]",
+        "website": "https://kiki.world",
+        "twitter": "https://twitter.com/kikiworld_",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rech8ZZffiG9zOQga",
+            "name": "a16z crypto"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recONudniFwCGInkg",
         "name": "BaptSwap",
         "introduction": "BAPT SWAP - Introducing the first DEX to support fee-on-transfer tokens with dedicated launching and locking services on Aptos. Brought to you by BaptLabs. Driving innovation and adoption on Aptos.",
@@ -980,6 +1102,27 @@
         ]
       },
       {
+        "id": "recQPd6fnRVz2YpyC",
+        "name": "formless",
+        "introduction": "SHARE is A media distribution ecosystem that enables anyone to automatically make money from intellectual property like music, even when owned by other people. It's made possible with smart contracts that power royalty accounting, attribution, and revenue sharing automatically.",
+        "website": "https://beacons.ai/formlessxyz",
+        "twitter": "https://twitter.com/formless_xyz",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rech8ZZffiG9zOQga",
+            "name": "a16z crypto"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recREiahJH0dPKIa2",
         "name": "Palladium",
         "introduction": "An AMM cross-chain DEX and is yet to be launched.",
@@ -1004,6 +1147,27 @@
             "name": "Sui"
           }
         ]
+      },
+      {
+        "id": "recRPJ2VXCiEiMGur",
+        "name": "Fuul",
+        "introduction": "fuul xyz is an affiliate marketing protocol that lets web3 projects partner with content creators in a trustless way. Fuul streamlines partnership discovery, attribution and payouts on-chain",
+        "website": "https://www.fuul.xyz/",
+        "twitter": "https://twitter.com/fuul_xyz",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rech8ZZffiG9zOQga",
+            "name": "a16z crypto"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "recS6ysSTEhNTxHPm",
@@ -1677,6 +1841,27 @@
         ]
       },
       {
+        "id": "recjgycYJuNjcfVff",
+        "name": "frens",
+        "introduction": "WeChat for web3. Message and transact with friends, protocols, and smart contracts. Pay, vote, trade, and crowdfund without leaving the conversation.  Web3 experiences are inherently multiplayer, but there’s no way to message friends and groups with the context of on-chain actions. We’re building the communications super app that seamlessly integrates transactions, applications, and protocols into the messaging experience.",
+        "website": "https://www.frens.lol/",
+        "twitter": "https://twitter.com/frenslol",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rech8ZZffiG9zOQga",
+            "name": "a16z crypto"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "reckcbPjMecU5MCqP",
         "name": "F1 Dog",
         "introduction": "The first NFT dog racing game built on Sui and Aptos blockchains.",
@@ -1865,6 +2050,48 @@
             "name": "Ethereum"
           }
         ]
+      },
+      {
+        "id": "recqCXKRQHYgtAJOz",
+        "name": "Discove",
+        "introduction": "A protocol for composable mini-apps, starting with decentralized social and a client for Farcaster.",
+        "website": "https://www.discove.app/",
+        "twitter": "https://twitter.com/discovexyz",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rech8ZZffiG9zOQga",
+            "name": "a16z crypto"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recqvGqquhTYCe1ho",
+        "name": "Stackr Labs",
+        "introduction": "Stackr is a unique modular rollup SDK that enables developers to build micro-rollups using general purpose programming languages. It takes rollup development to its first principles, that is, running a state machine off-chain and posting compute data back on L1. With Stackr, developers only need to take care of how they build the state machine, every other piece of the rollup infra will be taken care of by the SDK.",
+        "website": "https://www.stackrlabs.xyz/",
+        "twitter": "https://twitter.com/0xStackr",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rech8ZZffiG9zOQga",
+            "name": "a16z crypto"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "recrFU1MaYBa6md2I",
@@ -2073,6 +2300,27 @@
             "name": "Aptos"
           }
         ]
+      },
+      {
+        "id": "recx4SoD4jsu5TlnC",
+        "name": "Sky Lab",
+        "introduction": "Building primitives of the autonomous world and build games on top of the primitives. Primitives are the initial world of an open-world that allows and properly incentivizes anyone to build on top of.",
+        "website": "https://skylab.wtf/",
+        "twitter": "https://twitter.com/skylabhq",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "rech8ZZffiG9zOQga",
+            "name": "a16z crypto"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "recx8CcFQmOes5i4j",
