@@ -2,6 +2,7 @@ import React from "react";
 import projects from "../../projects-data.json";
 import { DappGallery } from "@site/src/components/dapp-gallery";
 import Layout from "@theme/Layout";
+import { SeoHead } from "@site/src/components/seo-head";
 
 export default function Sui() {
   const title = "Sui Ecosystem Projects";
@@ -15,6 +16,7 @@ export default function Sui() {
 
   return (
     <Layout title={title} description={description}>
+      <SeoHead title={title} description={description} />
       <header>
         <section>
           <div className="d-flex justify-content-center">

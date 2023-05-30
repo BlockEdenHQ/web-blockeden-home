@@ -2,6 +2,7 @@ import React from "react";
 import projects from "../../projects-data.json";
 import { DappGallery } from "@site/src/components/dapp-gallery";
 import Layout from "@theme/Layout";
+import { SeoHead } from "@site/src/components/seo-head";
 
 export default function A16zCryptoStartupSchool() {
   const title = "a16z crypto startup school";
@@ -15,11 +16,19 @@ export default function A16zCryptoStartupSchool() {
 
   return (
     <Layout title={title} description={description}>
+      <SeoHead title={title} description={description} />
       <header>
         <section>
           <div className="d-flex align-items-center flex-column">
-            <h1 className="hero__title" style={{textAlign:"center"}}>{title}</h1>
-            <p className="mx-5" style={{textAlign:"center", maxWidth: "620px"}}>{description}</p>
+            <h1 className="hero__title" style={{ textAlign: "center" }}>
+              {title}
+            </h1>
+            <p
+              className="mx-5"
+              style={{ textAlign: "center", maxWidth: "620px" }}
+            >
+              {description}
+            </p>
           </div>
         </section>
       </header>
