@@ -1,0 +1,40 @@
+---
+title: How does Etherscan make money?
+authors: [dora]
+tags: [business]
+image: https://tp-misc.b-cdn.net/blockeden/how-does-etherscan-make-money.png
+---
+
+Etherscan stands as the leading Ethereum block explorer and has significantly grown since its inception in 2015, extending its services to include other chains such as Fantom, Polygon, BSC, Arbitrum, among others.  While Etherscan has successfully secured funding twice - in 2016 and 2021, the specific amounts were never disclosed. Interestingly, the company didn't take advantage of favorable funding conditions to raise more capital, suggesting they're likely profitable.
+
+Etherscan's main revenue streams come from Software as a Service (SaaS) offerings and advertising. Their range of SaaS solutions includes various on-chain tools like wallet-to-wallet messaging, staking, token approvals, and more.
+
+As per LinkedIn data, Etherscan maintains a workforce of 29 employees. The estimated cost of this staffing level, also referred to as the headcount burn, is approximately $1.2 to $2.15 million each year.
+
+## Income
+
+According to [this newsletter](https://launchy.beehiiv.com/p/etherscan-master-block-explorers), here are Etherscan's revenue streams.
+
+| Item                      | Description                                                                                                 | Estimated Income ($ / yr) | %     |
+|---------------------------|-------------------------------------------------------------------------------------------------------------| ------------------------- | ----- |
+| SaaS / Explorer           | [Explorer as a service](https://etherscan.io/eaas)                                                          |                           |       |
+| SaaS / API                | [API plans](https://etherscan.io/apis)                                                                      |                           |       |
+| SaaS / On-Chain <br/> Services | BSCscan's delegation <br/> services, wallet-to-wallet <br/>messaging, token <br/>approval-revoke tool, etc. |                           |       |
+| SaaS / Total              |                                                                                                             | $2.91M - $12.55M          | 58.4% |
+| Newsletter                |                                                                                                             | $0.12M - $0.3M            | 1.4%  |
+| Website Ads               |                                                                                                             | $2.4M - $8.64M            | 40.2% |
+| Donations                 |                                                                                                             | ?                         |       |
+
+## Headcount and Burn
+
+Here is the burn rate for headcounts, not including operational costs such as third-party vendors, office spaces, etc.
+
+| Item                          | HC  | Pay range     | Estimated Expense | %      |
+| ----------------------------- |-----| ------------- | ----------------- | ------ |
+| Engineering                   | 12  | $100k - $200k | $1.2M - $2.4M     | 55.43% |
+| Business Development          | 8   | $80k - $120k  | $0.64M - $0.96M   | 22.17% |
+| Operations                    | 4   | $70k - $100k  | $0.28M - $0.4M    | 9.24%  |
+| Community and<br/> Social Services | 3   | $60k - $90k   | $0.18M - $0.27M   | 6.24%  |
+| Information<br/> Technology        | 2   | $100k - $150k | $0.2M - $0.3M     | 6.93%  |
+
+It would be relatively easy for Etherscan to expand to businesses like Dune’s dashboard or Nansen’s wallet tagging. However, they are not doing so, which indicates that they might be extremely profitable.
