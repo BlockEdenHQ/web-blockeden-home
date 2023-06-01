@@ -431,7 +431,7 @@ export default function Aptos(): JSX.Element {
                     p?.chains?.some((t) => t.name === "Sui")
                 )
               ).slice(0, 3)}
-              viewMore={"/dapp-shop/sui/"}
+              viewMore={"/dapp/sui/"}
             />
           </div>
         </section>

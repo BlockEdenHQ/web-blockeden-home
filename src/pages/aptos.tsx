@@ -560,7 +560,7 @@ export default function Aptos(): JSX.Element {
                     p?.chains?.some((t) => t.name === "Aptos")
                 )
               ).slice(0, 3)}
-              viewMore={"/dapp-shop/aptos/"}
+              viewMore={"/dapp/aptos/"}
             />
           </div>
         </section>
