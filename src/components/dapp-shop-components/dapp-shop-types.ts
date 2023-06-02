@@ -19,6 +19,9 @@ export interface Project {
   redditUrl: string;
   githubUrl: string;
   whitepaperUrl: string;
+
+  logoUrl?: string;
+
   tags: Tag[];
   chains: any[];
 }

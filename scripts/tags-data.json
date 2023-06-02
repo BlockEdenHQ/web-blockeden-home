@@ -1,0 +1,76 @@
+{
+  "data": {
+    "tags": [
+      {
+        "id": "rec9txQaAdTdKG8aS",
+        "name": "Defi",
+        "description": "DeFi (Decentralized Finance) refers to blockchain-based financial applications that replicate traditional financial systems, such as lending and trading, in a decentralized and open way."
+      },
+      {
+        "id": "recAaP55eAVmXWO7x",
+        "name": "NFT Markets",
+        "description": "NFT Markets are online platforms where users buy, sell, and trade NFTs (Non-Fungible Tokens), unique digital assets representing ownership of specific items or content on the blockchain."
+      },
+      {
+        "id": "recDBsMXVvsaL4k93",
+        "name": "Explorer",
+        "description": "A Blockchain Explorer is a search engine for a blockchain network. It allows users to view transaction history, block details, and network activity, fostering transparency and traceability."
+      },
+      {
+        "id": "recHw8cINcIMu9B07",
+        "name": "Cross-chain Bridge",
+        "description": "A Cross-chain Bridge facilitates the transfer of tokens and data between different blockchain networks, enhancing interoperability and broadening the utility of existing cryptocurrencies and assets."
+      },
+      {
+        "id": "reccDLrRhSRyELuPE",
+        "name": "Name Service",
+        "description": "Blockchain Name Service (BNS) is a decentralized naming system on the blockchain. It translates human-readable names into blockchain addresses, simplifying transactions and improving user experience."
+      },
+      {
+        "id": "reccOPMXhhegGDuTP",
+        "name": "NFT Collection",
+        "description": "An NFT Collection is a group of Non-Fungible Tokens, often linked by a common theme or created by the same artist. Each token in the collection represents a unique digital item or artwork."
+      },
+      {
+        "id": "recgANwR1W7iHSlQw",
+        "name": "NFT",
+        "description": "NFTs (Non-Fungible Tokens) are unique digital assets stored on a blockchain. They represent ownership or proof of authenticity of a specific item or piece of content, from art to virtual real estate."
+      },
+      {
+        "id": "recgqAdiHbbhN3qwr",
+        "name": "Decentralized VPN",
+        "description": "Decentralized VPNs are virtual private networks that utilize blockchain technology to distribute network management across multiple nodes, thereby enhancing privacy and security by preventing any single entity from having complete control over users' data."
+      },
+      {
+        "id": "rech8ZZffiG9zOQga",
+        "name": "a16z crypto startup school",
+        "description": "a16z crypto is a venture capital fund that invests in crypto and web3 startups. a16z Crypto Startup School is a twelve-week accelerator program designed around the specific needs of web3 startups."
+      },
+      {
+        "id": "recjij7AtXPBhoL3j",
+        "name": "Dex",
+        "description": "A decentralized exchange (DEX) is a blockchain-based platform allowing direct peer-to-peer cryptocurrency trades, bypassing intermediaries. It leverages smart contracts to automate transactions, ensuring security and privacy."
+      },
+      {
+        "id": "recjlK9nrNPVACbL0",
+        "name": "Wallet",
+        "description": "A blockchain wallet is a digital wallet allowing users to manage, store, and transfer cryptocurrencies securely while interacting with blockchain."
+      },
+      {
+        "id": "reckPuswEVSv0bEgs",
+        "name": "Social Fi",
+        "description": "SocialFi is a fusion of social media and decentralized finance (DeFi). It combines social networking features with DeFi applications, empowering users to earn, trade, and invest digital assets within a social platform."
+      },
+      {
+        "id": "recruNGUb5CjfScHw",
+        "name": "Infrastructure",
+        "description": "Blockchain infrastructure is the tech framework supporting a decentralized digital ledger system. It ensures secure, immutable transactions via nodes, cryptography, consensus mechanisms, and smart contracts."
+      },
+      {
+        "id": "recurwxmBmR0NX6iU",
+        "name": "GameFi",
+        "description": "GameFi, or \"gaming finance,\" combines gaming with decentralized finance (DeFi). It allows players to earn digital assets as rewards, which can be traded or invested, turning gameplay into potential income."
+      }
+    ]
+  }
+}

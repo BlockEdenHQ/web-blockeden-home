@@ -5,7 +5,7 @@ import Layout from "@theme/Layout";
 import { SeoHead } from "@site/src/components/seo-head";
 
 export default function DappListTemplate() {
-  const {name: title, description: intro} = {"id":"recgqAdiHbbhN3qwr","name":"Decentralized VPN","description":"Decentralized VPNs are virtual private networks that utilize blockchain technology to distribute network management across multiple nodes, thereby enhancing privacy and security by preventing any single entity from having complete control over users' data."};
+  const {name: title, description: intro} = {"id":"recenzy1sHtOZJQq3","name":"Cosmos","description":"Cosmos is a decentralized network of independent blockchains. Its goal is to solve scalability and interoperability issues in blockchain ecosystems via a protocol known as the Inter-Blockchain Communication (IBC)."};
   const tag = title;
   const myProjects = projects.data.projects.filter(
     (p) =>

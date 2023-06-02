@@ -5,7 +5,7 @@ import Layout from "@theme/Layout";
 import { SeoHead } from "@site/src/components/seo-head";
 
 export default function DappListTemplate() {
-  const {name: title, description: intro} = {"id":"recgqAdiHbbhN3qwr","name":"Decentralized VPN","description":"Decentralized VPNs are virtual private networks that utilize blockchain technology to distribute network management across multiple nodes, thereby enhancing privacy and security by preventing any single entity from having complete control over users' data."};
+  const {name: title, description: intro} = {"id":"recurwxmBmR0NX6iU","name":"GameFi","description":"GameFi, or \"gaming finance,\" combines gaming with decentralized finance (DeFi). It allows players to earn digital assets as rewards, which can be traded or invested, turning gameplay into potential income."};
   const tag = title;
   const myProjects = projects.data.projects.filter(
     (p) =>

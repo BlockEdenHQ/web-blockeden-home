@@ -1,0 +1,51 @@
+{
+  "data": {
+    "chains": [
+      {
+        "id": "rec17leN1lW22bWvK",
+        "name": "Polygon",
+        "description": "Polygon (formerly Matic Network) is a Layer 2 scaling solution for Ethereum, aiming to provide faster and cheaper transactions. It supports building diverse multi-chain applications and Ethereum-compatible blockchains."
+      },
+      {
+        "id": "rec7sH1K2F8vDfna1",
+        "name": "Gnosis Chain",
+        "description": null
+      },
+      {
+        "id": "rec83sK9xZYe0grQM",
+        "name": "Optimism",
+        "description": "Optimism is a Layer 2 scaling solution for Ethereum, using Optimistic Rollups to increase transaction speed and reduce fees. It maintains compatibility with Ethereum, enabling seamless interaction between layers."
+      },
+      {
+        "id": "recDpAX5fIjzGzjgS",
+        "name": "Aptos",
+        "description": "Aptos is a decentralized permission smart contract platform biased towards low-latency management of assets."
+      },
+      {
+        "id": "recLUPl9cA6js34h3",
+        "name": "Arbitrum",
+        "description": "Arbitrum is a Layer 2 scaling solution for Ethereum that improves scalability via Arbitrum Rollups. It increases transaction throughput and decreases costs while maintaining strong security and Ethereum compatibility."
+      },
+      {
+        "id": "recafdsESaixl7aJJ",
+        "name": "Binance Smart Chain",
+        "description": "Binance Smart Chain (BSC) is a blockchain network built for running smart contract-based applications. It operates parallel to Binance Chain, offering high-speed, low-fee transactions, and is compatible with the Ethereum Virtual Machine (EVM)."
+      },
+      {
+        "id": "rece94Ok0M65eqMog",
+        "name": "Ethereum",
+        "description": "Ethereum is an open-source blockchain platform that supports smart contracts. It provides a decentralized global infrastructure, allowing developers to build and deploy a variety of applications."
+      },
+      {
+        "id": "recenzy1sHtOZJQq3",
+        "name": "Cosmos",
+        "description": "Cosmos is a decentralized network of independent blockchains. Its goal is to solve scalability and interoperability issues in blockchain ecosystems via a protocol known as the Inter-Blockchain Communication (IBC)."
+      },
+      {
+        "id": "recsjTJv52vVYdOqg",
+        "name": "Sui",
+        "description": "Sui is a decentralized permission smart contract platform biased towards low-latency management of assets."
+      }
+    ]
+  }
+}

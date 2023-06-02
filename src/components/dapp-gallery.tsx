@@ -6,6 +6,7 @@ import Link from "@docusaurus/Link";
 import { useSvg } from "@site/src/components/hooks/use-svg";
 import { Project } from "./dapp-shop-components/dapp-shop-types";
 import { beConfig } from "@site/src/config";
+import {slugify} from "@site/src/components/slugify";
 
 type Props = { projects: Project[]; viewMore?: string };
 
@@ -108,9 +109,12 @@ export function DappGallery({ projects, viewMore }: Props) {
                       </svg>
                     </div>
 
-                    <h4 className={clsx(styles.cardTitle, styles.desc)}>
-                      {bp.name}
-                    </h4>
+                    <Link href={`/dapp/${slugify(bp.name)}`}>
+                      <h4 className={clsx(styles.cardTitle, styles.desc)}>
+                        {bp.name}
+                      </h4>
+                    </Link>
+
 
                     <p className="flex-grow-1">{bp.introduction}</p>
 

@@ -4,15 +4,15 @@ import { DappGallery } from "@site/src/components/dapp-gallery";
 import Layout from "@theme/Layout";
 import { SeoHead } from "@site/src/components/seo-head";
 
-export default function A16zCryptoStartupSchool() {
-  const title = "a16z crypto startup school";
-  const tag = "a16z crypto startup school";
+export default function DappListTemplate() {
+  const {name: title, description: intro} = {"id":"rech8ZZffiG9zOQga","name":"a16z crypto startup school","description":"a16z crypto is a venture capital fund that invests in crypto and web3 startups. a16z Crypto Startup School is a twelve-week accelerator program designed around the specific needs of web3 startups."};
+  const tag = title;
   const myProjects = projects.data.projects.filter(
     (p) =>
       p?.tags?.some((t) => t.name === tag) ||
       p?.chains?.some((t) => t.name === tag)
   );
-  const description = `List of ${myProjects.length} projects from a16z crypto startup school. a16z crypto is a venture capital fund that invests in crypto and web3 startups. a16z Crypto Startup School is a twelve-week accelerator program designed around the specific needs of web3 startups.`;
+  const description = `List of ${myProjects.length} ${tag} projects. ${intro}`;
 
   return (
     <Layout title={title} description={description}>

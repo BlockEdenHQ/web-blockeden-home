@@ -5,7 +5,7 @@ import Layout from "@theme/Layout";
 import { SeoHead } from "@site/src/components/seo-head";
 
 export default function DappListTemplate() {
-  const {name: title, description: intro} = {"id":"recgqAdiHbbhN3qwr","name":"Decentralized VPN","description":"Decentralized VPNs are virtual private networks that utilize blockchain technology to distribute network management across multiple nodes, thereby enhancing privacy and security by preventing any single entity from having complete control over users' data."};
+  const {name: title, description: intro} = {"id":"rec17leN1lW22bWvK","name":"Polygon","description":"Polygon (formerly Matic Network) is a Layer 2 scaling solution for Ethereum, aiming to provide faster and cheaper transactions. It supports building diverse multi-chain applications and Ethereum-compatible blockchains."};
   const tag = title;
   const myProjects = projects.data.projects.filter(
     (p) =>
