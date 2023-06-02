@@ -6,12 +6,15 @@ import {shuffle} from "@site/src/components/shuffle";
 import Link from "@docusaurus/Link";
 import {slugify} from "@site/src/components/slugify";
 import projects from "../../projects-data.json";
+import {SeoHead} from "@site/src/components/seo-head";
 
 const DappTemplate: React.FC = () => {
   const project: Project = {"id":"recDtQtg55jotYWvV","name":"Pontem Network","introduction":"Pontem is a product development studio committed to promoting global financial inclusion through blockchain technology. In partnership with Aptos, they are building foundational decentralized applications (dApps) and other infrastructure to facilitate the adoption of Aptos's Layer 1. This includes development tooling, Ethereum Virtual Machines (EVMs), Automated Market Makers (AMMs), and more. ","website":"https://pontem.network/","twitter":"https://twitter.com/PontemNetwork","marketCap":null,"tokenSymbol":null,"logoUrl":null,"explorerUrl":null,"mediumUrl":null,"redditUrl":null,"githubUrl":"https://github.com/pontem-network","whitepaperUrl":null,"tags":[{"id":"rec9txQaAdTdKG8aS","name":"Defi"}],"chains":[{"id":"recDpAX5fIjzGzjgS","name":"Aptos"}]};
 
   return (
     <Layout title={project.name} description={project.introduction}>
+      <SeoHead title={project.name} description={project.introduction} />
+
       <section className="bg-primary-alt header-inner">
         <div className="container">
           <div className="row my-3">
@@ -62,10 +65,14 @@ const DappTemplate: React.FC = () => {
                 <h6 className="mb-1">Chains</h6>
                 <span>{project.chains.map(it => it.name).join(", ")}</span>
               </div>
-              <div className="mb-3">
-                <h6 className="mb-1">Website</h6>
-                <a href={project.website}>{project.website}</a>
-              </div>
+
+              {project.website && (
+                <div className="mb-3">
+                  <h6 className="mb-1">Website</h6>
+                  <a href={project.website}>{project.website}</a>
+                </div>
+              )}
+
               {project.twitter && (
                 <div className="mb-3">
                   <h6 className="mb-1">Twitter</h6>

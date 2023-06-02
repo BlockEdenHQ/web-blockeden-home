@@ -6,12 +6,15 @@ import {shuffle} from "@site/src/components/shuffle";
 import Link from "@docusaurus/Link";
 import {slugify} from "@site/src/components/slugify";
 import projects from "../../projects-data.json";
+import {SeoHead} from "@site/src/components/seo-head";
 
 const DappTemplate: React.FC = () => {
   const project: Project = {"id":"reclMZ6Hvt0mb5Jzf","name":"Sentinel","introduction":"Sentinel is a decentralized VPN platform designed to offer users a secure, anonymous, and censorship-resistant internet experience. Built on the Cosmos Network, Sentinel allows users to access a global network of VPN service providers, ensuring data privacy and security. The native token, DVPN, enables users to access services, reward providers, and govern the platform.","website":"https://sentinel.co/","twitter":"https://twitter.com/Sentinel_co","marketCap":7691040,"tokenSymbol":"SENT","logoUrl":null,"explorerUrl":"https://etherscan.io/token/0xa44e5137293e855b1b7bc7e2c6f8cd796ffcb037","mediumUrl":"https://medium.com/sentinel","redditUrl":"https://www.reddit.com/r/Sentinel_co/","githubUrl":"https://github.com/Sentinel-official","whitepaperUrl":"https://github.com/sentinel-official/sentinel/blob/master/README.md","tags":[{"id":"recgqAdiHbbhN3qwr","name":"Decentralized VPN"}],"chains":[{"id":"rece94Ok0M65eqMog","name":"Ethereum"},{"id":"recenzy1sHtOZJQq3","name":"Cosmos"},{"id":"rec17leN1lW22bWvK","name":"Polygon"}]};
 
   return (
     <Layout title={project.name} description={project.introduction}>
+      <SeoHead title={project.name} description={project.introduction} />
+
       <section className="bg-primary-alt header-inner">
         <div className="container">
           <div className="row my-3">
@@ -62,10 +65,14 @@ const DappTemplate: React.FC = () => {
                 <h6 className="mb-1">Chains</h6>
                 <span>{project.chains.map(it => it.name).join(", ")}</span>
               </div>
-              <div className="mb-3">
-                <h6 className="mb-1">Website</h6>
-                <a href={project.website}>{project.website}</a>
-              </div>
+
+              {project.website && (
+                <div className="mb-3">
+                  <h6 className="mb-1">Website</h6>
+                  <a href={project.website}>{project.website}</a>
+                </div>
+              )}
+
               {project.twitter && (
                 <div className="mb-3">
                   <h6 className="mb-1">Twitter</h6>

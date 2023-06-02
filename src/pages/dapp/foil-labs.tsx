@@ -6,12 +6,15 @@ import {shuffle} from "@site/src/components/shuffle";
 import Link from "@docusaurus/Link";
 import {slugify} from "@site/src/components/slugify";
 import projects from "../../projects-data.json";
+import {SeoHead} from "@site/src/components/seo-head";
 
 const DappTemplate: React.FC = () => {
   const project: Project = {"id":"reczNcuSDbUIGE0aH","name":"Foil Labs","introduction":"Foil is developing a DeFi Super app, aiming to revolutionize the Move Ecosystem. It is committed to providing the lowest fee stable swap and cross-chain liquidity protocol, making it a cost-effective and efficient solution for users navigating the DeFi landscape.","website":"https://foil.so/","twitter":"https://twitter.com/foil_labs","marketCap":null,"tokenSymbol":null,"logoUrl":null,"explorerUrl":null,"mediumUrl":null,"redditUrl":null,"githubUrl":null,"whitepaperUrl":null,"tags":[{"id":"rec9txQaAdTdKG8aS","name":"Defi"}],"chains":[{"id":"recDpAX5fIjzGzjgS","name":"Aptos"}]};
 
   return (
     <Layout title={project.name} description={project.introduction}>
+      <SeoHead title={project.name} description={project.introduction} />
+
       <section className="bg-primary-alt header-inner">
         <div className="container">
           <div className="row my-3">
@@ -62,10 +65,14 @@ const DappTemplate: React.FC = () => {
                 <h6 className="mb-1">Chains</h6>
                 <span>{project.chains.map(it => it.name).join(", ")}</span>
               </div>
-              <div className="mb-3">
-                <h6 className="mb-1">Website</h6>
-                <a href={project.website}>{project.website}</a>
-              </div>
+
+              {project.website && (
+                <div className="mb-3">
+                  <h6 className="mb-1">Website</h6>
+                  <a href={project.website}>{project.website}</a>
+                </div>
+              )}
+
               {project.twitter && (
                 <div className="mb-3">
                   <h6 className="mb-1">Twitter</h6>

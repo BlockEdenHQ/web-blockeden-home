@@ -6,12 +6,15 @@ import {shuffle} from "@site/src/components/shuffle";
 import Link from "@docusaurus/Link";
 import {slugify} from "@site/src/components/slugify";
 import projects from "../../projects-data.json";
+import {SeoHead} from "@site/src/components/seo-head";
 
 const DappTemplate: React.FC = () => {
   const project: Project = {"id":"rec9dxvKbwnTVJPvW","name":"Deeper Network","introduction":"Deeper Network is an innovative blockchain project that aims to provide a secure, private, and fair internet experience for users worldwide. Combining hardware and software solutions, it offers a decentralized VPN service, ensuring online privacy and security. The native token, DPR, is used to incentivize users and power the ecosystem's various services and functionalities.","website":"https://www.deeper.network/","twitter":"https://twitter.com/deeper_network","marketCap":13630206,"tokenSymbol":"DPR","logoUrl":null,"explorerUrl":"https://etherscan.io/token/0xf3ae5d769e153ef72b4e3591ac004e89f48107a1","mediumUrl":"https://deeper-network.medium.com/","redditUrl":"https://www.reddit.com/r/DeeperNetwork/","githubUrl":"https://github.com/deeper-chain/deeper-chain","whitepaperUrl":"https://deeper.network/whitepaper_en.pdf","tags":[{"id":"recgqAdiHbbhN3qwr","name":"Decentralized VPN"}],"chains":[{"id":"rece94Ok0M65eqMog","name":"Ethereum"},{"id":"recafdsESaixl7aJJ","name":"Binance Smart Chain"}]};
 
   return (
     <Layout title={project.name} description={project.introduction}>
+      <SeoHead title={project.name} description={project.introduction} />
+
       <section className="bg-primary-alt header-inner">
         <div className="container">
           <div className="row my-3">
@@ -62,10 +65,14 @@ const DappTemplate: React.FC = () => {
                 <h6 className="mb-1">Chains</h6>
                 <span>{project.chains.map(it => it.name).join(", ")}</span>
               </div>
-              <div className="mb-3">
-                <h6 className="mb-1">Website</h6>
-                <a href={project.website}>{project.website}</a>
-              </div>
+
+              {project.website && (
+                <div className="mb-3">
+                  <h6 className="mb-1">Website</h6>
+                  <a href={project.website}>{project.website}</a>
+                </div>
+              )}
+
               {project.twitter && (
                 <div className="mb-3">
                   <h6 className="mb-1">Twitter</h6>

@@ -6,12 +6,15 @@ import {shuffle} from "@site/src/components/shuffle";
 import Link from "@docusaurus/Link";
 import {slugify} from "@site/src/components/slugify";
 import projects from "../../projects-data.json";
+import {SeoHead} from "@site/src/components/seo-head";
 
 const DappTemplate: React.FC = () => {
   const project: Project = {"id":"rec0LSDh7zpYkAeom","name":"HOPR","introduction":"HOPR is a privacy-preserving, decentralized messaging protocol that empowers users to communicate securely and anonymously. By utilizing a mixnet approach, HOPR ensures data privacy and resists metadata analysis. The HOPR token enables users to participate in the network, earn rewards, and govern the protocol, ensuring a sustainable and community-driven ecosystem.","website":"https://hoprnet.org/","twitter":"https://twitter.com/hoprnet","marketCap":20740296,"tokenSymbol":"HOPR","logoUrl":"https://hoprnet.org/assets/icons/hopr_icon.svg","explorerUrl":"https://etherscan.io/token/0xf5581dfefd8fb0e4aec526be659cfab1f8c781da","mediumUrl":"https://medium.com/hoprnet","redditUrl":"https://www.reddit.com/r/Hopr/","githubUrl":"https://github.com/hoprnet","whitepaperUrl":"https://hoprnet.org/docs/whitepaper.pdf","tags":[{"id":"recgqAdiHbbhN3qwr","name":"Decentralized VPN"}],"chains":[{"id":"rece94Ok0M65eqMog","name":"Ethereum"},{"id":"rec7sH1K2F8vDfna1","name":"Gnosis Chain"}]};
 
   return (
     <Layout title={project.name} description={project.introduction}>
+      <SeoHead title={project.name} description={project.introduction} />
+
       <section className="bg-primary-alt header-inner">
         <div className="container">
           <div className="row my-3">
@@ -62,10 +65,14 @@ const DappTemplate: React.FC = () => {
                 <h6 className="mb-1">Chains</h6>
                 <span>{project.chains.map(it => it.name).join(", ")}</span>
               </div>
-              <div className="mb-3">
-                <h6 className="mb-1">Website</h6>
-                <a href={project.website}>{project.website}</a>
-              </div>
+
+              {project.website && (
+                <div className="mb-3">
+                  <h6 className="mb-1">Website</h6>
+                  <a href={project.website}>{project.website}</a>
+                </div>
+              )}
+
               {project.twitter && (
                 <div className="mb-3">
                   <h6 className="mb-1">Twitter</h6>

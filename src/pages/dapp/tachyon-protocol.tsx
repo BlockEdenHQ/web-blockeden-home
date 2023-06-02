@@ -6,12 +6,15 @@ import {shuffle} from "@site/src/components/shuffle";
 import Link from "@docusaurus/Link";
 import {slugify} from "@site/src/components/slugify";
 import projects from "../../projects-data.json";
+import {SeoHead} from "@site/src/components/seo-head";
 
 const DappTemplate: React.FC = () => {
   const project: Project = {"id":"recV53gGZzB1YwICB","name":"Tachyon Protocol","introduction":"Tachyon Protocol is a decentralized, privacy-focused internet protocol designed to improve online security, privacy, and access to restricted content. Built on the V SYSTEMS blockchain, Tachyon Protocol leverages advanced encryption and routing techniques to create a fast and secure VPN-like experience. The native token, IPX, is used for accessing services and governing the ecosystem.","website":"https://tachyon.eco/","twitter":"https://twitter.com/tachyon_eco","marketCap":230583,"tokenSymbol":"IPX","logoUrl":null,"explorerUrl":"https://explorer.v.systems/token/TWZZfKFqcaNVe5TrphLRNEm5DQFnBRJMjDDByqv84","mediumUrl":"https://tachyon.eco/","redditUrl":"https://www.reddit.com/r/TachyonIPX/","githubUrl":"https://github.com/tachyon-protocol","whitepaperUrl":"https://tachyon.eco/TachyonWhitePaper.pdf","tags":[{"id":"recgqAdiHbbhN3qwr","name":"Decentralized VPN"}],"chains":[]};
 
   return (
     <Layout title={project.name} description={project.introduction}>
+      <SeoHead title={project.name} description={project.introduction} />
+
       <section className="bg-primary-alt header-inner">
         <div className="container">
           <div className="row my-3">
@@ -62,10 +65,14 @@ const DappTemplate: React.FC = () => {
                 <h6 className="mb-1">Chains</h6>
                 <span>{project.chains.map(it => it.name).join(", ")}</span>
               </div>
-              <div className="mb-3">
-                <h6 className="mb-1">Website</h6>
-                <a href={project.website}>{project.website}</a>
-              </div>
+
+              {project.website && (
+                <div className="mb-3">
+                  <h6 className="mb-1">Website</h6>
+                  <a href={project.website}>{project.website}</a>
+                </div>
+              )}
+
               {project.twitter && (
                 <div className="mb-3">
                   <h6 className="mb-1">Twitter</h6>

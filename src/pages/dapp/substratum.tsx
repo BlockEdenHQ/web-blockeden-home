@@ -6,12 +6,15 @@ import {shuffle} from "@site/src/components/shuffle";
 import Link from "@docusaurus/Link";
 import {slugify} from "@site/src/components/slugify";
 import projects from "../../projects-data.json";
+import {SeoHead} from "@site/src/components/seo-head";
 
 const DappTemplate: React.FC = () => {
   const project: Project = {"id":"recPqdr9bnYwJ4rjY","name":"Substratum","introduction":"Substratum is a decentralized, open-source platform that aims to create a censorship-resistant and secure internet by leveraging a global network of nodes. The platform allows users to host and access web content securely and anonymously, bypassing restrictions and surveillance. The native token, SUB, powers the ecosystem by incentivizing node operators and enabling access to services.","website":"https://substratum.net/","twitter":"https://twitter.com/SubstratumNet","marketCap":140400,"tokenSymbol":"SUB","logoUrl":null,"explorerUrl":"https://etherscan.io/token/0x12480e24eb5bec1a9d4369cab6a80cad3c0a377a","mediumUrl":"https://medium.com/@substratumnet","redditUrl":"https://www.reddit.com/r/SubstratumNetwork/","githubUrl":"https://github.com/SubstratumNetwork","whitepaperUrl":"https://substratum.net/wp-content/uploads/2017/08/SubstratumWhitepaper.pdf","tags":[{"id":"recgqAdiHbbhN3qwr","name":"Decentralized VPN"}],"chains":[{"id":"rece94Ok0M65eqMog","name":"Ethereum"}]};
 
   return (
     <Layout title={project.name} description={project.introduction}>
+      <SeoHead title={project.name} description={project.introduction} />
+
       <section className="bg-primary-alt header-inner">
         <div className="container">
           <div className="row my-3">
@@ -62,10 +65,14 @@ const DappTemplate: React.FC = () => {
                 <h6 className="mb-1">Chains</h6>
                 <span>{project.chains.map(it => it.name).join(", ")}</span>
               </div>
-              <div className="mb-3">
-                <h6 className="mb-1">Website</h6>
-                <a href={project.website}>{project.website}</a>
-              </div>
+
+              {project.website && (
+                <div className="mb-3">
+                  <h6 className="mb-1">Website</h6>
+                  <a href={project.website}>{project.website}</a>
+                </div>
+              )}
+
               {project.twitter && (
                 <div className="mb-3">
                   <h6 className="mb-1">Twitter</h6>

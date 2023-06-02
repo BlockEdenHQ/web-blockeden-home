@@ -6,12 +6,15 @@ import {shuffle} from "@site/src/components/shuffle";
 import Link from "@docusaurus/Link";
 import {slugify} from "@site/src/components/slugify";
 import projects from "../../projects-data.json";
+import {SeoHead} from "@site/src/components/seo-head";
 
 const DappTemplate: React.FC = () => {
   const project: Project = {"id":"recp7n7ILqN1vKs2O","name":"Orchid","introduction":"Orchid is a decentralized, open-source platform that offers a privacy-oriented, peer-to-peer marketplace for bandwidth sharing. It enables users to access the internet securely and anonymously by connecting to a global network of VPN providers. Orchid's native token, OXT, powers the platform and incentivizes participants to contribute to the network's growth and sustainability.","website":"https://www.orchid.com/","twitter":"https://twitter.com/orchidprotocol","marketCap":86704283,"tokenSymbol":"OXT","logoUrl":null,"explorerUrl":"https://etherscan.io/token/0x4575f41308EC1483f3d399aa9a2826d74Da13Deb","mediumUrl":"https://medium.com/orchid","redditUrl":"https://www.reddit.com/r/orchid/","githubUrl":"https://github.com/OrchidTechnologies","whitepaperUrl":"https://orchid.com/whitepaper","tags":[{"id":"recgqAdiHbbhN3qwr","name":"Decentralized VPN"}],"chains":[{"id":"rece94Ok0M65eqMog","name":"Ethereum"}]};
 
   return (
     <Layout title={project.name} description={project.introduction}>
+      <SeoHead title={project.name} description={project.introduction} />
+
       <section className="bg-primary-alt header-inner">
         <div className="container">
           <div className="row my-3">
@@ -62,10 +65,14 @@ const DappTemplate: React.FC = () => {
                 <h6 className="mb-1">Chains</h6>
                 <span>{project.chains.map(it => it.name).join(", ")}</span>
               </div>
-              <div className="mb-3">
-                <h6 className="mb-1">Website</h6>
-                <a href={project.website}>{project.website}</a>
-              </div>
+
+              {project.website && (
+                <div className="mb-3">
+                  <h6 className="mb-1">Website</h6>
+                  <a href={project.website}>{project.website}</a>
+                </div>
+              )}
+
               {project.twitter && (
                 <div className="mb-3">
                   <h6 className="mb-1">Twitter</h6>

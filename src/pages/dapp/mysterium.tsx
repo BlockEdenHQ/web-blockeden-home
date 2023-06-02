@@ -6,12 +6,15 @@ import {shuffle} from "@site/src/components/shuffle";
 import Link from "@docusaurus/Link";
 import {slugify} from "@site/src/components/slugify";
 import projects from "../../projects-data.json";
+import {SeoHead} from "@site/src/components/seo-head";
 
 const DappTemplate: React.FC = () => {
   const project: Project = {"id":"rec5dUoAkukJ6mRVH","name":"Mysterium","introduction":"Mysterium is a decentralized, open-source VPN platform that leverages blockchain technology to provide a secure and anonymous internet experience. By creating a peer-to-peer network of VPN service providers, Mysterium ensures data privacy and security for users. The native token, MYST, is used to access services, reward providers, and govern the platform.","website":"https://mysterium.network/","twitter":"https://twitter.com/MysteriumNet","marketCap":5415460,"tokenSymbol":"MYST","logoUrl":null,"explorerUrl":"https://etherscan.io/token/0x4bfred2b3f90804b6b23d1ee10ccf5d5be654b2e","mediumUrl":"https://medium.com/mysterium-network","redditUrl":"https://www.reddit.com/r/MysteriumNetwork/","githubUrl":"https://github.com/MysteriumNetwork","whitepaperUrl":"https://mysterium.network/whitepaper/","tags":[{"id":"recgqAdiHbbhN3qwr","name":"Decentralized VPN"}],"chains":[{"id":"rece94Ok0M65eqMog","name":"Ethereum"},{"id":"recafdsESaixl7aJJ","name":"Binance Smart Chain"},{"id":"rec17leN1lW22bWvK","name":"Polygon"}]};
 
   return (
     <Layout title={project.name} description={project.introduction}>
+      <SeoHead title={project.name} description={project.introduction} />
+
       <section className="bg-primary-alt header-inner">
         <div className="container">
           <div className="row my-3">
@@ -62,10 +65,14 @@ const DappTemplate: React.FC = () => {
                 <h6 className="mb-1">Chains</h6>
                 <span>{project.chains.map(it => it.name).join(", ")}</span>
               </div>
-              <div className="mb-3">
-                <h6 className="mb-1">Website</h6>
-                <a href={project.website}>{project.website}</a>
-              </div>
+
+              {project.website && (
+                <div className="mb-3">
+                  <h6 className="mb-1">Website</h6>
+                  <a href={project.website}>{project.website}</a>
+                </div>
+              )}
+
               {project.twitter && (
                 <div className="mb-3">
                   <h6 className="mb-1">Twitter</h6>
