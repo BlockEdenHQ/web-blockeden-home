@@ -154,7 +154,7 @@ Remember, staking not only provides rewards but also contributes to the SUI ecos
 
 ## Closing Remarks
 
-Staking plays a key role in ensuring the sustainability and security of blockchain networks. By staking your digital assets, you help in operating the network and get rewarded for it. For those interested in staking SUI or learning more about this process, you can reach out to BlockEden.xyz through their [Website](https://blockeden.xyz/?ref=BlockEden.xyz), [Twitter](https://twitter.com/blockedenhq?ref=BlockEden.xyz), [Blog](https://blockeden.xyz/blog/), or join the [Telegram](https://t.me/stakinofficial?ref=BlockEden.xyz) and [Discord](https://discord.gg/4Yfvs2HWey?ref=BlockEden.xyz) community.
+Staking plays a key role in ensuring the sustainability and security of blockchain networks. By staking your digital assets, you help in operating the network and get rewarded for it. For those interested in staking SUI or learning more about this process, you can reach out to BlockEden.xyz through their [Website](https://blockeden.xyz/?ref=BlockEden.xyz), [Twitter](https://twitter.com/blockedenhq?ref=BlockEden.xyz), [Blog](https://blockeden.xyz/blog/), or join the [Discord](https://discord.gg/4Yfvs2HWey?ref=BlockEden.xyz) community.
 
 ------
 
