@@ -1,0 +1,161 @@
+---
+title: Stake SUI and earn rewards with BlockEden.xyz
+authors: [dora]
+tags: [staking, sui]
+image: https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz.png
+---
+
+Earning rewards by staking your SUI with BlockEden.xyz through the Sui Wallet, Martian Wallet, or Suiet! We're excited to announce that SUI staking on Mainnet is finally accessible, providing an opportunity for you to generate passive income from your $SUI by earning staking rewards. This guide will explain, step by step, how to use your preferred Sui wallets: Sui Wallet, Suiet, and Martian Wallet.
+
+- [Staking SUI with Sui Wallet](#staking-sui-with-sui-wallet)
+- [Staking SUI with Martian Wallet](#staking-sui-with-martian-wallet)
+- [Staking SUI with Suiet](#steps-to-stake-sui-using-suiet)
+- [Staking SUI with Ethos Wallet](#staking-sui-with-ethos)
+
+## Staking SUI with Sui Wallet
+
+First, you'll need to install the Sui Wallet [browser extension](https://chrome.google.com/webstore/detail/sui-wallet/opcgpfmipidbgpenhmajoajpbobppdil?ref=BlockEden.xyz). Currently, Sui Wallet is available exclusively on Chrome, though future updates may include support for other browsers. If you aren't using Chrome and wish to stake SUI, consider using the other wallets discussed in this guide.
+
+To create your wallet, click on "Get Started", then "Create a New Wallet". If you already have a wallet, you can import it by clicking on "Import an Existing Wallet".
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-01.png)
+
+Now you need to set a password. It's recommended to choose a strong password with a minimum of 12 characters, including numbers, letters, and symbols. Also, be sure to write your password down and store it in a safe, offline location. Once you've agreed to the terms and conditions, select "Create Wallet".
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-02.png)
+
+Make sure to note down your recovery phrase in a secure place, preferably offline. It's crucial for future access to your SUI.
+
+### Staking Your SUI
+
+After your wallet is set up, it's time to stake! On the dashboard, click "Stake & Earn SUI". Choose your desired validator from the list, confirm your selection, and click on the validator.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-03.png)
+
+Next, specify the quantity of SUI you want to stake. Verify all details before clicking "Stake Now".
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-04-a.png)
+
+Upon successful transaction confirmation, your stake will begin to earn rewards from the beginning of the next epoch. There's no need to restake as rewards are automatically compounded.
+
+### Unstaking SUI with Sui Wallet
+
+To claim or unstake your SUI, click "Currently Staked". You'll see a list of your validators. From this list, select the validator with whom you'd like to unstake.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-05.png)
+
+Then, click on "Unstake SUI". Verify all details before confirming with "Unstake Now".
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-06.png)
+
+Congratulations! You've successfully unstaked your SUI.
+
+## Staking SUI with Martian Wallet
+
+Firstly, download the [Martian Wallet](https://martianwallet.xyz/?ref=BlockEden.xyz) app and set up your wallet account. Be sure to download the browser extension using the official website’s download button. Once the extension is added to your browser, Martian Wallet will open.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-07.png)
+
+On the "start" screen, click "Create a New Wallet" to initiate the process. If you already have a wallet, select "I already have a Wallet", enter your private phrase, and recover your wallet.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-08.png)
+
+As before, set a secure password of at least 12 characters, mixing numbers, letters, and symbols. After selecting your password and agreeing to the terms and conditions, click "Continue".
+
+Your recovery or seed phrase will be presented next. Remember to securely store this phrase offline and not to share it with anyone. It's vital for future access to your assets.
+
+### Staking Your SUI
+
+With your account ready, you can now start staking. In the Martian extension dashboard, click "Stake your SUI". Scroll to find and select your desired validator.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-09.png)
+
+Enter the amount of SUI you want to stake and remember to reserve some SUI for gas fees. The minimum staking amount is 1 SUI. After filling this out, click "Preview".
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-10.png)
+
+Finally, verify all the details on the pop-up, including the staked amount and gas fees. If everything is correct, click "Confirm and Stake". A "Success" message should appear shortly, indicating a successful stake. You can now close the window, and your stake will start earning rewards from the next epoch.
+
+### Process for Unstaking or Claiming with Martian Wallet
+
+Unstaking your SUI from Martian Wallet is a straightforward process. Begin by navigating to the Home screen and selecting “Stake”. From there, you will be presented with a list of all your staked SUI and their respective epochs on the stake dashboard. Please note that you must unstake all SUI at the same time. Identify the SUI you wish to unstake, click on it, and then select “Unstake”. After a brief wait, your assets will be unstaked, congratulations!
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-11.png)
+
+## Steps to Stake SUI using Suiet
+
+To start, you need to download the Suiet Wallet extension. This can be done by visiting the [official Suiet website](https://suiet.app/?ref=BlockEden.xyz), where you should select the download option that best suits your needs. Please exercise caution and ensure you download the wallet from the official Suiet site.
+
+After downloading and installing the extension, you'll need to set it up. To do so, open the extension and click on “Create Wallet”.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-12.png)
+
+The next step is to create a secure password that includes a mix of capital and lowercase letters, symbols, and numbers, with a minimum length of 12 characters. Safely record this password, preferably offline, then proceed to the next step.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-13.png)
+
+You'll then be given a recovery phrase, which is vital for future access to your assets. It is paramount that you keep this phrase confidential and store it in a secure location, preferably offline.
+
+### Staking Your SUI
+
+With the preparation complete, it's now time to stake your SUI. Start by going to the dashboard and selecting “SUI”, then choose “Stake”.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-14.png)
+
+On the top of the dashboard, you'll find a list of validators. Select your preferred validator and decide on the amount of SUI you wish to stake. Remember to keep some SUI reserved for gas fees and future transactions. Once everything is in order, confirm the transaction.
+
+Once the transaction is confirmed, your stake will start accruing rewards from the start of the next epoch.
+
+### How to Claim or Unstake SUI with Suiet
+
+Claiming your SUI rewards or unstaking your SUI with the Suiet wallet is a straightforward process. Just navigate to your staked assets, click on the one you wish to handle, and select “Unstake”. After a brief wait, you will receive a confirmation of successful unstaking. It's as simple as that!
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-15.png)
+
+## Staking SUI with Ethos
+
+Similar to the other wallets, you first need to create your wallet to stake SUI with Ethos. Visit the official [Ethos Wallet for Sui website](https://ethoswallet.xyz/?ref=BlockEden.xyz) to start.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-16.png)
+
+Once the Ethos extension is downloaded and installed, click on “Generate New Wallet” and create a secure password, following the same guidelines as mentioned before. Write down your password securely.
+
+You will then be provided with a recovery or seed phrase. Remember, this phrase is essential for accessing your assets in the future and should not be shared with anyone. Safely store this phrase, preferably offline.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-17.png)
+
+Ethos also gives you the option to customize your wallet with a color and emoji. This step doesn't affect the wallet's security and can be skipped or completed based on personal preference.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-18.png)
+
+### Staking Process for SUI with Ethos
+
+For staking on Ethos, select “staking” on the dashboard. From the list of validators, select your desired one and proceed.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-19.png)
+
+Enter the amount of SUI you wish to stake, taking care to reserve some for gas fees and future transactions. Review the transaction details and if everything seems fine, click “Review”, and then “Confirm”. A message stating “Staking Complete!” should appear shortly. Your staked SUI will start earning rewards from the next epoch.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-20.png)
+
+You'll need to wait for an epoch (24 hours) to unstake your SUI. The rewards on SUI are auto-compounded, so you won't have to restake your rewards.
+
+### Claiming SUI Rewards with Ethos
+
+To claim your SUI rewards, navigate to "staking" on Ethos's top right menu. This will open up your staking overview where you can see your accumulated rewards.
+
+For unstaking, select the validator you wish to unstake with and click “Unstake SUI”. Confirm your decision and that's it, you've unstaked your SUI.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-21.png)
+
+Remember, staking not only provides rewards but also contributes to the SUI ecosystem and aids in securing the blockchain network.
+
+![](https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz-22.png)
+
+## Closing Remarks
+
+Staking plays a key role in ensuring the sustainability and security of blockchain networks. By staking your digital assets, you help in operating the network and get rewarded for it. For those interested in staking SUI or learning more about this process, you can reach out to BlockEden.xyz through their [Website](https://blockeden.xyz/?ref=BlockEden.xyz), [Twitter](https://twitter.com/blockedenhq?ref=BlockEden.xyz), [Blog](https://blockeden.xyz/blog/), or join the [Telegram](https://t.me/stakinofficial?ref=BlockEden.xyz) and [Discord](https://discord.gg/4Yfvs2HWey?ref=BlockEden.xyz) community.
+
+------
+
+DISCLAIMER: This article does not provide financial advice. Staking, delegation, and cryptocurrencies involve considerable risk, and there is always the possibility of loss, including the loss of all staked digital assets. Delegators may face the risk of slashing in case of security or liveness faults on certain protocols. It is advised that you do thorough research before choosing a validator.

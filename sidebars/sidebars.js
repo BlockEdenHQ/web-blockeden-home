@@ -66,6 +66,11 @@ const sidebars = {
           label: "Sui API Reference",
         },
         require("./sidebar-sui-move"),
+        {
+          type: "doc",
+          id: "sui/sui-staking",
+          label: "Sui Staking",
+        },
       ],
     },
     {
