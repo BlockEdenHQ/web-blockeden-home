@@ -82,13 +82,18 @@ function HomepageHeader() {
                 <Link href="/docs/intro/" className="text-small hover-arrow">
                   View Documentation
                 </Link>
+                <a href="/chat/" className="text-small hover-arrow">
+                  Free ChatGPT
+                </a>
               </div>
-              <a
-                href={beConfig.apis}
-                className="mx-1 btn btn-lg btn-secondary mt-3 mt-sm-0"
-              >
-                Explore APIs
-              </a>
+              <div className="d-flex flex-column mx-1 text-center">
+                <a
+                  href={beConfig.apis}
+                  className="mx-1 btn btn-lg mb-2 btn-secondary mt-3 mt-sm-0"
+                >
+                  Explore APIs
+                </a>
+              </div>
             </div>
           </div>
         </div>
