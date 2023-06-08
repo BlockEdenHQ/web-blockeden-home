@@ -25,18 +25,18 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Aptos API 🌎 ",
+      label: "Aptos 🌎 ",
       collapsible: false,
       items: [
         {
           type: "doc",
           id: "aptos/index",
-          label: "Get started",
+          label: "Aptos REST API Quick Start",
         },
         {
           type: "doc",
           id: "aptos/analytics-and-graphql",
-          label: "Analytics and GraphQL",
+          label: "Aptos GraphQL and Analytics",
         },
         {
           type: "link",
@@ -47,13 +47,13 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Sui API 💧 ",
+      label: "Sui 💧 ",
       collapsible: false,
       items: [
         {
           type: "doc",
           id: "sui/index",
-          label: "Get started",
+          label: "Sui API Quick Start Guide",
         },
         {
           type: "doc",

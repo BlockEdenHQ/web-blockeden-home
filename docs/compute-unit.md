@@ -2,21 +2,10 @@
 sidebar_position: 4
 ---
 
-# Compute Unit
+# Understanding the Compute Unit
 
-**Compute unit** is an uniformed measure to tell how expensive an API invocation
-is. BlockeEden.xyz provides multiple types of services, and support mutiple
-networks. The machine cost to support each other is different. Therefore, we
-need to use compute unit to report the API invocation price in a comparable way.
+The **Compute Unit** functions as a unified metric, quantifying the computational expense associated with an API invocation. BlockEden.xyz offers a multitude of services, each supporting various networks. Given the inherent differential in machine costs for each service, we employ the compute unit as a standard means to communicate the price of API invocation in a manner that ensures comparability.
 
-## Service Pricing
+##  Lowest Price Match Guarantee!
 
-| Service       | Network              | Compute Unit(s) |
-|---------------|----------------------|-----------------|
-| Node API      | Aptos, Sui, Ethereum | 1               |
-| GraphQL API   | Aptos                | 5               |
-| Analytics SQL | Aptos                | 100             |
-
-**Note:** the machine cost of providing these services could be changed over the
-time. We resere the right of adjusting the compute units of eacch service and
-network in the future.
+At BlockEden.xyz, we are committed to delivering services of exceptional quality and value. We constantly strive to ensure that our prices remain competitive within the market. Should you encounter a lower price alternative for equivalent services, we encourage you to share such quotations with us. We value your trust and would be glad to match a more economical offer to continue serving your needs effectively.

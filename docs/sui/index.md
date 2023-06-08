@@ -2,47 +2,45 @@
 sidebar_position: 3
 ---
 
-# Get started
+# Quick Start Guide for Sui JSON-RPC API
 
-BlockEden.xyz provides [Sui](https://sui.io/) JSON-RPC API.
+Welcome to BlockEden.xyz, the proud provider of the [Sui](https://sui.io/) JSON-RPC API equipped with indexer data. We are dedicated to delivering a robust, intuitive, and efficient interface for your Sui node.
 
-* **Standard Interface**: supporting Sui JSON-RPC API with HTTPS.
-* **Reliability**: running on the latest network upgrades with a minimum 99.9%
-  uptime guarantee.
-* **Instant Availability**: connecting your application with one line of code. No
-  syncing, and no complicated setups.
-* **Full Delegation**: freeing yourself from the DevOps work for maintaining Sui node.
+* **Standardized Interface**: We furnish a standard interface supporting Sui JSON-RPC API through HTTPS for seamless data interaction.
+* **Reliability Assured**: Our system consistently runs on the most recent network upgrades, guaranteeing a minimum of 99.9% uptime to maintain uninterrupted service.
+* **Immediate Availability**: Experience instant connectivity with our straightforward single-line-of-code integration. We've eliminated the need for complicated setups and syncing.
+* **Comprehensive Delegation**: Enjoy the freedom from DevOps work for maintaining a Sui node, as we provide a fully delegated solution.
 
+## How to Create a BlockEden.xyz Access Key
 
-## Create a BlockEden.xyz access key
+**Step 1**: Visit https://blockeden.xyz/dash/. If you're new to our platform, please complete the sign-up process.
 
-**Step 1**. Go to https://blockeden.xyz/dash/. Please sign up if you haven't done so.
-**Step 2**. Input your name for the API key, select Sui Devnet, and then click *+ Create key*.
+**Step 2**: Specify a unique name for your API key, and click on '+ Create key'.
 
-![image info](./img/create_sui_access_key.png)
+**Step 3**: After creation, click on the provided access key to copy it to your clipboard for future referencing.
 
-**Step 3**. Grab your access URL by clicking it and copying it to the clipboard.
-**Step 4**. Use the access URL in your project like the following. Remember to replace `<access_key>` with your own key.
+**Step 4**: Incorporate the copied access key into your project as demonstrated below. Ensure you replace `<access_key>` with your personal access key.
 
-Using `CURL` to connect Sui
+**Connection to Sui using `CURL`:**
 
-```
-# sui json-rpc discover request
-
+```bash
+# Sui JSON-RPC discovery request
 curl -X POST https://sui-devnet.blockeden.xyz/<access_key> \
 -H 'Content-Type: application/json' \
 -d '{ "jsonrpc":"2.0", "method":"rpc.discover","id":1}'
 ```
 
-Using TypeScript SDK to connect Sui
+**Connection to Sui using TypeScript SDK:**
 
 ```typescript
 const { JsonRpcProvider, devnetConnection } = require("@mysten/sui.js");
 
 (async () => {
-  const providerUrl = "https://sui-devnet.blockeden.xyz/<access_key>";
+  const providerUrl = "https://api.blockeden.xyz/sui/<access_key>";
   const provider = new JsonRpcProvider(devnetConnection);
-  const totalTxNumber = await provider.getTotalTransactionNumber();
-  console.log(`${providerUrl} getTotalTransactionNumber: ${totalTxNumber}`);
+  const totalTxBlocks = await provider.getTotalTransactionBlocks();
+  console.log(`successfully called ${providerUrl} to getTotalTransactionBlocks. result: ${totalTxBlocks}`);
 })();
 ```
+
+By following these instructions, you will be equipped to effectively leverage our Sui RPC API for your development needs. Happy coding!

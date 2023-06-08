@@ -1,6 +1,6 @@
 module.exports = {
   type: "category",
-  label: "Sui Move",
+  label: "Sui Move Language",
   collapsible: true,
   collapsed: true,
   items: [

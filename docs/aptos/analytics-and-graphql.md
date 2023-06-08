@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Aptos Analytics and GraphQL
+# Aptos GraphQL and Analytics
 
 Raw blockchain data can be difficult for developers to work with for a number of reasons.
 

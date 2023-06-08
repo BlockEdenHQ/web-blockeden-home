@@ -277,6 +277,11 @@ export default function Pricing() {
                 </div>
               </div>
               <div className="row">
+                <div className="col text-center mb-2">
+                  <strong>Lowest Price Guarantee!</strong> Find a lower quote elsewhere? We'll match it, ensuring you get the best deal with us.
+                </div>
+              </div>
+              <div className="row">
                 <div className="col text-center">
                   <span>
                     Interested in a custom plan?{" "}
