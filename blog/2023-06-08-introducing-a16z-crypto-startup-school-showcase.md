@@ -5,11 +5,11 @@ tags: [dapp]
 image: https://tp-misc.b-cdn.net/blockeden/introducing-a16z-crypto-startup-school-showcase.jpg
 ---
 
-Welcome to a whole new vista of opportunities with our latest feature on the Blockeden platform – The a16z Crypto
+Welcome to a whole new vista of opportunities with our latest feature on the BlockEden.xyz platform – The a16z Crypto
 Startup School Showcase. A place where you can discover the world's leading and most innovative Web3 projects,
 painstakingly curated from the renowned a16z crypto venture capital fund's accelerator program.
 
-At Blockeden, we're always committed to fostering a robust ecosystem that thrives on decentralized innovation and
+At BlockEden.xyz, we're always committed to fostering a robust ecosystem that thrives on decentralized innovation and
 potential. We believe the Web3 landscape presents boundless opportunities for developers and investors alike. That's why
 we are excited to introduce you to this dedicated page (https://blockeden.xyz/dapp/a16z-crypto-startup-school/)
 showcasing the cream of the crop from the a16z Crypto Startup School.
@@ -75,11 +75,11 @@ ventures that hold the potential to shape the future of the digital economy.
 
 ## A Glimpse into the Future
 
-At Blockeden, we’re thrilled to facilitate this connection between the game-changing projects from the a16z Crypto
+At BlockEden.xyz, we’re thrilled to facilitate this connection between the game-changing projects from the a16z Crypto
 Startup School and our community of passionate developers and discerning investors. We invite you to explore this
 showcase, engage with these projects, and be a part of the ongoing Web3 revolution.
 
-Venture forth into the new world of Web3, with Blockeden's a16z Crypto Startup School Showcase. Together, we are
+Venture forth into the new world of Web3, with BlockEden.xyz's a16z Crypto Startup School Showcase. Together, we are
 building the future, one DApp at a time.
 
 <div class="alert alert-success" role="alert"><h2 class="alert-heading">🕵️‍♀️️ Build the DApp showcase together!</h2><p>If you are interested in contributing to the project collection, please <a href="https://discord.gg/4Yfvs2HWey">contact us in our Discord channel</a>.</p></div>
