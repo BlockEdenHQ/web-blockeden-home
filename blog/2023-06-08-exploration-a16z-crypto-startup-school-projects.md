@@ -59,7 +59,7 @@ Each of these categories represents a unique approach to the utilization of bloc
 
 The rise of Web3 is a fascinating, complex phenomenon and projects such as these, supported by the likes of a16z Crypto Startup School, are contributing to this dynamic evolution. For a more in-depth exploration of each project, the [a16z Crypto Startup School](https://blockeden.xyz/dapp/a16z-crypto-startup-school) page provides comprehensive details.
 
-<div class="alert alert-success" role="alert"><h2 class="alert-heading">🕵️‍♀️️ Join 10x.pub Web3 Guild!</h2><p>If you are interested in collecting and analysing web3 projects, please <a href="https://discord.gg/4Yfvs2HWey">contact us in our Discord channel</a>.</p></div>
+<div class="alert alert-success" role="alert"><h2 class="alert-heading">🕵️‍♀️️ Join 10x.pub Web3 Guild!</h2><p>If you are interested in collecting and analyzing web3 projects, please <a href="https://discord.gg/4Yfvs2HWey">contact us on our Discord channel</a>.</p></div>
 
 - Twitter: https://twitter.com/BlockEdenHQ
 - Discord: https://discord.gg/4Yfvs2HWey
