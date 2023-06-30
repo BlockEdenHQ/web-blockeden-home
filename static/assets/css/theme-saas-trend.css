@@ -3258,7 +3258,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: rgba(73, 80, 87, 0.5);
+  color: rgba(73, 80, 87, 0.8);
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -3299,7 +3299,7 @@ input[type="button"].btn-block {
 .dropdown-item-text {
   display: block;
   padding: 0.25rem 1.5rem;
-  color: rgba(73, 80, 87, 0.5);
+  color: rgba(73, 80, 87, 0.8);
 }
 
 .btn-group,
