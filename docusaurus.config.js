@@ -221,7 +221,7 @@ const config = {
               },
               {
                 label: "Blog",
-                to: "/blog",
+                to: "/blogs",
               },
               {
                 label: "Privacy Policy",
