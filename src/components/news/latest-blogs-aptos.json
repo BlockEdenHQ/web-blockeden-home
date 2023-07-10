@@ -31,8 +31,13 @@
       ],
       "frontMatter": {
         "title": "BlockEden.xyz and Aptools Partner to Strengthen the Aptos Developer Ecosystem",
-        "authors": ["dora"],
-        "tags": ["partnership", "aptos"],
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "partnership",
+          "aptos"
+        ],
         "image": "https://0x9C61566175E20204D7Ee56F5ca8F420136729fdA.w3q-g.w3link.io/blockeden-xyz-aptools-partnership.jpg"
       },
       "prevItem": {
@@ -82,8 +87,14 @@
       ],
       "frontMatter": {
         "title": "How to Pay BlockEden.xyz with APT, USDC, USDT on Aptos",
-        "authors": ["dora"],
-        "tags": ["company", "product", "aptos"],
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "company",
+          "product",
+          "aptos"
+        ],
         "image": "https://tp-misc.b-cdn.net/blockeden/how-to-pay-blockeden-xyz-with-apt.png"
       },
       "prevItem": {
@@ -133,8 +144,14 @@
       ],
       "frontMatter": {
         "title": "Introducing BlockEden.xyz Analytics",
-        "authors": ["dora"],
-        "tags": ["company", "product", "aptos"],
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "company",
+          "product",
+          "aptos"
+        ],
         "image": "https://tp-misc.b-cdn.net/blockeden/BlockEden-xyz-analytics-share-dashboard.png"
       },
       "prevItem": {

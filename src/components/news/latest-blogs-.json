@@ -27,8 +27,12 @@
       ],
       "frontMatter": {
         "title": "The Intricacies of QuickNode's Business Landscape",
-        "authors": ["dora"],
-        "tags": ["Investment Research"],
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "Investment Research"
+        ],
         "image": "https://tp-misc.b-cdn.net/blockeden/quicknode-vs-blockeden-xyz.png",
         "description": "Embark on a comprehensive exploration of QuickNode's business model, competitive landscape, potential drawbacks, and key tactics to go head-to-head with this blockchain player."
       },
@@ -75,8 +79,14 @@
       ],
       "frontMatter": {
         "title": "Introducing Blockroma - Your Open-source, EVM-Compatible Blockchain Explorer",
-        "authors": ["dora"],
-        "tags": ["dapp", "product", "business"],
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "dapp",
+          "product",
+          "business"
+        ],
         "image": "https://tp-misc.b-cdn.net/blockroma-v0.1.png"
       },
       "prevItem": {
@@ -88,7 +98,7 @@
         "permalink": "/blog/2023/06/08/exploration-a16z-crypto-startup-school-projects"
       }
     },
-    "content": "In today's digital era, blockchain technology has become a crucial part of online transactions and data sharing. As the use of blockchain expands, so does the need for an efficient and transparent way to navigate its ecosystem. Enter Blockroma, an open-source, EVM-compatible blockchain explorer, fulfilling this necessity effectively and efficiently.\n\n![Introducing Blockroma - Your Open-source, EVM-Compatible Blockchain Explorer](https://tp-misc.b-cdn.net/blockroma-v0.1.png \"Introducing Blockroma - Your Open-source, EVM-Compatible Blockchain Explorer\")\n\n## What is Blockroma?\n\nA blockchain explorer like Blockroma is a web tool that allows users to interact with the blockchain network, providing real-time data, transaction history, and network status. It aids users in understanding individual transactions - including sender, receiver, amount, and transaction time - and provides insights into the blockchain network's current state.\n\n## The Tech Stack\n\nBlockroma utilizes a modern technology stack - TypeScript, React, and PostgreSQL - that ensures scalability and easy maintainability. It empowers you with its quick and straightforward deployment process, contributing to a seamless user experience.\n\n## Advanced Features\n\nBlockroma steps beyond traditional blockchain explorers, offering advanced features such as searching for specific transactions or addresses, facilitating the creation and viewing of smart contracts, and exploring the history of particular blocks. These features allow users from all backgrounds - developers, traders, investors, or everyday users - to comprehend the blockchain network better and leverage its full potential.\n\n![Introducing Blockroma](https://camo.githubusercontent.com/32af9e9099ba6746129b30c137ca6af438b26838d6c61eb8ff57dd678c8891ef/68747470733a2f2f74702d6d6973632e622d63646e2e6e65742f626c6f636b726f6d612d76302e312d322e676966 \"Introducing Blockroma\")\n\n## Why Choose Blockroma?\n\n- Transparency: Blockroma simplifies the process of accessing blockchain data, enabling users to verify transactions, addresses, and other data effortlessly.\n- Real-time data: It provides real-time data on transaction confirmations, network status, and mining difficulty, which are essential for those needing to monitor the blockchain's health and performance.\n- Searchability: Blockroma's advanced search feature improves the tracking and analysis of blockchain activities by allowing users to search for specific transactions, addresses, or blocks.\n- Security: Enhancing security on the blockchain, Blockroma helps users verify the authenticity of transactions and the identities of the parties involved, providing an added layer of assurance for businesses.\n\n<div style={{ display: \"flex\", width: \"100%\", justifyContent: \"center\" }}>\n  <iframe\n    src=\"https://blockedenxyz.substack.com/embed\"\n    width=\"480\"\n    height=\"320\"\n    frameborder=\"0\"\n    scrolling=\"no\"\n  ></iframe>\n</div>\n\n\n## Additional Benefits\n\nApart from these features, Blockroma also provides custom themes, premium support, and priority updates for managed hosting on Blockroma.com. Moreover, it allows a worry-free experience with zero operation costs.\n\n## Conclusion\n\nIn a nutshell, Blockroma makes blockchain navigation easier, efficient, and secure for individuals and businesses. With its advanced features and user-friendly interface, Blockroma stands as a robust solution for exploring and interacting with the blockchain. Embrace the future of blockchain interaction with Blockroma."
+    "content": "In today's digital era, blockchain technology has become a crucial part of online transactions and data sharing. As the use of blockchain expands, so does the need for an efficient and transparent way to navigate its ecosystem. Enter Blockroma, an open-source, EVM-compatible blockchain explorer, fulfilling this necessity effectively and efficiently.\n\n![Introducing Blockroma - Your Open-source, EVM-Compatible Blockchain Explorer](https://tp-misc.b-cdn.net/blockroma-v0.1.png \"Introducing Blockroma - Your Open-source, EVM-Compatible Blockchain Explorer\")\n\n## What is Blockroma?\n\nA blockchain explorer like Blockroma is a web tool that allows users to interact with the blockchain network, providing real-time data, transaction history, and network status. It aids users in understanding individual transactions - including sender, receiver, amount, and transaction time - and provides insights into the blockchain network's current state.\n\n## The Tech Stack\n\nBlockroma utilizes a modern technology stack - TypeScript, React, and PostgreSQL - that ensures scalability and easy maintainability. It empowers you with its quick and straightforward deployment process, contributing to a seamless user experience.\n\n## Advanced Features\n\nBlockroma steps beyond traditional blockchain explorers, offering advanced features such as searching for specific transactions or addresses, facilitating the creation and viewing of smart contracts, and exploring the history of particular blocks. These features allow users from all backgrounds - developers, traders, investors, or everyday users - to comprehend the blockchain network better and leverage its full potential.\n\n![Introducing Blockroma](https://camo.githubusercontent.com/32af9e9099ba6746129b30c137ca6af438b26838d6c61eb8ff57dd678c8891ef/68747470733a2f2f74702d6d6973632e622d63646e2e6e65742f626c6f636b726f6d612d76302e312d322e676966 \"Introducing Blockroma\")\n\n## Why Choose Blockroma?\n\n- Transparency: Blockroma simplifies the process of accessing blockchain data, enabling users to verify transactions, addresses, and other data effortlessly.\n- Real-time data: It provides real-time data on transaction confirmations, network status, and mining difficulty, which are essential for those needing to monitor the blockchain's health and performance.\n- Searchability: Blockroma's advanced search feature improves the tracking and analysis of blockchain activities by allowing users to search for specific transactions, addresses, or blocks.\n- Security: Enhancing security on the blockchain, Blockroma helps users verify the authenticity of transactions and the identities of the parties involved, providing an added layer of assurance for businesses.\n\n<div style={{ display: \"flex\", width: \"100%\", justifyContent: \"center\" }}>\n  <iframe\n    src=\"https://blockedenxyz.substack.com/embed\"\n    width=\"480\"\n    height=\"320\"\n    frameborder=\"0\"\n    scrolling=\"no\"\n  ></iframe>\n</div>\n\n## Additional Benefits\n\nApart from these features, Blockroma also provides custom themes, premium support, and priority updates for managed hosting on Blockroma.com. Moreover, it allows a worry-free experience with zero operation costs.\n\n## Conclusion\n\nIn a nutshell, Blockroma makes blockchain navigation easier, efficient, and secure for individuals and businesses. With its advanced features and user-friendly interface, Blockroma stands as a robust solution for exploring and interacting with the blockchain. Embrace the future of blockchain interaction with Blockroma."
   },
   {
     "id": "/2023/06/08/exploration-a16z-crypto-startup-school-projects",
@@ -118,8 +128,12 @@
       ],
       "frontMatter": {
         "title": "An Exploration of a16z Crypto Startup School Projects",
-        "authors": ["dora"],
-        "tags": ["dapp"],
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "dapp"
+        ],
         "image": "https://tp-misc.b-cdn.net/blockeden/introducing-a16z-crypto-startup-school-showcase.jpg"
       },
       "prevItem": {

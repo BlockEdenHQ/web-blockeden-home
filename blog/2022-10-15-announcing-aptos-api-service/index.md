@@ -2,10 +2,8 @@
 title: Announcing Aptos REST API Service
 authors: [dora]
 tags: [company, product, aptos]
-abstract: In this tutorial, we will share step-by-step tutorials on connecting to Aptos mainnet by using BlockEden.xyz Node Service.
+description: In this tutorial, we will share step-by-step tutorials on connecting to Aptos mainnet by using BlockEden.xyz Node Service.
 ---
-
-## Overview
 
 BlockEden.xyz is committed to growing with the Aptos and Sui developers and providing the most tailored and scalable developer infrastructure. Thus we have been serving Aptos mainnet since its day-one launch.
 

@@ -132,7 +132,7 @@ const config = {
             position: "left",
             label: "Doc",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blogs", label: "Blog", position: "left" },
           { to: "/pricing", label: "Pricing", position: "right" },
           { to: beConfig.signIn, label: "Login", position: "right" },
           { to: beConfig.signUp, label: "Sign Up", position: "right" },

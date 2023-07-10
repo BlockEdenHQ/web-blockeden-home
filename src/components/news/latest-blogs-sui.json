@@ -31,8 +31,13 @@
       ],
       "frontMatter": {
         "title": "Stake SUI and earn rewards with BlockEden.xyz",
-        "authors": ["dora"],
-        "tags": ["staking", "sui"],
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "staking",
+          "sui"
+        ],
         "image": "https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz.png"
       },
       "prevItem": {
@@ -78,8 +83,13 @@
       ],
       "frontMatter": {
         "title": "Dive into Blockchain Programming with Sui Move",
-        "authors": ["dora"],
-        "tags": ["sui", "tutorial"],
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "sui",
+          "tutorial"
+        ],
         "image": "https://tp-misc.b-cdn.net/blockeden/a_software_engineer_learning_coding_cinematic_portrait.png"
       },
       "prevItem": {
@@ -125,8 +135,13 @@
       ],
       "frontMatter": {
         "title": "Sui Mainnet Launch: BlockEden.xyz Expands API Suite to Include Next-Generation Blockchain Platform",
-        "authors": ["dora"],
-        "tags": ["product", "sui"],
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "product",
+          "sui"
+        ],
         "image": "https://tp-misc.b-cdn.net/blockeden/sui-mainnet-rpc-launch.png"
       },
       "prevItem": {

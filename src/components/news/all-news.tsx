@@ -1,36 +1,31 @@
-import React from "react";
 import Link from "@docusaurus/Link";
-import styles from "./news.module.css";
 import clsx from "clsx";
+import styles from "@site/src/components/news/news.module.css";
+import React from "react";
 
-type Props = {
-  filterTag?: string;
-};
+const {
+  blogPosts,
+} = require("../../../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json");
 
-export const News = ({ filterTag }: Props) => {
-  const recent = require(`./latest-blogs-${filterTag ?? ""}`);
+export const AllNews =  () => {
+  const recent = blogPosts;
   return (
     <section className="bg-primary-2-alt">
       <div className="container">
-        <div className="row mb-4">
-          <div className="col">
-            <h3 className="h1">Stay in the loop</h3>
-          </div>
-        </div>
         <div className="row">
           {recent.map((bp, i) => (
             <div
               key={bp.id}
               className="col-md-6 col-lg-4 d-flex"
               data-aos="fade-up"
-              data-aos-delay={(i + 1) * 100}
+              data-aos-delay={100}
             >
               <div className="card">
                 <Link href={bp.metadata.permalink}>
                   <img
                     src={
                       bp.metadata.frontMatter.image ??
-                      `/assets/img/article-${i + 1}.jpg`
+                      `/assets/img/article-${(((i) + 1) % 9) + 1}.jpg`
                     }
                     alt="Image"
                     className="card-img-top"
@@ -64,16 +59,6 @@ export const News = ({ filterTag }: Props) => {
               </div>
             </div>
           ))}
-        </div>
-        <div className="row">
-          <div className="col">
-            <Link
-              href={filterTag ? `/blog/tags/${filterTag}/` : "/blogs/"}
-              className="hover-arrow"
-            >
-              View more news
-            </Link>
-          </div>
         </div>
       </div>
     </section>
