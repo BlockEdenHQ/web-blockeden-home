@@ -7,12 +7,13 @@ import CountUp from "react-countup";
 import Link from "@docusaurus/Link";
 import styles from "./aptos.module.css";
 import clsx from "clsx";
-import { News } from "@site/src/components/news";
+import { News } from "@site/src/components/news/news";
 import { DappGallery } from "@site/src/components/dapp-gallery";
 import projects from "@site/src/projects-data.json";
 import { shuffle } from "@site/src/components/shuffle";
 
-const desc = "Welcome to BlockEden.xyz, your premier destination for Sui blockchain node operations and Remote Procedure Call (RPC) services. We're dedicated to providing developers with the most efficient, reliable, and scalable blockchain infrastructure solutions.";
+const desc =
+  "Welcome to BlockEden.xyz, your premier destination for Sui blockchain node operations and Remote Procedure Call (RPC) services. We're dedicated to providing developers with the most efficient, reliable, and scalable blockchain infrastructure solutions.";
 
 export default function Aptos(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();

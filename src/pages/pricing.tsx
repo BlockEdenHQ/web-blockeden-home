@@ -1,6 +1,6 @@
 import Layout from "@theme/Layout";
 import { Features } from "@site/src/components/features";
-import { News } from "@site/src/components/news";
+import { News } from "@site/src/components/news/news";
 import { GetStarted } from "@site/src/components/get-started";
 import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -278,7 +278,9 @@ export default function Pricing() {
               </div>
               <div className="row">
                 <div className="col text-center mb-2">
-                  <strong>Lowest Price Guarantee!</strong> Find a lower quote elsewhere? We'll match it, ensuring you get the best deal with us.
+                  <strong>Lowest Price Guarantee!</strong> Find a lower quote
+                  elsewhere? We'll match it, ensuring you get the best deal with
+                  us.
                 </div>
               </div>
               <div className="row">

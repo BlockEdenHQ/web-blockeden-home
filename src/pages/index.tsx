@@ -5,7 +5,7 @@ import Layout from "@theme/Layout";
 import Hls from "hls.js";
 import styles from "./index.module.css";
 import { GetStarted } from "@site/src/components/get-started";
-import { News } from "@site/src/components/news";
+import { News } from "@site/src/components/news/news";
 import { Features } from "@site/src/components/features";
 import { beConfig } from "../config";
 import { useAos } from "@site/src/components/use-aos";

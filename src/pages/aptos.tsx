@@ -7,7 +7,7 @@ import CountUp from "react-countup";
 import Link from "@docusaurus/Link";
 import styles from "./aptos.module.css";
 import clsx from "clsx";
-import { News } from "@site/src/components/news";
+import { News } from "@site/src/components/news/news";
 import { DappGallery } from "@site/src/components/dapp-gallery";
 import projects from "@site/src/projects-data.json";
 import { shuffle } from "@site/src/components/shuffle";

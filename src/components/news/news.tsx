@@ -1,26 +1,14 @@
 import React from "react";
 import Link from "@docusaurus/Link";
-import styles from "./index.module.css";
+import styles from "./news.module.css";
 import clsx from "clsx";
-
-const {
-  blogPosts,
-} = require("../../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json");
 
 type Props = {
   filterTag?: string;
 };
 
 export const News = ({ filterTag }: Props) => {
-  const recent = blogPosts
-    .filter((p) => {
-      if (!filterTag) {
-        return true;
-      } else {
-        return p.metadata.tags.some((t) => t.label === filterTag);
-      }
-    })
-    .slice(0, 3);
+  const recent = require(`./latest-blogs-${filterTag ?? ""}`);
   return (
     <section className="bg-primary-2-alt">
       <div className="container">
