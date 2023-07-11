@@ -30,6 +30,7 @@ The `JsonRpcProvider` class provides a connection to the JSON-RPC Server and sho
 
 - local: http://127.0.0.1:9000
 - DevNet: https://api.blockeden.xyz/sui/devnet/${apiAccessKey}
+- MainNet: https://api.blockeden.xyz/sui/${apiAccessKey}
 
 Don't have an access key? Create one at https://BlockEden.xyz/dash/.
 
