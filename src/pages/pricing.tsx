@@ -14,7 +14,7 @@ import { SeoHead } from "@site/src/components/seo-head";
 export default function Pricing() {
   const { siteConfig } = useDocusaurusContext();
   const description =
-    "Instant and reliable access to Aptos REST and GraphQL APIs and Sui Node, provided by BlockEden.xyz.";
+    "Instant and reliable access to Aptos, Sui, Solana, NEAR and 12 EVM blockchains, provided by BlockEden.xyz, with $45+ million worth of tokens staked with us.";
   useAos();
   return (
     <Layout title={"Pricing"} description={description}>
