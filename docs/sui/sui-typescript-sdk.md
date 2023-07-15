@@ -26,57 +26,6 @@ npm install @mysten/sui.js@experimental
 
 Refer to the [JSON RPC](https://github.com/MystenLabs/sui/blob/main/doc/src/build/json-rpc.md) topic for instructions about how to start a local network and local RPC server.
 
-## Building Locally
-
-To get started you need to install [pnpm](https://pnpm.io/), then run the following command:
-
-```bash
-# Install all dependencies
-$ pnpm install
-# Run the build for the TypeScript SDK
-$ pnpm sdk build
-```
-
-> All `pnpm` commands are intended to be run in the root of the Sui repo. You can also run them within the `sdk/typescript` directory, and remove change `pnpm sdk` to just `pnpm` when running commands.
-
-## Type Doc
-
-You can view the generated [Type Doc](https://typedoc.org/) for the [current release of the SDK](https://www.npmjs.com/package/@mysten/sui.js) at http://typescript-sdk-docs.s3-website-us-east-1.amazonaws.com/.
-
-For the latest docs for the `main` branch, run `pnpm doc` and open the [doc/index.html](doc/index.html) in your browser.
-
-## Testing
-
-To run unit tests
-
-```
-pnpm sdk test:unit
-```
-
-To run E2E tests against local network
-
-```
-pnpm sdk prepare:e2e
-
-// This will run all e2e tests
-pnpm sdk test:e2e
-
-// Alternatively you can choose to run only one test file
-npx vitest txn-builder.test.ts
-```
-
-Troubleshooting:
-
-If you see errors like `ECONNRESET or "socket hang up"`, run `node -v` to make sure your node version is `v18.x.x`. Refer to this [guide](https://blog.logrocket.com/how-switch-node-js-versions-nvm/) to switch node version.
-
-Some more follow up here is if you used homebrew to install node, there could be multiple paths to node on your machine. https://stackoverflow.com/questions/52676244/node-version-not-updating-after-nvm-use-on-mac
-
-To run E2E tests against DevNet
-
-```
-VITE_FAUCET_URL='https://faucet.devnet.sui.io:443/gas' VITE_FULLNODE_URL='https://fullnode.devnet.sui.io' pnpm sdk exec vitest e2e
-```
-
 ## Connecting to Sui Network
 
 The `JsonRpcProvider` class provides a connection to the JSON-RPC Server and should be used for all read-only operations. The default URLs to connect with the RPC server are:
