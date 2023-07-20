@@ -1,5 +1,53 @@
 [
   {
+    "id": "/2023/07/19/unveiling-integration-openai-api-blockeden-api-marketplace",
+    "metadata": {
+      "permalink": "/blog/2023/07/19/unveiling-integration-openai-api-blockeden-api-marketplace",
+      "source": "@site/blog/2023-07-19-unveiling-integration-openai-api-blockeden-api-marketplace.mdx",
+      "title": "Unveiling the Integration of OpenAI ChatGPT API in BlockEden.xyz's API Marketplace",
+      "description": "We are glad to announce that BlockEden.xyz, web3 developers' go-to platform for API marketplace, has added a new, powerful capability – OpenAI API. Yes, you heard it right! Developers, tech enthusiasts, and AI pioneers can now leverage the cutting-edge machine learning models offered by OpenAI, directly through BlockEden's API Marketplace.",
+      "date": "2023-07-19T00:00:00.000Z",
+      "formattedDate": "July 19, 2023",
+      "tags": [
+        {
+          "label": "product",
+          "permalink": "/blog/tags/product"
+        },
+        {
+          "label": "openai",
+          "permalink": "/blog/tags/openai"
+        }
+      ],
+      "readingTime": 2.23,
+      "hasTruncateMarker": false,
+      "authors": [
+        {
+          "name": "Dora Noda",
+          "title": "Software Engineer",
+          "url": "https://github.com/doranoda",
+          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
+          "key": "dora"
+        }
+      ],
+      "frontMatter": {
+        "title": "Unveiling the Integration of OpenAI ChatGPT API in BlockEden.xyz's API Marketplace",
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "product",
+          "openai"
+        ],
+        "image": "https://tp-misc.b-cdn.net/blockeden/unveiling-integration-openai-api-blockeden-api-marketplace.png"
+      },
+      "nextItem": {
+        "title": "Beyond Boundaries: The Integration of NEAR Protocol into BlockEden.xyz's API Marketplace",
+        "permalink": "/blog/2023/07/14/beyond-boundaries-the-integration-of-near-protocol-into-blockedenxyzs-api-marketplace"
+      }
+    },
+    "content": "We are glad to announce that BlockEden.xyz, web3 developers' go-to platform for API marketplace, has added a new, powerful capability – OpenAI API. Yes, you heard it right! Developers, tech enthusiasts, and AI pioneers can now leverage the cutting-edge machine learning models offered by OpenAI, directly through BlockEden's API Marketplace.\n\nBefore we dive into the how-to guide, let's understand what OpenAI API brings to the table. OpenAI API is a gateway to AI models developed by OpenAI, such as the industry-renowned GPT-3, the state-of-the-art transformer-based language model known for its remarkable ability to understand and generate human-like text. The API enables developers to use this advanced technology for a variety of applications, including drafting emails, writing code, answering questions, creating written content, tutoring, language translation, and much more.\n\nNow, let's see how you can incorporate the power of OpenAI API into your applications using BlockEden.xyz. You can do it in three ways: using Python, using JavaScript (Node.js), or using curl directly from the command line. In this blog, we're going to provide the basic setup for each method, using a simple \"Hello, World!\" example.\n\nThe API key below is public and subject to change and rate limit. Get your own `BLOCKEDEN_API_KEY` from https://blockeden.xyz/dash instead.\n\n**Python**:\n\nUsing Python, you can use the OpenAI API as shown in the following snippet:\n\n```python\nimport openai\n\nBLOCKEDEN_API_KEY = \"8UuXzatAZYDBJC6YZTKD\"\nopenai.api_key = \"\"\nopenai.api_base = \"https://api.blockeden.xyz/openai/\" + BLOCKEDEN_API_KEY + \"/v1\"\n\nresponse = openai.ChatCompletion.create(\n  model=\"gpt-3.5-turbo-16k\",\n  messages=[{\"role\": \"user\", \"content\": \"hello, world!\"}],\n  temperature=0,\n  max_tokens=2048,\n  top_p=1,\n  frequency_penalty=0,\n  presence_penalty=0\n)\n\nprint(response[\"choices\"])\n```\n\n**JavaScript (Node.js)**:\n\nYou can also utilize the OpenAI API with JavaScript. Here's how you can do it:\n\n```js\nconst { Configuration, OpenAIApi } = require(\"openai\");\n\nconst BLOCKEDEN_API_KEY = \"8UuXzatAZYDBJC6YZTKD\";\nconst configuration = new Configuration({\n  basePath: \"https://api.blockeden.xyz/openai/\" + BLOCKEDEN_API_KEY + \"/v1\"\n});\nconst openai = new OpenAIApi(configuration);\n\n(async () => {\n  const response = await openai.createChatCompletion({\n    model: \"gpt-3.5-turbo-16k\",\n    messages: [{role: \"user\", content: \"hello, world!\"}],\n    temperature: 0,\n    max_tokens: 2048,\n    top_p: 1,\n    frequency_penalty: 0,\n    presence_penalty: 0,\n  });\n\n  console.log(JSON.stringify(response.data.choices, null, 2));\n})()\n```\n\n**cURL**:\n\nLast but not least, you can call the OpenAI API using curl directly from your terminal:\n\n```bash\ncurl https://api.blockeden.xyz/openai/8UuXzatAZYDBJC6YZTKD/v1/chat/completions \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n  \"model\": \"gpt-3.5-turbo-16k\",\n  \"messages\": [{\"role\": \"user\", \"content\": \"hello, world!\"}],\n  \"temperature\": 0,\n  \"max_tokens\": 2048,\n  \"top_p\": 1,\n  \"frequency_penalty\": 0,\n  \"presence_penalty\": 0\n}'\n```\n\nSo, what's next? Dive in, experiment, and discover how you can leverage the power of OpenAI API for your projects, be it for chatbots, content generation, or any other NLP-based application. The possibilities are as vast as your imagination. With BlockEden.xyz's seamless integration with OpenAI, let's redefine the boundaries of what's possible.\n\nFor more information on OpenAI's capabilities, models, and usage, visit the official [OpenAI documentation](https://beta.openai.com/docs/).\n\nHappy Coding!"
+  },
+  {
     "id": "/2023/07/14/beyond-boundaries-the-integration-of-near-protocol-into-blockedenxyzs-api-marketplace",
     "metadata": {
       "permalink": "/blog/2023/07/14/beyond-boundaries-the-integration-of-near-protocol-into-blockedenxyzs-api-marketplace",
@@ -40,6 +88,10 @@
         ],
         "image": "https://tp-misc.b-cdn.net/blockeden/near-protocol.png",
         "description": "Discover the potent amalgamation of NEAR Protocol with BlockEden.xyz's innovative API Marketplace. Enable web3 developers to push the envelope of blockchain technology."
+      },
+      "prevItem": {
+        "title": "Unveiling the Integration of OpenAI ChatGPT API in BlockEden.xyz's API Marketplace",
+        "permalink": "/blog/2023/07/19/unveiling-integration-openai-api-blockeden-api-marketplace"
       },
       "nextItem": {
         "title": "The Intricacies of QuickNode's Business Landscape",
@@ -95,62 +147,5 @@
       }
     },
     "content": "In the bustling world of blockchain and decentralized applications, QuickNode has established itself as a formidable force. But as we take a closer look, we might ask: Why isn't QuickNode good enough? Let's dive into the nitty-gritty details of this intriguing matter.\n\n## **QuickNode’s Business Model - The Success Recipe**\n\nQuickNode offers an exemplary performance, with its speed being 2.5 times faster than competitors. This speed isn't just a claim; it's backed by actual performance metrics, which you can check out on their comparative page.\n\nWith the flexibility to handle 15+ chains and a mind-boggling 99.99% availability - SLA guaranteed no less - QuickNode offers unparalleled reliability in the space. Furthermore, they've successfully onboarded some big guns like Google, Visa, Adidas, and Coinbase. They've also courted long-term internet investors, including 776 Ventures, Tiger Global, Softbank, and more. But remember the elephant in the room - why QuickNode is not good enough? We'll get to that.\n\n### The Four Pillars of Revenue\n\n**Node Management**\n\nQuickNode's Node Management Platform is the company's flagship product and primary source of revenue. With a dual-tiered model, it offers self-service options for developers and businesses who want hands-on access, as well as enterprise-grade solutions for larger corporations. This approach covers a wide range of customer needs, from small startups to industry juggernauts.\n\n- **Self-service Options:** This is ideal for developers or small-scale organizations that require on-demand access to blockchain networks. It offers flexibility and control, allowing them to deploy nodes and manage their applications as needed.\n\n- **Enterprise-grade Solutions:** For larger corporations with more complex needs, QuickNode offers a custom-tailored solution. This package includes advanced analytics, priority support, and guaranteed uptime. The personalized nature of this solution means businesses can focus on building their products rather than worrying about node management.\n\n**Icy Tools - NFT Development**\n\nIcy Tools, QuickNode's next pillar, offers unique utilities for NFT development. As the NFT market has exploded, the demand for tools to streamline the creation, management, and trading of NFTs has grown exponentially. QuickNode's Icy Tools provide developers with an efficient and intuitive way to tap into this burgeoning market, thereby driving significant revenue for the company.\n\n**App Marketplace**\n\nQuickNode's App Marketplace is another key revenue stream. It hosts a wide range of applications built on QuickNode's infrastructure, providing a platform for other businesses and developers to sell their products. QuickNode, in turn, earns revenue through commissions and listing fees. This marketplace not only adds a vibrant ecosystem to QuickNode's offering but also acts as a value-added service for their node management customers.\n\n**Network Integration Fees**\n\nLastly, QuickNode also derives revenue from Network Integration fees. Given the ever-expanding landscape of blockchain protocols, integrating new networks is a continuous process. QuickNode charges businesses and developers a fee for this service, providing them with seamless access to emerging protocols.\n\nEach of these pillars plays a crucial role in QuickNode's revenue model, leveraging different aspects of the blockchain landscape to ensure the company's sustained financial health. Their diversified income sources have helped them remain resilient and adaptable, ready to face the dynamic challenges of the industry.\n\n<div style={{ display: \"flex\", width: \"100%\", justifyContent: \"center\" }}>\n  <iframe\n    src=\"https://blockedenxyz.substack.com/embed\"\n    width=\"480\"\n    height=\"320\"\n    frameborder=\"0\"\n    scrolling=\"no\"\n  ></iframe>\n</div>\n\n\n## High-speed growth of the business\n\nQuickNode has shown robust growth metrics that underscore its escalating position in the market. In 2022 alone, the firm witnessed a more than 40% quarterly uptick in enterprise revenue, demonstrating a sustained demand for its offerings.\n\nPlatform usage, a key indicator of product adoption, scaled 550% times over the past year. Reflecting a strong bottom line, gross revenue also spiked, showcasing a 370% YoY growth.\n\nFurther indicating QuickNode's expanding user base, new account registrations jumped by 177% YoY. Additionally, there was a massive 264% YoY surge in endpoints deployment, proving the company's increasing operational scale and efficiency.\n\n## The Competitive Landscape - Where the Rubber Meets the Road\n\nNow, let's delve into the crux of the matter. While QuickNode leads the pack in the node creation/connection market, it’s not without competition. Rivals like Amazon, Microsoft's Azure, and IBM are eyeing the space, posing potential threats to QuickNode's dominance. However, QuickNode has managed to hold its ground, primarily due to its industry-leading speed and flexibility, earning it rave reviews from customers. But is that enough to keep it ahead in this high-stakes game?\n\n**The Alchemy Conundrum**\n\nAlchemy, with its Silicon Valley roots and robust investor backing, is an intriguing contender. While it brings a lot to the table, it's not quite up to par with QuickNode when it comes to speed and offering. Yet, Alchemy's Silicon Valley connection and buzz could play a role in the ongoing battle of the nodes. It raised at 10.2B valuation on the market top reflected in their valuation and revenue multiple, which is rumored to be 120x - 200x.\n\n**Infura - The Fallen Star**\n\nInfura entered the arena as a trailblazer, focusing on Ethereum node RPC. However, post-acquisition by ConsenSys, it seems to have lost momentum. Although Infura supports six chains, its speed is trailing behind QuickNode's.\n\n**Coinbase Cloud - The Dark Horse**\n\nAcquiring Bison Trails puts Coinbase Cloud on the map, but rumors suggest Coinbase is dissatisfied with the outcome. Although the product relaunched with support for 25 chains, only Ethereum is currently in general availability. Moreover, its lack of public speed data keeps it shrouded in mystery.\n\n**BlockDaemon - A Specialized Contender**\n\nBlockDaemon distinguishes itself by specializing in an area - institutional-grade staking - that's rather different from QuickNode's primary focus, and hence it's not seen as developer friendly.\n\n## Is QuickNode falling short?\n\nNot exactly. It's more about the vast ocean of opportunities that its rivals could sail into. It's like saying, no team can win every time, even if they've got the best players. This space is big enough for many to play, each with their unique tactics. And let's not forget - blockchain is all about spreading the power, not hoarding it. So, no one player can rule the roost.\n\n## The Team Behind QuickNode - The Brains of the Operation\n\nThe QuickNode team, with its previous experience in managing hosting and CDN scaling businesses, brings a wealth of relevant skill sets to the table. Yet, we can't dismiss the fact that their competitors also come with their unique strengths, networks, and experiences.\n\n## BlockEden.xyz vs. QuickNode\n\nBlockEden.xyz follows the strategies below to effectively compete with QuickNode.\n\n1. **Differentiate on Unique Services:** First, BlockEden.xyz can offer unique APIs or blockchain services that QuickNode does not provide, like Aptos and its indexer, Sui and its indexer. By identifying gaps in QuickNode's offerings and stepping in to fill those gaps, BlockEden.xyz presents itself as a unique, comprehensive solution.\n2. **Competitive Pricing:** Another way to compete is through pricing. BlockEden.xyz offers more competitive pricing models that are more affordable for smaller businesses or developers. A flexible, scalable pricing model can attract a wider range of customers, from startups to enterprise-level organizations.\n3. **Superior Customer Service:** Providing superior customer service and technical support is another great way to compete. Quick response times, helpful resources, and knowledgeable support staff make all the difference when it comes to customer satisfaction and loyalty.\n4. **Partnerships and Integrations:** BlockEden.xyz seeks partnerships with other blockchain platforms or services, creating integrations that make it more appealing to customers. These partnerships can expand BlockEden's reach and functionality.\n5. **Community Engagement and Developer Support:** QuickNode has a strong developer community. BlockEden.xyz could compete by fostering a similar community and a developer DAO 10x.pub, providing strong support, and cultivating an ecosystem of developers and users who can contribute to and improve the platform.\n\nOur key to successful competition is not necessarily to beat QuickNode at its own game, but to provide unique value that QuickNode does not. We are finding the niche where BlockEden.xyz can excel, and focus on serving that market exceptionally well.\n\n\n- Twitter: https://twitter.com/BlockEdenHQ\n- Discord: https://discord.gg/4Yfvs2HWey\n- Source Link: https://blockeden.xyz/blog/2023/07/09/quicknode/\n\n\n## Conclusion\n\nIn the fast-paced world of blockchain, QuickNode indeed stands out. But in this ever-evolving landscape, the real question isn't \"why QuickNode is not good enough?\" Instead, it's \"how can QuickNode stay ahead?\" Because when all's said and done, it's not just about being good enough today - it's about being ready for tomorrow.\n\n---\n\nNote: This is a comprehensive analysis of QuickNode and its competitive landscape. It doesn't represent an endorsement or criticism of the company but aims to offer an unbiased overview. Always conduct your research when considering investments or partnerships.\n\n\n<div style={{ display: \"flex\", width: \"100%\", justifyContent: \"center\" }}>\n  <iframe\n    src=\"https://blockedenxyz.substack.com/embed\"\n    width=\"480\"\n    height=\"320\"\n    frameborder=\"0\"\n    scrolling=\"no\"\n  ></iframe>\n</div>"
-  },
-  {
-    "id": "/2023/06/29/introducing-blockroma",
-    "metadata": {
-      "permalink": "/blog/2023/06/29/introducing-blockroma",
-      "source": "@site/blog/2023-06-29-introducing-blockroma.mdx",
-      "title": "Introducing Blockroma - Your Open-source, EVM-Compatible Blockchain Explorer",
-      "description": "In today's digital era, blockchain technology has become a crucial part of online transactions and data sharing. As the use of blockchain expands, so does the need for an efficient and transparent way to navigate its ecosystem. Enter Blockroma, an open-source, EVM-compatible blockchain explorer, fulfilling this necessity effectively and efficiently.",
-      "date": "2023-06-29T00:00:00.000Z",
-      "formattedDate": "June 29, 2023",
-      "tags": [
-        {
-          "label": "dapp",
-          "permalink": "/blog/tags/dapp"
-        },
-        {
-          "label": "product",
-          "permalink": "/blog/tags/product"
-        },
-        {
-          "label": "business",
-          "permalink": "/blog/tags/business"
-        }
-      ],
-      "readingTime": 2.125,
-      "hasTruncateMarker": false,
-      "authors": [
-        {
-          "name": "Dora Noda",
-          "title": "Software Engineer",
-          "url": "https://github.com/doranoda",
-          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
-        }
-      ],
-      "frontMatter": {
-        "title": "Introducing Blockroma - Your Open-source, EVM-Compatible Blockchain Explorer",
-        "authors": [
-          "dora"
-        ],
-        "tags": [
-          "dapp",
-          "product",
-          "business"
-        ],
-        "image": "https://tp-misc.b-cdn.net/blockroma-v0.1.png"
-      },
-      "prevItem": {
-        "title": "The Intricacies of QuickNode's Business Landscape",
-        "permalink": "/blog/2023/07/09/quicknode"
-      },
-      "nextItem": {
-        "title": "An Exploration of a16z Crypto Startup School Projects",
-        "permalink": "/blog/2023/06/08/exploration-a16z-crypto-startup-school-projects"
-      }
-    },
-    "content": "In today's digital era, blockchain technology has become a crucial part of online transactions and data sharing. As the use of blockchain expands, so does the need for an efficient and transparent way to navigate its ecosystem. Enter Blockroma, an open-source, EVM-compatible blockchain explorer, fulfilling this necessity effectively and efficiently.\n\n![Introducing Blockroma - Your Open-source, EVM-Compatible Blockchain Explorer](https://tp-misc.b-cdn.net/blockroma-v0.1.png \"Introducing Blockroma - Your Open-source, EVM-Compatible Blockchain Explorer\")\n\n## What is Blockroma?\n\nA blockchain explorer like Blockroma is a web tool that allows users to interact with the blockchain network, providing real-time data, transaction history, and network status. It aids users in understanding individual transactions - including sender, receiver, amount, and transaction time - and provides insights into the blockchain network's current state.\n\n## The Tech Stack\n\nBlockroma utilizes a modern technology stack - TypeScript, React, and PostgreSQL - that ensures scalability and easy maintainability. It empowers you with its quick and straightforward deployment process, contributing to a seamless user experience.\n\n## Advanced Features\n\nBlockroma steps beyond traditional blockchain explorers, offering advanced features such as searching for specific transactions or addresses, facilitating the creation and viewing of smart contracts, and exploring the history of particular blocks. These features allow users from all backgrounds - developers, traders, investors, or everyday users - to comprehend the blockchain network better and leverage its full potential.\n\n![Introducing Blockroma](https://camo.githubusercontent.com/32af9e9099ba6746129b30c137ca6af438b26838d6c61eb8ff57dd678c8891ef/68747470733a2f2f74702d6d6973632e622d63646e2e6e65742f626c6f636b726f6d612d76302e312d322e676966 \"Introducing Blockroma\")\n\n## Why Choose Blockroma?\n\n- Transparency: Blockroma simplifies the process of accessing blockchain data, enabling users to verify transactions, addresses, and other data effortlessly.\n- Real-time data: It provides real-time data on transaction confirmations, network status, and mining difficulty, which are essential for those needing to monitor the blockchain's health and performance.\n- Searchability: Blockroma's advanced search feature improves the tracking and analysis of blockchain activities by allowing users to search for specific transactions, addresses, or blocks.\n- Security: Enhancing security on the blockchain, Blockroma helps users verify the authenticity of transactions and the identities of the parties involved, providing an added layer of assurance for businesses.\n\n<div style={{ display: \"flex\", width: \"100%\", justifyContent: \"center\" }}>\n  <iframe\n    src=\"https://blockedenxyz.substack.com/embed\"\n    width=\"480\"\n    height=\"320\"\n    frameborder=\"0\"\n    scrolling=\"no\"\n  ></iframe>\n</div>\n\n## Additional Benefits\n\nApart from these features, Blockroma also provides custom themes, premium support, and priority updates for managed hosting on Blockroma.com. Moreover, it allows a worry-free experience with zero operation costs.\n\n## Conclusion\n\nIn a nutshell, Blockroma makes blockchain navigation easier, efficient, and secure for individuals and businesses. With its advanced features and user-friendly interface, Blockroma stands as a robust solution for exploring and interacting with the blockchain. Embrace the future of blockchain interaction with Blockroma."
   }
 ]

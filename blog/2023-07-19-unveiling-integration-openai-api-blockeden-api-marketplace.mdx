@@ -1,0 +1,91 @@
+---
+title: "Unveiling the Integration of OpenAI ChatGPT API in BlockEden.xyz's API Marketplace"
+authors: [dora]
+tags: [product, openai, ai]
+image: https://tp-misc.b-cdn.net/blockeden/unveiling-integration-openai-api-blockeden-api-marketplace.png
+---
+
+We are glad to announce that BlockEden.xyz, web3 developers' go-to platform for API marketplace, has added a new, powerful capability – OpenAI API. Yes, you heard it right! Developers, tech enthusiasts, and AI pioneers can now leverage the cutting-edge machine learning models offered by OpenAI, directly through BlockEden's API Marketplace.
+
+Before we dive into the how-to guide, let's understand what OpenAI API brings to the table. OpenAI API is a gateway to AI models developed by OpenAI, such as the industry-renowned GPT-3, the state-of-the-art transformer-based language model known for its remarkable ability to understand and generate human-like text. The API enables developers to use this advanced technology for a variety of applications, including drafting emails, writing code, answering questions, creating written content, tutoring, language translation, and much more.
+
+Now, let's see how you can incorporate the power of OpenAI API into your applications using BlockEden.xyz. You can do it in three ways: using Python, using JavaScript (Node.js), or using curl directly from the command line. In this blog, we're going to provide the basic setup for each method, using a simple "Hello, World!" example.
+
+The API key below is public and subject to change and rate limit. Get your own `BLOCKEDEN_API_KEY` from https://blockeden.xyz/dash instead.
+
+**Python**:
+
+Using Python, you can use the OpenAI API as shown in the following snippet:
+
+```python
+import openai
+
+BLOCKEDEN_API_KEY = "8UuXzatAZYDBJC6YZTKD"
+openai.api_key = ""
+openai.api_base = "https://api.blockeden.xyz/openai/" + BLOCKEDEN_API_KEY + "/v1"
+
+response = openai.ChatCompletion.create(
+  model="gpt-3.5-turbo-16k",
+  messages=[{"role": "user", "content": "hello, world!"}],
+  temperature=0,
+  max_tokens=2048,
+  top_p=1,
+  frequency_penalty=0,
+  presence_penalty=0
+)
+
+print(response["choices"])
+```
+
+**JavaScript (Node.js)**:
+
+You can also utilize the OpenAI API with JavaScript. Here's how you can do it:
+
+```js
+const { Configuration, OpenAIApi } = require("openai");
+
+const BLOCKEDEN_API_KEY = "8UuXzatAZYDBJC6YZTKD";
+const configuration = new Configuration({
+  basePath: "https://api.blockeden.xyz/openai/" + BLOCKEDEN_API_KEY + "/v1"
+});
+const openai = new OpenAIApi(configuration);
+
+(async () => {
+  const response = await openai.createChatCompletion({
+    model: "gpt-3.5-turbo-16k",
+    messages: [{role: "user", content: "hello, world!"}],
+    temperature: 0,
+    max_tokens: 2048,
+    top_p: 1,
+    frequency_penalty: 0,
+    presence_penalty: 0,
+  });
+
+  console.log(JSON.stringify(response.data.choices, null, 2));
+})()
+```
+
+**cURL**:
+
+Last but not least, you can call the OpenAI API using curl directly from your terminal:
+
+```bash
+curl https://api.blockeden.xyz/openai/8UuXzatAZYDBJC6YZTKD/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+  "model": "gpt-3.5-turbo-16k",
+  "messages": [{"role": "user", "content": "hello, world!"}],
+  "temperature": 0,
+  "max_tokens": 2048,
+  "top_p": 1,
+  "frequency_penalty": 0,
+  "presence_penalty": 0
+}'
+```
+
+So, what's next? Dive in, experiment, and discover how you can leverage the power of OpenAI API for your projects, be it for chatbots, content generation, or any other NLP-based application. The possibilities are as vast as your imagination. With BlockEden.xyz's seamless integration with OpenAI, let's redefine the boundaries of what's possible.
+
+For more information on OpenAI's capabilities, models, and usage, visit the official [OpenAI documentation](https://beta.openai.com/docs/).
+
+Happy Coding!
+
