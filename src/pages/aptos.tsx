@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import { useAos } from "@site/src/components/use-aos";
 import { SeoHead } from "@site/src/components/seo-head";
@@ -13,18 +12,16 @@ import projects from "@site/src/projects-data.json";
 import { shuffle } from "@site/src/components/shuffle";
 
 export default function Aptos(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
+  const description =
+    "Connect to Aptos indexer and inspect its coin, NFT, contract call in minutes";
   useAos();
   useEffect(() => {
     const SVGInject = require("@iconfu/svg-inject");
     SVGInject(document.querySelectorAll("[data-inject-svg]"));
   }, []);
   return (
-    <Layout
-      title={"Aptos Node and Data Analytics"}
-      description={siteConfig.tagline}
-    >
-      <SeoHead />
+    <Layout title={"Aptos Node and Data Analytics"} description={description}>
+      <SeoHead description={description} />
 
       <main>
         <section>
