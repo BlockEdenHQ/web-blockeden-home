@@ -22,7 +22,9 @@
   </a>
 
   <a href="/analytics/" class="dropdown-item fade-page">
-    <img src="/img/analytics.svg" class="round nosvg filter-purple" alt="">
+    <div class="wrap-icon filter-purple">
+      <img src="/img/analytics.svg" class="filter-icon filter-icon-ana" alt="">
+    </div>
     <span>
       Analytics
       <br />
@@ -33,7 +35,7 @@
   </a>
 
   <a href="/chat/" class="dropdown-item fade-page">
-    <img src="/img/chatgpt-icon.svg" class="round nosvg" alt="">
+    <img src="/img/chatgpt-icon.svg" class="wrap-icon" alt="">
     <span>
       Chat GPT
       <br />
@@ -44,7 +46,9 @@
   </a>
 
   <a href="/dStore/" class="dropdown-item fade-page">
-    <img src="/img/dstore.svg" class="round nosvg filter-orange" alt="">
+    <div class="wrap-icon filter-orange">
+      <img src="/img/dstore.svg" class="filter-icon" alt="">
+    </div>
     <span>
       dStore
       <br />
@@ -55,7 +59,7 @@
   </a>
 
   <a href="https://blockroma.com" class="dropdown-item fade-page">
-    <img src="/img/blockroma-favicon.png" class="round nosvg" alt="">
+    <img src="/img/blockroma-favicon.png" class="wrap-icon" alt="">
     <span>
       Blockroma
       <svg
@@ -88,19 +92,25 @@
     width: 22px;
     margin-right: 12px;
   }
-  .dropdown-item img.round {
-    border-radius: 50%;
-  }
-  .dropdown-item img.nosvg {
+  .dropdown-item .wrap-icon {
+    width: 22px;
     height: 22px;
-    margin-top: 12px;
+    border-radius: 50%;
+    margin: 12px 12px 0 0;
   }
-  .dropdown-item img.filter-purple {
+  .dropdown-item .filter-purple {
     padding: 0 2px;
-    background-color: #f5a1ff;
+    background-color: #de6cfa;
   }
-  .dropdown-item img.filter-orange {
+  .dropdown-item .filter-orange {
     padding: 3px;
-    background-color: #ffaf99;
+    background-color: #fd947d;
+  }
+  .dropdown-item .filter-icon {
+    filter: drop-shadow(#fff 100px 0);
+    transform: translateX(-100px);
+  }
+  .dropdown-item .filter-icon-ana {
+    margin-top: 2px;
   }
 </style>
