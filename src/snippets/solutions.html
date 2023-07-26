@@ -1,6 +1,6 @@
 <div style="margin: 18px 0; line-height: 24px">
   <a href="/sui/" class="dropdown-item fade-page">
-    <img src="/img/sui-logo.svg" alt="">
+    <img src="/img/sui.svg" alt="">
     <span>
       Sui
       <br />
@@ -22,7 +22,7 @@
   </a>
 
   <a href="/analytics/" class="dropdown-item fade-page">
-    <img src="" alt="">
+    <img src="/img/analytics.svg" class="round nosvg filter-purple" alt="">
     <span>
       Analytics
       <br />
@@ -33,7 +33,7 @@
   </a>
 
   <a href="/chat/" class="dropdown-item fade-page">
-    <img src="/img/openai-logo.svg" alt="">
+    <img src="/img/chatgpt-icon.svg" class="round nosvg" alt="">
     <span>
       Chat GPT
       <br />
@@ -44,7 +44,7 @@
   </a>
 
   <a href="/dStore/" class="dropdown-item fade-page">
-    <img src="" alt="">
+    <img src="/img/dstore.svg" class="round nosvg filter-orange" alt="">
     <span>
       dStore
       <br />
@@ -55,7 +55,7 @@
   </a>
 
   <a href="https://blockroma.com" class="dropdown-item fade-page">
-    <img src="" alt="">
+    <img src="/img/blockroma-favicon.png" class="round nosvg" alt="">
     <span>
       Blockroma
       <svg
@@ -82,9 +82,25 @@
 <style>
   .dropdown-item {
     display: flex;
+    padding: 0.25rem 1.75rem 0.25rem 1rem;
   }
   .dropdown-item img {
     width: 22px;
     margin-right: 12px;
+  }
+  .dropdown-item img.round {
+    border-radius: 50%;
+  }
+  .dropdown-item img.nosvg {
+    height: 22px;
+    margin-top: 12px;
+  }
+  .dropdown-item img.filter-purple {
+    padding: 0 2px;
+    background-color: #f5a1ff;
+  }
+  .dropdown-item img.filter-orange {
+    padding: 3px;
+    background-color: #ffaf99;
   }
 </style>
