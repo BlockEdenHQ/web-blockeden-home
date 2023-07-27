@@ -313,39 +313,10 @@ a:hover {
   margin-top: 2px;
 }
 
-/* freatures调整 */
-.c-features>div {
-  padding-top   : 1.5rem;
-  padding-bottom: .5rem;
-}
-
-.c-features>div>* {
-  transition: all .3s;
-}
-
-.c-features>div:hover>* {
-  transform: translateY(-10px);
-}
-
-.c-features>div p {
-  text-align: left;
-  word-break: break-all;
-}
-
-.c-features>div p,
-.c-features>div h4 {
-  margin-bottom: 1.25rem;
-}
-
-.c-features>div h4 {
-  font-weight: 500;
-}
-
 /* news调整 */
 .c-news h4 {
   height            : 75px;
   font-size         : 20px;
-  word-break        : break-all;
   -webkit-line-clamp: 3;
 }
 
