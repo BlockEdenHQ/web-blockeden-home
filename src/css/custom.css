@@ -297,3 +297,29 @@ a:hover {
 .dropdown-item .filter-icon-ana {
   margin-top: 2px;
 }
+
+/* freatures调整 */
+.c-features>div {
+  padding-top: 1.5rem;
+  padding-bottom: .5rem;
+}
+.c-features >div:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+.c-features>div >* {
+  transition: all .3s;
+}
+.c-features>div:hover >* {
+  transform: translateY(-10px);
+}
+.c-features >div p {
+  text-align: left;
+  word-break: break-all;
+}
+.c-features>div p,
+.c-features>div h4 {
+  margin-bottom: 1.25rem;
+}
+.c-features>div h4 {
+  font-weight  : 500;
+}

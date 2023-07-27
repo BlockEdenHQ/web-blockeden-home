@@ -16,7 +16,7 @@ export const Features = () => {
             </p>
           </div>
         </div>
-        <div className="row text-center">
+        <div className="row text-center c-features">
           <div
             className="col-md-6 col-lg-3 mb-4 mb-lg-0"
             data-aos="fade-up"
