@@ -280,6 +280,10 @@ const config = {
                 label: "Payton Wallet",
                 href: "https://payton.so/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
               },
+              {
+                label: "Cuckoo Network",
+                href: "https://cuckoo.network/?utm_source=BlockEden_xyz&utm_medium=BlockEden_xyz&utm_campaign=BlockEden_xyz&utm_id=BlockEden_xyz&utm_term=BlockEden_xyz&utm_content=BlockEden_xyz",
+              },
             ],
           },
         ],
