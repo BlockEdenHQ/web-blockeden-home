@@ -17,7 +17,7 @@ export const News = ({ filterTag }: Props) => {
             <h3 className="h1">Stay in the loop</h3>
           </div>
         </div>
-        <div className="row">
+        <div className="row c-news">
           {recent.map((bp, i) => (
             <div
               key={bp.id}

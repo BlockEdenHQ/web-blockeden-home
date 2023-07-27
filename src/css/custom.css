@@ -6,14 +6,14 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #de4c4f;
-  --ifm-color-primary-dark: #b00e29;
-  --ifm-color-primary-darker: #990c23;
-  --ifm-color-primary-darkest: #810a1e;
-  --ifm-color-primary-light: #e01233;
-  --ifm-color-primary-lighter: #ed1e40;
-  --ifm-color-primary-lightest: #ef3654;
-  --ifm-code-font-size: 95%;
+  --ifm-color-primary                  : #de4c4f;
+  --ifm-color-primary-dark             : #b00e29;
+  --ifm-color-primary-darker           : #990c23;
+  --ifm-color-primary-darkest          : #810a1e;
+  --ifm-color-primary-light            : #e01233;
+  --ifm-color-primary-lighter          : #ed1e40;
+  --ifm-color-primary-lightest         : #ef3654;
+  --ifm-code-font-size                 : 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   --ifm-heading-font-weight: 400;
@@ -65,42 +65,43 @@ a:hover {
 
 .photobanner,
 .photobanner2 {
-  height: 60px;
-  width: 10000px;
+  height       : 60px;
+  width        : 10000px;
   margin-bottom: 5px;
-  font-size: 0;
-  align-items: center;
-  overflow: hidden;
+  font-size    : 0;
+  align-items  : center;
+  overflow     : hidden;
 }
 
 .photobanner img,
 .photobanner2 img {
   margin-right: 64px;
-  height: 32px;
-  filter: grayscale(1);
+  height      : 32px;
+  filter      : grayscale(1);
 }
 
 .photobanner img {
   -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -moz-transition   : all 0.5s ease;
+  -o-transition     : all 0.5s ease;
+  -ms-transition    : all 0.5s ease;
+  transition        : all 0.5s ease;
 }
 
 /*keyframe animations*/
 .photobanner-first {
   -webkit-animation: bannermove 25s linear infinite;
-  -moz-animation: bannermove 25s linear infinite;
-  -ms-animation: bannermove 25s linear infinite;
-  -o-animation: bannermove 25s linear infinite;
-  animation: bannermove 25s linear infinite;
+  -moz-animation   : bannermove 25s linear infinite;
+  -ms-animation    : bannermove 25s linear infinite;
+  -o-animation     : bannermove 25s linear infinite;
+  animation        : bannermove 25s linear infinite;
 }
 
 @keyframes bannermove {
   0% {
     margin-left: 0px;
   }
+
   100% {
     margin-left: -2130px;
   }
@@ -110,6 +111,7 @@ a:hover {
   0% {
     margin-left: 0px;
   }
+
   100% {
     margin-left: -2130px;
   }
@@ -119,6 +121,7 @@ a:hover {
   0% {
     margin-left: 0px;
   }
+
   100% {
     margin-left: -2130px;
   }
@@ -128,6 +131,7 @@ a:hover {
   0% {
     margin-left: 0px;
   }
+
   100% {
     margin-left: -2130px;
   }
@@ -137,6 +141,7 @@ a:hover {
   0% {
     margin-left: 0px;
   }
+
   100% {
     margin-left: -2130px;
   }
@@ -144,16 +149,17 @@ a:hover {
 
 .photobanner-second {
   -webkit-animation: bannermoves 25s linear infinite;
-  -moz-animation: bannermoves 25s linear infinite;
-  -ms-animation: bannermoves 25s linear infinite;
-  -o-animation: bannermoves 25s linear infinite;
-  animation: bannermoves 25s linear infinite;
+  -moz-animation   : bannermoves 25s linear infinite;
+  -ms-animation    : bannermoves 25s linear infinite;
+  -o-animation     : bannermoves 25s linear infinite;
+  animation        : bannermoves 25s linear infinite;
 }
 
 @keyframes bannermoves {
   0% {
     margin-left: -2130px;
   }
+
   100% {
     margin-left: 0px;
   }
@@ -163,6 +169,7 @@ a:hover {
   0% {
     margin-left: -2130px;
   }
+
   100% {
     margin-left: 0px;
   }
@@ -172,6 +179,7 @@ a:hover {
   0% {
     margin-left: -2130px;
   }
+
   100% {
     margin-left: 0px;
   }
@@ -181,6 +189,7 @@ a:hover {
   0% {
     margin-left: -2130px;
   }
+
   100% {
     margin-left: 0px;
   }
@@ -190,56 +199,61 @@ a:hover {
   0% {
     margin-left: -2130px;
   }
+
   100% {
     margin-left: 0px;
   }
 }
 
 .card1 {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
+  position        : relative;
+  display         : flex;
+  flex-direction  : column;
+  min-width       : 0;
+  word-wrap       : break-word;
   background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.625rem;
-}
-.card1 > hr {
-  margin-right: 0;
-  margin-left: 0;
-}
-.card1 > .list-group {
-  border-top: inherit;
-  border-bottom: inherit;
-}
-.card1 > .list-group:first-child {
-  border-top-width: 0;
-  border-top-left-radius: calc(0.625rem - 1px);
-  border-top-right-radius: calc(0.625rem - 1px);
-}
-.card1 > .list-group:last-child {
-  border-bottom-width: 0;
-  border-bottom-right-radius: calc(0.625rem - 1px);
-  border-bottom-left-radius: calc(0.625rem - 1px);
+  background-clip : border-box;
+  border          : 1px solid rgba(0, 0, 0, 0.125);
+  border-radius   : 0.625rem;
 }
 
-.dropdown > .navbar__link {
-  display: flex;
+.card1>hr {
+  margin-right: 0;
+  margin-left : 0;
+}
+
+.card1>.list-group {
+  border-top   : inherit;
+  border-bottom: inherit;
+}
+
+.card1>.list-group:first-child {
+  border-top-width       : 0;
+  border-top-left-radius : calc(0.625rem - 1px);
+  border-top-right-radius: calc(0.625rem - 1px);
+}
+
+.card1>.list-group:last-child {
+  border-bottom-width       : 0;
+  border-bottom-right-radius: calc(0.625rem - 1px);
+  border-bottom-left-radius : calc(0.625rem - 1px);
+}
+
+.dropdown>.navbar__link {
+  display    : flex;
   align-items: center;
 }
 
-.dropdown > .navbar__link:after {
-  content: "";
-  border: none;
-  position: static;
-  top: auto;
-  transform: none;
-  width: 12px;
-  height: 12px;
-  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.293 8.293a1 1 0 0 1 1.414 0L12 14.586l6.293-6.293a1 1 0 1 1 1.414 1.414l-7 7a1 1 0 0 1-1.414 0l-7-7a1 1 0 0 1 0-1.414Z' fill='%23888888'/%3E%3C/svg%3E");
-  background-size: 12px;
+.dropdown>.navbar__link:after {
+  content          : "";
+  border           : none;
+  position         : static;
+  top              : auto;
+  transform        : none;
+  width            : 12px;
+  height           : 12px;
+  background-image : url("data:image/svg+xml,%3Csvg width='24' height='24' fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.293 8.293a1 1 0 0 1 1.414 0L12 14.586l6.293-6.293a1 1 0 1 1 1.414 1.414l-7 7a1 1 0 0 1-1.414 0l-7-7a1 1 0 0 1 0-1.414Z' fill='%23888888'/%3E%3C/svg%3E");
+  background-size  : 12px;
   background-repeat: no-repeat;
 }
 
@@ -254,7 +268,7 @@ a:hover {
 
 /* 下拉列表图标 */
 .dropdown-item {
-  display      : flex!important;
+  display      : flex !important;
   border-bottom: 1px solid #f0f0f0;
   padding      : 0.25rem 1.75rem 0.25rem 1rem;
 }
@@ -264,7 +278,7 @@ a:hover {
 }
 
 .dropdown-item:hover {
-  background-color: #f0f0f0!important;
+  background-color: #f0f0f0 !important;
 }
 
 .dropdown-item img {
@@ -300,26 +314,47 @@ a:hover {
 
 /* freatures调整 */
 .c-features>div {
-  padding-top: 1.5rem;
+  padding-top   : 1.5rem;
   padding-bottom: .5rem;
 }
-.c-features >div:nth-child(odd) {
+
+.c-features>div:nth-child(odd) {
   background-color: #f0f0f0;
 }
-.c-features>div >* {
+
+.c-features>div>* {
   transition: all .3s;
 }
-.c-features>div:hover >* {
+
+.c-features>div:hover>* {
   transform: translateY(-10px);
 }
-.c-features >div p {
+
+.c-features>div p {
   text-align: left;
   word-break: break-all;
 }
+
 .c-features>div p,
 .c-features>div h4 {
   margin-bottom: 1.25rem;
 }
+
 .c-features>div h4 {
-  font-weight  : 500;
+  font-weight: 500;
+}
+
+/* news调整 */
+.c-news h4 {
+  height    : 80px;
+  font-size : 20px;
+  word-break: break-all;
+}
+
+.c-news p {
+  overflow          : hidden;
+  text-overflow     : ellipsis;
+  display           : -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
 }
