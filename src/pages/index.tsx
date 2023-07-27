@@ -107,7 +107,6 @@ export default function Home(): JSX.Element {
   return (
     <Layout title={beConfig.title} description={siteConfig.tagline}>
       <SeoHead />
-
       <HomepageHeader />
       <main>
         <SlidingLogos />

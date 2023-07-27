@@ -32,6 +32,7 @@ export const Features = () => {
               Learn more
             </Link>
           </div>
+
           <div
             className="col-md-6 col-lg-3 mb-4 mb-lg-0"
             data-aos="fade-up"
