@@ -267,48 +267,49 @@ a:hover {
 
 
 /* 下拉列表图标 */
-.dropdown-item {
+.top-bar > .dropdown-item {
   display      : flex !important;
   border-bottom: 1px solid #f0f0f0;
-  padding      : 0.25rem 1.75rem 0.25rem 1rem;
+  padding      : 0.50rem 1.75rem 0.50rem 1rem;
+  border-radius: 4px;
 }
 
-.dropdown-item:last-child {
+.top-bar > .dropdown-item:last-child {
   border-bottom: none;
 }
 
-.dropdown-item:hover {
+.top-bar > .dropdown-item:hover {
   background-color: #f0f0f0 !important;
 }
 
-.dropdown-item img {
+.top-bar > .dropdown-item img {
   width       : 22px;
   margin-right: 12px;
 }
 
-.dropdown-item .wrap-icon {
+.top-bar > .dropdown-item .wrap-icon {
   width        : 22px;
   height       : 22px;
   border-radius: 50%;
   margin       : 12px 12px 0 0;
 }
 
-.dropdown-item .filter-purple {
+.top-bar > .dropdown-item .filter-purple {
   padding         : 0 2px;
   background-color: #de6cfa;
 }
 
-.dropdown-item .filter-orange {
+.top-bar > .dropdown-item .filter-orange {
   padding         : 3px;
   background-color: #fd947d;
 }
 
-.dropdown-item .filter-icon {
+.top-bar > .dropdown-item .filter-icon {
   filter   : drop-shadow(#fff 100px 0);
   transform: translateX(-100px);
 }
 
-.dropdown-item .filter-icon-ana {
+.top-bar > .dropdown-item .filter-icon-ana {
   margin-top: 2px;
 }
 
@@ -316,10 +317,6 @@ a:hover {
 .c-features>div {
   padding-top   : 1.5rem;
   padding-bottom: .5rem;
-}
-
-.c-features>div:nth-child(odd) {
-  background-color: #f0f0f0;
 }
 
 .c-features>div>* {
