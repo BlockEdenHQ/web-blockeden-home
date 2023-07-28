@@ -8,7 +8,7 @@ export const SlidingLogos = () => {
       <div className={styles.container}>
         <div className="row text-center m-2">
           <div className="col">
-            <small className="text-uppercase">
+            <small className="text-uppercase c-sliding">
               Built or trusted by teams from
             </small>
           </div>
