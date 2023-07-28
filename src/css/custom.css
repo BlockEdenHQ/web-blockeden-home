@@ -15,6 +15,8 @@
   --ifm-color-primary-lightest         : #ef3654;
   --ifm-code-font-size                 : 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --dropdown-analytics                 : #de6cfa;
+  --dropdown-dstore                    : #fd947d;
 
   --ifm-heading-font-weight: 400;
 }
@@ -267,49 +269,49 @@ a:hover {
 
 
 /* for dropdown */
-.top-bar > .dropdown-item {
+.top-bar>.dropdown-item {
   display      : flex !important;
   border-bottom: 1px solid #f0f0f0;
   padding      : 0.50rem 1.75rem 0.50rem 1rem;
   border-radius: 4px;
 }
 
-.top-bar > .dropdown-item:last-child {
+.top-bar>.dropdown-item:last-child {
   border-bottom: none;
 }
 
-.top-bar > .dropdown-item:hover {
+.top-bar>.dropdown-item:hover {
   background-color: #f0f0f0 !important;
 }
 
-.top-bar > .dropdown-item img {
+.top-bar>.dropdown-item img {
   width       : 22px;
   margin-right: 12px;
 }
 
-.top-bar > .dropdown-item .wrap-icon {
+.top-bar>.dropdown-item .wrap-icon {
   width        : 22px;
   height       : 22px;
   border-radius: 50%;
   margin       : 12px 12px 0 0;
 }
 
-.top-bar > .dropdown-item .filter-purple {
+.top-bar>.dropdown-item .filter-purple {
   padding         : 0 2px;
-  background-color: #de6cfa;
+  background-color: var(--dropdown-analytics);
 }
 
-.top-bar > .dropdown-item .filter-orange {
+.top-bar>.dropdown-item .filter-orange {
   padding         : 3px;
-  background-color: #fd947d;
+  background-color: var(--dropdown-dstore);
 }
 
-.top-bar > .dropdown-item .filter-icon {
+.top-bar>.dropdown-item .filter-icon {
   filter   : drop-shadow(#fff 100px 0);
   transform: translateX(-100px);
 }
 
-.top-bar > .dropdown-item .filter-icon-ana {
+.top-bar>.dropdown-item .filter-icon-ana {
   margin-top: 2px;
 }
 
@@ -339,47 +341,54 @@ a:hover {
 
 /* for mobile */
 @media(max-width: 768px) {
+
   .c-main-title,
   .c-main-text,
   .c-started h2,
   .c-started .lead {
     text-align: left;
   }
+
   .c-main-title {
-    font-weight: bold;
+    font-weight  : bold;
     margin-bottom: 1.5rem;
   }
 
-  .c-intro-btn >div {
+  .c-intro-btn>div {
     width: 100%;
   }
+
   .c-links {
-    flex-direction: row;
+    flex-direction : row;
     justify-content: space-around;
   }
 
   .c-sliding {
     font-size: 16px;
-    margin: 1rem 0;
+    margin   : 1rem 0;
   }
 
   .c-features,
   .c-news-box {
     padding-top: 3rem;
   }
+
   .c-features h2,
   .c-news-box h3,
   .c-started h2 {
     font-size: 28px;
   }
+
   .c-features .lead,
   .c-started .lead {
     font-size: 18px;
   }
+
   .c-news-box h3 {
     font-weight: 600;
-    text-align: center;
+    text-align : center;
   }
+
   .c-started h2 {
     line-height: 1.2;
   }
