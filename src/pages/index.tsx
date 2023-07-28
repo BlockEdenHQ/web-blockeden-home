@@ -67,29 +67,31 @@ function HomepageHeader() {
       <div className={clsx("container", styles.heroContainer)}>
         <div className="row justify-content-center text-center m-1">
           <div className="col-xl-8 col-lg-9 col-md-10">
-            <h1 className={clsx("hero__title", styles.heroTitle)}>
+            <h1 className={clsx("c-main-title hero__title", styles.heroTitle)}>
               {siteConfig.tagline}
             </h1>
             <p className={clsx("lead", styles.lead)}>{beConfig.description}</p>
-            <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center align-items-sm-start mt-5">
+            <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center align-items-sm-start mt-5 c-intro">
               <div className="d-flex flex-column mx-1 text-center">
                 <a
                   href="/dash/sign-up/"
-                  className="btn btn-lg btn-primary mb-2 d-flex align-items-center"
+                  className="btn btn-lg btn-primary mb-2 d-flex justify-content-center"
                 >
                   <span>Sign up for free</span>
                 </a>
-                <Link href="/docs/intro/" className="text-small hover-arrow">
-                  View Documentation
-                </Link>
-                <a href="/chat/" className="text-small hover-arrow">
-                  Free ChatGPT
-                </a>
+                <div className="d-flex c-links">
+                  <Link href="/docs/intro/" className="text-small hover-arrow">
+                    View Documentation
+                  </Link>
+                  <a href="/chat/" className="text-small hover-arrow">
+                    Free ChatGPT
+                  </a>
+                </div>
               </div>
               <div className="d-flex flex-column mx-1 text-center">
                 <a
                   href={beConfig.apis}
-                  className="mx-1 btn btn-lg mb-2 btn-secondary mt-3 mt-sm-0"
+                  className="mx-1 btn btn-lg btn-outline-primary mb-2 mt-3 mt-sm-0"
                 >
                   Explore APIs
                 </a>

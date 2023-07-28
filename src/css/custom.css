@@ -266,7 +266,7 @@ a:hover {
 }
 
 
-/* 下拉列表图标 */
+/* for dropdown */
 .top-bar > .dropdown-item {
   display      : flex !important;
   border-bottom: 1px solid #f0f0f0;
@@ -313,7 +313,7 @@ a:hover {
   margin-top: 2px;
 }
 
-/* news调整 */
+/* for news */
 .c-news h4 {
   height            : 75px;
   font-size         : 20px;
@@ -330,4 +330,25 @@ a:hover {
   text-overflow     : ellipsis;
   display           : -webkit-box;
   -webkit-box-orient: vertical;
+}
+
+/* for introduce */
+.c-links {
+  flex-direction: column;
+}
+
+/* for mobile */
+@media(max-width: 768px) {
+  .c-main-title {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+
+  .c-intro >div {
+    width: 100%;
+  }
+  .c-links {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
