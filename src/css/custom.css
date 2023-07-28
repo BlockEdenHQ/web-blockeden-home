@@ -341,6 +341,23 @@ a:hover {
 
 /* for mobile */
 @media(max-width: 768px) {
+  .top-bar>.dropdown-item {
+    padding-left: 0!important;
+  }
+  .top-bar>.dropdown-item {
+    position: relative;
+    display: block!important;
+  }
+  .top-bar>.dropdown-item >img,
+  .top-bar>.dropdown-item >div {
+    position: absolute;
+  }
+  .top-bar>.dropdown-item>span {
+    padding-left: 2rem;
+  }
+  .top-bar>.dropdown-item .wrap-icon {
+    margin: 0;
+  }
 
   .c-main-title,
   .c-main-text,
