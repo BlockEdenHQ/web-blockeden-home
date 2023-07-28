@@ -70,8 +70,8 @@ function HomepageHeader() {
             <h1 className={clsx("c-main-title hero__title", styles.heroTitle)}>
               {siteConfig.tagline}
             </h1>
-            <p className={clsx("lead", styles.lead)}>{beConfig.description}</p>
-            <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center align-items-sm-start mt-5 c-intro">
+            <p className={clsx("c-main-text lead", styles.lead)}>{beConfig.description}</p>
+            <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center align-items-sm-start mt-5 c-intro-btn">
               <div className="d-flex flex-column mx-1 text-center">
                 <a
                   href="/dash/sign-up/"

@@ -10,7 +10,7 @@ type Props = {
 export const News = ({ filterTag }: Props) => {
   const recent = require(`./latest-blogs-${filterTag ?? ""}`);
   return (
-    <section className="bg-primary-2-alt">
+    <section className="bg-primary-2-alt c-news-box">
       <div className="container">
         <div className="row mb-4">
           <div className="col">

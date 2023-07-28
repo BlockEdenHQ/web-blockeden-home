@@ -339,12 +339,16 @@ a:hover {
 
 /* for mobile */
 @media(max-width: 768px) {
+  .c-main-title,
+  .c-main-text {
+    text-align: left;
+  }
   .c-main-title {
     font-weight: bold;
     margin-bottom: 1.5rem;
   }
 
-  .c-intro >div {
+  .c-intro-btn >div {
     width: 100%;
   }
   .c-links {
@@ -357,13 +361,19 @@ a:hover {
     margin: 1rem 0;
   }
 
-  .c-features {
+  .c-features,
+  .c-news-box {
     padding-top: 3rem;
   }
-  .c-features h2 {
+  .c-features h2,
+  .c-news-box h3 {
     font-size: 28px;
   }
   .c-features .lead {
     font-size: 18px;
+  }
+  .c-news-box h3 {
+    font-weight: 600;
+    text-align: center;
   }
 }
