@@ -340,7 +340,9 @@ a:hover {
 /* for mobile */
 @media(max-width: 768px) {
   .c-main-title,
-  .c-main-text {
+  .c-main-text,
+  .c-started h2,
+  .c-started .lead {
     text-align: left;
   }
   .c-main-title {
@@ -366,14 +368,19 @@ a:hover {
     padding-top: 3rem;
   }
   .c-features h2,
-  .c-news-box h3 {
+  .c-news-box h3,
+  .c-started h2 {
     font-size: 28px;
   }
-  .c-features .lead {
+  .c-features .lead,
+  .c-started .lead {
     font-size: 18px;
   }
   .c-news-box h3 {
     font-weight: 600;
     text-align: center;
+  }
+  .c-started h2 {
+    line-height: 1.2;
   }
 }

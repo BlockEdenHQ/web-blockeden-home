@@ -3,7 +3,7 @@ import {beConfig} from "@site/src/config";
 
 export const GetStarted = () => {
   return (
-    <section className="bg-primary-3 text-light o-hidden">
+    <section className="bg-primary-3 text-light o-hidden c-started">
       <div className="container layer-1">
         <div className="row justify-content-center text-center mb-6">
           <div className="col-xl-8 col-lg-9">
