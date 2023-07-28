@@ -5,7 +5,7 @@ import styles from "./features.module.css";
 
 export const Features = () => {
   return (
-    <section>
+    <section className="c-features">
       <div className="container">
         <div className="row justify-content-center text-center mb-6">
           <div className="col-xl-8 col-lg-9">
