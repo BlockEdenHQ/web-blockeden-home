@@ -410,3 +410,12 @@ a:hover {
     line-height: 1.2;
   }
 }
+
+blockquote {
+  margin: 24px 0;
+  padding: 24px!important;
+  display: block;
+  background: #f3f5fb;
+  border: 0;
+  color: var(--ifm-font-color-base);
+}
