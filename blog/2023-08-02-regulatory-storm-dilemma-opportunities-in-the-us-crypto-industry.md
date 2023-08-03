@@ -373,12 +373,12 @@ Below are some typical forms of market manipulation. Anyone involved in crypto t
 
 > *Here are some common forms of market manipulation:*
 >
-> 1. ***Pump and Dump**: This involves buying a security at a low price, artificially inflating its price through false and misleading positive statements, and then selling the security at the higher price. Once the manipulator sells their shares, the price typically falls, leaving other investors at a loss.*
-> 2. ***Spoofing**: This involves placing large buy or sell orders with no intention of executing them, to create a false appearance of market interest in a particular security or commodity. The orders are then canceled before execution.*
-> 3. ***Wash Trading**: This involves an investor simultaneously buying and selling the same financial instruments to create misleading, artificial activity in the marketplace.*
-> 4. ***Churning**: This occurs when a trader places both buy and sell orders at the same price. The orders are matched, leaving the impression of high trading volumes, but no net change in ownership.*
-> 5. ***Cornering the Market**: This involves acquiring enough of a particular asset to gain control and set the price on it.*
-> 6. ***Front Running**: This occurs when a broker or other entity enters into a trade because they have foreknowledge of a big non-publicized transaction that will influence the price of the asset, thereby benefiting from the price movement.*
+> 1. **Pump and Dump**: This involves buying a security at a low price, artificially inflating its price through false and misleading positive statements, and then selling the security at the higher price. Once the manipulator sells their shares, the price typically falls, leaving other investors at a loss.
+> 2. **Spoofing**: This involves placing large buy or sell orders with no intention of executing them, to create a false appearance of market interest in a particular security or commodity. The orders are then canceled before execution.
+> 3. **Wash Trading**: This involves an investor simultaneously buying and selling the same financial instruments to create misleading, artificial activity in the marketplace.
+> 4. **Churning**: This occurs when a trader places both buy and sell orders at the same price. The orders are matched, leaving the impression of high trading volumes, but no net change in ownership.
+> 5. **Cornering the Market**: This involves acquiring enough of a particular asset to gain control and set the price on it.
+> 6. **Front Running**: This occurs when a broker or other entity enters into a trade because they have foreknowledge of a big non-publicized transaction that will influence the price of the asset, thereby benefiting from the price movement.
 
 ## What if crypto loses? - Securities law won't kill altcoins
 
@@ -419,13 +419,13 @@ However, for projects with particularly large market values, gaining **greater m
 
 Of course, most project parties won't be able to embark on the road to securities compliance; **the future crypto world will consist of both compliant and non-compliant parts, each with clear boundaries but also closely interconnected.**"
 
-|                            | compliant ecosystem                                          | non-compliant ecosystem                                      |
-| -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Capitals                   | Onshore institutional capital, low-risk-preference individuals | Offshore institutional capital, crypto-native, high-risk preference individuals |
-| Underlying asset           | BTC, ETH, a few compliant large-cap tokens                   | Most small and medium market cap tokens                      |
-| Exchanges                  | Licensed onshore exchange, some regulated DEXs               | Unlicensed offshore exchange, some unregulated DEXs          |
-| Features of the Market     | Lower returns, lower volatility, safer and more transparent, more mature and stable | Higher returns, higher volatility, more opaque and risky, more innovation and opportunities |
-| Ecological complementarity | The price rise of mainstream coins and the asset appreciation will bring overflowing liquidity, which can still drive the price of small and medium-sized coins in the non-compliant ecosystem. | A more flexible and open environment nurtures new opportunities, and as small and medium-sized coins gradually grow, some will enter the compliant ecosystem. |
+|                             | compliant ecosystem                                          | non-compliant ecosystem                                      |
+|-----------------------------| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Capitals                    | Onshore institutional<br/> capital, low-risk-preference <br/>individuals | Offshore institutional capital, crypto-native, high-risk preference individuals |
+| Underlying asset            | BTC, ETH, a few <br/>compliant large-cap tokens              | Most small and medium market cap tokens                      |
+| Exchanges                   | Licensed onshore <br/>exchange, some <br/>regulated DEXs     | Unlicensed offshore exchange, some unregulated DEXs          |
+| Features of <br/>the Market | Lower returns, lower <br/>volatility, safer and more <br/>transparent, more <br/>mature and stable | Higher returns, higher volatility, more opaque and risky, more innovation and opportunities |
+| Complementarity             | The price rise of <br/>mainstream coins <br/>and the asset <br/>appreciation will<br/> bring overflowing<br/> liquidity, which <br/>can still drive the<br/> price of small<br/> and medium-sized<br/> coins in the <br/>non-compliant <br/>ecosystem. | A more flexible and open environment nurtures new opportunities, and as small and medium-sized coins gradually grow, some will enter the compliant ecosystem. |
 
 ![coexistence and interdependence of compliant and non-compliant ecosystems](https://tp-misc.b-cdn.net/blockeden/coexistence%20and%20interdependence%20of%20compliant%20and%20non-compliant%20ecosystems.png)
 
@@ -447,7 +447,7 @@ On the legislative side, since July, several crypto regulation bills have been s
 
 The escalation and intensification of conflicts between regulators and the crypto industry is good news, as it means that resolution is nearing.
 
-**The verdict for Ripple Labs was announced on July 13, and the next day, July 14, is the anniversary of the French Revolution. This reminds me of the unrest in France after the revolution; but it was also during that chaotic time that the foundation of modern law - the French Civil Code - was born. I hope that we can see that, although the crypto industry is currently experiencing chaos and turmoil, it will eventually find its direction and way out, establishing a set of norms and codes that can coexist harmoniously with the outside world.**"
+**The verdict for Ripple Labs was announced on July 13, and the next day, July 14, is the anniversary of the French Revolution. This reminds me of the unrest in France after the revolution; but it was also during that chaotic time that the foundation of modern law - the French Civil Code - was born. I hope that we can see that, although the crypto industry is currently experiencing chaos and turmoil, it will eventually find its direction and way out, establishing a set of norms and codes that can coexist harmoniously with the outside world.**
 
 ![](https://tp-misc.b-cdn.net/blockeden/code-civil-des-francais.png)
 
@@ -467,13 +467,13 @@ The escalation and intensification of conflicts between regulators and the crypt
 
 ----------------
 
-*Disclaimer:*
+Disclaimer:
 
-*This content is for informational use only and is not intended as financial or legal advice.*
+This content is for informational use only and is not intended as financial or legal advice.
 
-*Any mistakes or delays in this information, and any resulting damages, are not the responsibility of the author. Please be aware that this information may be updated without notice.*
+Any mistakes or delays in this information, and any resulting damages, are not the responsibility of the author. Please be aware that this information may be updated without notice.
 
-*This content does not promote or recommend the purchase or sale of any financial instruments or securities discussed.*
+This content does not promote or recommend the purchase or sale of any financial instruments or securities discussed.
 
-*The author may hold positions in the securities or tokens discussed in this content.*
+The author may hold positions in the securities or tokens discussed in this content.
 
