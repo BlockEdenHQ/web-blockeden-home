@@ -35,6 +35,7 @@ description: In the Ripple case, a partial victory was achieved in the programma
 * [What if crypto loses? - Securities law won't kill altcoins](#what-if-crypto-loses---securities-law-wont-kill-altcoins)
 * [Peace is More Important Than Victory](#peace-is-more-important-than-victory)
 
+![](https://tp-misc.b-cdn.net/blockeden/eugene-delacroix-la-liberte-guidant-le-people-1830_2epjmc2-e1620056511848.jpg)
 
 ## Long-Awaited (Temporary) Victory - An Interpretation of the Ripple Case
 
