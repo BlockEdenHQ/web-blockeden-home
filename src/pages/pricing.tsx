@@ -79,7 +79,7 @@ export default function Pricing() {
                         <span>1 request / second</span>
                       </li>
                       <li className="py-1">
-                        <span>1 project / network</span>
+                        <span>15 projects</span>
                       </li>
                       <li className="py-1">
                         <span>Data analytics web portal</span>
@@ -121,7 +121,7 @@ export default function Pricing() {
                         <span>10 requests / second</span>
                       </li>
                       <li className="py-1">
-                        <span>5 projects / network</span>
+                        <span>30 projects</span>
                       </li>
                       <li className="py-1">
                         <span>Data analytics web portal</span>
@@ -152,9 +152,6 @@ export default function Pricing() {
                   data-aos-delay={300}
                 >
                   <div className="card card-body align-items-center shadow-3d">
-                    <span className="badge badge-top badge-dark">
-                      Most Popular
-                    </span>
                     <div className="pt-md-2">
                       <h4>Enterprise 50</h4>
                     </div>
@@ -174,7 +171,7 @@ export default function Pricing() {
                         <span>50 requests / second</span>
                       </li>
                       <li className="py-1">
-                        <span>25 projects / network</span>
+                        <span>100 projects</span>
                       </li>
                       <li className="py-1">
                         <span>Data analytics web portal</span>
@@ -224,7 +221,7 @@ export default function Pricing() {
                         <span>500 requests / second</span>
                       </li>
                       <li className="py-1">
-                        <span>300 projects / network</span>
+                        <span>300 projects</span>
                       </li>
                       <li className="py-1">
                         <span>Data analytics web portal</span>
