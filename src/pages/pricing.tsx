@@ -250,32 +250,6 @@ export default function Pricing() {
                   </div>
                 </div>
               </div>
-              <div className="row mb-4">
-                <div className="col" data-aos="fade-up" data-aos-delay={500}>
-                  <div className="card card-body align-items-center flex-row justify-content-between">
-                    <div className="pt-md-2">
-                      <h4>Pro Flex</h4>
-                    </div>
-                    <div className="d-flex align-items-start pb-md-2">
-                      <span className="display-4 mb-0">Pay as you go</span>
-                    </div>
-                    <ul className="text-center list-unstyled my-2 my-md-4">
-                      <li className="py-1">
-                        <span>10 requests / second</span>
-                      </li>
-                      <li className="py-1">
-                        <span>5 projects / network</span>
-                      </li>
-                    </ul>
-                    <a
-                      href={beConfig.supportUrl}
-                      className="btn btn-outline-primary"
-                    >
-                      Contact support
-                    </a>
-                  </div>
-                </div>
-              </div>
               <div className="row">
                 <div className="col text-center mb-2">
                   <strong>Lowest Price Guarantee!</strong> Find a lower quote
