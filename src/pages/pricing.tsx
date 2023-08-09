@@ -55,7 +55,7 @@ export default function Pricing() {
             <div className="container">
               <div className="row">
                 <div
-                  className="col-md-3"
+                  className="col-md-4"
                   data-aos="fade-up"
                   data-aos-delay={100}
                 >
@@ -97,7 +97,7 @@ export default function Pricing() {
                   </div>
                 </div>
                 <div
-                  className="col-md-3"
+                  className="col-md-4"
                   data-aos="fade-up"
                   data-aos-delay={200}
                 >
@@ -107,7 +107,7 @@ export default function Pricing() {
                     </div>
                     <div className="d-flex align-items-start pb-md-2">
                       <span className="h3">$</span>
-                      <span className="display-4 mb-0">49</span>
+                      <span className="display-4 mb-0">49.99</span>
                     </div>
                     <span className="text-small text-muted">per month</span>
                     <ul className="text-center list-unstyled my-2 my-md-4">
@@ -147,7 +147,7 @@ export default function Pricing() {
                   </div>
                 </div>
                 <div
-                  className="col-md-3"
+                  className="col-md-4"
                   data-aos="fade-up"
                   data-aos-delay={300}
                 >
@@ -157,7 +157,7 @@ export default function Pricing() {
                     </div>
                     <div className="d-flex align-items-start pb-md-2">
                       <span className="h3">$</span>
-                      <span className="display-4 mb-0">200</span>
+                      <span className="display-4 mb-0">199.99</span>
                     </div>
                     <span className="text-small text-muted">per month</span>
                     <ul className="text-center list-unstyled my-2 my-md-4">
@@ -189,60 +189,10 @@ export default function Pricing() {
                       </li>
                     </ul>
                     <a
-                      href="https://blockeden.xyz/dash/create-payment-subscription?planId=price_1M0tNcEqsEqs2tLVbv29zQuk"
+                      href="https://blockeden.xyz/dash/create-payment-subscription?planId=price_1Nd3ThEqsEqs2tLV19faCt8o"
                       className="btn btn-primary"
                     >
                       Get started
-                    </a>
-                  </div>
-                </div>
-                <div
-                  className="col-md-3"
-                  data-aos="fade-up"
-                  data-aos-delay={400}
-                >
-                  <div className="card card-body align-items-center ">
-                    <div className="pt-md-2">
-                      <h4>Enterprise 500</h4>
-                    </div>
-                    <div className="d-flex align-items-start pb-md-2">
-                      <span className="h3">$</span>
-                      <span className="display-4 mb-0">1999</span>
-                    </div>
-                    <span className="text-small text-muted">per month</span>
-                    <ul className="text-center list-unstyled my-2 my-md-4">
-                      <li className="py-1">
-                        <span>
-                          50,000,000{" "}
-                          <Link href={"/docs/compute-unit/"}>CUs</Link> / day
-                        </span>
-                      </li>
-                      <li className="py-1">
-                        <span>500 requests / second</span>
-                      </li>
-                      <li className="py-1">
-                        <span>300 projects</span>
-                      </li>
-                      <li className="py-1">
-                        <span>Data analytics web portal</span>
-                      </li>
-                      <li className="py-1">
-                        <span>
-                          <Link
-                            href={
-                              "https://blockeden.xyz/dash/create-payment-subscription?planId=price_ZcZzHmyPuFvada3TMc7H&isCrypto=true"
-                            }
-                          >
-                            Pay with crypto
-                          </Link>
-                        </span>
-                      </li>
-                    </ul>
-                    <a
-                      href={beConfig.supportUrl}
-                      className="btn btn-outline-primary"
-                    >
-                      Contact support
                     </a>
                   </div>
                 </div>
