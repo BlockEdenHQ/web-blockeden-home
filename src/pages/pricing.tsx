@@ -71,7 +71,7 @@ export default function Pricing() {
                     <ul className="text-center list-unstyled my-2 my-md-4">
                       <li className="py-1">
                         <span>
-                          100,000 <Link href={"/docs/compute-unit/"}>CUs</Link>{" "}
+                          10,000,000 <Link href={"/docs/compute-unit/"}>CUs</Link>{" "}
                           / day
                         </span>
                       </li>
@@ -113,7 +113,7 @@ export default function Pricing() {
                     <ul className="text-center list-unstyled my-2 my-md-4">
                       <li className="py-1">
                         <span>
-                          400,000{" "}
+                          40,000,000{" "}
                           <Link href={"/docs/compute-unit/"}>CUs</Link> / day
                         </span>
                       </li>
@@ -164,7 +164,7 @@ export default function Pricing() {
                     <ul className="text-center list-unstyled my-2 my-md-4">
                       <li className="py-1">
                         <span>
-                          1,000,000{" "}
+                          100,000,000{" "}
                           <Link href={"/docs/compute-unit/"}>CUs</Link> / day
                         </span>
                       </li>
@@ -214,7 +214,7 @@ export default function Pricing() {
                     <ul className="text-center list-unstyled my-2 my-md-4">
                       <li className="py-1">
                         <span>
-                          4,320,000{" "}
+                          432,000,000{" "}
                           <Link href={"/docs/compute-unit/"}>CUs</Link> / day
                         </span>
                       </li>
