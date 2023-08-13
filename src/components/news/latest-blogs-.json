@@ -1,5 +1,49 @@
 [
   {
+    "id": "/2023/08/13/pay-api-usage-with-compute-unit-credit",
+    "metadata": {
+      "permalink": "/blog/2023/08/13/pay-api-usage-with-compute-unit-credit",
+      "source": "@site/blog/2023-08-13-pay-api-usage-with-compute-unit-credit.mdx",
+      "title": "Introducing Pay-As-You-Go Pricing and Changes in Pricing Plans",
+      "description": "Learn about BlockEden.xyz's updated pricing plans and the introduction of our Pay-As-You-Go option with Compute Unit Credit (CUC). We're committed to providing cost-effective and flexible solutions tailored to indie developers, small businesses, and venture-backed companies. Discover our expanded API offerings, high availability, robust security, and more. Join our community of over 4000 web3 innovators today.",
+      "date": "2023-08-13T00:00:00.000Z",
+      "formattedDate": "August 13, 2023",
+      "tags": [
+        {
+          "label": "product",
+          "permalink": "/blog/tags/product"
+        }
+      ],
+      "readingTime": 4.18,
+      "hasTruncateMarker": false,
+      "authors": [
+        {
+          "name": "Dora Noda",
+          "title": "Software Engineer",
+          "url": "https://github.com/doranoda",
+          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
+          "key": "dora"
+        }
+      ],
+      "frontMatter": {
+        "title": "Introducing Pay-As-You-Go Pricing and Changes in Pricing Plans",
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "product"
+        ],
+        "image": "https://tp-misc.b-cdn.net/blockeden/introducing-pay-as-you-go-pricing-and-plan-changes.png",
+        "description": "Learn about BlockEden.xyz's updated pricing plans and the introduction of our Pay-As-You-Go option with Compute Unit Credit (CUC). We're committed to providing cost-effective and flexible solutions tailored to indie developers, small businesses, and venture-backed companies. Discover our expanded API offerings, high availability, robust security, and more. Join our community of over 4000 web3 innovators today."
+      },
+      "nextItem": {
+        "title": "[40 min read] Regulatory Storm: Dilemma and Opportunities in the Crypto Industry",
+        "permalink": "/blog/2023/08/02/regulatory-storm-dilemma-opportunities-in-the-us-crypto-industry"
+      }
+    },
+    "content": "> **TL;DR**\n>\n> 1. We've increased the rate limit by 5x for all plans.\n> 2. For improved granularity, 1 CU has been updated to 100 CU.\n> 3. Announcing our new \"Basic\" plan priced at $19.99.\n> 4. CUs are now denominated in CUC and are refreshed daily. Monitor your balance at blockeden.xyz/dash/account.\n> 5. With our updated plans, extra CUCs beyond those plans allow you to access additional APIs using a pay-as-you-go system every day.\n\n\n\nBlockEden.xyz is committed to providing cost-effective and efficient solutions to indie developers, small businesses, and venture-backed companies. Our customer feedback revealed a few key insights:\n\n1. A requirement for an intermediate tier between the Free and Pro plans.\n2. A desire for a more flexible 'pay-as-you-go' option.\n3. An opportunity for us to accommodate more requests through a more efficient infrastructure.\n\nBased on these insights, we're excited to announce the introduction of a pay-as-you-go feature using Compute Unit Credit (CUC), and to share details about modifications to our pricing plans.\n\n## **Understanding Compute Units and Compute Unit Credit**\n\nA **Compute Unit** (CU) serves as a standard measurement that quantifies the computational expense incurred during an API call. It's akin to how AWS charges for compute usage. The computational cost varies depending on the intensity of the queries – some are lightweight and fast (e.g., eth_blockNumber) while others can be more demanding (e.g., large eth_getLogs queries). The cost in CU for each request across different products can be found in our[ API marketplace](https://blockeden.xyz/api-marketplace).\n\n**Compute Unit Credits** (CUC) are like credit card rewards on our platform to serve as royalty points. Those points are identical to compute units. Developers could spend CUC on our platform to get extra quotas for API calls.\n\n## **Implementing Pay-As-You-Go with CUC**\n\nWe'll set up a reward account for each customer. Customers can load this account with CUC, which will then be consumed as per their API usage.\n\n- For the Free tier, we ensure a minimum balance of 0.3 CUC at the start of each month.\n- For the paid tiers (Basic, Pro, Enterprise 50), we will credit the account on each subscription or renewal.\n\nWe do not allow customer to withdraw CUC for now.\n\nThe credits on BlockEden.xyz will be reconciled daily and also each time a withdrawal or deposit is made. **BlockEden.xyz maintains the rights to the Compute Units (CU) on our platform, along with the authority to clarify the application of the API and the usage of credits**.\n\n## **Pricing Plan Modifications**\n\nBelow are the changes to our pricing plans. The original pricing structure was as follows:\n\n|                    | **Free**    | **Pro**   | **Enterprise 50** | **Enterprise 500** |\n| ------------------ | ----------- | --------- | ----------------- | ------------------ |\n| Price              | 0           | 49.99     | 200               | 1999               |\n| CU / day           | 0.1 Million | 1 Million | 4.32 Million      | 50 Million         |\n| Price / Million CU | 0           | 1.66      | 1.54              | 1.33               |\n| Ratelimit req/s    | 1           | 10        | 50                | 500                |\n| Project allowed    | 15          | 30        | 100               | 300                |\n\nIn response to customer feedback, we've made the following adjustments:\n\n1. The \"Enterprise 500\" tier has been discontinued, and a \"Basic\" tier has been introduced to offer indie developers more flexibility.\n2. Rate limits have been increased five-fold for almost all plans.\n\nHere is our updated pricing structure:\n\n| **Plan**           | **Free**   | **Basic**  | **Pro**     | **Enterprise 50** |\n| ------------------ | ---------- | ---------- | ----------- | ----------------- |\n| Price              | 0          | 19.99      | 49.99       | 199.99            |\n| CU / day           | 10 Million | 40 Million | 100 Million | 513.33 Million    |\n| Price / Billion CU | 0          | 0.0167     | 0.0167      | 0.0130            |\n| Ratelimit CU/s     | 1,000      | 10,000     | 10,000      | 500,000           |\n| Ratelimit req/s    | 5          | 50         | 50          | 250               |\n| Project allowed    | 15         | 30         | 100         | 300               |\n\n## **Why Choose BlockEden.xyz**\n\nBlockEden.xyz is a comprehensive API marketplace that powers DApps for a variety of blockchain ecosystems. Our customers opt for us due to:\n\n1. **High Availability:** Our 99.9% uptime record since our first API launch attests to our reliability.\n2. **Diverse API Offerings and Community:** Our service portfolio has expanded to cover numerous blockchains, with a community of over 4000 web3 innovators.\n3. **Robust Security:** With over $45 million worth of tokens staked, clients trust our secure solutions for their web3 and blockchain needs.\n\nWe focus on empowering every participant in the blockchain ecosystem with a suite of tailored services:\n\n- For **protocol builders**, we guarantee robust security and decentralization by operating nodes and contributing to the ecosystem.\n- For **DApp developers**, we provide user-friendly APIs that streamline development and unlock the power of decentralized applications.\n- For **token holders**, we offer a reliable staking service to optimize rewards and asset management.\n\n\n\n------\n\n\n\n- Twitter:[ https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)\n- Discord:[ https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)\n- Source Link:[ https://blockeden.xyz/blog/2023/07/19/unveiling-integration-openai-api-blockeden-api-marketplace/](https://blockeden.xyz/blog/2023/07/19/unveiling-integration-openai-api-blockeden-api-marketplace/)"
+  },
+  {
     "id": "/2023/08/02/regulatory-storm-dilemma-opportunities-in-the-us-crypto-industry",
     "metadata": {
       "permalink": "/blog/2023/08/02/regulatory-storm-dilemma-opportunities-in-the-us-crypto-industry",
@@ -35,6 +79,10 @@
         ],
         "image": "https://tp-misc.b-cdn.net/blockeden/eugene-delacroix-la-liberte-guidant-le-people-1830_2epjmc2-e1620056511848.jpg",
         "description": "In the Ripple case, a partial victory was achieved in the programmatic sales, avoiding being recognized as securities sales. We have carefully analyzed the court's ruling logic and believe that there may be quite obvious errors in fact recognition, which has a high possibility of being overturned later."
+      },
+      "prevItem": {
+        "title": "Introducing Pay-As-You-Go Pricing and Changes in Pricing Plans",
+        "permalink": "/blog/2023/08/13/pay-api-usage-with-compute-unit-credit"
       },
       "nextItem": {
         "title": "BlockEden.xyz Utilizes Blockchain to Measure Compute Unit Credit (CUC)",
@@ -95,62 +143,5 @@
       }
     },
     "content": "![](https://tp-misc.b-cdn.net/blockeden/blockeden-utilizes-blockchain-measure-compute-unit-credit.png)\n\n## Introduction\n\nThe rise of web3 has seen a proliferation of decentralized applications (DApps) platforms, all vying for supremacy. Amid this scene enters BlockEden.xyz, a new player with a unique proposition. This web3 native company has now adopted blockchain technology to better measure the computational expense associated with an API invocation, by introducing the Compute Unit Credit (CUC). But how exactly does this work, and what impact will it have on the API market? Let's break it down.\n\n## BlockEden.xyz: Stepping Into The API Market\n\nBlockEden.xyz has made its entry into the API marketplace, providing services across different platforms such as Sui, Aptos, Solana, and 12 EVM blockchains. But there's something that sets this company apart - it's the way they leverage blockchain technology to quantify Compute Unit Credit, paving the way for a more standardized and comparable API cost structure.\n\n### Understanding Compute Unit Credit\n\nThe Compute Unit Credit (CUC) serves as a consistent metric that measures the computational costs tied to an API invocation. This strategy addresses the variations in machine costs for each service, offering a standard way to communicate the price of API invocation and ensuring comparability.\n\nBy applying blockchain technology, BlockEden.xyz has created a secure and transparent system where the cost of API services can be fairly compared, enabling developers to make more informed decisions.\n\n![](https://tp-misc.b-cdn.net/blockeden/cuckoo-network-screenshot.png)\n\n## BlockEden.xyz: Empowered by Blockchain\n\nBlockEden.xyz, as a web3 native company, has fully integrated blockchain technology into its core operations. With the robust security features of blockchain and the principles of decentralization that web3 espouses, the company has established a platform that marries efficiency, security, and transparency.\n\n### A More Transparent API Market\n\nBy using the Compute Unit Credit, BlockEden.xyz aims to build a more transparent and fair API market. Developers can now compare prices easily, and services are priced fairly and transparently.\n\n## FAQs\n\n**1. What is BlockEden.xyz?**\n\nBlockEden.xyz is an API marketplace that provides a variety of services for DApp platforms like Sui, Aptos, Solana, and 12 EVM blockchains.\n\n**2. How does BlockEden.xyz use blockchain technology?**\n\nBlockEden.xyz uses blockchain technology to measure the Compute Unit Credit (CUC), a metric representing the computational expense associated with an API invocation.\n\n**3. What is a Compute Unit Credit (CUC)?**\n\nA Compute Unit Credit (CUC) is a standard measure developed by BlockEden.xyz to calculate the cost of API invocation, enabling fair pricing and easy comparison across different services.\n\n**4. How is BlockEden.xyz a web3 native company?**\n\nBlockEden.xyz is a web3 native company because it uses principles of web3, such as decentralization, while leveraging the security and immutability of blockchain technology.\n\n**5. What is BlockEden.xyz's vision?**\n\nBlockEden.xyz's vision is to create a fair and transparent API market where developers can easily compare API invocation prices, and services are priced using the standard measure - the Compute Unit Credit (CUC).\n\n## Conclusion\n\nAs a new entrant in the API market, BlockEden.xyz is taking a fresh approach by utilizing blockchain technology to measure the Compute Unit Credit (CUC). This innovative measure, coupled with the company's focus on transparency and fair pricing, sets BlockEden.xyz apart and positions it to make a significant impact in the API marketplace. While it's early days yet, it's worth keeping an eye on how this web3 native company will continue to evolve and shape the future of the API market.\n\nThe unveiling of BlockEden.xyz marks the beginning of an exciting journey in the API marketplace. This venture, armed with the Compute Unit Credit and the power of blockchain, is set to redefine how developers interact with API services. To keep yourself updated with their latest advancements and join the conversation with like-minded individuals, don't miss out on connecting with us on our Discord channel at [https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey). It's not just about being part of a community; it's about staying informed, sharing ideas, and influencing the future of the API market. So, hop on over to our Discord - we can't wait to hear from you!\n\n\n- Twitter: https://twitter.com/BlockEdenHQ\n- Discord: https://discord.gg/4Yfvs2HWey\n- Source Link: https://blockeden.xyz/blog/2023/07/27/blockeden-utilizes-blockchain-measure-compute-unit-credit/"
-  },
-  {
-    "id": "/2023/07/19/unveiling-integration-openai-api-blockeden-api-marketplace",
-    "metadata": {
-      "permalink": "/blog/2023/07/19/unveiling-integration-openai-api-blockeden-api-marketplace",
-      "source": "@site/blog/2023-07-19-unveiling-integration-openai-api-blockeden-api-marketplace.mdx",
-      "title": "Unveiling the Integration of OpenAI ChatGPT API in BlockEden.xyz's API Marketplace",
-      "description": "We are glad to announce that BlockEden.xyz, web3 developers' go-to platform for API marketplace, has added a new, powerful capability – OpenAI API. Yes, you heard it right! Developers, tech enthusiasts, and AI pioneers can now leverage the cutting-edge machine learning models offered by OpenAI, directly through BlockEden's API Marketplace.",
-      "date": "2023-07-19T00:00:00.000Z",
-      "formattedDate": "July 19, 2023",
-      "tags": [
-        {
-          "label": "product",
-          "permalink": "/blog/tags/product"
-        },
-        {
-          "label": "openai",
-          "permalink": "/blog/tags/openai"
-        },
-        {
-          "label": "ai",
-          "permalink": "/blog/tags/ai"
-        }
-      ],
-      "readingTime": 3.24,
-      "hasTruncateMarker": false,
-      "authors": [
-        {
-          "name": "Dora Noda",
-          "title": "Software Engineer",
-          "url": "https://github.com/doranoda",
-          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
-        }
-      ],
-      "frontMatter": {
-        "title": "Unveiling the Integration of OpenAI ChatGPT API in BlockEden.xyz's API Marketplace",
-        "authors": [
-          "dora"
-        ],
-        "tags": [
-          "product",
-          "openai",
-          "ai"
-        ],
-        "image": "https://tp-misc.b-cdn.net/blockeden/unveiling-integration-openai-api-blockeden-api-marketplace.png"
-      },
-      "prevItem": {
-        "title": "BlockEden.xyz Utilizes Blockchain to Measure Compute Unit Credit (CUC)",
-        "permalink": "/blog/2023/07/27/blockeden-utilizes-blockchain-measure-compute-unit-credit"
-      },
-      "nextItem": {
-        "title": "Beyond Boundaries: The Integration of NEAR Protocol into BlockEden.xyz's API Marketplace",
-        "permalink": "/blog/2023/07/14/beyond-boundaries-the-integration-of-near-protocol-into-blockedenxyzs-api-marketplace"
-      }
-    },
-    "content": "We are glad to announce that BlockEden.xyz, web3 developers' go-to platform for API marketplace, has added a new, powerful capability – OpenAI API. Yes, you heard it right! Developers, tech enthusiasts, and AI pioneers can now leverage the cutting-edge machine learning models offered by OpenAI, directly through BlockEden's API Marketplace.\n\nBefore we dive into the how-to guide, let's understand what OpenAI API brings to the table. OpenAI API is a gateway to AI models developed by OpenAI, such as the industry-renowned GPT-3, the state-of-the-art transformer-based language model known for its remarkable ability to understand and generate human-like text. The API enables developers to use this advanced technology for a variety of applications, including drafting emails, writing code, answering questions, creating written content, tutoring, language translation, and much more.\n\nNow, let's see how you can incorporate the power of OpenAI API into your applications using BlockEden.xyz. You can do it in three ways: using Python, using JavaScript (Node.js), or using curl directly from the command line. In this blog, we're going to provide the basic setup for each method, using a simple \"Hello, World!\" example.\n\nThe API key below is public and subject to change and rate limit. Get your own `BLOCKEDEN_API_KEY` from https://blockeden.xyz/dash instead.\n\n**Python**:\n\nUsing Python, you can use the OpenAI API as shown in the following snippet:\n\n```python\nimport openai\n\nBLOCKEDEN_API_KEY = \"8UuXzatAZYDBJC6YZTKD\"\nopenai.api_key = \"\"\nopenai.api_base = \"https://api.blockeden.xyz/openai/\" + BLOCKEDEN_API_KEY + \"/v1\"\n\nresponse = openai.ChatCompletion.create(\n  model=\"gpt-3.5-turbo-16k\",\n  messages=[{\"role\": \"user\", \"content\": \"hello, world!\"}],\n  temperature=0,\n  max_tokens=2048,\n  top_p=1,\n  frequency_penalty=0,\n  presence_penalty=0\n)\n\nprint(response[\"choices\"])\n```\n\n**JavaScript (Node.js)**:\n\nYou can also utilize the OpenAI API with JavaScript. Here's how you can do it:\n\n```js\nconst { Configuration, OpenAIApi } = require(\"openai\");\n\nconst BLOCKEDEN_API_KEY = \"8UuXzatAZYDBJC6YZTKD\";\nconst configuration = new Configuration({\n  basePath: \"https://api.blockeden.xyz/openai/\" + BLOCKEDEN_API_KEY + \"/v1\"\n});\nconst openai = new OpenAIApi(configuration);\n\n(async () => {\n  const response = await openai.createChatCompletion({\n    model: \"gpt-3.5-turbo-16k\",\n    messages: [{role: \"user\", content: \"hello, world!\"}],\n    temperature: 0,\n    max_tokens: 2048,\n    top_p: 1,\n    frequency_penalty: 0,\n    presence_penalty: 0,\n  });\n\n  console.log(JSON.stringify(response.data.choices, null, 2));\n})()\n```\n\n**cURL**:\n\nLast but not least, you can call the OpenAI API using curl directly from your terminal:\n\n```bash\ncurl https://api.blockeden.xyz/openai/8UuXzatAZYDBJC6YZTKD/v1/chat/completions \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\n  \"model\": \"gpt-3.5-turbo-16k\",\n  \"messages\": [{\"role\": \"user\", \"content\": \"hello, world!\"}],\n  \"temperature\": 0,\n  \"max_tokens\": 2048,\n  \"top_p\": 1,\n  \"frequency_penalty\": 0,\n  \"presence_penalty\": 0\n}'\n```\n\nSo, what's next? Dive in, experiment, and discover how you can leverage the power of OpenAI API for your projects, be it for chatbots, content generation, or any other NLP-based application. The possibilities are as vast as your imagination. With BlockEden.xyz's seamless integration with OpenAI, let's redefine the boundaries of what's possible.\n\nFor more information on OpenAI's capabilities, models, and usage, visit the official [OpenAI documentation](https://beta.openai.com/docs/).\n\nHappy Coding!\n\n## **What is BlockEden.xyz**\n\nBlockEden.xyz is an API marketplace powering DApps of all sizes for Sui, Aptos, Solana, and 12 EVM blockchains. Why do our customers choose us?\n\n1. High availability. We maintain 99.9% uptime since our first API - Aptos main net launch.\n2. Inclusive API offerings and community. Our services have expanded to include Sui, Ethereum, IoTeX, Solana, Polygon, Polygon zkEVM, Filecoin, Harmony, BSC, Arbitrum, Optimism, Gnosis, Arbitrum Nova & EthStorage Galileo. Our community 10x.pub has 4000+ web3 innovators from Silicon Valley, Seattle, and NYC.\n3. Security. With over $45 million worth of tokens staked with us, our clients trust us to provide reliable and secure solutions for their web3 and blockchain needs.\n\nWe provide a comprehensive suite of services designed to empower every participant in the blockchain space, focusing on three key areas:\n\n- For blockchain **protocol builders**, we ensure robust security and decentralization by operating nodes and making long-term ecosystem contributions.\n- For **DApp developers**, we build user-friendly APIs to streamline development and unleash the full potential of decentralized applications.\n- For **token holders**, we offer a reliable staking service to maximize rewards and optimize asset management.\n\n----\n\n- Twitter: https://twitter.com/BlockEdenHQ\n- Discord: https://discord.gg/4Yfvs2HWey\n- Source Link: https://blockeden.xyz/blog/2023/07/19/unveiling-integration-openai-api-blockeden-api-marketplace/"
   }
 ]
