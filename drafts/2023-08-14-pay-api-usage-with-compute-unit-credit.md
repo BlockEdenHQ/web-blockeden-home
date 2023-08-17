@@ -66,7 +66,7 @@ Here is our updated pricing structure:
 | ------------------ | ---------- | ---------- | ----------- | ----------------- |
 | Price              | 0          | 19.99      | 49.99       | 199.99            |
 | CU / day           | 10 Million | 40 Million | 100 Million | 513.33 Million    |
-| Price / Billion CU | 0          | 0.0167     | 0.0167      | 0.0130            |
+| Price / Million CU | 0          | 0.0167     | 0.0167      | 0.0130            |
 | Ratelimit CU/s     | 1,000      | 10,000     | 10,000      | 500,000           |
 | Ratelimit req/s    | 5          | 50         | 50          | 250               |
 | Project allowed    | 15         | 30         | 100         | 300               |
