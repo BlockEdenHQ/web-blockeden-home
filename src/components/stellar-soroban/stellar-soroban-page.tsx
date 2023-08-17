@@ -86,7 +86,9 @@ export function StellarSorobanPage() {
                 />
               </div>
               <h4 className={"display-6"}>Security</h4>
-              <p className="lead mx-xl-3">Secure uploads with access control</p>
+              <p className="lead mx-xl-3">
+                Up to 45M USD assets staked with us
+              </p>
             </div>
             <div className="col-md-4" data-aos="fade-up" data-aos-delay={200}>
               <div className="icon-round bg-primary mx-auto mb-4">
@@ -98,7 +100,9 @@ export function StellarSorobanPage() {
                 />
               </div>
               <h4 className={"display-6"}>Scalability</h4>
-              <p className="lead mx-xl-3">Scalable for any size of projects</p>
+              <p className="lead mx-xl-3">
+                Horizontal scalable for any size of projects
+              </p>
             </div>
             <div className="col-md-4" data-aos="fade-up" data-aos-delay={300}>
               <div className="icon-round bg-primary mx-auto mb-4">
@@ -110,7 +114,9 @@ export function StellarSorobanPage() {
                 />
               </div>
               <h4 className={"display-6"}>Speed</h4>
-              <p className="lead mx-xl-3">Blazing fast with our global CDN</p>
+              <p className="lead mx-xl-3">
+                Grab your connection string and start building
+              </p>
             </div>
           </div>
         </div>
@@ -150,8 +156,8 @@ export function StellarSorobanPage() {
             <div className="col-lg-5 col-md-6" data-aos="fade-left">
               <h3 className="h2 display-5">Indexer GraphQL API</h3>
               <p className="lead">
-                Eject the managed directory to your self-sovereign address
-                anytime.
+                Instant access to transactions, events, ledger entries, and
+                token contract.
               </p>
               {/*<a href="#" className="lead hover-arrow">*/}
               {/*  Learn more*/}
@@ -178,8 +184,8 @@ export function StellarSorobanPage() {
             <div className="col-lg-5 col-md-6" data-aos="fade-right">
               <h3 className="h2 display-5">Business Analytics</h3>
               <p className="lead">
-                The solution is friendly to artists with a web portal and
-                programmable to developers with APIs.
+                In addition to GraphQL, those data are also available in a web
+                portal for you to inspect.
               </p>
               {/*<a href="#" className="lead hover-arrow">*/}
               {/*  Start building*/}
@@ -205,14 +211,13 @@ export function StellarSorobanPage() {
             </div>
             <div className="col-lg-5 col-md-6" data-aos="fade-left">
               <h3 className="h2 display-5">Soroban RPC as a Service</h3>
-              <p className="lead">
-                Eject the managed directory to your self-sovereign address
-                anytime.
-              </p>
-              {/*<a href="#" className="lead hover-arrow">*/}
-              {/*  Learn more*/}
-              {/*</a>*/}
-              <a className="lead hover-arrow">Coming soon</a>
+              <p className="lead">Commercial API with a high availability.</p>
+              <a
+                href="https://blockeden.xyz/api-marketplace/stellar-futurenet-soroban"
+                className="lead hover-arrow"
+              >
+                Explore Now in Our API Marketplace
+              </a>
             </div>
           </div>
         </div>
@@ -251,14 +256,16 @@ export function StellarSorobanPage() {
                   data-inject-svg
                 />
               </a>
-              <h4 className="display-3">More than APIs</h4>
+              <h4 className="display-3">More than just APIs</h4>
               <p className="lead">
-                BlockEden.xyz is a service infra for developers' next billion
-                web3 customers. We are a community of web3 builders that
-                establish long-term relationships with protocol builders,
-                investors, and developers. We host managed node services, API
-                gateways, and staking services to blockchains. We are open to
-                collaborations and ecosystem contributions.
+                Welcome to BlockEden.xyz — your foundational infrastructure for
+                ushering in the next billion web3 users. As a vibrant community
+                of web3 enthusiasts, we're in it for the long haul with protocol
+                builders, investors, and fellow developers. Dive into our
+                comprehensive suite of services, from managed node solutions and
+                API gateways to dedicated staking services for blockchains. Got
+                an idea or project? Let's co-create to drive the web3 revolution
+                forward together.
               </p>
             </div>
           </div>
@@ -388,21 +395,35 @@ export function StellarSorobanPage() {
         <div className="container">
           <div className="row justify-content-center text-center mb-6">
             <div className="col-xl-8 col-lg-9">
-              <h2 className="display-3 mx-xl-6">Claim your $10 credits now</h2>
+              <h2 className="display-3 mx-xl-6">
+                Unlock Your $10 Credits Today!
+              </h2>
               <p className="lead">
-                🫡 To celebrate builders from the Stellar community, we prepared
-                an exclusive offer for you.
+                🫡 In honor of the incredible builders of the Stellar community,
+                we've curated an exclusive offer just for you.
               </p>
             </div>
           </div>
           <div className="row">
-            <div className="col text-center">
+            <a
+              href={
+                "https://blockeden.xyz/dash/sign-up/?inviter=633b3ab35a01b55f42899301"
+              }
+              className="col text-center d-flex flex-column justify-content-center align-items-center"
+            >
               <img
                 width={"200px"}
                 src="https://tp-misc.b-cdn.net/blockeden/sign-up-link-with-inviter.png"
-                alt={"scan me to sign up"}
+                alt={"Quick Scan to Join"}
               />
-            </div>
+              <button
+                type="submit"
+                className="btn btn-outline-primary d-flex mt-2"
+                data-loading-text="Sending"
+              >
+                Claim by Signing Up
+              </button>
+            </a>
           </div>
         </div>
       </section>
