@@ -29,7 +29,7 @@ export function DstorePage() {
                 Drag and drop onto a decentralized storage
               </h1>
               <p className="lead">
-                dStore is a managed storage solution for creators and developers
+                dstore is a managed storage solution for creators and developers
                 from any blockchain. It's user-friendly, EVM-compatible,
                 low-cost, and petabyte-level scale, all powered by EthStorage.
               </p>
@@ -75,7 +75,7 @@ export function DstorePage() {
         <div className="container">
           <div className="row mb-4 text-center">
             <div className="col">
-              <h2 className="h1 display-4">Why build with dStore?</h2>
+              <h2 className="h1 display-4">Why build with dstore?</h2>
             </div>
           </div>
           <div className="row text-center">
@@ -531,7 +531,7 @@ export function DstorePage() {
                     className="h3 text-center mb-md-0"
                     style={{ fontSize: "28px" }}
                   >
-                    Build the next big thing with dStore
+                    Build the next big thing with dstore
                   </h3>
                   <a
                     href="https://blockeden.xyz/dash/sign-up/?next=%2Fdstore%2F"

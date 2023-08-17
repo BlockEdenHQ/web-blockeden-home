@@ -5,9 +5,9 @@ import { beConfig } from "@site/src/config";
 export const dstoreSeo = {
   previewImageUrl:
     "https://tp-misc.b-cdn.net/blockeden/dstore-drag-and-drop-1.png",
-  title: `dStore - a managed decentralized storage solution for creators and developers from any blockchain`,
+  title: `dstore - a managed decentralized storage solution for creators and developers from any blockchain`,
   description:
-    "dStore is a managed storage solution for creators and developers from any blockchain. It's user-friendly, EVM-compatible, low-cost, and petabyte-level scale, all powered by EthStorage.",
+    "dstore is a managed storage solution for creators and developers from any blockchain. It's user-friendly, EVM-compatible, low-cost, and petabyte-level scale, all powered by EthStorage.",
 };
 
 export const DstoreSeoHead: React.FC = () => {
