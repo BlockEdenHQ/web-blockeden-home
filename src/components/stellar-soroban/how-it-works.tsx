@@ -21,7 +21,7 @@ export const HowItWorks = () => {
           <ul className="nav flex-column" role="tablist">
             <li className="nav-item">
               <a
-                className={classNames("nav-link btn btn-light p-2 text-left", {
+                className={classNames("nav-link btn btn-light p-2 text-left c-link", {
                   active: activeIndex === 0,
                 })}
                 href="@site/src/components/how-it-works.tsx#app-tab-1"
@@ -40,12 +40,12 @@ export const HowItWorks = () => {
                   alt="subtract icon"
                   data-inject-svg
                 />
-                Architecture
+                <span>Architecture</span>
               </a>
             </li>
             <li className="nav-item">
               <a
-                className={classNames("nav-link btn btn-light p-2 text-left", {
+                className={classNames("nav-link btn btn-light p-2 text-left c-link", {
                   active: activeIndex === 1,
                 })}
                 onClick={(e) => {
@@ -64,12 +64,12 @@ export const HowItWorks = () => {
                   alt="pixels icon"
                   data-inject-svg
                 />
-                Create an API access key
+                <span>Create an API access key</span>
               </a>
             </li>
             <li className="nav-item">
               <a
-                className={classNames("nav-link btn btn-light p-2 text-left", {
+                className={classNames("nav-link btn btn-light p-2 text-left c-link", {
                   active: activeIndex === 2,
                 })}
                 onClick={(e) => {
@@ -88,7 +88,7 @@ export const HowItWorks = () => {
                   alt="saturation icon"
                   data-inject-svg
                 />
-                Get connection strings
+                <span>Get connection strings</span>
               </a>
             </li>
           </ul>
