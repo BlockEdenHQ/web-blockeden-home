@@ -410,3 +410,7 @@ a:hover {
     line-height: 1.2;
   }
 }
+
+.c-link svg {
+  vertical-align: middle;
+}

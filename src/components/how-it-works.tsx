@@ -21,7 +21,7 @@ export const HowItWorks = () => {
           <ul className="nav flex-column" role="tablist">
             <li className="nav-item">
               <a
-                className={classNames("nav-link btn btn-light p-2 text-left", {
+                className={classNames("nav-link btn btn-light p-2 text-left c-link", {
                   active: activeIndex === 0,
                 })}
                 href="@site/src/components/how-it-works#app-tab-1"
@@ -40,12 +40,12 @@ export const HowItWorks = () => {
                   alt="subtract icon"
                   data-inject-svg
                 />
-                Architecture
+                <span>Architecture</span>
               </a>
             </li>
             <li className="nav-item">
               <a
-                className={classNames("nav-link btn btn-light p-2 text-left", {
+                className={classNames("nav-link btn btn-light p-2 text-left c-link", {
                   active: activeIndex === 1,
                 })}
                 onClick={(e) => {
@@ -64,12 +64,12 @@ export const HowItWorks = () => {
                   alt="pixels icon"
                   data-inject-svg
                 />
-                Drag and drop
+                <span>Drag and drop</span>
               </a>
             </li>
             <li className="nav-item">
               <a
-                className={classNames("nav-link btn btn-light p-2 text-left", {
+                className={classNames("nav-link btn btn-light p-2 text-left c-link", {
                   active: activeIndex === 2,
                 })}
                 onClick={(e) => {
@@ -88,7 +88,7 @@ export const HowItWorks = () => {
                   alt="saturation icon"
                   data-inject-svg
                 />
-                Get links
+                <span>Get links</span>
               </a>
             </li>
           </ul>
