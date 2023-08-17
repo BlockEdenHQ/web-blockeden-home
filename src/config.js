@@ -2,7 +2,8 @@ module.exports = {
   beConfig: {
     signUp: "https://blockeden.xyz/dash/sign-up/",
     signIn: "https://blockeden.xyz/dash/login/",
-    supportUrl: "https://discord.gg/GqzTYQ4YNa",
+    supportUrl: "https://t.me/mikethrift",
+    discordUrl: "https://discord.gg/GqzTYQ4YNa",
     apis: "https://blockeden.xyz/api-marketplace/",
     analytics: "https://blockeden.xyz/analytics/",
 

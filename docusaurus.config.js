@@ -160,7 +160,7 @@ const config = {
                 to: "/sui",
               },
               {
-                label: "dStore",
+                label: "dstore",
                 to: "/dstore",
               },
               {

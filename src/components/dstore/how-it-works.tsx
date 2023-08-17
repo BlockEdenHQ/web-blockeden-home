@@ -24,7 +24,7 @@ export const HowItWorks = () => {
                 className={classNames("nav-link btn btn-light p-2 text-left c-link", {
                   active: activeIndex === 0,
                 })}
-                href="@site/src/components/how-it-works#app-tab-1"
+                href="@site/src/components/how-it-works.tsx#app-tab-1"
                 onClick={(e) => {
                   e.preventDefault();
                   setActiveIndex(0);
@@ -52,7 +52,7 @@ export const HowItWorks = () => {
                   e.preventDefault();
                   setActiveIndex(1);
                 }}
-                href="@site/src/components/how-it-works#app-tab-2"
+                href="@site/src/components/how-it-works.tsx#app-tab-2"
                 data-toggle="tab"
                 aria-controls="app-tab-2"
                 aria-selected="false"
@@ -76,7 +76,7 @@ export const HowItWorks = () => {
                   e.preventDefault();
                   setActiveIndex(2);
                 }}
-                href="@site/src/components/how-it-works#app-tab-3"
+                href="@site/src/components/how-it-works.tsx#app-tab-3"
                 data-toggle="tab"
                 aria-controls="app-tab-3"
                 aria-selected="false"

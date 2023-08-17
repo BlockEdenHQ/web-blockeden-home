@@ -80,7 +80,7 @@ export const Features = () => {
               Partner engineers at your service now. Singapore Time (SGT) Mon -
               Fri 7am - 3pm. Stay connected with the community.
             </p>
-            <a href={beConfig.supportUrl} className="hover-arrow">
+            <a href={beConfig.discordUrl} className="hover-arrow">
               Join Discord
             </a>
           </div>

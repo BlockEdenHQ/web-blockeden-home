@@ -10,7 +10,7 @@ export const dstoreSeo = {
     "dstore is a managed storage solution for creators and developers from any blockchain. It's user-friendly, EVM-compatible, low-cost, and petabyte-level scale, all powered by EthStorage.",
 };
 
-export const DstoreSeoHead: React.FC = () => {
+export const StellarSorobanSeoHead: React.FC = () => {
   return (
     <Head>
       <meta name="twitter:site" content="@BlockEdenHQ" />

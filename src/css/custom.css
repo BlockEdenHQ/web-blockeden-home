@@ -315,25 +315,6 @@ a:hover {
   margin-top: 2px;
 }
 
-/* for news */
-.c-news h4 {
-  height            : 75px;
-  font-size         : 20px;
-  -webkit-line-clamp: 3;
-}
-
-.c-news p {
-  -webkit-line-clamp: 6;
-}
-
-.c-news p,
-.c-news h4 {
-  overflow          : hidden;
-  text-overflow     : ellipsis;
-  display           : -webkit-box;
-  -webkit-box-orient: vertical;
-}
-
 /* for introduce */
 .c-links {
   flex-direction: column;
@@ -409,6 +390,15 @@ a:hover {
   .c-started h2 {
     line-height: 1.2;
   }
+}
+
+blockquote {
+  margin: 24px 0;
+  padding: 24px!important;
+  display: block;
+  background: #f3f5fb;
+  border: 0;
+  color: var(--ifm-font-color-base);
 }
 
 .c-link svg {

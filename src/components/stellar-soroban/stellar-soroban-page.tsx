@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 import Layout from "@theme/Layout";
 import { useAos } from "@site/src/components/use-aos";
-import { HowItWorks } from "@site/src/components/dstore/how-it-works";
+import { HowItWorks } from "@site/src/components/stellar-soroban/how-it-works";
 import {
   dstoreSeo,
   DstoreSeoHead,
 } from "@site/src/components/dstore/dstore-seo-head";
 
-export function DstorePage() {
+export function StellarSorobanPage() {
   useAos();
   useEffect(() => {
     const SVGInjector = require("svg-injector");
@@ -25,13 +25,10 @@ export function DstorePage() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-8 col-md-9">
-              <h1 className="display-3">
-                Drag and drop onto a decentralized storage
-              </h1>
+              <h1 className="display-3">Stellar Soroban Indexer and GraphQL</h1>
               <p className="lead">
-                dstore is a managed storage solution for creators and developers
-                from any blockchain. It's user-friendly, EVM-compatible,
-                low-cost, and petabyte-level scale, all powered by EthStorage.
+                All-in-one Standard Soroban RPC, indexer GraphQL API and data
+                analytics web portal, built by BlockEdn.xyz for developers
               </p>
               <div className="d-flex flex-column flex-sm-row justify-content-center mt-4">
                 <a
@@ -56,7 +53,7 @@ export function DstorePage() {
           >
             <div className="col-lg-10">
               <img
-                src="https://tp-misc.b-cdn.net/blockeden/dstore-screenshot-1.png"
+                src="https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png"
                 alt="Image"
                 className="rounded shadow-lg"
               />
@@ -75,7 +72,7 @@ export function DstorePage() {
         <div className="container">
           <div className="row mb-4 text-center">
             <div className="col">
-              <h2 className="h1 display-4">Why build with dstore?</h2>
+              <h2 className="h1 display-4">Why build with BlockEden.xyz?</h2>
             </div>
           </div>
           <div className="row text-center">
@@ -145,13 +142,13 @@ export function DstorePage() {
               data-aos="fade-right"
             >
               <img
-                src="https://tp-misc.b-cdn.net/blockeden/illustration_for_Trust-centric_Access_Control_of_digital_a_dd737c38-e1c9-4198-8753-77ec06474ad8.png"
+                src="https://tp-misc.b-cdn.net/blockeden/soroban-graphql-api.png"
                 alt="Image"
                 className="rounded shadow"
               />
             </div>
             <div className="col-lg-5 col-md-6" data-aos="fade-left">
-              <h3 className="h2 display-5">Trust-centric Access Control</h3>
+              <h3 className="h2 display-5">Indexer GraphQL API</h3>
               <p className="lead">
                 Eject the managed directory to your self-sovereign address
                 anytime.
@@ -164,6 +161,7 @@ export function DstorePage() {
           </div>
         </div>
       </section>
+
       <section className="pt-0">
         <div className="container">
           <div className="row align-items-center justify-content-around flex-row-reverse o-hidden">
@@ -172,13 +170,13 @@ export function DstorePage() {
               data-aos="fade-left"
             >
               <img
-                src="https://tp-misc.b-cdn.net/blockeden/illustration_for_api_documentation_that_is_fast_and_powerf_d2b4b40b-d889-4098-95b0-33a2a1a0f752.png"
+                src="https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png"
                 alt="Image"
                 className="rounded shadow"
               />
             </div>
             <div className="col-lg-5 col-md-6" data-aos="fade-right">
-              <h3 className="h2 display-5">Programmable API</h3>
+              <h3 className="h2 display-5">Business Analytics</h3>
               <p className="lead">
                 The solution is friendly to artists with a web portal and
                 programmable to developers with APIs.
@@ -191,6 +189,35 @@ export function DstorePage() {
           </div>
         </div>
       </section>
+
+      <section>
+        <div className="container">
+          <div className="row align-items-center justify-content-around o-hidden">
+            <div
+              className="col-md-6 col-lg-5 mb-4 mb-md-0"
+              data-aos="fade-right"
+            >
+              <img
+                src="https://tp-misc.b-cdn.net/blockeden/soroban-graphql-api.png"
+                alt="Image"
+                className="rounded shadow"
+              />
+            </div>
+            <div className="col-lg-5 col-md-6" data-aos="fade-left">
+              <h3 className="h2 display-5">Soroban RPC as a Service</h3>
+              <p className="lead">
+                Eject the managed directory to your self-sovereign address
+                anytime.
+              </p>
+              {/*<a href="#" className="lead hover-arrow">*/}
+              {/*  Learn more*/}
+              {/*</a>*/}
+              <a className="lead hover-arrow">Coming soon</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section
         className="bg-primary-3 text-light has-divider jarallax"
         data-jarallax
@@ -224,7 +251,7 @@ export function DstorePage() {
                   data-inject-svg
                 />
               </a>
-              <h4 className="display-3">More than a storage</h4>
+              <h4 className="display-3">More than APIs</h4>
               <p className="lead">
                 BlockEden.xyz is a service infra for developers' next billion
                 web3 customers. We are a community of web3 builders that
@@ -361,91 +388,20 @@ export function DstorePage() {
         <div className="container">
           <div className="row justify-content-center text-center mb-6">
             <div className="col-xl-8 col-lg-9">
-              <h2 className="display-3 mx-xl-6">Built for scale</h2>
+              <h2 className="display-3 mx-xl-6">Claim your $10 credits now</h2>
               <p className="lead">
-                From new web3 creators, rising artist, builder with a new app,
-                advanced developers and companys, to large brands and media
-                companies, we got you covered with plans of all sizes.
+                🫡 To celebrate builders from the Stellar community, we prepared
+                an exclusive offer for you.
               </p>
-            </div>
-          </div>
-          <div className="row justify-content-center mb-3">
-            <div
-              className="col-md-6 col-lg-4"
-              data-aos="fade-up"
-              data-aos-delay={100}
-            >
-              <div className="card card-body align-items-center ">
-                <div className="pt-md-2">
-                  <h4>Free</h4>
-                </div>
-                <div className="d-flex align-items-start pb-md-2">
-                  <span className="h3">$</span>
-                  <span className="display-4 mb-0">0</span>
-                </div>
-                <span className="text-small text-muted">Per month</span>
-                <ul className="text-center list-unstyled my-2 my-md-4">
-                  <li className="py-1">
-                    <span>100 files</span>
-                  </li>
-                  <li className="py-1">
-                    <span>1 GB</span>
-                  </li>
-                  <li className="py-1">
-                    <span>Unlimited bandwidth</span>
-                  </li>
-                </ul>
-                <a
-                  href="https://blockeden.xyz/dash/"
-                  className="btn btn-outline-primary"
-                >
-                  Get started
-                </a>
-              </div>
-            </div>
-            <div
-              className="col-md-6 col-lg-4"
-              data-aos="fade-up"
-              data-aos-delay={200}
-            >
-              <div className="card card-body align-items-center shadow-3d">
-                <span className="badge badge-top badge-dark">Most Popular</span>
-                <div className="pt-md-2">
-                  <h4>Pro</h4>
-                </div>
-                <div className="d-flex align-items-start pb-md-2">
-                  <span className="h3">$</span>
-                  <span className="display-4 mb-0">49</span>
-                </div>
-                <span className="text-small text-muted">Per month</span>
-                <ul className="text-center list-unstyled my-2 my-md-4">
-                  <li className="py-1">
-                    <span>20,000 files</span>
-                  </li>
-                  <li className="py-1">
-                    <span>50 GB</span>
-                  </li>
-                  <li className="py-1">
-                    <span>Unlimited bandwidth</span>
-                  </li>
-                </ul>
-                <a
-                  href="https://blockeden.xyz/dash/create-payment-subscription"
-                  className="btn btn-primary"
-                >
-                  Get Pro
-                </a>
-              </div>
             </div>
           </div>
           <div className="row">
             <div className="col text-center">
-              <span>
-                Need more than the starter packs above?{" "}
-                <a href="/pricing" className="hover-arrow">
-                  Check full pricing plans
-                </a>
-              </span>
+              <img
+                width={"200px"}
+                src="https://tp-misc.b-cdn.net/blockeden/sign-up-link-with-inviter.png"
+                alt={"scan me to sign up"}
+              />
             </div>
           </div>
         </div>
@@ -531,7 +487,7 @@ export function DstorePage() {
                     className="h3 text-center mb-md-0"
                     style={{ fontSize: "28px" }}
                   >
-                    Build the next big thing with dstore
+                    Build on Stellar with BlockEden.xyz
                   </h3>
                   <a
                     href="https://blockeden.xyz/dash/sign-up/?next=%2Fdstore%2F"

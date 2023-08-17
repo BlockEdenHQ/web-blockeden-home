@@ -71,7 +71,7 @@ export default function Pricing() {
                     <ul className="text-center list-unstyled my-2 my-md-4">
                       <li className="py-1">
                         <span>
-                          100,000 <Link href={"/docs/compute-unit/"}>CUs</Link>{" "}
+                          10,000,000 <Link href={"/docs/compute-unit/"}>CUs</Link>{" "}
                           / day
                         </span>
                       </li>
@@ -79,7 +79,7 @@ export default function Pricing() {
                         <span>1 request / second</span>
                       </li>
                       <li className="py-1">
-                        <span>1 project / network</span>
+                        <span>15 projects</span>
                       </li>
                       <li className="py-1">
                         <span>Data analytics web portal</span>
@@ -107,13 +107,13 @@ export default function Pricing() {
                     </div>
                     <div className="d-flex align-items-start pb-md-2">
                       <span className="h3">$</span>
-                      <span className="display-4 mb-0">49</span>
+                      <span className="display-4 mb-0">19.99</span>
                     </div>
                     <span className="text-small text-muted">per month</span>
                     <ul className="text-center list-unstyled my-2 my-md-4">
                       <li className="py-1">
                         <span>
-                          1,000,000{" "}
+                          40,000,000{" "}
                           <Link href={"/docs/compute-unit/"}>CUs</Link> / day
                         </span>
                       </li>
@@ -121,7 +121,58 @@ export default function Pricing() {
                         <span>10 requests / second</span>
                       </li>
                       <li className="py-1">
-                        <span>5 projects / network</span>
+                        <span>30 projects</span>
+                      </li>
+                      <li className="py-1">
+                        <span>Data analytics web portal</span>
+                      </li>
+                      <li className="py-1">
+                        <span>
+                          <Link
+                            href={
+                              "https://blockeden.xyz/dash/create-payment-subscription?planId=price_43HvJxmZxnDHJJ4R22Jm&isCrypto=true"
+                            }
+                          >
+                            Pay with crypto
+                          </Link>
+                        </span>
+                      </li>
+                    </ul>
+                    <a
+                      href="https://blockeden.xyz/dash/create-payment-subscription?planId=price_1NdM6WEqsEqs2tLVqvKfFcSm"
+                      className="btn btn-outline-primary"
+                    >
+                      Get started
+                    </a>
+                  </div>
+                </div>
+                <div
+                  className="col-md-3"
+                  data-aos="fade-up"
+                  data-aos-delay={300}
+                >
+                  <div className="card card-body align-items-center">
+                    <span className="badge badge-top badge-dark">Most Popular</span>
+                    <div className="pt-md-2">
+                      <h4>Pro</h4>
+                    </div>
+                    <div className="d-flex align-items-start pb-md-2">
+                      <span className="h3">$</span>
+                      <span className="display-4 mb-0">49.99</span>
+                    </div>
+                    <span className="text-small text-muted">per month</span>
+                    <ul className="text-center list-unstyled my-2 my-md-4">
+                      <li className="py-1">
+                        <span>
+                          100,000,000{" "}
+                          <Link href={"/docs/compute-unit/"}>CUs</Link> / day
+                        </span>
+                      </li>
+                      <li className="py-1">
+                        <span>10 requests / second</span>
+                      </li>
+                      <li className="py-1">
+                        <span>30 projects</span>
                       </li>
                       <li className="py-1">
                         <span>Data analytics web portal</span>
@@ -149,24 +200,21 @@ export default function Pricing() {
                 <div
                   className="col-md-3"
                   data-aos="fade-up"
-                  data-aos-delay={300}
+                  data-aos-delay={400}
                 >
                   <div className="card card-body align-items-center shadow-3d">
-                    <span className="badge badge-top badge-dark">
-                      Most Popular
-                    </span>
                     <div className="pt-md-2">
                       <h4>Enterprise 50</h4>
                     </div>
                     <div className="d-flex align-items-start pb-md-2">
                       <span className="h3">$</span>
-                      <span className="display-4 mb-0">200</span>
+                      <span className="display-4 mb-0">199.99</span>
                     </div>
                     <span className="text-small text-muted">per month</span>
                     <ul className="text-center list-unstyled my-2 my-md-4">
                       <li className="py-1">
                         <span>
-                          4,320,000{" "}
+                          432,000,000{" "}
                           <Link href={"/docs/compute-unit/"}>CUs</Link> / day
                         </span>
                       </li>
@@ -174,7 +222,7 @@ export default function Pricing() {
                         <span>50 requests / second</span>
                       </li>
                       <li className="py-1">
-                        <span>25 projects / network</span>
+                        <span>100 projects</span>
                       </li>
                       <li className="py-1">
                         <span>Data analytics web portal</span>
@@ -192,86 +240,10 @@ export default function Pricing() {
                       </li>
                     </ul>
                     <a
-                      href="https://blockeden.xyz/dash/create-payment-subscription?planId=price_1M0tNcEqsEqs2tLVbv29zQuk"
+                      href="https://blockeden.xyz/dash/create-payment-subscription?planId=price_1Nd3ThEqsEqs2tLV19faCt8o"
                       className="btn btn-primary"
                     >
                       Get started
-                    </a>
-                  </div>
-                </div>
-                <div
-                  className="col-md-3"
-                  data-aos="fade-up"
-                  data-aos-delay={400}
-                >
-                  <div className="card card-body align-items-center ">
-                    <div className="pt-md-2">
-                      <h4>Enterprise 500</h4>
-                    </div>
-                    <div className="d-flex align-items-start pb-md-2">
-                      <span className="h3">$</span>
-                      <span className="display-4 mb-0">1999</span>
-                    </div>
-                    <span className="text-small text-muted">per month</span>
-                    <ul className="text-center list-unstyled my-2 my-md-4">
-                      <li className="py-1">
-                        <span>
-                          50,000,000{" "}
-                          <Link href={"/docs/compute-unit/"}>CUs</Link> / day
-                        </span>
-                      </li>
-                      <li className="py-1">
-                        <span>500 requests / second</span>
-                      </li>
-                      <li className="py-1">
-                        <span>300 projects / network</span>
-                      </li>
-                      <li className="py-1">
-                        <span>Data analytics web portal</span>
-                      </li>
-                      <li className="py-1">
-                        <span>
-                          <Link
-                            href={
-                              "https://blockeden.xyz/dash/create-payment-subscription?planId=price_ZcZzHmyPuFvada3TMc7H&isCrypto=true"
-                            }
-                          >
-                            Pay with crypto
-                          </Link>
-                        </span>
-                      </li>
-                    </ul>
-                    <a
-                      href={beConfig.supportUrl}
-                      className="btn btn-outline-primary"
-                    >
-                      Contact support
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="row mb-4">
-                <div className="col" data-aos="fade-up" data-aos-delay={500}>
-                  <div className="card card-body align-items-center flex-row justify-content-between">
-                    <div className="pt-md-2">
-                      <h4>Pro Flex</h4>
-                    </div>
-                    <div className="d-flex align-items-start pb-md-2">
-                      <span className="display-4 mb-0">Pay as you go</span>
-                    </div>
-                    <ul className="text-center list-unstyled my-2 my-md-4">
-                      <li className="py-1">
-                        <span>10 requests / second</span>
-                      </li>
-                      <li className="py-1">
-                        <span>5 projects / network</span>
-                      </li>
-                    </ul>
-                    <a
-                      href={beConfig.supportUrl}
-                      className="btn btn-outline-primary"
-                    >
-                      Contact support
                     </a>
                   </div>
                 </div>
