@@ -3,9 +3,9 @@ import Layout from "@theme/Layout";
 import { useAos } from "@site/src/components/use-aos";
 import { HowItWorks } from "@site/src/components/stellar-soroban/how-it-works";
 import {
-  dstoreSeo,
-  DstoreSeoHead,
-} from "@site/src/components/dstore/dstore-seo-head";
+  sorobanSeo,
+  StellarSorobanSeoHead,
+} from "@site/src/components/stellar-soroban/stellar-soroban-seo-head";
 
 export function StellarSorobanPage() {
   useAos();
@@ -18,8 +18,8 @@ export function StellarSorobanPage() {
     SVGInjector(document.querySelectorAll("img[data-inject-svg]"));
   }, []);
   return (
-    <Layout title={dstoreSeo.title} description={dstoreSeo.description}>
-      <DstoreSeoHead />
+    <Layout title={sorobanSeo.title} description={sorobanSeo.description}>
+      <StellarSorobanSeoHead />
 
       <section className="bg-primary-3 text-light text-center has-divider header-desktop-app">
         <div className="container">

@@ -2,26 +2,26 @@ import React from "react";
 import Head from "@docusaurus/Head";
 import { beConfig } from "@site/src/config";
 
-export const dstoreSeo = {
+export const sorobanSeo = {
   previewImageUrl:
-    "https://tp-misc.b-cdn.net/blockeden/dstore-drag-and-drop-1.png",
-  title: `dstore - a managed decentralized storage solution for creators and developers from any blockchain`,
+    "https://tp-misc.b-cdn.net/blockeden/BlockEden-xyz-image.png",
+  title: `Stellar Soroban Indexer and GraphQL`,
   description:
-    "dstore is a managed storage solution for creators and developers from any blockchain. It's user-friendly, EVM-compatible, low-cost, and petabyte-level scale, all powered by EthStorage.",
+    "All-in-one Standard Soroban RPC, indexer GraphQL API and data analytics web portal, built by BlockEdn.xyz for developers.",
 };
 
 export const StellarSorobanSeoHead: React.FC = () => {
   return (
     <Head>
       <meta name="twitter:site" content="@BlockEdenHQ" />
-      <meta name="twitter:image" content={dstoreSeo.previewImageUrl} />
-      <meta name="twitter:title" content={dstoreSeo.title} />
-      <meta name="twitter:description" content={dstoreSeo.description} />
-      <meta property="og:description" content={dstoreSeo.description} />
+      <meta name="twitter:image" content={sorobanSeo.previewImageUrl} />
+      <meta name="twitter:title" content={sorobanSeo.title} />
+      <meta name="twitter:description" content={sorobanSeo.description} />
+      <meta property="og:description" content={sorobanSeo.description} />
       <meta
         property="og:image"
         name="og:image"
-        content={dstoreSeo.previewImageUrl}
+        content={sorobanSeo.previewImageUrl}
       />
     </Head>
   );
