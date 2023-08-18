@@ -32,13 +32,13 @@ export function StellarSorobanPage() {
               </p>
               <div className="d-flex flex-column flex-sm-row justify-content-center mt-4">
                 <a
-                  href="https://blockeden.xyz/dash/sign-up/?next=%2Fdstore%2F"
+                  href="https://blockeden.xyz/dash/sign-up/"
                   className="btn btn-lg btn-primary mx-2 mb-2 mb-sm-0"
                 >
                   Get started for Free
                 </a>
                 <a
-                  href="https://blockeden.xyz/dash/dstore/"
+                  href="https://blockeden.xyz/dash/login/"
                   className="btn btn-lg btn-outline-primary mx-2"
                 >
                   <span>Login</span>
@@ -511,7 +511,7 @@ export function StellarSorobanPage() {
                     Build on Stellar with BlockEden.xyz
                   </h3>
                   <a
-                    href="https://blockeden.xyz/dash/sign-up/?next=%2Fdstore%2F"
+                    href="https://blockeden.xyz/dash/sign-up/"
                     className="btn btn-lg btn-white"
                   >
                     Get started
