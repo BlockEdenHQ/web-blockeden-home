@@ -27,6 +27,11 @@
         "description": "Arbitrum is a Layer 2 scaling solution for Ethereum that improves scalability via Arbitrum Rollups. It increases transaction throughput and decreases costs while maintaining strong security and Ethereum compatibility."
       },
       {
+        "id": "recP9ufPguGCX9q6a",
+        "name": "Solana",
+        "description": null
+      },
+      {
         "id": "recafdsESaixl7aJJ",
         "name": "Binance Smart Chain",
         "description": "Binance Smart Chain (BSC) is a blockchain network built for running smart contract-based applications. It operates parallel to Binance Chain, offering high-speed, low-fee transactions, and is compatible with the Ethereum Virtual Machine (EVM)."

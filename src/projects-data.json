@@ -87,6 +87,32 @@
         ]
       },
       {
+        "id": "rec1ErSZRdDIMxpJ8",
+        "name": "Apollo",
+        "introduction": "Payments & Loyalty Infrastructure",
+        "website": "https://www.apollofirst.xyz/",
+        "twitter": "https://twitter.com/Apollo1HQ",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "receGQPE0CmvWXJgc",
+            "name": "Commercial Finance"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "rec1Gz7L1VzcXPS6X",
         "name": "Sui Gallery",
         "introduction": "An NFT market built on Sui.",
@@ -112,6 +138,50 @@
             "name": "Sui"
           }
         ]
+      },
+      {
+        "id": "rec1UVG9Z1LXhAezT",
+        "name": "Monitaur",
+        "introduction": "All-in-one observability platform for Web3 applications powered by machine learning.",
+        "website": "https://monitaur.xyz/",
+        "twitter": "https://twitter.com/monitaurxyz",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/monitaurxyz",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "rec1VYFaRtUbArQ63",
+        "name": "Satsuma",
+        "introduction": "atsuma is a developer tool for building applications on top of real-time blockchain data.",
+        "website": "https://www.satsuma.xyz/",
+        "twitter": "https://twitter.com/satsumaxyz",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "rec1Ym26VLlcYVL4G",
@@ -163,6 +233,32 @@
         "chains": []
       },
       {
+        "id": "rec30ehcLQg3xaxpQ",
+        "name": "Striga",
+        "introduction": "Striga is building infrastructure for digital assets and financial services as a single set of APIs doing the heavy lifting of security and regulatory compliance. ",
+        "website": "https://striga.com/",
+        "twitter": "https://twitter.com/lastbitpay",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/lastbit-io",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "receGQPE0CmvWXJgc",
+            "name": "Commercial Finance"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "rec3kb96V4c4wCSBU",
         "name": "ChainPatrol.io",
         "introduction": "a Real-Time Security Platform for Web3 Communities",
@@ -180,6 +276,54 @@
           {
             "id": "rech8ZZffiG9zOQga",
             "name": "a16z crypto startup school"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "rec3rjPDrAAMs5bz5",
+        "name": "DolarApp",
+        "introduction": "DolarApp allows LatAm inhabitants (starting with México) to dollarize their everyday finances.",
+        "website": "https://www.dolarapp.com/",
+        "twitter": "https://twitter.com/getdolarapp",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "rec40V09AKHMWLJWu",
+        "name": "Lyra",
+        "introduction": "A crypto-native virtual card provider that allows users to easily create cards and fund them with cryptocurrency.",
+        "website": "https://paywithlyra.com/",
+        "twitter": "https://twitter.com/lyrapay_",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "recdqn1Bhu1nOlW6y",
+            "name": "Consumer Finance"
           }
         ],
         "chains": []
@@ -205,6 +349,55 @@
           }
         ],
         "chains": []
+      },
+      {
+        "id": "rec4SWs3BvuBphBKo",
+        "name": "Canopi",
+        "introduction": "[Inactive] API to measure and eliminate carbon emissions.",
+        "website": "https://canopi.cash/",
+        "twitter": "https://twitter.com/CanopiHQ",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "rec5McMaHsRAVIkPG",
+        "name": "Cashmere",
+        "introduction": "Cashmere is a multisig solana wallet for enterprises to manage their digital assets.",
+        "website": "https://cashmere.finance/",
+        "twitter": "https://twitter.com/CashmereWallet",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recP9ufPguGCX9q6a",
+            "name": "Solana"
+          }
+        ]
       },
       {
         "id": "rec5RfpYdHDEKj7HW",
@@ -267,6 +460,50 @@
             "name": "Polygon"
           }
         ]
+      },
+      {
+        "id": "rec5kwk1TcxUCxm3E",
+        "name": "Poko",
+        "introduction": "Poko enables seamless transfers from local payment rails to web3 infrastructure enabling web3 wallets, marketplaces, games and DApps",
+        "website": "http://www.pokoapp.xyz/",
+        "twitter": "https://twitter.com/poko_app",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "rec5mkxxftbMkslMJ",
+        "name": "Helicarrier (prev Buycoins)",
+        "introduction": "Helicarrier (previously Buycoins) is building cryptocurrency infrastructure for Africa.",
+        "website": "https://helicarrier.studio/",
+        "twitter": "https://twitter.com/buycoins_africa",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "rec60SdBb81dajFAc",
@@ -404,6 +641,28 @@
         ]
       },
       {
+        "id": "rec7VSE4tQkJDFaV4",
+        "name": "Pluto.markets",
+        "introduction": "Scandinavian investment app for genz",
+        "website": "http://pluto.markets/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "rec7XygwzN5Yrommk",
         "name": "Suia.io",
         "introduction": "The first POAP application built on Sui and it has been launched on Devnet.",
@@ -431,6 +690,28 @@
         ]
       },
       {
+        "id": "rec7YAL55LSTNzVxt",
+        "name": "Path",
+        "introduction": "Financial advisors for Gen-Z",
+        "website": "https://path.me/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "rec8UxgEE74XQ08aK",
         "name": "Fewcha Wallet",
         "introduction": "Fewcha Wallet is a non-custodial cryptocurrency wallet that offers users a simple and secure platform to manage their digital assets. It supports various cryptocurrencies, including Bitcoin, Ethereum, and Litecoin, and allows users to store, send, receive, and exchange their digital assets. Fewcha Wallet is available for mobile devices.",
@@ -456,6 +737,80 @@
             "name": "Sui"
           }
         ]
+      },
+      {
+        "id": "rec8eVMGevbzrbzi9",
+        "name": "Arda",
+        "introduction": "Tools for institutions to manage risk in DeFi",
+        "website": "https://arda.finance/",
+        "twitter": "https://twitter.com/ardafinance",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "rec977i265U7aLn5m",
+        "name": "ECSA",
+        "introduction": "ECSA offers a seamless solution for converting Brazilian Real to BRLe, a fully collateralized stablecoin.",
+        "website": "http://ecsa.finance/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "recHgqwT3el1SCc3v",
+            "name": "Stable Coin"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "rec9IbochvjKXCstO",
+        "name": "Meson",
+        "introduction": "Meson is a stablecoin swap protocol among blockchains and Layer 2s",
+        "website": "https://meson.fi/",
+        "twitter": "https://twitter.com/mesonfi",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "recjij7AtXPBhoL3j",
+            "name": "Dex"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "rec9dxvKbwnTVJPvW",
@@ -489,6 +844,50 @@
         ]
       },
       {
+        "id": "rec9nez9fxY1DthtQ",
+        "name": "ZeroDev",
+        "introduction": "Create self-custody wallets for your users, powered by account abstraction. ERC-4337 infrastructure.",
+        "website": "https://zerodev.app/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recACjaL3X3G2RG0g",
+        "name": "Maindrop",
+        "introduction": "Maindrop is a fun and easy way to create and send NFTs. ",
+        "website": "https://www.maindrop.xyz/",
+        "twitter": "https://twitter.com/maindropxyz",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recALS3ffv9icKNR4",
         "name": "Jujube Finance",
         "introduction": "A Dex&NFTs platform on the Aptos / Sui. Community-driven, trade safely, fast and user-friendly AMM protocol.",
@@ -514,6 +913,50 @@
             "name": "Aptos"
           }
         ]
+      },
+      {
+        "id": "recBAH87AeV8FFtAH",
+        "name": "Theya",
+        "introduction": "Theya is the world’s simplest Bitcoin self-custody app for users who find crypto exchanges risky and hardware wallets overwhelming. ",
+        "website": "https://www.theya.us/",
+        "twitter": "https://twitter.com/theya_inc",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recBBmqz0Ge8Cvqsn",
+        "name": "Tienda Crypto",
+        "introduction": "Tienda Dólar is the best way for Latin American people to protect their savings",
+        "website": "https://www.tiendacrypto.com/",
+        "twitter": "https://twitter.com/tiendacrypto",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "recBjI0mvWH7uHb2x",
@@ -651,6 +1094,50 @@
         ]
       },
       {
+        "id": "recDYO3hDbmEY3MOp",
+        "name": "Hypeshot",
+        "introduction": "Hypeshot helps creators monetize their superfans through livestreams and NFTs.",
+        "website": "https://www.hypeshot.io/",
+        "twitter": "https://twitter.com/HypeshotHQ",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recDovkOeUZJKxkKA",
+        "name": "OpenSea",
+        "introduction": "The world’s most trusted and inclusive peer-to-peer NFT marketplace.",
+        "website": "https://opensea.io/",
+        "twitter": "https://twitter.com/opensea",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/ProjectOpenSea",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recDtQtg55jotYWvV",
         "name": "Pontem Network",
         "introduction": "Pontem is a product development studio committed to promoting global financial inclusion through blockchain technology. In partnership with Aptos, they are building foundational decentralized applications (dApps) and other infrastructure to facilitate the adoption of Aptos's Layer 1. This includes development tooling, Ethereum Virtual Machines (EVMs), Automated Market Makers (AMMs), and more. ",
@@ -759,6 +1246,124 @@
         ]
       },
       {
+        "id": "recG18OOsk7erwDOo",
+        "name": "SFOX",
+        "introduction": "sFOX is the full-service crypto prime dealer for institutional investors, providing the liquidity, security, and infrastructure needed to unlock the full potential of digital assets.",
+        "website": "http://sfox.com/",
+        "twitter": "https://twitter.com/sfox",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/sfoxhq",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recGnu0ZsyBdUbRcT",
+        "name": "Dharma Labs",
+        "introduction": "[Acquired] Dharma is the only Ethereum wallet capable of seamlessly moving money between any US bank account and decentralized exchanges like Uniswap.",
+        "website": "https://dharma.io/",
+        "twitter": "https://twitter.com/Dharma_HQ",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recH1sVYgdZzmVlTG",
+        "name": "Cypher Wallet",
+        "introduction": "Multi-chain crypto wallet with a crypto debit card",
+        "website": "https://www.cypherwallet.io/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "recdqn1Bhu1nOlW6y",
+            "name": "Consumer Finance"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recHRWl9kkEJ3CNUr",
+        "name": "ZeFi",
+        "introduction": "ZeFi is a zk native cloud platform that lets developers build and deploy zero knowledge circuits directly on the cloud.",
+        "website": "https://zefi.io/",
+        "twitter": "https://twitter.com/zefiHQ",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "reclEQU2qkwkTdH3d",
+            "name": "Zero-knowledge"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recHefnqwwKJNSzZi",
+        "name": "SimpleHash",
+        "introduction": "SimpleHash allows developers to query all NFT data from a single platform.",
+        "website": "https://www.simplehash.com/",
+        "twitter": "https://twitter.com/SimpleHashInc",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recHmSfs3wLcnfnL3",
         "name": "Tsunami Finance",
         "introduction": "Tsunami Finance is a platform that offers margin trading and spot exchange services. It's a dynamic platform with documentation that is continually being updated and improved. Users are encouraged to contribute by submitting a pull request for any changes they deem necessary.",
@@ -786,6 +1391,54 @@
         ]
       },
       {
+        "id": "recHr66uqf9QIxXB0",
+        "name": "Blockscope",
+        "introduction": "Blockscope is a Web3 data platform that enables anyone interested in on-chain data to quickly spin up live or historical data pipelines",
+        "website": "https://www.blockscope.co/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recI03tbY0LoD5VrG",
+        "name": "LootRush",
+        "introduction": "We create an affordable way for gamers to start playing crypto games and a secure way for investors to earn yield through NFTs.",
+        "website": "https://www.lootrush.com/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "recurwxmBmR0NX6iU",
+            "name": "GameFi"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recI8coXXhUS8Q068",
         "name": "Araya Finance",
         "introduction": "A one-stop DeFi protocol built on Sui.",
@@ -811,6 +1464,50 @@
             "name": "Sui"
           }
         ]
+      },
+      {
+        "id": "recINQoxv4kLCthFy",
+        "name": "TRM Labs",
+        "introduction": "A blockchain intelligence company that helps financial institutions, crypto businesses and government agencies detect and investigate crypto-related financial crime and fraud.",
+        "website": "https://trmlabs.com/",
+        "twitter": "https://twitter.com/trmlabs",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/trmlabs",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recIUWDyqh381dhvQ",
+        "name": "Internet Friends",
+        "introduction": "Building tools and products in the crypto industry.",
+        "website": "https://internetfriends.io/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "recIlfOGDRB9cZi5e",
@@ -867,6 +1564,28 @@
         ]
       },
       {
+        "id": "recJ9nYEBqQ6Fl0iF",
+        "name": "Coco Pago",
+        "introduction": "Send, spend, save, and earn money via stablecoins.",
+        "website": "https://cocopago.app/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recK8G7lnDpLlAm1t",
         "name": "Sui Name Service",
         "introduction": "A decentralized digital identity service in the Sui ecosystem and is currently in beta.",
@@ -894,6 +1613,28 @@
         ]
       },
       {
+        "id": "recLSwhqa5gAG8SnX",
+        "name": "Members.Land",
+        "introduction": "Members.Land helps creators and organizations to streamline their membership launching and community management processes.",
+        "website": "https://members.land/",
+        "twitter": "https://twitter.com/members_land",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recLtQc2DDPEQfqkg",
         "name": "Coin98",
         "introduction": "Coin98 Wallet is a secure and user-friendly non-custodial cryptocurrency wallet that supports multiple blockchains, including Ethereum, Binance Smart Chain, and Solana.",
@@ -919,6 +1660,50 @@
             "name": "Sui"
           }
         ]
+      },
+      {
+        "id": "recM5OifefF2bibBk",
+        "name": "Supercool",
+        "introduction": "Supercool allows institutions and developers to automate, create, and manage digital assets.",
+        "website": "https://www.supercool.xyz/",
+        "twitter": "https://twitter.com/supercoolxyz",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recMG5eKg9iWBW9SQ",
+        "name": "Argo",
+        "introduction": "A platform for brands and creator to monetize their video entertainment more efficiently, build an engaged community and reward their fans.",
+        "website": "https://argo.la/",
+        "twitter": "https://twitter.com/Watch_Argo",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "recN1JEdZY4pX8fUz",
@@ -1014,6 +1799,28 @@
         ]
       },
       {
+        "id": "recNsxBwiaYGhiFzR",
+        "name": "Filta",
+        "introduction": "Filta is the face filter NFT marketplace being built by veterans from Pixar/Oculus/Facebook. ",
+        "website": "http://www.getfilta.com/",
+        "twitter": "https://twitter.com/GetFilta",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recOACMtjC6ARBSMe",
         "name": "KIKI world",
         "introduction": "KIKI  is building the future of customer-owned beauty where anyone can co-create and co-own the products they love to use. [yes, we make physical beauty products as well as on-chain products!]",
@@ -1031,6 +1838,28 @@
           {
             "id": "rech8ZZffiG9zOQga",
             "name": "a16z crypto startup school"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recOCsRirUsIj2mO8",
+        "name": "Quantstamp",
+        "introduction": "Quantstamp’s mission is to secure the decentralized internet, and has protected over $200B in digital asset risk from hackers.",
+        "website": "https://quantstamp.com/",
+        "twitter": "https://twitter.com/quantstamp",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/quantstamp",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
           }
         ],
         "chains": []
@@ -1063,6 +1892,50 @@
         ]
       },
       {
+        "id": "recOVMtLTcAaALw6p",
+        "name": "NuCypher",
+        "introduction": "NuCypher is a decentralized threshold cryptography network.",
+        "website": "https://www.nucypher.com/",
+        "twitter": "https://twitter.com/nucypher",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/nucypher",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recOZJQFIdQ2yMuEg",
+        "name": "Rainbow",
+        "introduction": "Rainbow is a fun, simple, and secure Ethereum wallet that makes managing your assets a joy.",
+        "website": "https://rainbow.me/",
+        "twitter": "https://twitter.com/rainbowdotme",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/rainbow-me",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recOhaMivwgLqW78L",
         "name": "Lucky Kat",
         "introduction": "An award-winning mobile game studio with games that have been downloaded more than 200 million times on App Store and its first sold-out NFT project “Panzerdogs” is a top 10 Solana game.",
@@ -1088,6 +1961,80 @@
             "name": "Sui"
           }
         ]
+      },
+      {
+        "id": "recOu2tNzfQ2e9jaT",
+        "name": "Questbook",
+        "introduction": "Tools for the future of pseudonymous, permissionless work. It provides an efficient tool for creating and managing grants from your protocol, completely on chain..",
+        "website": "https://questbook.xyz/",
+        "twitter": "https://twitter.com/questbookapp",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/questbook",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "reccVhTgz8mENzv9N",
+            "name": "DAO"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recP31sHsJDTdNVwr",
+        "name": "Alterya",
+        "introduction": null,
+        "website": "https://www.alterya.dev/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recPNZiuDIEmTzWl7",
+        "name": "Winter",
+        "introduction": "Winter offers an embeddable checkout widget for businesses & NFT projects to sell NFTs through a credit card",
+        "website": "https://usewinter.com/",
+        "twitter": "https://twitter.com/winter_NFTs",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "recxaaAgGx0u9YlEA",
+            "name": "NFT Checkout"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "recPccCbOquuRd7Qd",
@@ -1166,6 +2113,72 @@
         "chains": []
       },
       {
+        "id": "recQecU01nMmzE0Xs",
+        "name": "Clarity",
+        "introduction": "A collaborative team workspace with Sign-in with Ethereum and token-based permissions. Write docs, manage projects, and organize knowledge with bidirectional links.",
+        "website": "https://www.clarity.so/",
+        "twitter": "https://www.twitter.com/clarityteams",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recQueRUPYQMVHee5",
+        "name": "Jasmine Energy",
+        "introduction": "Jasmine makes the buying and selling of renewable energy assets easy, accessible, and transparent.",
+        "website": "http://www.jasmine.energy/",
+        "twitter": "https://www.twitter.com/jasmine_energy",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/Jasmine-Energy",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recR0TNgsoFsroeVQ",
+        "name": "Democracy Earth",
+        "introduction": "Worldcoin for Ethereum blockchains.",
+        "website": "http://democracy.earth/",
+        "twitter": "https://twitter.com/DemocracyEarth",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/DemocracyEarth",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recREiahJH0dPKIa2",
         "name": "Palladium",
         "introduction": "An AMM cross-chain DEX and is yet to be launched.",
@@ -1193,6 +2206,28 @@
         ]
       },
       {
+        "id": "recRLEmBMHru14UgQ",
+        "name": "Dialect",
+        "introduction": "Web3 smart messaging protocol for dapp notifications and wallet chat",
+        "website": "https://dialect.to/",
+        "twitter": "https://twitter.com/saydialect",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recRPJ2VXCiEiMGur",
         "name": "Fuul",
         "introduction": "fuul xyz is an affiliate marketing protocol that lets web3 projects partner with content creators in a trustless way. Fuul streamlines partnership discovery, attribution and payouts on-chain",
@@ -1210,6 +2245,28 @@
           {
             "id": "rech8ZZffiG9zOQga",
             "name": "a16z crypto startup school"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recRhuJBHKfpdsCQW",
+        "name": "Bitstack",
+        "introduction": "Empower people to participate in a more open financial system It starts with helping people save & invest in Bitcoin, effortlessly.",
+        "website": "https://www.bitstack-app.com/",
+        "twitter": "https://twitter.com/bitstack_",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
           }
         ],
         "chains": []
@@ -1242,6 +2299,28 @@
         ]
       },
       {
+        "id": "recSZYUSdSuBiKXfD",
+        "name": "Bitaccess",
+        "introduction": "We make enterprise software for crypto.",
+        "website": "http://bitaccess.com/",
+        "twitter": "https://twitter.com/bitaccess",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recTGnaLPe5GsJlYY",
         "name": "Forbitswap",
         "introduction": "Forbitswap is an all-in-one DeFi platform that offers a comprehensive range of services. It provides an Automated Market Maker (AMM) for efficient and decentralized trading, as well as a Decentralized Prediction Market, allowing users to speculate on the outcomes of future events in a decentralized manner.",
@@ -1267,6 +2346,32 @@
             "name": "Aptos"
           }
         ]
+      },
+      {
+        "id": "recTdJzBBq8d4NOmx",
+        "name": "SlashAuth",
+        "introduction": "[Inactive] Slashauth builds a developer platform for web3 enabled apps. ",
+        "website": "https://www.slashauth.com/",
+        "twitter": "https://www.twitter.com/slashauth",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "recA9e08qAY2FbBIt",
+            "name": "DID"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "recU1VuO5ybmV4nj2",
@@ -1323,6 +2428,28 @@
         ]
       },
       {
+        "id": "recUqHRK4AXZWoH4O",
+        "name": "Soon",
+        "introduction": "By investing on a schedule and selling available gains when you spend, Soon automates investing from beginning to end. ",
+        "website": "https://soon.app/",
+        "twitter": "https://twitter.com/soonfinance",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recUqqfHbQZC3WiC2",
         "name": "Wing Finance",
         "introduction": "Wing Finance is a credit-based, cross-chain DeFi platform. The content from this URL could not be retrieved, so I'm unable to provide a detailed introduction.",
@@ -1367,6 +2494,28 @@
           {
             "id": "recgqAdiHbbhN3qwr",
             "name": "Decentralized VPN"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recVfRIxpngwkNxGK",
+        "name": "Coinrule",
+        "introduction": "Coinrule Catches the Next Market Opportunity on Your Behalf by Automating Your Investments.",
+        "website": "https://coinrule.com/",
+        "twitter": "https://twitter.com/coinrulehq",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
           }
         ],
         "chains": []
@@ -1453,6 +2602,28 @@
         ]
       },
       {
+        "id": "recWvuqFTPeOY7FQv",
+        "name": "Apozy",
+        "introduction": "Interlock protects DeFi while rewarding the community that makes it safer.",
+        "website": "https://www.apozy.com/",
+        "twitter": "https://www.twitter.com/interlockweb3",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recX6D1adcT1rSXm8",
         "name": "Shinami",
         "introduction": "Aims to provide the driving force for the next wave of DApps and to facilitate the construction of Sui blockchain for developers without necessarily running and maintaining nodes.",
@@ -1505,6 +2676,58 @@
             "name": "Aptos"
           }
         ]
+      },
+      {
+        "id": "recXFwTn4SJgpykhH",
+        "name": "EthosX",
+        "introduction": "A decentralized finance platform creating end-to-end financial derivatives on blockchains.",
+        "website": "https://www.ethosx.finance/",
+        "twitter": "https://twitter.com/ethosx_finance",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "recjij7AtXPBhoL3j",
+            "name": "Dex"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recXIXHGDdPy66Lwq",
+        "name": "Ping",
+        "introduction": "Ping enables international contractors and freelancers to have access to a personal Dollar account in the US",
+        "website": "https://www.letsping.com/",
+        "twitter": "https://twitter.com/holapinglatam",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "recdqn1Bhu1nOlW6y",
+            "name": "Consumer Finance"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "recXNuHX20BojRiVI",
@@ -1561,6 +2784,72 @@
         ]
       },
       {
+        "id": "recXmSK0AXN0R7zT5",
+        "name": "Weltio",
+        "introduction": "Weltio gives users access to a fully fledged brokerage account in USD",
+        "website": "https://www.weltio.com/",
+        "twitter": "https://twitter.com/WeltioApp",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recYCinw0Ksy6cY1H",
+        "name": "Payfura",
+        "introduction": "A fiat<>crypto on/off ramp payment gateway for web3 applications.",
+        "website": "https://www.payfura.com/",
+        "twitter": "https://twitter.com/payfura",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recYHwftOKZLAEJjx",
+        "name": "Littio",
+        "introduction": "Littio is a neobank focused on solving the currency devaluation problem for Latin Americans.",
+        "website": "https://www.littio.co/",
+        "twitter": "https://mobile.twitter.com/littioco",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recYaX5isTq4phWF6",
         "name": "Blocto",
         "introduction": "Blocto Wallet - Your Web3 tomorrow starts today. Make crypto transactions in your control, get full royalties for your creativity, and more.",
@@ -1588,6 +2877,28 @@
         ]
       },
       {
+        "id": "recYxeTi9cg5RSgX3",
+        "name": "Map3",
+        "introduction": "Map3 connects crypto services to Wallets, Exchanges & Bridges to enable cross-chain deposits.",
+        "website": "https://map3.xyz/",
+        "twitter": "https://twitter.com/map3hq",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/map3xyz",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recZsMQSiIGYzwDxH",
         "name": "BlueMove",
         "introduction": "The first-ever NFT market for communities built on Aptos and Sui that proactively rewards investors, collectors and artists.",
@@ -1613,6 +2924,50 @@
             "name": "Sui"
           }
         ]
+      },
+      {
+        "id": "recaSTOWPz2SpbLC8",
+        "name": "HyperTrader",
+        "introduction": "Unlock your trading superpowers wtih HyperTrader.",
+        "website": "https://gethypertrader.com/",
+        "twitter": "https://twitter.com/HyperTraderApp",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recarr7HMGQ9giOqB",
+        "name": "Metafi",
+        "introduction": "Metafi is building blockchain infrastructure for Web3 games.",
+        "website": "https://www.usemeta.fi/",
+        "twitter": "https://twitter.com/metafi_wallet",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "recbMQAJJptW3GvZN",
@@ -1723,6 +3078,124 @@
         ]
       },
       {
+        "id": "recdTfTv9CNxNGGSH",
+        "name": "Zoltar Labs",
+        "introduction": "Zoltar is an agnostic payment infrastructure for international businesses.",
+        "website": "https://www.zoltarlabs.com/",
+        "twitter": "https://twitter.com/ZoltarLabs",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recdi5MR9jS4xpwbP",
+        "name": "Excheqr",
+        "introduction": "All-in-one Platform to Manage Your Crypto Treasury",
+        "website": "https://www.excheqr.xyz/",
+        "twitter": "https://twitter.com/excheqr_xyz",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "receGQPE0CmvWXJgc",
+            "name": "Commercial Finance"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "rece3HdpZdSlf7kDV",
+        "name": "Chainsight",
+        "introduction": "Chainsight builds API for any web2 or web3 company to detect and prevent crypto or NFT scam on their platform",
+        "website": "https://www.chainsight.com/",
+        "twitter": "https://twitter.com/ChainsightWeb3",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "rece7BKvh6IQXrPuR",
+        "name": "Ben",
+        "introduction": "Ben aims to be a unified platform for learning about, buying, selling, and storing cryptocurrency.",
+        "website": "https://ben.co/",
+        "twitter": "https://twitter.com/getbendotco",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "receAqgJOiSyjhVQj",
+        "name": "Request Network",
+        "introduction": "Request allows companies & people to pay and get paid in cryptocurrencies by relying on the most innovative payment request technology.",
+        "website": "https://request.network/",
+        "twitter": "https://twitter.com/RequestNetwork",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/RequestNetwork",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "receGQPE0CmvWXJgc",
+            "name": "Commercial Finance"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "receGLhmHrMOG20HR",
         "name": "AptoScan.xyz",
         "introduction": "AptoScan is an Aptos Blockchain Explorer",
@@ -1748,6 +3221,98 @@
             "name": "Aptos"
           }
         ]
+      },
+      {
+        "id": "recek2VFUc8mGXBS0",
+        "name": "Flux",
+        "introduction": "We are building Flux- Flux is a Mobile App for merchants, freelancers, regular users(P2P) to make and accept payments from their customers anywhere in the world using crypto or fiat.",
+        "website": "https://iflux.app/",
+        "twitter": "https://twitter.com/ifluxdotapp",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "recdqn1Bhu1nOlW6y",
+            "name": "Consumer Finance"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recepnBiOWYAUdAL1",
+        "name": "Valiu",
+        "introduction": "USD mobile banking for LatAm's businesses and people",
+        "website": "https://www.valiu.com/",
+        "twitter": "https://twitter.com/simonvaliu",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recfwV51Lw1PDHFpS",
+        "name": "QuickNode",
+        "introduction": "Effortlessly develop your Web3 applications by leveraging our elastic APIs,powerful analytics and knowledge base articles to your competitive advantage.",
+        "website": "https://www.quicknode.com/",
+        "twitter": "https://twitter.com/quicknode",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/quiknode-labs",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recg5iu4963iTMxrz",
+        "name": "Cedalio",
+        "introduction": "A blockchain empowered alternative to Firebase. Cedalio starts with a Decentralized Storage GraphQL Gateway, you can use Cedalio as a decentralized database for applications that speak GraphQL.",
+        "website": "https://cedalio.com/",
+        "twitter": "https://twitter.com/CedalioTech",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/cedalio/",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "recgcYSwYPm9F38fA",
@@ -1777,6 +3342,103 @@
         ]
       },
       {
+        "id": "recgeIKunbAwwHxR7",
+        "name": "Proxy",
+        "introduction": "A mobile and wearable wallet that makes interacting with blockchain-based products and services seamless, fun, and empowering.",
+        "website": "https://proxy.com/",
+        "twitter": "https://twitter.com/proxy",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recgkbRUyCrypLFWk",
+        "name": "Hiro Systems",
+        "introduction": "Hiro System builds developer tools for Bitcoin L1 and the Stacks L2 (layer-2). ",
+        "website": "https://hiro.so/",
+        "twitter": "https://twitter.com/hirosystems",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/hirosystems",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recgtdIhF5rnROahr",
+        "name": "SolStar",
+        "introduction": "SolStar makes it possible for anyone to use crypto, starting with a Discord integration. It's a platform for creating and organizing token-powered communities powered by Solana.",
+        "website": "https://solstar.finance/",
+        "twitter": "https://twitter.com/SolStarFinance",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": [
+          {
+            "id": "recP9ufPguGCX9q6a",
+            "name": "Solana"
+          }
+        ]
+      },
+      {
+        "id": "recgwbAsSL1hw3Q2k",
+        "name": "Notabene",
+        "introduction": "Notabene helps businesses perform crypto transactions in a regulatory compliant way.",
+        "website": "https://notabene.id/",
+        "twitter": "https://twitter.com/notabene_id",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/Notabene-id",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "receGQPE0CmvWXJgc",
+            "name": "Commercial Finance"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "rechKAzZ2YksHEG1n",
         "name": "SuiPad",
         "introduction": "The first-ever Launchpad built on Sui and it includes functions like IDO, ISO and INO, etc.",
@@ -1802,6 +3464,28 @@
             "name": "Sui"
           }
         ]
+      },
+      {
+        "id": "rechQjJS9YfWF7O6P",
+        "name": "Blyss",
+        "introduction": "A leakproof data warehouse that lets companies store and analyze sensitive data without ever decrypting it. Developers can create S3-like buckets. Store any key-value data. Then perform completely private retrievals.",
+        "website": "https://blyss.dev/",
+        "twitter": "https://twitter.com/blyssdev",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/blyssprivacy",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "rechaIdhMnrQ8RQTx",
@@ -1831,6 +3515,28 @@
         ]
       },
       {
+        "id": "rechbzzxBP8GyGTJW",
+        "name": "Listia",
+        "introduction": "Listia is a new kind of auction marketplace for giving and getting free stuff. ",
+        "website": "http://listia.com/",
+        "twitter": "https://twitter.com/listia",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/listia",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "rechifdfsaLh5XIaD",
         "name": "Ethos",
         "introduction": "Ethos Wallet is a non-custodial cryptocurrency wallet that provides users with a simple and secure platform to manage their digital assets. It allows users to store, send, receive, and exchange various cryptocurrencies, including Bitcoin, Ethereum, and Litecoin. Ethos Wallet is available for mobile devices and desktop computers.",
@@ -1858,6 +3564,72 @@
         ]
       },
       {
+        "id": "reciN5RrzYrjMxAbJ",
+        "name": "Protocol Labs",
+        "introduction": "Protocol Labs is an open-source research, development, and deployment laboratory. It's the company behind IPFS, Filecoin, libp2p, and many more.",
+        "website": "https://protocol.ai/",
+        "twitter": "https://twitter.com/protocollabs",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/protocol",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "reciS0MbIfHTsvn00",
+        "name": "CoinTracker",
+        "introduction": " A portfolio assistant for cryptocurrency used by over 1 million cryptocurrency holders with over $50 Billion in crypto assets on exchanges.",
+        "website": "https://www.cointracker.io/",
+        "twitter": "https://twitter.com/CoinTracker",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/coin-tracker",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "reciV4yt6pmXYcG2B",
+        "name": "Payourse",
+        "introduction": "tools and infrastructure that make it easier, faster and cheaper for anyone in to build user friendly crypto and web3 products.",
+        "website": "https://payourse.com/",
+        "twitter": "https://twitter.com/payourse",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "reciegatatzwCjNPU",
         "name": "Abel Finance",
         "introduction": "A cross-chain asset lending platform that also supports using LP Token and NFT as collateral to lend stablecoins.",
@@ -1883,6 +3655,76 @@
             "name": "Sui"
           }
         ]
+      },
+      {
+        "id": "recjAHRfebkHrIJ3a",
+        "name": "Terrace",
+        "introduction": "Terrace is a regulatory-compliant, all-in-one institutional-grade trading UI / terminal and infrastructure layer",
+        "website": "https://www.terrace.fi/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recjFhgPrW9ADJjAw",
+        "name": "Hedgehog",
+        "introduction": "Hedgehog is a crypto robo-adviser that manages your funds in broad baskets of digital assets covering up to 85% of crypto's market cap.",
+        "website": "https://hedgehog.app/",
+        "twitter": "https://twitter.com/HedgehogDotApp",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "rec57HyMeH62koASo",
+            "name": "Robo-adviser"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recjVUvdWMtDsLO8h",
+        "name": "Coinbase",
+        "introduction": " A digital currency wallet and platform where merchants and consumers can transact with new digital currencies like bitcoin, ethereum, and litecoin.",
+        "website": "https://www.coinbase.com/",
+        "twitter": "https://twitter.com/coinbase",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "recjcmKV0kWVS7iGs",
@@ -1934,6 +3776,28 @@
         "chains": []
       },
       {
+        "id": "reckDpbAGG2MQfekA",
+        "name": "Rio",
+        "introduction": "Rio lets users buy and sell crypto and stablecoins in 5 minutes or less, using local payment methods in LATAM.",
+        "website": "https://www.riotransfer.co/",
+        "twitter": "https://twitter.com/rio_transfer",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "reckcbPjMecU5MCqP",
         "name": "F1 Dog",
         "introduction": "The first NFT dog racing game built on Sui and Aptos blockchains.",
@@ -1959,6 +3823,28 @@
             "name": "Sui"
           }
         ]
+      },
+      {
+        "id": "recl5nSjx2Tlei07E",
+        "name": "Bunkyr",
+        "introduction": "Bunkyr enables companies to protect their users’ data with a simple, hardware-secured API.",
+        "website": "https://bunkyr.com/",
+        "twitter": "https://twitter.com/Bunkyr",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "reclMZ6Hvt0mb5Jzf",
@@ -2040,6 +3926,10 @@
           {
             "id": "rec9txQaAdTdKG8aS",
             "name": "Defi"
+          },
+          {
+            "id": "receGQPE0CmvWXJgc",
+            "name": "Commercial Finance"
           }
         ],
         "chains": [
@@ -2048,6 +3938,72 @@
             "name": "Aptos"
           }
         ]
+      },
+      {
+        "id": "recm2Hu8ch7QuGuvi",
+        "name": "NewShades",
+        "introduction": "Crypto-native group messaging",
+        "website": "https://www.newshades.xyz/",
+        "twitter": "https://twitter.com/newshadesDAO",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recmboxndETNEbZQj",
+        "name": "Decent",
+        "introduction": "Decent has a full suite of no- and low-code tools for creators and organizations to easily build customized and user-friendly projects on the blockchain. ",
+        "website": "https://www.decent.xyz/",
+        "twitter": "https://twitter.com/decentxyz",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/decentxyz",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recnlOQfSUfLzrfUk",
+        "name": "Wallbit Pay",
+        "introduction": "Wallbit is a neobank that gives global remote workers a US bank account.",
+        "website": "https://wallbit.io/",
+        "twitter": "https://twitter.com/WallbitPay",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "recnty7qMNt1S0h5j",
@@ -2102,6 +4058,72 @@
             "name": "Aptos"
           }
         ]
+      },
+      {
+        "id": "recoP5avqXAA95cTO",
+        "name": "RoverX",
+        "introduction": "RoverX is a NFT alerts and notifications tool for mobile. ",
+        "website": "https://roverx.io/",
+        "twitter": "https://twitter.com/roverx_io",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recothoamcA2ZNXHd",
+        "name": "Coinfeeds",
+        "introduction": "Coinfeeds is an API that provides real-time news and social sentiment on any cryptocurrency. ",
+        "website": "https://coinfeeds.io/",
+        "twitter": "https://twitter.com/coinfeeds_ai",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recp0Mg2SrGE3sICy",
+        "name": "Operator",
+        "introduction": "Easily generate reports from on-chain data",
+        "website": "http://operator.io/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "recp7n7ILqN1vKs2O",
@@ -2175,6 +4197,50 @@
         "chains": []
       },
       {
+        "id": "recr6df0qWQ0NnOR3",
+        "name": "Mudrex",
+        "introduction": "Mudrex is on a mission to bring risk optimised high yield investments to everyone.",
+        "website": "https://mudrex.com/",
+        "twitter": "https://twitter.com/officialmudrex",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/mudrex",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recr95DYtOSVhpn7C",
+        "name": "Koywe",
+        "introduction": "Provide simple, well-documented, and fully compliant payments APIs and interfaces for Latam.",
+        "website": "https://koywe.com/",
+        "twitter": "https://twitter.com/koywe_latam",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/koyweforest",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recrFU1MaYBa6md2I",
         "name": "KeepSake",
         "introduction": "An NFT market built on Sui and has gone live for interaction.",
@@ -2200,6 +4266,54 @@
             "name": "Sui"
           }
         ]
+      },
+      {
+        "id": "recrPvRNQ85xf4P5c",
+        "name": "Sonar",
+        "introduction": "Minecraft meets Discord",
+        "website": "https://sonar.app/",
+        "twitter": "https://twitter.com/Sonar",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recrufVGToBFC8TX0",
+        "name": "Hexel",
+        "introduction": "Create a cryptocurrency for your community.",
+        "website": "https://www.onhexel.com/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "reccVhTgz8mENzv9N",
+            "name": "DAO"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "rect6gU03mqKDuZC1",
@@ -2229,6 +4343,62 @@
         ]
       },
       {
+        "id": "rectieyuEla5k7u4v",
+        "name": "Algofi",
+        "introduction": "At Algofi, we're building the new financial system. Our work will reduce barriers to entry and promote democracy in the financial system.",
+        "website": "https://algofi.org/",
+        "twitter": "https://twitter.com/algofiorg",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/Algofiorg",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "recWLjiMK106T8B9O",
+            "name": "Lending"
+          },
+          {
+            "id": "rec9txQaAdTdKG8aS",
+            "name": "Defi"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "rectjbYlrfJ0V4aIt",
+        "name": "UpBanx",
+        "introduction": "UpBanx is Brex for D2C brands and content creators in Indonesia.",
+        "website": "http://upbanx.com/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "receGQPE0CmvWXJgc",
+            "name": "Commercial Finance"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recu5kuhDT3iQZNvo",
         "name": "Axelar Network",
         "introduction": "A Web3 cross-chain application that aims to provide a smooth cross-chain experience for public chains and their ecosystems.",
@@ -2256,6 +4426,28 @@
         ]
       },
       {
+        "id": "recuEvYhzxvwOHdLi",
+        "name": "Spruce Systems, Inc.",
+        "introduction": "SpruceID empowers organizations to manage the entire lifecycle of digital credentials, such as mobile driver’s licenses, software audit statements, professional certifications, and more.",
+        "website": "https://www.spruceid.com/",
+        "twitter": "https://twitter.com/spruceid",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/spruceid",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recuafElJtcJ7qvMe",
         "name": "AptoScan",
         "introduction": "AptoScan is a platform to explore Aptos blockchain transactions and chain analytics. Developer APIs and useful resources are available on AptoScan.",
@@ -2281,6 +4473,32 @@
             "name": "Aptos"
           }
         ]
+      },
+      {
+        "id": "recuiGLvMddVl6YPw",
+        "name": "Multis",
+        "introduction": "We build accounting & treasury management software solutions for web3 organizations.",
+        "website": "https://multis.com/",
+        "twitter": "https://twitter.com/multisHQ",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/multis",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "receGQPE0CmvWXJgc",
+            "name": "Commercial Finance"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "reculZIaLHC0qiCdV",
@@ -2337,6 +4555,50 @@
         ]
       },
       {
+        "id": "recvX0HIHewda79HV",
+        "name": "WalletKit",
+        "introduction": "WalletKit is a developer platform that abstracts away the complexities of blockchain tech and provides simple HTTP APIs.",
+        "website": "https://usewalletkit.com/",
+        "twitter": "https://twitter.com/tusharsoni1205",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/usewalletkit",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recvaPUsmL6EFD7v4",
+        "name": "Stackup",
+        "introduction": "Stackup is a suite of open-source developer tools for building user-friendly blockchain products. It starts with ERC-4337 infrastructure.",
+        "website": "https://www.stackup.sh/",
+        "twitter": "https://twitter.com/stackup_fi",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recw0vyUkd35Ammdo",
         "name": "Starswap",
         "introduction": "StarSwap is a full-featured decentralized exchange (DEX) on Aptos and Starcoin. It allows developers, traders, and liquidity providers to participate in a financial marketplace that is open and accessible to all. Users can freely exchange tokens on StarSwap and become automated market makers by providing and staking liquidity.",
@@ -2391,6 +4653,72 @@
         ]
       },
       {
+        "id": "recwLDfWpzWqJTvib",
+        "name": "Tinker",
+        "introduction": "[Inactive] Tinker is a cryptocurrency electronic trading & market making firm",
+        "website": "http://www.tinkercorp.com/",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recx0flS7sQZIjJsA",
+        "name": "Multibase",
+        "introduction": "Powerful web3 analytics tools to help you convert, engage, and retain more users. Multibase makes it easy to analyze web3 users.",
+        "website": "https://www.multibase.co/",
+        "twitter": "https://twitter.com/multibase_co",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "recx3ChJupMwf21nm",
+        "name": "Botin",
+        "introduction": "Botin a mobile app where people in Latin America can invest in US Stocks, Crypto and more.",
+        "website": "https://www.botin.app/",
+        "twitter": "https://twitter.com/botinapp",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recx4SoD4jsu5TlnC",
         "name": "Sky Lab",
         "introduction": "Building primitives of the autonomous world and build games on top of the primitives. Primitives are the initial world of an open-world that allows and properly incentivizes anyone to build on top of.",
@@ -2440,6 +4768,28 @@
         ]
       },
       {
+        "id": "recxWGOz7yQEhh6hD",
+        "name": "Immuna",
+        "introduction": "Immuna platform helps crypto investors manage their risks of investing in crypto assets.",
+        "website": "http://immuna.xyz/",
+        "twitter": "https://twitter.com/immuna_xyz",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recxXFBXWYN91DcV5",
         "name": "Tortuga",
         "introduction": "Tortuga Finance is a unique platform where users can stake APT. In addition to staking, Tortuga issues tAPT (Tortuga Staked APT), enabling users to remain staked while actively participating in the Aptos DeFi ecosystem.",
@@ -2467,6 +4817,32 @@
         ]
       },
       {
+        "id": "recxfCBNR4RkIlwOH",
+        "name": "Paymobil",
+        "introduction": "Paymobil is a global bank account replacement using stablecoins.",
+        "website": "https://www.paymobil.co/",
+        "twitter": "https://twitter.com/paymobilapp",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "recdqn1Bhu1nOlW6y",
+            "name": "Consumer Finance"
+          }
+        ],
+        "chains": []
+      },
+      {
         "id": "recyayLOsvuuy3YsQ",
         "name": "Suiet",
         "introduction": "the Sui wallet made for everyone",
@@ -2492,6 +4868,32 @@
             "name": "Sui"
           }
         ]
+      },
+      {
+        "id": "reczATldNio6QJxk7",
+        "name": "Notebook Labs",
+        "introduction": "Solve the Web3 identity problem by using Zero-Knowledge to provide both anonymous proof-of-humanity and credential aggregation.",
+        "website": "http://www.notebooklabs.xyz/",
+        "twitter": "https://twitter.com/NotebookLabs",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "reclEQU2qkwkTdH3d",
+            "name": "Zero-knowledge"
+          }
+        ],
+        "chains": []
       },
       {
         "id": "reczNcuSDbUIGE0aH",
@@ -2546,6 +4948,54 @@
             "name": "Aptos"
           }
         ]
+      },
+      {
+        "id": "reczZ3KIAmMRFCTDp",
+        "name": "Yatima Inc.",
+        "introduction": "Yatima is a verifiable computing platform which uses formal proofs and zkSNARKs to make software safer.",
+        "website": "https://github.com/yatima-inc",
+        "twitter": null,
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": "https://github.com/yatima-inc",
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          },
+          {
+            "id": "reclEQU2qkwkTdH3d",
+            "name": "Zero-knowledge"
+          }
+        ],
+        "chains": []
+      },
+      {
+        "id": "reczbbs2hYtnZ6RVN",
+        "name": "Lofty",
+        "introduction": "Lofty helps anyone lay a path to financial freedom with fractional real estate investing. ",
+        "website": "https://www.lofty.ai/",
+        "twitter": "https://twitter.com/lofty_ai",
+        "marketCap": null,
+        "tokenSymbol": null,
+        "logoUrl": null,
+        "explorerUrl": null,
+        "mediumUrl": null,
+        "redditUrl": null,
+        "githubUrl": null,
+        "whitepaperUrl": null,
+        "tags": [
+          {
+            "id": "recOb6SjNtgrJ8uvy",
+            "name": "Y Combinator"
+          }
+        ],
+        "chains": []
       }
     ]
   }

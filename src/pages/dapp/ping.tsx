@@ -9,7 +9,7 @@ import projects from "../../projects-data.json";
 import {SeoHead} from "@site/src/components/seo-head";
 
 const DappTemplate: React.FC = () => {
-  const project: Project = {"id":"recllgn2Oe2VSTUgw","name":"Abel Finance","introduction":"Abel Finance is a pioneering cross-chain lending platform on Aptos and Sui. It supports lending of coins, AMM LP coins, and NFTs, and facilitates cross-chain lending to enhance multi-chain asset liquidity. With Official Treasury insurance and full decentralization, it promotes community autonomy. Its implementation is based on CompoundV2 and developed using the MOVE language.","website":"https://abelfinance.xyz/","twitter":"https://twitter.com/abelfinance","marketCap":null,"tokenSymbol":null,"logoUrl":null,"explorerUrl":null,"mediumUrl":null,"redditUrl":null,"githubUrl":"https://github.com/abelfinance","whitepaperUrl":null,"tags":[{"id":"rec9txQaAdTdKG8aS","name":"Defi"},{"id":"receGQPE0CmvWXJgc","name":"Commercial Finance"}],"chains":[{"id":"recDpAX5fIjzGzjgS","name":"Aptos"}]};
+  const project: Project = {"id":"recXIXHGDdPy66Lwq","name":"Ping","introduction":"Ping enables international contractors and freelancers to have access to a personal Dollar account in the US","website":"https://www.letsping.com/","twitter":"https://twitter.com/holapinglatam","marketCap":null,"tokenSymbol":null,"logoUrl":null,"explorerUrl":null,"mediumUrl":null,"redditUrl":null,"githubUrl":null,"whitepaperUrl":null,"tags":[{"id":"recOb6SjNtgrJ8uvy","name":"Y Combinator"},{"id":"recdqn1Bhu1nOlW6y","name":"Consumer Finance"}],"chains":[]};
 
   return (
     <Layout title={project.name} description={project.introduction}>

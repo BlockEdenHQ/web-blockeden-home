@@ -9,7 +9,7 @@ import projects from "../../projects-data.json";
 import {SeoHead} from "@site/src/components/seo-head";
 
 const DappTemplate: React.FC = () => {
-  const project: Project = {"id":"recllgn2Oe2VSTUgw","name":"Abel Finance","introduction":"Abel Finance is a pioneering cross-chain lending platform on Aptos and Sui. It supports lending of coins, AMM LP coins, and NFTs, and facilitates cross-chain lending to enhance multi-chain asset liquidity. With Official Treasury insurance and full decentralization, it promotes community autonomy. Its implementation is based on CompoundV2 and developed using the MOVE language.","website":"https://abelfinance.xyz/","twitter":"https://twitter.com/abelfinance","marketCap":null,"tokenSymbol":null,"logoUrl":null,"explorerUrl":null,"mediumUrl":null,"redditUrl":null,"githubUrl":"https://github.com/abelfinance","whitepaperUrl":null,"tags":[{"id":"rec9txQaAdTdKG8aS","name":"Defi"},{"id":"receGQPE0CmvWXJgc","name":"Commercial Finance"}],"chains":[{"id":"recDpAX5fIjzGzjgS","name":"Aptos"}]};
+  const project: Project = {"id":"rece3HdpZdSlf7kDV","name":"Chainsight","introduction":"Chainsight builds API for any web2 or web3 company to detect and prevent crypto or NFT scam on their platform","website":"https://www.chainsight.com/","twitter":"https://twitter.com/ChainsightWeb3","marketCap":null,"tokenSymbol":null,"logoUrl":null,"explorerUrl":null,"mediumUrl":null,"redditUrl":null,"githubUrl":null,"whitepaperUrl":null,"tags":[{"id":"recOb6SjNtgrJ8uvy","name":"Y Combinator"}],"chains":[]};
 
   return (
     <Layout title={project.name} description={project.introduction}>

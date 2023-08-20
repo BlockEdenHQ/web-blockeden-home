@@ -8,7 +8,7 @@
     "dev": "yarn generate && docusaurus start",
     "build": "docusaurus build && yarn generate && node scripts/sitemap/generate-sitemap.js",
     "swizzle": "docusaurus swizzle",
-    "generate": "node scripts/generate-home-blog-cards.js",
+    "generate": "node scripts/generate-home-blog-cards.js && node scripts/generate-tags.js && node scripts/generate-dapps.js",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",

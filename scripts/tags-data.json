@@ -2,9 +2,19 @@
   "data": {
     "tags": [
       {
+        "id": "rec57HyMeH62koASo",
+        "name": "Robo-adviser",
+        "description": "Robo-adviser is a digital platform that provides automated financial advice based on algorithms."
+      },
+      {
         "id": "rec9txQaAdTdKG8aS",
         "name": "Defi",
         "description": "DeFi (Decentralized Finance) refers to blockchain-based financial applications that replicate traditional financial systems, such as lending and trading, in a decentralized and open way."
+      },
+      {
+        "id": "recA9e08qAY2FbBIt",
+        "name": "DID",
+        "description": "DID (Decentralized Identity) is a new approach to identity verification without centralized control."
       },
       {
         "id": "recAaP55eAVmXWO7x",
@@ -17,9 +27,24 @@
         "description": "A Blockchain Explorer is a search engine for a blockchain network. It allows users to view transaction history, block details, and network activity, fostering transparency and traceability."
       },
       {
+        "id": "recHgqwT3el1SCc3v",
+        "name": "Stable Coin",
+        "description": "Stable Coin is a type of cryptocurrency designed to have a stable value compared to traditional currencies."
+      },
+      {
         "id": "recHw8cINcIMu9B07",
         "name": "Cross-chain Bridge",
         "description": "A Cross-chain Bridge facilitates the transfer of tokens and data between different blockchain networks, enhancing interoperability and broadening the utility of existing cryptocurrencies and assets."
+      },
+      {
+        "id": "recOb6SjNtgrJ8uvy",
+        "name": "Y Combinator",
+        "description": "Y Combinator is a renowned startup accelerator fostering entrepreneurial success."
+      },
+      {
+        "id": "recWLjiMK106T8B9O",
+        "name": "Lending",
+        "description": "Lending is the act of providing funds temporarily with an expectation of repayment, often with interest."
       },
       {
         "id": "reccDLrRhSRyELuPE",
@@ -30,6 +55,21 @@
         "id": "reccOPMXhhegGDuTP",
         "name": "NFT Collection",
         "description": "An NFT Collection is a group of Non-Fungible Tokens, often linked by a common theme or created by the same artist. Each token in the collection represents a unique digital item or artwork."
+      },
+      {
+        "id": "reccVhTgz8mENzv9N",
+        "name": "DAO",
+        "description": "DAO (Decentralized Autonomous Organization) is an organization governed by rules encoded as computer programs on a blockchain."
+      },
+      {
+        "id": "recdqn1Bhu1nOlW6y",
+        "name": "Consumer Finance",
+        "description": "Consumer Finance is the sector dedicated to personal financial products and services."
+      },
+      {
+        "id": "receGQPE0CmvWXJgc",
+        "name": "Commercial Finance",
+        "description": "Commercial Finance is the provision of loans and financial solutions to businesses."
       },
       {
         "id": "recgANwR1W7iHSlQw",
@@ -62,6 +102,11 @@
         "description": "SocialFi is a fusion of social media and decentralized finance (DeFi). It combines social networking features with DeFi applications, empowering users to earn, trade, and invest digital assets within a social platform."
       },
       {
+        "id": "reclEQU2qkwkTdH3d",
+        "name": "Zero-knowledge",
+        "description": "Zero-knowledge is a cryptographic method ensuring data privacy without revealing underlying information."
+      },
+      {
         "id": "recruNGUb5CjfScHw",
         "name": "Infrastructure",
         "description": "Blockchain infrastructure is the tech framework supporting a decentralized digital ledger system. It ensures secure, immutable transactions via nodes, cryptography, consensus mechanisms, and smart contracts."
@@ -70,6 +115,11 @@
         "id": "recurwxmBmR0NX6iU",
         "name": "GameFi",
         "description": "GameFi, or \"gaming finance,\" combines gaming with decentralized finance (DeFi). It allows players to earn digital assets as rewards, which can be traded or invested, turning gameplay into potential income."
+      },
+      {
+        "id": "recxaaAgGx0u9YlEA",
+        "name": "NFT Checkout",
+        "description": "NFT Checkout is the integration of unique digital assets into online purchasing systems."
       }
     ]
   }

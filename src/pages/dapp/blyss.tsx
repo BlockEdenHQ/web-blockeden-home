@@ -9,7 +9,7 @@ import projects from "../../projects-data.json";
 import {SeoHead} from "@site/src/components/seo-head";
 
 const DappTemplate: React.FC = () => {
-  const project: Project = {"id":"recllgn2Oe2VSTUgw","name":"Abel Finance","introduction":"Abel Finance is a pioneering cross-chain lending platform on Aptos and Sui. It supports lending of coins, AMM LP coins, and NFTs, and facilitates cross-chain lending to enhance multi-chain asset liquidity. With Official Treasury insurance and full decentralization, it promotes community autonomy. Its implementation is based on CompoundV2 and developed using the MOVE language.","website":"https://abelfinance.xyz/","twitter":"https://twitter.com/abelfinance","marketCap":null,"tokenSymbol":null,"logoUrl":null,"explorerUrl":null,"mediumUrl":null,"redditUrl":null,"githubUrl":"https://github.com/abelfinance","whitepaperUrl":null,"tags":[{"id":"rec9txQaAdTdKG8aS","name":"Defi"},{"id":"receGQPE0CmvWXJgc","name":"Commercial Finance"}],"chains":[{"id":"recDpAX5fIjzGzjgS","name":"Aptos"}]};
+  const project: Project = {"id":"rechQjJS9YfWF7O6P","name":"Blyss","introduction":"A leakproof data warehouse that lets companies store and analyze sensitive data without ever decrypting it. Developers can create S3-like buckets. Store any key-value data. Then perform completely private retrievals.","website":"https://blyss.dev/","twitter":"https://twitter.com/blyssdev","marketCap":null,"tokenSymbol":null,"logoUrl":null,"explorerUrl":null,"mediumUrl":null,"redditUrl":null,"githubUrl":"https://github.com/blyssprivacy","whitepaperUrl":null,"tags":[{"id":"recOb6SjNtgrJ8uvy","name":"Y Combinator"}],"chains":[]};
 
   return (
     <Layout title={project.name} description={project.introduction}>

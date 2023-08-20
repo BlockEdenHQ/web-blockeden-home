@@ -9,7 +9,7 @@ import projects from "../../projects-data.json";
 import {SeoHead} from "@site/src/components/seo-head";
 
 const DappTemplate: React.FC = () => {
-  const project: Project = {"id":"recllgn2Oe2VSTUgw","name":"Abel Finance","introduction":"Abel Finance is a pioneering cross-chain lending platform on Aptos and Sui. It supports lending of coins, AMM LP coins, and NFTs, and facilitates cross-chain lending to enhance multi-chain asset liquidity. With Official Treasury insurance and full decentralization, it promotes community autonomy. Its implementation is based on CompoundV2 and developed using the MOVE language.","website":"https://abelfinance.xyz/","twitter":"https://twitter.com/abelfinance","marketCap":null,"tokenSymbol":null,"logoUrl":null,"explorerUrl":null,"mediumUrl":null,"redditUrl":null,"githubUrl":"https://github.com/abelfinance","whitepaperUrl":null,"tags":[{"id":"rec9txQaAdTdKG8aS","name":"Defi"},{"id":"receGQPE0CmvWXJgc","name":"Commercial Finance"}],"chains":[{"id":"recDpAX5fIjzGzjgS","name":"Aptos"}]};
+  const project: Project = {"id":"rec30ehcLQg3xaxpQ","name":"Striga","introduction":"Striga is building infrastructure for digital assets and financial services as a single set of APIs doing the heavy lifting of security and regulatory compliance. ","website":"https://striga.com/","twitter":"https://twitter.com/lastbitpay","marketCap":null,"tokenSymbol":null,"logoUrl":null,"explorerUrl":null,"mediumUrl":null,"redditUrl":null,"githubUrl":"https://github.com/lastbit-io","whitepaperUrl":null,"tags":[{"id":"recOb6SjNtgrJ8uvy","name":"Y Combinator"},{"id":"receGQPE0CmvWXJgc","name":"Commercial Finance"}],"chains":[]};
 
   return (
     <Layout title={project.name} description={project.introduction}>

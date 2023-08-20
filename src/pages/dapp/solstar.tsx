@@ -9,7 +9,7 @@ import projects from "../../projects-data.json";
 import {SeoHead} from "@site/src/components/seo-head";
 
 const DappTemplate: React.FC = () => {
-  const project: Project = {"id":"recllgn2Oe2VSTUgw","name":"Abel Finance","introduction":"Abel Finance is a pioneering cross-chain lending platform on Aptos and Sui. It supports lending of coins, AMM LP coins, and NFTs, and facilitates cross-chain lending to enhance multi-chain asset liquidity. With Official Treasury insurance and full decentralization, it promotes community autonomy. Its implementation is based on CompoundV2 and developed using the MOVE language.","website":"https://abelfinance.xyz/","twitter":"https://twitter.com/abelfinance","marketCap":null,"tokenSymbol":null,"logoUrl":null,"explorerUrl":null,"mediumUrl":null,"redditUrl":null,"githubUrl":"https://github.com/abelfinance","whitepaperUrl":null,"tags":[{"id":"rec9txQaAdTdKG8aS","name":"Defi"},{"id":"receGQPE0CmvWXJgc","name":"Commercial Finance"}],"chains":[{"id":"recDpAX5fIjzGzjgS","name":"Aptos"}]};
+  const project: Project = {"id":"recgtdIhF5rnROahr","name":"SolStar","introduction":"SolStar makes it possible for anyone to use crypto, starting with a Discord integration. It's a platform for creating and organizing token-powered communities powered by Solana.","website":"https://solstar.finance/","twitter":"https://twitter.com/SolStarFinance","marketCap":null,"tokenSymbol":null,"logoUrl":null,"explorerUrl":null,"mediumUrl":null,"redditUrl":null,"githubUrl":null,"whitepaperUrl":null,"tags":[{"id":"recOb6SjNtgrJ8uvy","name":"Y Combinator"}],"chains":[{"id":"recP9ufPguGCX9q6a","name":"Solana"}]};
 
   return (
     <Layout title={project.name} description={project.introduction}>
