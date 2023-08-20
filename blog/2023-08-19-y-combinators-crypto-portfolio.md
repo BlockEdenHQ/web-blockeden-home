@@ -1,11 +1,13 @@
 ---
-title: Y Combinator’s Crypto Portfolio: A Glimpse into YC's Future Imagination of Web3
+title: "Y Combinator’s Crypto Portfolio: A Glimpse into YC's Future Imagination of Web3"
 authors: [dora]
-tags: [company, product, stellar]
-image: https://tp-misc.b-cdn.net/blockeden/BlockEden-xyz-analytics-share-dashboard.png
+tags: [investment research]
+image: https://tp-misc.b-cdn.net/blockeden/y-combinators-crypto-portfolio.png
 ---
 
 Y Combinator, the renowned startup accelerator, has been at the forefront of spotting trends and supporting early-stage startups. One of the segments where YC has shown keen interest is the world of Web3 and cryptocurrencies. Let's dive into YC’s crypto portfolio and explore some of the game-changing companies leading the Web3 movement.
+
+[![](https://tp-misc.b-cdn.net/blockeden/yc-dapp-collection.png)](https://blockeden.xyz/dapp/y-combinator/)
 
 ### **Key Players:**
 
@@ -43,3 +45,6 @@ Y Combinator, the renowned startup accelerator, has been at the forefront of spo
 4. **Safety First:** As the ecosystem grows, so does the need for security and fraud prevention. There’s a clear emphasis on ensuring transactions are secure, data is protected, and the ecosystem remains safe for all users.
 
 In conclusion, Y Combinator’s portfolio offers a comprehensive look into the evolving Web3 landscape. From fundamental infrastructure builders to consumer-facing applications, the accelerator's companies are collectively shaping a decentralized, user-centric, and secure future for the internet. The next wave of internet evolution is here, and it’s evident that YC-backed startups are at its helm.
+
+
+> 🔥 Visit [List of 106 Y Combinator projects](https://blockeden.xyz/dapp/y-combinator/) to check those individual projects.
