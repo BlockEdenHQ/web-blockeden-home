@@ -18103,28 +18103,6 @@ th {
   border-bottom-width: 1px;
 }
 
-article table {
-  margin-bottom: 1.5rem;
-  border-top: 1px solid #dee2e6;
-}
-article table td {
-  vertical-align: top;
-  padding-bottom: 0.75rem;
-  padding-top: 0.75rem;
-}
-article table td:not(:last-child) {
-  white-space: nowrap;
-  padding-right: 1.5rem;
-}
-article table thead th {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-right: 1.5rem;
-}
-article table tr {
-  border-bottom: 1px solid #dee2e6;
-}
-
 .tooltip {
   font-weight: 600;
 }
