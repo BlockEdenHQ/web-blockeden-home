@@ -103,7 +103,7 @@ export default function Pricing() {
                 >
                   <div className="card card-body align-items-center">
                     <div className="pt-md-2">
-                      <h4>Pro</h4>
+                      <h4>Basic</h4>
                     </div>
                     <div className="d-flex align-items-start pb-md-2">
                       <span className="h3">$</span>
