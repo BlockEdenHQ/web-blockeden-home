@@ -3,14 +3,14 @@ title: "Introducing Pay-As-You-Go Pricing and Changes in Pricing Plans"
 authors: [dora]
 tags: [product]
 image: https://tp-misc.b-cdn.net/blockeden/introducing-pay-as-you-go-pricing-and-plan-changes.png
-description: Learn about BlockEden.xyz's updated pricing plans and the introduction of our Pay-As-You-Go option with Compute Unit Credit (CUC). We're committed to providing cost-effective and flexible solutions tailored to indie developers, small businesses, and venture-backed companies. Discover our expanded API offerings, high availability, robust security, and more. Join our community of over 4000 web3 innovators today.
+description: Learn about BlockEden.xyz's updated pricing plans and the introduction of our Pay-As-You-Go option with Compute Unit Credit (CUC). We're committed to providing cost-effective and flexible solutions tailored to DeFi, wallet, and analytics developers. Discover our expanded API offerings, high availability, robust security, and more. Join our community of over 4000 web3 innovators today.
 ---
 
 # Introducing Pay-As-You-Go Pricing and Changes in Pricing Plans
 
 > **💵 TL;DR**
 >
-> 1. We've increased the rate limit by 5x for all plans.
+> 1. We plan to increase the rate limit by 5x.
 > 2. For improved granularity, 1 CU has been updated to 100 CU.
 > 3. Announcing our new "Basic" plan priced at $19.99.
 > 4. CUs are now denominated in CUC and are refreshed daily. Monitor your balance at [blockeden.xyz/dash/account](blockeden.xyz/dash/account).
@@ -18,7 +18,7 @@ description: Learn about BlockEden.xyz's updated pricing plans and the introduct
 
 
 
-BlockEden.xyz is committed to providing cost-effective and efficient solutions to indie developers, small businesses, and venture-backed companies. Our customer feedback revealed a few key insights:
+BlockEden.xyz is committed to providing cost-effective and efficient solutions to DeFi, wallet, and analytics developers. Our customer feedback revealed a few key insights:
 
 1. A requirement for an intermediate tier between the Free and Pro plans.
 2. A desire for a more flexible 'pay-as-you-go' option.
@@ -73,23 +73,19 @@ Here is our updated pricing structure:
 
 ## **Why Choose BlockEden.xyz**
 
-BlockEden.xyz is a comprehensive API marketplace that powers DApps for a variety of blockchain ecosystems. Our customers opt for us due to:
+BlockEden.xyz is a industry leading marketplace in Move, Rust, and EVM Blockchain Web3 APIs to  developers. Founded in 2022, we have secured 45 million US dollar staking assets and serving 18 blockchains to 3000+ customers, making us a trusted choice in the web3 service middleware sector.
 
-1. **High Availability:** Our 99.9% uptime record since our first API launch attests to our reliability.
-2. **Diverse API Offerings and Community:** Our service portfolio has expanded to cover numerous blockchains, with a community of over 4000 web3 innovators.
-3. **Robust Security:** With over $45 million worth of tokens staked, clients trust our secure solutions for their web3 and blockchain needs.
+> At *BlockEden.xyz*, we simplify blockchain data access and dev experience for web3 businesses, helping them save time and boost productivity with just a few clicks.
 
-We focus on empowering every participant in the blockchain ecosystem with a suite of tailored services:
+How is BlockEden.xyz different from other API vendors?
 
-- For **protocol builders**, we guarantee robust security and decentralization by operating nodes and contributing to the ecosystem.
-- For **DApp developers**, we provide user-friendly APIs that streamline development and unlock the power of decentralized applications.
-- For **token holders**, we offer a reliable staking service to optimize rewards and asset management.
+- We are the infura for move (aptos, sui) developers.
+- Permissionless access to decentralized marketplace with 20 APIs via crypto tokens.
+- Exceptional 24/7 customer support.
 
-
+In conclusion, BlockEden.xyz's revised pricing plans and the introduction of the pay-as-you-go option, underlined by our Compute Unit Credit (CUC) system, embodies our unwavering dedication to the evolving needs of our customers. We've always stood by the philosophy of "start with customers," believing that understanding and addressing their challenges is the foundation for our success. 
 
 ------
-
-
 
 - Twitter:[ https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)
 - Discord:[ https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)
