@@ -13,7 +13,7 @@ description: Learn about BlockEden.xyz's updated pricing plans and the introduct
 > 1. We plan to increase the rate limit by 5x.
 > 2. For improved granularity, 1 CU has been updated to 100 CU.
 > 3. Announcing our new "Basic" plan priced at $19.99.
-> 4. CUs are now denominated in CUC and are refreshed daily. Monitor your balance at [blockeden.xyz/dash/account](blockeden.xyz/dash/account).
+> 4. CUs are now denominated in CUC and are refreshed daily. Monitor your balance at [BlockEden.xyz/dash/account](https://blockeden.xyz/dash/account).
 > 5. With our updated plans, extra CUCs beyond those plans allow you to access extra API calls using a pay-as-you-go system every day.
 
 
@@ -83,13 +83,13 @@ How is BlockEden.xyz different from other API vendors?
 - Permissionless access to decentralized marketplace with 20 APIs via crypto tokens.
 - Exceptional 24/7 customer support.
 
-In conclusion, BlockEden.xyz's revised pricing plans and the introduction of the pay-as-you-go option, underlined by our Compute Unit Credit (CUC) system, embodies our unwavering dedication to the evolving needs of our customers. We've always stood by the philosophy of "start with customers," believing that understanding and addressing their challenges is the foundation for our success. 
+In conclusion, BlockEden.xyz's revised pricing plans and the introduction of the pay-as-you-go option, underlined by our Compute Unit Credit (CUC) system, embodies our unwavering dedication to the evolving needs of our customers. We've always stood by the philosophy of "start with customers," believing that understanding and addressing their challenges is the foundation for our success.
 
 ------
 
 - Twitter:[ https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)
 - Discord:[ https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)
-- Source Link: https://blockeden.xyz/blog/2023/08/13/pay-api-usage-with-compute-unit-credit/
+- Source Link: https://blockeden.xyz/blog/2023/09/05/pay-api-usage-with-compute-unit-credit/
 
 
 
