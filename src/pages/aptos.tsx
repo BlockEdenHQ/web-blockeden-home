@@ -20,20 +20,19 @@ export default function Aptos(): JSX.Element {
     SVGInject(document.querySelectorAll("[data-inject-svg]"));
   }, []);
   return (
-    <Layout title={"Aptos Node and Data Analytics"} description={description}>
+    <Layout title={"Aptos Indexer, Node and Data Analytics"} description={description}>
       <SeoHead description={description} />
 
       <main>
-        <section>
+        <section className={"pb-1"} style={{borderBottom: "1px solid #f0f0f0"}}>
           <div className="container">
             <div className="row justify-content-center text-center mb-6">
               <div className="col-xl-8 col-lg-9 col-md-10">
                 <h1 className="display-3">
-                  Connect to Aptos and inspect its coin, NFT, contract call in
-                  minutes
+                  {description}
                 </h1>
                 <p className="lead">
-                  BlockEden.xyz provides Standard Aptos RPC, indexer GraphQL API
+                  BlockEden.xyz provides Standard Aptos indexer GraphQL API, RPC,
                   and data analytics web portal
                 </p>
                 <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center align-items-sm-start mt-5">
@@ -76,7 +75,7 @@ export default function Aptos(): JSX.Element {
           </div>
         </section>
 
-        <section className="pt-0">
+        <section>
           <div className="container">
             <div className="row text-center mb-5">
               <div className="col">
@@ -175,7 +174,7 @@ export default function Aptos(): JSX.Element {
                     </div>
                     <div>
                       <h4 className={clsx("mb-2", styles.h4)}>
-                        Chain RPC and GraphQL API
+                        Indexer GraphQL & Chain RPC
                       </h4>
                       <p className="lead pr-xl-4">
                         More than standard RPC, connect your DApp to NFT, coin,

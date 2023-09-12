@@ -27,7 +27,7 @@ export default function Aptos(): JSX.Element {
       <SeoHead />
 
       <main>
-        <section>
+        <section className={"pb-1"} style={{borderBottom: "1px solid #f0f0f0"}}>
           <div className="container">
             <div className="row justify-content-center text-center mb-6">
               <div className="col-xl-8 col-lg-9 col-md-10">
@@ -70,7 +70,7 @@ export default function Aptos(): JSX.Element {
           </div>
         </section>
 
-        <section className="pt-0">
+        <section>
           <div className="container">
             <div className="row text-center mb-5">
               <div className="col">
