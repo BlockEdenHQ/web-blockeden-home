@@ -17,6 +17,14 @@ export function StellarSorobanPage() {
     });
     SVGInjector(document.querySelectorAll("img[data-inject-svg]"));
   }, []);
+
+  let heroImg = "https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png";
+  let heroLink = "https://blockeden.xyz/analytics/browse/8/schema/public";
+  if (Math.random() >= 0.3) {
+    heroImg = "https://tp-misc.b-cdn.net/blockeden/soroban-graphql-demo.png";
+    heroLink = "https://blockeden.xyz/api-marketplace/stellar-futurenet-soroban-indexer";
+  }
+
   return (
     <Layout title={sorobanSeo.title} description={sorobanSeo.description}>
       <StellarSorobanSeoHead />
@@ -52,11 +60,13 @@ export function StellarSorobanPage() {
             data-delay={100}
           >
             <div className="col-lg-10">
-              <img
-                src="https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png"
-                alt="Image"
-                className="rounded shadow-lg"
-              />
+              <a href={heroLink}>
+                <img
+                  src={heroImg}
+                  alt="Image"
+                  className="rounded shadow-lg"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -148,7 +158,7 @@ export function StellarSorobanPage() {
               data-aos="fade-right"
             >
               <img
-                src="https://tp-misc.b-cdn.net/blockeden/soroban-graphql-api.png"
+                src="https://tp-misc.b-cdn.net/blockeden/soroban-graphql-demo.png"
                 alt="Image"
                 className="rounded shadow"
               />
@@ -159,10 +169,9 @@ export function StellarSorobanPage() {
                 Instant access to transactions, events, ledger entries, and
                 token contract.
               </p>
-              {/*<a href="#" className="lead hover-arrow">*/}
-              {/*  Learn more*/}
-              {/*</a>*/}
-              <a className="lead hover-arrow">Coming soon</a>
+              <a href="https://blockeden.xyz/api-marketplace/stellar-futurenet-soroban-indexer" className="lead hover-arrow">
+                Explore now
+              </a>
             </div>
           </div>
         </div>
@@ -187,10 +196,9 @@ export function StellarSorobanPage() {
                 In addition to GraphQL, those data are also available in a web
                 portal for you to inspect.
               </p>
-              {/*<a href="#" className="lead hover-arrow">*/}
-              {/*  Start building*/}
-              {/*</a>*/}
-              <a className="lead hover-arrow disabled">Coming soon</a>
+              <a href="https://blockeden.xyz/analytics/browse/8/schema/public" className="lead hover-arrow">
+                Browse tables
+              </a>
             </div>
           </div>
         </div>
@@ -204,7 +212,7 @@ export function StellarSorobanPage() {
               data-aos="fade-right"
             >
               <img
-                src="https://tp-misc.b-cdn.net/blockeden/soroban-graphql-api.png"
+                src="https://tp-misc.b-cdn.net/blockeden/soroban-rpc-demo.png"
                 alt="Image"
                 className="rounded shadow"
               />
@@ -216,7 +224,7 @@ export function StellarSorobanPage() {
                 href="https://blockeden.xyz/api-marketplace/stellar-futurenet-soroban"
                 className="lead hover-arrow"
               >
-                Explore Now in Our API Marketplace
+                Explore Now
               </a>
             </div>
           </div>
