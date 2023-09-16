@@ -135,3 +135,9 @@ curl https://api.blockeden.xyz/aptos/indexer/8UuXzatAZYDBJC6YZTKD/v1/graphql \
 Aptos Indexer GraphQL is a powerful development service within the Aptos ecosystem, designed to streamline the development and management of Aptos APIs while delivering exceptional performance and scalability. We hope that developers can enhance their Aptos applications and enjoy a faster and more efficient development process through the use of Aptos Indexer GraphQL.
 
 Thank you for your interest in our latest product release. If you have any questions or feedback, please feel free to contact our support team. We look forward to hearing from you and continually improving and enhancing Aptos Indexer GraphQL.
+
+------
+
+- Twitter: [https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)
+- Discord: [https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)
+- Source Link: https://blockeden.xyz/blog/2023/09/15/aptos-indexer-graphql-launch-for-efficient-api-development/

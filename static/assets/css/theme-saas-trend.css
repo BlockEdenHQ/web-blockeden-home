@@ -10606,6 +10606,10 @@ footer {
   padding: 6rem 0;
 }
 
+footer.docusaurus-mt-lg {
+  padding: 0;
+}
+
 .row[class*="flex-"][class*="-column"]
   > [class*="col"][class*="my-"]:first-child {
   margin-top: 0 !important;
