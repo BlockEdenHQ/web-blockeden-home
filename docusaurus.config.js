@@ -104,7 +104,7 @@ const config = {
         {
           name: "keywords",
           content:
-            "Aptos GraphQL, Aptos RPC, Sui RPC, Block Eden, EVM blockchain RPCs, Solana RPC",
+            "Soroban Indexer, Soroban RPC, Aptos Indexer, Aptos GraphQL, Aptos RPC, Sui RPC, BlockEden.xyz, EVM blockchain RPCs, Solana RPC",
         },
       ],
 
