@@ -340,13 +340,6 @@ a:hover {
     margin: 0;
   }
 
-  .c-main-title,
-  .c-main-text,
-  .c-started h2,
-  .c-started .lead {
-    text-align: left;
-  }
-
   .c-main-title {
     font-weight  : bold;
     margin-bottom: 1.5rem;
