@@ -17,15 +17,15 @@ This tool enables Aptos developers to gain a better understanding of Aptos funct
 
 Aptos REST Playground is a high-performance REST API customized specifically for Aptos developers by [Blockeden.xyz](https://blockeden.xyz/). It aims to provide the following advantages to Aptos developers:
 
-1. Interactive API Testing
+1. **Interactive API Testing**
 
 Aptos REST Playground allows you to conduct interactive API testing without leaving your browser. It is an interactive application built on [Swagger](https://swagger.io/). You can construct and customize requests, view real-time responses, and make adjustments as needed. This greatly simplifies the process of API testing and debugging.
 
-2. Real-time Data Analysis
+2. **Real-time Data Analysis**
 
 You can directly view the data in the API responses within Aptos REST Playground, without the need to write additional code or use third-party tools. This makes it easier for you to comprehend the information returned by the API, facilitating the development of better applications.
 
-3. User-Friendly
+3. **User-Friendly**
 
 The user interface of Aptos REST Playground is highly intuitive, requiring no complex setup or configuration. Whether you are an experienced developer or a beginner, you can easily get started and use it effectively.
 
