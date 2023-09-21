@@ -24,7 +24,7 @@ export default function Aptos(): JSX.Element {
       <SeoHead description={description} />
 
       <main>
-        <section className={"pb-1"} style={{borderBottom: "1px solid #f0f0f0"}}>
+        <section className={"pb-1 bg-primary-3 text-light text-center"} style={{borderBottom: "1px solid #f0f0f0"}}>
           <div className="container">
             <div className="row justify-content-center text-center mb-6">
               <div className="col-xl-8 col-lg-9 col-md-10">
@@ -52,7 +52,7 @@ export default function Aptos(): JSX.Element {
                   </div>
                   <a
                     href="/pricing"
-                    className="mx-1 btn btn-lg btn-primary-3 mt-3 mt-sm-0"
+                    className="btn btn-lg btn-outline-primary mx-2"
                   >
                     Pricing plans
                   </a>

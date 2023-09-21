@@ -221,6 +221,10 @@ template {
 }
 
 .display-3 {
+  background: linear-gradient(to right, pink, lightblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
   font-size: 4.5rem;
   font-weight: 600;
   line-height: 1.2;
