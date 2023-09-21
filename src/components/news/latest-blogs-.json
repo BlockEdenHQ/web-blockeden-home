@@ -5,14 +5,10 @@
       "permalink": "/blog/2023/09/20/blockeden-xyz-launches-aptos-rest-playground",
       "source": "@site/blog/2023-09-20-blockeden-xyz-launches-aptos-rest-playground.md",
       "title": "Blockeden.xyz launches Aptos REST Playground",
-      "description": "plore the Aptos REST Playground: a state-of-the-art Web3 toolkit for developers. Dive into its features for interactive API testing, real-time data analysis, and user-friendly interface, all optimized for Aptos application development. Unveiled by Blockeden.xyz, it's the ultimate solution for efficient and seamless Aptos API exploration and understanding.",
+      "description": "Eplore the Aptos REST Playground: a state-of-the-art Web3 toolkit for developers. Dive into its features for interactive API testing, real-time data analysis, and user-friendly interface, all optimized for Aptos application development. Unveiled by Blockeden.xyz, it's the ultimate solution for efficient and seamless Aptos API exploration and understanding.",
       "date": "2023-09-20T00:00:00.000Z",
       "formattedDate": "September 20, 2023",
       "tags": [
-        {
-          "label": "company",
-          "permalink": "/blog/tags/company"
-        },
         {
           "label": "product",
           "permalink": "/blog/tags/product"
@@ -39,11 +35,10 @@
           "simlis8"
         ],
         "tags": [
-          "company",
           "product",
           "aptos"
         ],
-        "description": "plore the Aptos REST Playground: a state-of-the-art Web3 toolkit for developers. Dive into its features for interactive API testing, real-time data analysis, and user-friendly interface, all optimized for Aptos application development. Unveiled by Blockeden.xyz, it's the ultimate solution for efficient and seamless Aptos API exploration and understanding."
+        "description": "Eplore the Aptos REST Playground: a state-of-the-art Web3 toolkit for developers. Dive into its features for interactive API testing, real-time data analysis, and user-friendly interface, all optimized for Aptos application development. Unveiled by Blockeden.xyz, it's the ultimate solution for efficient and seamless Aptos API exploration and understanding."
       },
       "nextItem": {
         "title": "The Rise of Web3 Bots: Analyzing Unibot and Its Contenders",
@@ -113,6 +108,10 @@
         {
           "label": "product",
           "permalink": "/blog/tags/product"
+        },
+        {
+          "label": "aptos",
+          "permalink": "/blog/tags/aptos"
         }
       ],
       "readingTime": 3.87,
@@ -132,7 +131,8 @@
           "simlis8"
         ],
         "tags": [
-          "product"
+          "product",
+          "aptos"
         ],
         "image": "/assets/images/aptos-graphql-step-3-7387a23ce715060e9485f92679b9d46e.png",
         "description": "Introducing Aptos Indexer GraphQL, a tailor-made high-performance GraphQL framework by blockeden.xyz for Aptos developers. Dive into the benefits, usage, and how to get started with this robust API development tool."

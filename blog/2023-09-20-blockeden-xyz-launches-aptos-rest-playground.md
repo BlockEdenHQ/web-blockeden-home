@@ -2,7 +2,7 @@
 title: Blockeden.xyz launches Aptos REST Playground
 authors: [simlis8]
 tags: [product, aptos]
-description: "Eplore the Aptos REST Playground: a state-of-the-art Web3 toolkit for developers. Dive into its features for interactive API testing, real-time data analysis, and user-friendly interface, all optimized for Aptos application development. Unveiled by Blockeden.xyz, it's the ultimate solution for efficient and seamless Aptos API exploration and understanding."
+description: "Explore the Aptos REST Playground: a state-of-the-art Web3 toolkit for developers. Dive into its features for interactive API testing, real-time data analysis, and user-friendly interface, all optimized for Aptos application development. Unveiled by Blockeden.xyz, it's the ultimate solution for efficient and seamless Aptos API exploration and understanding."
 ---
 
 In modern software development, building robust APIs is crucial. APIs (Application Programming Interfaces) serve as the key for communication and data exchange between different software systems, and an API that is easy to use and test can greatly accelerate the development process. We are excited to announce that we have introduced a brand new feature for Aptos - Aptos REST Playground. This is a high-availability API toolkit based on Aptos development, designed to assist you in building Aptos applications faster and better.
