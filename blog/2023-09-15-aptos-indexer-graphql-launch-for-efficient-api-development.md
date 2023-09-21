@@ -1,7 +1,7 @@
 ---
 title: "BlockEden.xyz launches new Aptos Indexer GraphQL Playground"
-authors: [kuimale]
-tags: [product]
+authors: [simlis8]
+tags: [product, aptos]
 image: /assets/images/aptos-graphql-step-3-7387a23ce715060e9485f92679b9d46e.png
 description: Introducing Aptos Indexer GraphQL, a tailor-made high-performance GraphQL framework by blockeden.xyz for Aptos developers. Dive into the benefits, usage, and how to get started with this robust API development tool.
 ---

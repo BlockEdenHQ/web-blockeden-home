@@ -1,5 +1,58 @@
 [
   {
+    "id": "/2023/09/20/blockeden-xyz-launches-aptos-rest-playground",
+    "metadata": {
+      "permalink": "/blog/2023/09/20/blockeden-xyz-launches-aptos-rest-playground",
+      "source": "@site/blog/2023-09-20-blockeden-xyz-launches-aptos-rest-playground.md",
+      "title": "Blockeden.xyz launches Aptos REST Playground",
+      "description": "plore the Aptos REST Playground: a state-of-the-art Web3 toolkit for developers. Dive into its features for interactive API testing, real-time data analysis, and user-friendly interface, all optimized for Aptos application development. Unveiled by Blockeden.xyz, it's the ultimate solution for efficient and seamless Aptos API exploration and understanding.",
+      "date": "2023-09-20T00:00:00.000Z",
+      "formattedDate": "September 20, 2023",
+      "tags": [
+        {
+          "label": "company",
+          "permalink": "/blog/tags/company"
+        },
+        {
+          "label": "product",
+          "permalink": "/blog/tags/product"
+        },
+        {
+          "label": "aptos",
+          "permalink": "/blog/tags/aptos"
+        }
+      ],
+      "readingTime": 3.78,
+      "hasTruncateMarker": false,
+      "authors": [
+        {
+          "name": "SamLis",
+          "title": "Software Engineer",
+          "url": "https://github.com/samlis8",
+          "imageURL": "https://images.mirror-media.xyz/publication-images/g-MTneq6fymU9PbzD6O4R.jpg?height=2080&width=3120",
+          "key": "simlis8"
+        }
+      ],
+      "frontMatter": {
+        "title": "Blockeden.xyz launches Aptos REST Playground",
+        "authors": [
+          "simlis8"
+        ],
+        "tags": [
+          "company",
+          "product",
+          "aptos"
+        ],
+        "description": "plore the Aptos REST Playground: a state-of-the-art Web3 toolkit for developers. Dive into its features for interactive API testing, real-time data analysis, and user-friendly interface, all optimized for Aptos application development. Unveiled by Blockeden.xyz, it's the ultimate solution for efficient and seamless Aptos API exploration and understanding."
+      },
+      "nextItem": {
+        "title": "The Rise of Web3 Bots: Analyzing Unibot and Its Contenders",
+        "permalink": "/blog/2023/09/16/web3-bots-rise-unibot-vs-banana-gun"
+      }
+    },
+    "content": "In modern software development, building robust APIs is crucial. APIs (Application Programming Interfaces) serve as the key for communication and data exchange between different software systems, and an API that is easy to use and test can greatly accelerate the development process. We are excited to announce that we have introduced a brand new feature for Aptos - Aptos REST Playground. This is a high-availability API toolkit based on Aptos development, designed to assist you in building Aptos applications faster and better.\n\n## **What is Aptos REST Playground?**\n\nAptos REST Playground is an interactive Web3 application designed to assist developers in exploring, testing, and understanding the Aptos API with ease. It provides an intuitive [Swagger-based](https://swagger.io/) interactive interface that allows you to construct and send REST requests, view responses, and test to analyze data.\n\nThis tool enables Aptos developers to gain a better understanding of Aptos functionality and build exceptional Aptos applications more quickly and efficiently.\n\n## **Why Choose Aptos REST Playground?**\n\nAptos REST Playground is a high-performance REST API customized specifically for Aptos developers by [Blockeden.xyz](https://blockeden.xyz/). It aims to provide the following advantages to Aptos developers:\n\n1. **Interactive API Testing**\n\nAptos REST Playground allows you to conduct interactive API testing without leaving your browser. It is an interactive application built on [Swagger](https://swagger.io/). You can construct and customize requests, view real-time responses, and make adjustments as needed. This greatly simplifies the process of API testing and debugging.\n\n2. **Real-time Data Analysis**\n\nYou can directly view the data in the API responses within Aptos REST Playground, without the need to write additional code or use third-party tools. This makes it easier for you to comprehend the information returned by the API, facilitating the development of better applications.\n\n3. **User-Friendly**\n\nThe user interface of Aptos REST Playground is highly intuitive, requiring no complex setup or configuration. Whether you are an experienced developer or a beginner, you can easily get started and use it effectively.\n\n## **How to Get Started with Aptos REST Playground?**\n\nEnter our API marketplace and select the Aptos card:\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FwHKJoqtjHOgP_LiNqxJLh.png&w=3840&q=75)\n\nInside the Aptos REST Playground interface, locate the `Test REST chain API` where you can see that we have integrated all the interfaces required for Aptos development:\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FG0cNmuGv8kK8UA124qiIl.png&w=3840&q=75)\n\nHere, you don't need any additional configuration; our playground is ready to use out of the box. Taking `Get Account` as an example, we will show you how to use Aptos REST Playground:\n\n1. Expand the `/account/{address}` table; we have preconfigured some parameters for you. Of course, you can also set your own parameters.\n2. Click the `Try it out` button, and you can access the interface using either our default parameters or any information you set yourself. You will immediately receive the data you need. Pay special attention to the data with an HTTP Code of `200`; it will be your primary focus. With this data, you can analyze any Aptos data request.\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F_GH8ccGTeYkPRxVkrB6bb.png&w=3840&q=75)\n\nSometimes, to test the speed and stability of the product, you may want to build a set of testing code on the frontend yourself. This is allowed and supported by us.\n\nBefore doing so, you need to first locate your BLOCKEDEN_API_KEY, which can be found at [https://blockeden.xyz/dash](https://blockeden.xyz/dash):\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FJYYc1pr2bz-AKdwLSAvOa.png&w=3840&q=75)\n\nIf you haven't created your own `BLOCKEDEN_API_KEY` yet, you can still use the public API key we provide: `8UuXzatAZYDBJC6YZTKD`.\n\nNow, let's create our own simple testing code based on React and the Aptos REST API:\n\n```js\nimport React, { useState, useEffect } from 'react';\n\nfunction App() {\n  const [data, setData] = useState(null);\n\n  useEffect(() => {\n    const address = '0x0000000000000000000000000000000000000000000000000000000000dead';\n    const apiEndpoint = `https://api.blockeden.xyz/aptos/8UuXzatAZYDBJC6YZTKD/v1/accounts/${address}`;\n\n    const fetchData = async () => {\n      try {\n        const response = await fetch(apiEndpoint, {\n          method: 'get',\n          headers: {\n            'Content-Type': 'application/json'\n          }\n        });\n\n        if (!response.ok) {\n          throw new Error('Network response was not ok');\n        }\n\n        const result = await response.json();\n        setData(result);\n\n      } catch (error) {\n        console.error('API Request Error:', error);\n      }\n    };\n\n    fetchData();\n  }, []);\n\n  return (\n    <div className=\"App\">\n      <h1>Aptos Indexer GraphQL Example</h1>\n      {data ? (\n        <pre>{JSON.stringify(data, null, 2)}</pre>\n      ) : (\n        <p>Loading...</p>\n      )}\n    </div>\n  );\n}\n\nexport default App;\n```\n\nWe also support `cURL` testing:\n\n```plain\ncurl -L -X GET 'https://api.blockeden.xyz/aptos/8UuXzatAZYDBJC6YZTKD/v1/accounts/0x0000000000000000000000000000000000000000000000000000000000dead' \\\\\n-H 'Accept: application/json'\n```\n\nAptos REST Playground is a powerful development tool for Aptos, designed to simplify the process of Aptos development and testing. We hope it provides developers with a better working experience and contributes to the creation of exceptional applications. If you have any feedback or suggestions, please don't hesitate to contact us. Thank you for your attention!\n\n------\n\n- Twitter: [https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)\n- Discord: [https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)\n- Source Link: https://blockeden.xyz/blog/2023/09/20/blockeden-xyz-launches-aptos-rest-playground/"
+  },
+  {
     "id": "/2023/03/14/partnership-with-aptools",
     "metadata": {
       "permalink": "/blog/2023/03/14/partnership-with-aptools",
@@ -107,62 +160,5 @@
       }
     },
     "content": "Are you looking for an easy way to pay for your subscription to BlockEden's API service? Look no further! We are happy to announce that we accept APT as a payment method.\n\nAPT is the token of the Aptos blockchain, and it's a great way to pay for our products. Soon, we will also be accepting SUI when Sui mainnet launches. Read on to learn how you can pay for our services with APT!\n\n![How to Pay BlockEden.xyz with APT, USDC, USDT on Aptos](https://tp-misc.b-cdn.net/blockeden/how-to-pay-blockeden-xyz-with-apt.png \"How to Pay BlockEden.xyz with APT, USDC, USDT on Aptos\")\n\n**Step 1: Get Your APT Wallet Ready**\n\nBefore you can pay for your subscription with APT, you will need an APT wallet. You can get any wallet that supports Aptos, like [Pontem](https://pontem.network/). Once you have a wallet, make sure it has enough funds to cover the subscription cost. You can transfer money from other wallets or buy more tokens directly from exchanges like Coinbase, [Hippo.space](https://hippo.space/) or [LiquidSwap](https://liquidswap.com/#/).\n\n**Step 2: Go to Our Website and Select the Subscription Plan**\n\nOnce your wallet is ready, go to BlockEden. xyz's website https://blockeden.xyz/pricing/ and select the best plan for your needs. Then, click *Pay with crypto* and select *APT* over the *Aptos* network as your payment method. This will generate an address with a QR code containing the recipient's address. Please send the **exact amount of coins** to the listed address. Once this is done, you will see *Payment succeeded* and click the button to get back to the dashboard.\n\n**Step 3: Confirm Your Payment**\n\nWhen you have completed the transaction, recheck your wallet balance and ensure that the correct amount has been deducted. If everything looks good, then congratulations! You have successfully paid for your subscription using APT tokens! Now all that's left is to start using our services and enjoy all of their benefits!\n\nPaying for BlockEden. xyz's services with APT tokens is both fast and secure. With just three steps—getting a wallet ready, selecting a plan on our website, and confirming payment—you can subscribe to our services quickly and easily without having to worry about security risks or waiting times associated with other payment methods like credit cards or bank transfers. So what are you waiting for? Start subscribing today with BlockEden.xyz and pay securely with APT tokens!\n\n## What is BlockEden.xyz?\n\nBlockEden.xyz provides a set of APIs that makes it easy for developers to connect to the Aptos and Sui networks. As a result, our platform enables developers to quickly and securely build decentralized applications (DApps). In addition, we offer tools that help developers to query those blockchains with SQL and GraphQL.\n\nWe believe that our platform will help to accelerate the development of the Aptos and Sui ecosystems. We aim to make it easy for developers to build DApps on Aptos and Sui, so that more people can use these blockchains to fulfill their decentralized needs.\n\n- Twitter: https://twitter.com/BlockEdenHQ\n- Discord: https://discord.gg/4Yfvs2HWey\n- Source Link: https://blockeden.xyz/blog/2023/01/04/how-to-pay-blockeden-xyz-with-apt/"
-  },
-  {
-    "id": "/2022/12/30/introducing-blockEden-xyz-analytics",
-    "metadata": {
-      "permalink": "/blog/2022/12/30/introducing-blockEden-xyz-analytics",
-      "source": "@site/blog/2022-12-30-introducing-blockEden-xyz-analytics.mdx",
-      "title": "Introducing BlockEden.xyz Analytics",
-      "description": "BlockEden.xyz Analytics is a metabase for exploring and analyzing blockchain data. It allows users to easily query, visualize, and share data from Aptos and Sui blockchains.",
-      "date": "2022-12-30T00:00:00.000Z",
-      "formattedDate": "December 30, 2022",
-      "tags": [
-        {
-          "label": "company",
-          "permalink": "/blog/tags/company"
-        },
-        {
-          "label": "product",
-          "permalink": "/blog/tags/product"
-        },
-        {
-          "label": "aptos",
-          "permalink": "/blog/tags/aptos"
-        }
-      ],
-      "readingTime": 1.955,
-      "hasTruncateMarker": false,
-      "authors": [
-        {
-          "name": "Dora Noda",
-          "title": "Software Engineer",
-          "url": "https://github.com/doranoda",
-          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
-        }
-      ],
-      "frontMatter": {
-        "title": "Introducing BlockEden.xyz Analytics",
-        "authors": [
-          "dora"
-        ],
-        "tags": [
-          "company",
-          "product",
-          "aptos"
-        ],
-        "image": "https://tp-misc.b-cdn.net/blockeden/BlockEden-xyz-analytics-share-dashboard.png"
-      },
-      "prevItem": {
-        "title": "How to Pay BlockEden.xyz with APT, USDC, USDT on Aptos",
-        "permalink": "/blog/2023/01/04/how-to-pay-blockeden-xyz-with-apt"
-      },
-      "nextItem": {
-        "title": "Sui WebSocket now available at BlockEden.xyz",
-        "permalink": "/blog/2022/12/27/supporting-sui-ws"
-      }
-    },
-    "content": "BlockEden.xyz Analytics is a metabase for exploring and analyzing blockchain data. It allows users to easily query, visualize, and share data from Aptos and Sui blockchains.\n\nOne of the key features of BlockEden.xyz Analytics is its user-friendly interface. It is designed to be accessible to users of all skill levels, from beginners to experienced analysts. This makes it an ideal tool for anyone looking to gain insights into the data on blockchain networks.\n\n![BlockEden.xyz Analytics](https://tp-misc.b-cdn.net/blockeden/BlockEden-xyz-analytics.png \"BlockEden.xyz Analytics\")\n\n\n\nOne of the primary uses of BlockEden.xyz Analytics is for exploring on-chain data. This can include information about transactions, token transfers, and smart contract interactions. With BlockEden.xyz Analytics, users can quickly and easily query this data using a simple SQL-like language. They can then visualize the data using a variety of charts and graphs, making it easy to identify trends and patterns.\n\n![BlockEden.xyz Analytics: Explore Table](https://tp-misc.b-cdn.net/blockeden/BlockEden-xyz-analytics-explore-table.png \"BlockEden.xyz Analytics: Explore Table\")\n\nAnother useful feature of BlockEden.xyz Analytics is the ability to share data and analysis with others. Users can create and share dashboards, allowing them to collaborate with others and share their insights with the broader community. This can be especially useful for teams working on blockchain projects, as it allows them to easily share and discuss data and analysis.\n\n\n\n![BlockEden.xyz Analytics Dashboard](https://tp-misc.b-cdn.net/blockeden/BlockEden-xyz-analytics-share-dashboard.png \"BlockEden.xyz Analytics Dashboard\")\n\n\n\nIn summary, blockEden.xyz Analytics is a powerful tool for exploring and analyzing blockchain data. Its user-friendly interface and ability to query, visualize, and share data make it an invaluable resource for anyone looking to gain insights into the world of blockchain, starting from Aptos and Sui.\n\n* Get started to explore the analytics dashboard at https://blockeden.xyz/analytics\n* Check documentations for [Aptos Analytics and GraphQL](/docs/aptos/analytics-and-graphql/)\n\n## Why BlockEden.xyz?\n\nWe listen to Aptos and Sui developers every day and are fully committed to serving the best infra for them.\n\nIf you’re a Web3 developer or app owner in need of an RPC connection for the Sui devnet, look no further than BlockEden.xyz! We are proud to be one of the first infrastructure providers offering this service for this highly anticipated new blockchains. In addition to our RPC connection, we will also offer a variety of other essential services and features for any Web3 project. Learn more about us today and see how we can help you succeed in the blockchain space!\n\n- Twitter: https://twitter.com/BlockEdenHQ\n- Discord: https://discord.gg/4Yfvs2HWey\n- Source Link: https://blockeden.xyz/blog/2022/12/30/introducing-blockEden-xyz-analytics/"
   }
 ]

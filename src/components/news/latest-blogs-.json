@@ -1,5 +1,58 @@
 [
   {
+    "id": "/2023/09/20/blockeden-xyz-launches-aptos-rest-playground",
+    "metadata": {
+      "permalink": "/blog/2023/09/20/blockeden-xyz-launches-aptos-rest-playground",
+      "source": "@site/blog/2023-09-20-blockeden-xyz-launches-aptos-rest-playground.md",
+      "title": "Blockeden.xyz launches Aptos REST Playground",
+      "description": "plore the Aptos REST Playground: a state-of-the-art Web3 toolkit for developers. Dive into its features for interactive API testing, real-time data analysis, and user-friendly interface, all optimized for Aptos application development. Unveiled by Blockeden.xyz, it's the ultimate solution for efficient and seamless Aptos API exploration and understanding.",
+      "date": "2023-09-20T00:00:00.000Z",
+      "formattedDate": "September 20, 2023",
+      "tags": [
+        {
+          "label": "company",
+          "permalink": "/blog/tags/company"
+        },
+        {
+          "label": "product",
+          "permalink": "/blog/tags/product"
+        },
+        {
+          "label": "aptos",
+          "permalink": "/blog/tags/aptos"
+        }
+      ],
+      "readingTime": 3.78,
+      "hasTruncateMarker": false,
+      "authors": [
+        {
+          "name": "SamLis",
+          "title": "Software Engineer",
+          "url": "https://github.com/samlis8",
+          "imageURL": "https://images.mirror-media.xyz/publication-images/g-MTneq6fymU9PbzD6O4R.jpg?height=2080&width=3120",
+          "key": "simlis8"
+        }
+      ],
+      "frontMatter": {
+        "title": "Blockeden.xyz launches Aptos REST Playground",
+        "authors": [
+          "simlis8"
+        ],
+        "tags": [
+          "company",
+          "product",
+          "aptos"
+        ],
+        "description": "plore the Aptos REST Playground: a state-of-the-art Web3 toolkit for developers. Dive into its features for interactive API testing, real-time data analysis, and user-friendly interface, all optimized for Aptos application development. Unveiled by Blockeden.xyz, it's the ultimate solution for efficient and seamless Aptos API exploration and understanding."
+      },
+      "nextItem": {
+        "title": "The Rise of Web3 Bots: Analyzing Unibot and Its Contenders",
+        "permalink": "/blog/2023/09/16/web3-bots-rise-unibot-vs-banana-gun"
+      }
+    },
+    "content": "In modern software development, building robust APIs is crucial. APIs (Application Programming Interfaces) serve as the key for communication and data exchange between different software systems, and an API that is easy to use and test can greatly accelerate the development process. We are excited to announce that we have introduced a brand new feature for Aptos - Aptos REST Playground. This is a high-availability API toolkit based on Aptos development, designed to assist you in building Aptos applications faster and better.\n\n## **What is Aptos REST Playground?**\n\nAptos REST Playground is an interactive Web3 application designed to assist developers in exploring, testing, and understanding the Aptos API with ease. It provides an intuitive [Swagger-based](https://swagger.io/) interactive interface that allows you to construct and send REST requests, view responses, and test to analyze data.\n\nThis tool enables Aptos developers to gain a better understanding of Aptos functionality and build exceptional Aptos applications more quickly and efficiently.\n\n## **Why Choose Aptos REST Playground?**\n\nAptos REST Playground is a high-performance REST API customized specifically for Aptos developers by [Blockeden.xyz](https://blockeden.xyz/). It aims to provide the following advantages to Aptos developers:\n\n1. **Interactive API Testing**\n\nAptos REST Playground allows you to conduct interactive API testing without leaving your browser. It is an interactive application built on [Swagger](https://swagger.io/). You can construct and customize requests, view real-time responses, and make adjustments as needed. This greatly simplifies the process of API testing and debugging.\n\n2. **Real-time Data Analysis**\n\nYou can directly view the data in the API responses within Aptos REST Playground, without the need to write additional code or use third-party tools. This makes it easier for you to comprehend the information returned by the API, facilitating the development of better applications.\n\n3. **User-Friendly**\n\nThe user interface of Aptos REST Playground is highly intuitive, requiring no complex setup or configuration. Whether you are an experienced developer or a beginner, you can easily get started and use it effectively.\n\n## **How to Get Started with Aptos REST Playground?**\n\nEnter our API marketplace and select the Aptos card:\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FwHKJoqtjHOgP_LiNqxJLh.png&w=3840&q=75)\n\nInside the Aptos REST Playground interface, locate the `Test REST chain API` where you can see that we have integrated all the interfaces required for Aptos development:\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FG0cNmuGv8kK8UA124qiIl.png&w=3840&q=75)\n\nHere, you don't need any additional configuration; our playground is ready to use out of the box. Taking `Get Account` as an example, we will show you how to use Aptos REST Playground:\n\n1. Expand the `/account/{address}` table; we have preconfigured some parameters for you. Of course, you can also set your own parameters.\n2. Click the `Try it out` button, and you can access the interface using either our default parameters or any information you set yourself. You will immediately receive the data you need. Pay special attention to the data with an HTTP Code of `200`; it will be your primary focus. With this data, you can analyze any Aptos data request.\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F_GH8ccGTeYkPRxVkrB6bb.png&w=3840&q=75)\n\nSometimes, to test the speed and stability of the product, you may want to build a set of testing code on the frontend yourself. This is allowed and supported by us.\n\nBefore doing so, you need to first locate your BLOCKEDEN_API_KEY, which can be found at [https://blockeden.xyz/dash](https://blockeden.xyz/dash):\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FJYYc1pr2bz-AKdwLSAvOa.png&w=3840&q=75)\n\nIf you haven't created your own `BLOCKEDEN_API_KEY` yet, you can still use the public API key we provide: `8UuXzatAZYDBJC6YZTKD`.\n\nNow, let's create our own simple testing code based on React and the Aptos REST API:\n\n```js\nimport React, { useState, useEffect } from 'react';\n\nfunction App() {\n  const [data, setData] = useState(null);\n\n  useEffect(() => {\n    const address = '0x0000000000000000000000000000000000000000000000000000000000dead';\n    const apiEndpoint = `https://api.blockeden.xyz/aptos/8UuXzatAZYDBJC6YZTKD/v1/accounts/${address}`;\n\n    const fetchData = async () => {\n      try {\n        const response = await fetch(apiEndpoint, {\n          method: 'get',\n          headers: {\n            'Content-Type': 'application/json'\n          }\n        });\n\n        if (!response.ok) {\n          throw new Error('Network response was not ok');\n        }\n\n        const result = await response.json();\n        setData(result);\n\n      } catch (error) {\n        console.error('API Request Error:', error);\n      }\n    };\n\n    fetchData();\n  }, []);\n\n  return (\n    <div className=\"App\">\n      <h1>Aptos Indexer GraphQL Example</h1>\n      {data ? (\n        <pre>{JSON.stringify(data, null, 2)}</pre>\n      ) : (\n        <p>Loading...</p>\n      )}\n    </div>\n  );\n}\n\nexport default App;\n```\n\nWe also support `cURL` testing:\n\n```plain\ncurl -L -X GET 'https://api.blockeden.xyz/aptos/8UuXzatAZYDBJC6YZTKD/v1/accounts/0x0000000000000000000000000000000000000000000000000000000000dead' \\\\\n-H 'Accept: application/json'\n```\n\nAptos REST Playground is a powerful development tool for Aptos, designed to simplify the process of Aptos development and testing. We hope it provides developers with a better working experience and contributes to the creation of exceptional applications. If you have any feedback or suggestions, please don't hesitate to contact us. Thank you for your attention!\n\n------\n\n- Twitter: [https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)\n- Discord: [https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)\n- Source Link: https://blockeden.xyz/blog/2023/09/20/blockeden-xyz-launches-aptos-rest-playground/"
+  },
+  {
     "id": "/2023/09/16/web3-bots-rise-unibot-vs-banana-gun",
     "metadata": {
       "permalink": "/blog/2023/09/16/web3-bots-rise-unibot-vs-banana-gun",
@@ -36,6 +89,10 @@
         "image": "https://tp-misc.b-cdn.net/blockeden/bot-and-money.png",
         "description": "Explore the evolving landscape of web3 bots, their rise on platforms like Telegram, and the fierce competition between giants like Unibot and newcomers such as Banana Gun. Dive into the world of decentralized innovations."
       },
+      "prevItem": {
+        "title": "Blockeden.xyz launches Aptos REST Playground",
+        "permalink": "/blog/2023/09/20/blockeden-xyz-launches-aptos-rest-playground"
+      },
       "nextItem": {
         "title": "BlockEden.xyz launches new Aptos Indexer GraphQL Playground",
         "permalink": "/blog/2023/09/15/aptos-indexer-graphql-launch-for-efficient-api-development"
@@ -66,13 +123,13 @@
           "title": "Software Engineer",
           "url": "https://github.com/samlis8",
           "imageURL": "https://images.mirror-media.xyz/publication-images/g-MTneq6fymU9PbzD6O4R.jpg?height=2080&width=3120",
-          "key": "kuimale"
+          "key": "simlis8"
         }
       ],
       "frontMatter": {
         "title": "BlockEden.xyz launches new Aptos Indexer GraphQL Playground",
         "authors": [
-          "kuimale"
+          "simlis8"
         ],
         "tags": [
           "product"
@@ -90,53 +147,5 @@
       }
     },
     "content": "We are excited to announce some great news to the community: After a period of development, we have launched a GraphQL playground based on the Aptos API. This is designed to assist you in building Aptos applications faster and better.\n\nIt is widely known that in today's world of software development, building efficient, flexible, and scalable APIs is of paramount importance. APIs (Application Programming Interfaces) serve as the bridge for communication and data exchange between different software systems, making well-designed APIs crucial for the success of applications. GraphQL has already become the preferred tool for many developers in building flexible and powerful APIs.\n\nToday, we are thrilled to announce Aptos Indexer GraphQL, a high-performance GraphQL framework designed specifically for Aptos developers. It is aimed at simplifying the development and management of Aptos APIs while delivering outstanding performance and scalability.\n\n### What is GraphQL?\n\nFirst, let's take a look at what GraphQL is all about. GraphQL is a query language and runtime environment for APIs that allows clients to precisely specify the data they need, instead of receiving data in fixed formats like traditional REST APIs. This flexibility makes GraphQL particularly well-suited for building client-driven applications, such as single-page applications (SPAs) and mobile apps.\n\nThe core idea of GraphQL is \"only get the data you need.\" Clients can retrieve multiple resources through a single request and specify the fields they need for each resource. This reduces the issues of over-fetching or under-fetching data, thereby improving network efficiency.\n\n### Why choose Aptos Indexer GraphQL?\n\nAptos Indexer GraphQL is a high-performance GraphQL API tailor-made for Aptos developers by [blockeden.xyz](http:). It aims to provide the following advantages to Aptos developers:\n\n1. **Simplified development process**\n\n   Aptos Indexer GraphQL simplifies the API development process by offering a clear and intuitive API definition language and tools. Developers can easily define data types, queries, mutations, and resolvers, making API construction highly intuitive.\n\n2. **Outstanding performance**\n\n   Aptos Indexer GraphQL is designed as a high-performance framework. It utilizes modern data-loading techniques to ensure that only necessary database queries are executed, thereby reducing response times and enhancing performance.\n\n3. **Scalability**\n\n   Aptos Indexer GraphQL can meet your needs regardless of the scale of your application. It supports a modular architecture, allowing for easy addition of new features and data types.\n\n4. **Powerful utilities**\n\n   Aptos Indexer GraphQL provides a set of GraphQL-based testing tools, including GraphiQL, which allows you to interactively validate the required data in real-time, making it easier for you to develop, test, and maintain the API.\n\n### How to get started with Aptos Indexer GraphQL?\n\nFirst, select the Aptos Indexer service in our API marketplace:\n\n![blockeden.xyz api marketplace](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FkR9Td6tTD5hedRhH_597Z.png&w=3840&q=75)\n\nblockeden.xyz api marketplace\n\nThen, copy your `BLOCKEDEN_API_KEY` at https://blockeden.xyz/dash:\n\n![BLOCKEDEN_API_KEY](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FC5H-pjlZCQdNnnC5eB5S2.png&w=3840&q=75)\n\nBLOCKEDEN_API_KEY\n\nAfter receiving a success message, you can start using the Aptos Indexer GraphQL service.\n\nIf you haven't created a `BLOCKEDEN_API_KEY` yet, you can still use the public API key: `8UuXzatAZYDBJC6YZTKD`.\n\nHere is a simple example of using `React` to connect to the Aptos Indexer GraphQL service:\n\n```tsx\nimport React, { useState, useEffect } from 'react';\n\nfunction App() {\n  const [data, setData] = useState(null);\n\n  useEffect(() => {\n    const apiEndpoint = 'https://api.blockeden.xyz/aptos/indexer/8UuXzatAZYDBJC6YZTKD/v1/graphql';\n\n    const fetchData = async () => {\n      try {\n        const response = await fetch(apiEndpoint, {\n          method: 'POST',\n          headers: {\n            'Content-Type': 'application/json'\n          },\n          body: JSON.stringify({\n            query: `\n              query {\n                block_metadata_transactions(limit: 2) {\n                  block_height\n                }\n              }\n            `,\n          }),\n        });\n\n        if (!response.ok) {\n          throw new Error('Network response was not ok');\n        }\n\n        const result = await response.json();\n        setData(result.data);\n\n      } catch (error) {\n        console.error('GraphQL Request Error:', error);\n      }\n    };\n\n    fetchData();\n  }, []);\n\n  return (\n    <div className=\"App\">\n      <h1>Aptos Indexer GraphQL Example</h1>\n      {data ? (\n        <pre>{JSON.stringify(data, null, 2)}</pre>\n      ) : (\n        <p>Loading...</p>\n      )}\n    </div>\n  );\n}\n\nexport default App;\n```\n\nYou can also directly access our built-in GraphiQL service, located at the bottom of the https://blockeden.xyz/api-marketplace/aptos-indexer page.\n\n![Aptos Indexer GraphQL service for blockeden.xyz](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F9tFzqCI50Bnjcl4PgMsnW.png&w=3840&q=75)\n\nAptos Indexer GraphQL service for blockeden.xyz\n\nAlternatively, you can directly access Aptos Indexer GraphQL using curl:\n\n```\ncurl https://api.blockeden.xyz/aptos/indexer/8UuXzatAZYDBJC6YZTKD/v1/graphql \\\n-H 'Content-Type: application/json' \\\n-X POST \\\n-d '{\"query\":\"query {block_metadata_transactions(limit: 2) {block_height}}\"}'\n```\n\n### Conclusion\n\nAptos Indexer GraphQL is a powerful development service within the Aptos ecosystem, designed to streamline the development and management of Aptos APIs while delivering exceptional performance and scalability. We hope that developers can enhance their Aptos applications and enjoy a faster and more efficient development process through the use of Aptos Indexer GraphQL.\n\nThank you for your interest in our latest product release. If you have any questions or feedback, please feel free to contact our support team. We look forward to hearing from you and continually improving and enhancing Aptos Indexer GraphQL.\n\n------\n\n- Twitter: [https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)\n- Discord: [https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)\n- Source Link: https://blockeden.xyz/blog/2023/09/15/aptos-indexer-graphql-launch-for-efficient-api-development/"
-  },
-  {
-    "id": "/2023/09/05/pay-api-usage-with-compute-unit-credit",
-    "metadata": {
-      "permalink": "/blog/2023/09/05/pay-api-usage-with-compute-unit-credit",
-      "source": "@site/blog/2023-09-05-pay-api-usage-with-compute-unit-credit.md",
-      "title": "Introducing Pay-As-You-Go Pricing and Changes in Pricing Plans",
-      "description": "Learn about BlockEden.xyz's updated pricing plans and the introduction of our Pay-As-You-Go option with Compute Unit Credit (CUC). We're committed to providing cost-effective and flexible solutions tailored to DeFi, wallet, and analytics developers. Discover our expanded API offerings, high availability, robust security, and more. Join our community of over 4000 web3 innovators today.",
-      "date": "2023-09-05T00:00:00.000Z",
-      "formattedDate": "September 5, 2023",
-      "tags": [
-        {
-          "label": "product",
-          "permalink": "/blog/tags/product"
-        }
-      ],
-      "readingTime": 4.23,
-      "hasTruncateMarker": false,
-      "authors": [
-        {
-          "name": "Dora Noda",
-          "title": "Software Engineer",
-          "url": "https://github.com/doranoda",
-          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
-        }
-      ],
-      "frontMatter": {
-        "title": "Introducing Pay-As-You-Go Pricing and Changes in Pricing Plans",
-        "authors": [
-          "dora"
-        ],
-        "tags": [
-          "product"
-        ],
-        "image": "https://tp-misc.b-cdn.net/blockeden/introducing-pay-as-you-go-pricing-and-plan-changes.png",
-        "description": "Learn about BlockEden.xyz's updated pricing plans and the introduction of our Pay-As-You-Go option with Compute Unit Credit (CUC). We're committed to providing cost-effective and flexible solutions tailored to DeFi, wallet, and analytics developers. Discover our expanded API offerings, high availability, robust security, and more. Join our community of over 4000 web3 innovators today."
-      },
-      "prevItem": {
-        "title": "BlockEden.xyz launches new Aptos Indexer GraphQL Playground",
-        "permalink": "/blog/2023/09/15/aptos-indexer-graphql-launch-for-efficient-api-development"
-      },
-      "nextItem": {
-        "title": "Intent-Centric Protocols",
-        "permalink": "/blog/2023/08/30/embracing-intent-centric-protocols-web3-revolution"
-      }
-    },
-    "content": "> **💵 TL;DR**\n>\n> 1. We plan to increase the rate limit by 5x.\n> 2. For improved granularity, 1 CU has been updated to 100 CU.\n> 3. Announcing our new \"Basic\" plan priced at $19.99.\n> 4. CUs are now denominated in CUC and are refreshed daily. Monitor your balance at [BlockEden.xyz/dash/account](https://blockeden.xyz/dash/account).\n> 5. With our updated plans, extra CUCs beyond those plans allow you to access extra API calls using a pay-as-you-go system every day.\n\n\n\nBlockEden.xyz is committed to providing cost-effective and efficient solutions to DeFi, wallet, and analytics developers. Our customer feedback revealed a few key insights:\n\n1. A requirement for an intermediate tier between the Free and Pro plans.\n2. A desire for a more flexible 'pay-as-you-go' option.\n3. An opportunity for us to accommodate more requests through a more efficient infrastructure.\n\nBased on these insights, we're excited to announce the introduction of a pay-as-you-go feature using Compute Unit Credit (CUC), and to share details about modifications to our pricing plans.\n\n## **Understanding Compute Units and Compute Unit Credit**\n\nA **Compute Unit** (CU) serves as a standard measurement that quantifies the computational expense incurred during an API call. It's akin to how AWS charges for compute usage. The computational cost varies depending on the intensity of the queries – some are lightweight and fast (e.g., eth_blockNumber) while others can be more demanding (e.g., large eth_getLogs queries). The cost in CU for each request across different products can be found in our[ API marketplace](https://blockeden.xyz/api-marketplace).\n\n**Compute Unit Credits** (CUC) are like credit card rewards on our platform to serve as royalty points. Those points are identical to compute units. Developers could spend CUC on our platform to get extra quotas for API calls.\n\n## **Implementing Pay-As-You-Go with CUC**\n\nWe'll set up a reward account for each customer. Customers can load this account with CUC, which will then be consumed as per their API usage.\n\n- For the Free tier, we ensure a minimum balance of 0.3 CUC at the start of each month.\n- For the paid tiers (Basic, Pro, Enterprise 50), we will credit the account on each subscription or renewal.\n\nWe do not allow customer to withdraw CUC for now.\n\nThe credits on BlockEden.xyz will be reconciled daily and also each time a withdrawal or deposit is made. **BlockEden.xyz maintains the rights to the Compute Units (CU) on our platform, along with the authority to clarify the application of the API and the usage of credits**.\n\n## **Pricing Plan Modifications**\n\nBelow are the changes to our pricing plans. The original pricing structure was as follows:\n\n|                    | **Free**    | **Pro**   | **Enterprise 50** | **Enterprise 500** |\n| ------------------ | ----------- | --------- | ----------------- | ------------------ |\n| Price              | 0           | 49.99     | 200               | 1999               |\n| CU / day           | 0.1 Million | 1 Million | 4.32 Million      | 50 Million         |\n| Price / Million CU | 0           | 1.66      | 1.54              | 1.33               |\n| Ratelimit req/s    | 1           | 10        | 50                | 500                |\n| Project allowed    | 15          | 30        | 100               | 300                |\n\nIn response to customer feedback, we've made the following adjustments:\n\n1. The \"Enterprise 500\" tier has been discontinued, and a \"Basic\" tier has been introduced to offer indie developers more flexibility.\n2. Rate limits have been increased five-fold for almost all plans.\n\nHere is our updated pricing structure:\n\n| **Plan**           | **Free**   | **Basic**  | **Pro**     | **Enterprise 50** |\n| ------------------ | ---------- | ---------- | ----------- | ----------------- |\n| Price              | 0          | 19.99      | 49.99       | 199.99            |\n| CU / day           | 10 Million | 40 Million | 100 Million | 513.33 Million    |\n| Price / Million CU | 0          | 0.0167     | 0.0167      | 0.0130            |\n| Ratelimit CU/s     | 1,000      | 10,000     | 10,000      | 500,000           |\n| Ratelimit req/s    | 5          | 50         | 50          | 250               |\n| Project allowed    | 15         | 30         | 100         | 300               |\n\n## **Why Choose BlockEden.xyz**\n\nBlockEden.xyz is a industry leading marketplace in Move, Rust, and EVM Blockchain Web3 APIs to  developers. Founded in 2022, we have secured 45 million US dollar staking assets and serving 18 blockchains to 3000+ customers, making us a trusted choice in the web3 service middleware sector.\n\n> At *BlockEden.xyz*, we simplify blockchain data access and dev experience for web3 businesses, helping them save time and boost productivity with just a few clicks.\n\nHow is BlockEden.xyz different from other API vendors?\n\n- We are the infura for move (aptos, sui) developers.\n- Permissionless access to decentralized marketplace with 20 APIs via crypto tokens.\n- Exceptional 24/7 customer support.\n\nIn conclusion, BlockEden.xyz's revised pricing plans and the introduction of the pay-as-you-go option, underlined by our Compute Unit Credit (CUC) system, embodies our unwavering dedication to the evolving needs of our customers. We've always stood by the philosophy of \"start with customers,\" believing that understanding and addressing their challenges is the foundation for our success.\n\n------\n\n- Twitter:[ https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)\n- Discord:[ https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)\n- Source Link: https://blockeden.xyz/blog/2023/09/05/pay-api-usage-with-compute-unit-credit/"
   }
 ]
