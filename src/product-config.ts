@@ -139,7 +139,7 @@ const original = [
     id: "sui",
     name: "Sui",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/sui.svg",
+    avatarSrc: "/assets/img/product/sui.svg",
 
     urls: [
       {
@@ -181,7 +181,7 @@ const original = [
     id: "aptos",
     name: "Aptos",
     networkType: "REST Chain API",
-    avatarSrc: "assets/img/product/aptos-logo.png",
+    avatarSrc: "/assets/img/product/aptos-logo.png",
 
     urls: [
       {
@@ -205,7 +205,7 @@ const original = [
     id: "aptos-indexer",
     name: "Aptos Indexer",
     networkType: "GraphQL API",
-    avatarSrc: "assets/img/product/aptos-logo.png",
+    avatarSrc: "/assets/img/product/aptos-logo.png",
 
     urls: [
       {
@@ -224,7 +224,7 @@ const original = [
     id: "openai-chatgpt",
     name: "OpenAI ChatGPT",
     networkType: "HTTP API",
-    avatarSrc: "assets/img/product/openai-logo.svg",
+    avatarSrc: "/assets/img/product/openai-logo.svg",
 
     urls: [
       {
@@ -263,7 +263,7 @@ const original = [
   {
     id: "ethereum",
     name: "Ethereum",
-    avatarSrc: "assets/img/product/ethereum-logo.png",
+    avatarSrc: "/assets/img/product/ethereum-logo.png",
     networkType: "JSON RPC",
 
     urls: [
@@ -297,7 +297,7 @@ const original = [
     id: "iotex",
     name: "IoTeX",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/iotex-logo.png",
+    avatarSrc: "/assets/img/product/iotex-logo.png",
 
     urls: [
       {
@@ -326,7 +326,7 @@ const original = [
     id: "solana",
     name: "Solana",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/solana-logo.png",
+    avatarSrc: "/assets/img/product/solana-logo.png",
     urls: [
       {
         name: "mainnet",
@@ -341,7 +341,7 @@ const original = [
     id: "polygon",
     name: "Polygon",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/polygon-logo.png",
+    avatarSrc: "/assets/img/product/polygon-logo.png",
     urls: [
       {
         name: "mainnet",
@@ -367,7 +367,7 @@ const original = [
     id: "polygon_zkevm",
     name: "Polygon zkEVM",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/polygon-logo.png",
+    avatarSrc: "/assets/img/product/polygon-logo.png",
     urls: [
       {
         name: "mainnet",
@@ -393,7 +393,7 @@ const original = [
     id: "filecoin",
     name: "Filecoin",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/filecoin-logo.png",
+    avatarSrc: "/assets/img/product/filecoin-logo.png",
     urls: [
       {
         name: "mainnet",
@@ -407,7 +407,7 @@ const original = [
     id: "harmony",
     name: "Harmony",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/harmony-logo.png",
+    avatarSrc: "/assets/img/product/harmony-logo.png",
     urls: [
       {
         name: "mainnet",
@@ -433,7 +433,7 @@ const original = [
     id: "binance-smart-chain",
     name: "Binance Smart Chain",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/binance-logo.png",
+    avatarSrc: "/assets/img/product/binance-logo.png",
     urls: [
       {
         name: "mainnet",
@@ -480,7 +480,7 @@ const original = [
     id: "arbitrum",
     name: "Arbitrum",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/arbitrum-logo.png",
+    avatarSrc: "/assets/img/product/arbitrum-logo.png",
     urls: [
       {
         name: "mainnet",
@@ -502,7 +502,7 @@ const original = [
     id: "optimism",
     name: "Optimism",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/optimism-logo.png",
+    avatarSrc: "/assets/img/product/optimism-logo.png",
     urls: [
       {
         name: "mainnet",
@@ -527,7 +527,7 @@ const original = [
     id: "gnosis",
     name: "Gnosis",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/gnosis-logo.svg",
+    avatarSrc: "/assets/img/product/gnosis-logo.svg",
     urls: [
       {
         name: "mainnet",
@@ -577,7 +577,7 @@ const original = [
     id: "arbitrum-nova",
     name: "Arbitrum Nova",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/arbitrum-nova.png",
+    avatarSrc: "/assets/img/product/arbitrum-nova.png",
     urls: [
       {
         name: "mainnet",
@@ -630,7 +630,7 @@ const original = [
     id: "near",
     name: "NEAR",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/near-logo.png",
+    avatarSrc: "/assets/img/product/near-logo.png",
     urls: [
       {
         name: "mainnet",
@@ -761,7 +761,7 @@ const original = [
     id: "ethstorage-galileo",
     name: "EthStorage Galileo",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/ethstorage-logo.png",
+    avatarSrc: "/assets/img/product/ethstorage-logo.png",
 
     urls: [
       {
@@ -790,7 +790,7 @@ const original = [
     id: "stellar-futurenet-soroban",
     name: "Stellar Futurenet Soroban",
     networkType: "JSON RPC",
-    avatarSrc: "assets/img/product/stellar-logo.png",
+    avatarSrc: "/assets/img/product/stellar-logo.png",
 
     urls: [
       {
