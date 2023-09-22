@@ -131,7 +131,7 @@ export default function HomeV2(): JSX.Element {
                   <a href={`/api-marketplace/${prod.id}`}>
                     <img src={prod.avatarSrc} alt="" />
                     <span>
-                      <b>{prod.name.length > 20 ? prod.name.slice(0, 20) + '...' : prod.name}</b>
+                      <b>{prod.name.length > 19 ? prod.name.slice(0, 19) + '...' : prod.name}</b>
                       {/* <strong>{prod.networkType}</strong> */}
                       <span>{prod.networkType}</span>
                     </span>

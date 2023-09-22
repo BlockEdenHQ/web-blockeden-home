@@ -13,20 +13,20 @@
 .prodBg >a {
   color: #212529;
   display: flex;
-  padding: 1.5rem 1rem 1rem;
+  padding: 1.5rem;
   border-radius: 10px;
   margin-bottom: 1.5rem;
   background-color: #fff;
   justify-content: start;
   align-items: center;
   position: relative;
-  transition: all .3s;
+  transition: all .2s;
   box-shadow: 0 5px 10px rgba(220, 220, 220, .9);
 }
 
 .prodBg>a:hover {
-  color: #de4c4f;
-  background-color: rgba(250, 250, 250, .5);
+  transform: translate3d(-4px, -4px, 0) rotateZ(-1deg);
+  box-shadow: 0.5rem 0.5rem 0 rgba(233, 236, 239, .5);
 }
 
 .prodBg>a img {
