@@ -14,8 +14,6 @@ import { SlidingLogos } from "@site/src/components/sliding-logos";
 import Link from "@docusaurus/Link";
 import { productConfig } from "../product-config";
 
-console.log(productConfig)
-
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   const videoRef = useRef<HTMLVideoElement>();
@@ -73,7 +71,9 @@ function HomepageHeader() {
             <h1 className={clsx("c-main-title hero__title", styles.heroTitle)}>
               {siteConfig.tagline}
             </h1>
-            <p className={clsx("c-main-text lead", styles.lead)}>{beConfig.description}</p>
+            <p className={clsx("c-main-text lead", styles.lead)}>
+              {beConfig.description}
+            </p>
             <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center align-items-sm-start mt-5 c-intro-btn">
               <div className="d-flex flex-column mx-1 text-center">
                 <a
@@ -119,22 +119,38 @@ export default function HomeV2(): JSX.Element {
           <div className="container">
             <div className="row justify-content-center text-center mb-6">
               <div className="col-xl-8 col-lg-9">
-                <h2 className={clsx("display-4 mx-xl-6", prodStyles.title)}>API with high availability</h2>
+                <h2 className={clsx("display-4 mx-xl-6", prodStyles.title)}>
+                  API with high availability
+                </h2>
                 <p className={clsx("lead", prodStyles.cont)}>
-                  Blockeden.xyz supports various forms of APIs for multiple blockchain networks.
+                  Blockeden.xyz supports various forms of APIs for multiple
+                  blockchain networks.
                 </p>
               </div>
             </div>
             <div className="row">
               {productConfig.map((prod) => (
-                <div data-aos="fade-up" className={clsx("col-md-6 col-lg-3", prodStyles.prodBg)}>
-                  <a href={`/api-marketplace/${prod.id}`}>
-                    <img src={prod.avatarSrc} alt="" />
-                    <span>
-                      <b>{prod.name.length > 19 ? prod.name.slice(0, 19) + '...' : prod.name}</b>
+                <div data-aos="fade-up" className={clsx("col-md-6 col-lg-3")}>
+                  <a
+                    href={`/api-marketplace/${prod.id}`}
+                    className={
+                      "card card-sm card-body flex-row align-items-center hover-shadow-3d"
+                    }
+                  >
+                    <img
+                      src={prod.avatarSrc}
+                      alt=""
+                      style={{ height: 48, width: 48 }}
+                    />
+                    <div className={"ml-3"}>
+                      <h4 className={clsx("mb-0", prodStyles.smCardTitle)}>
+                        {prod.name}
+                      </h4>
                       {/* <strong>{prod.networkType}</strong> */}
-                      <span>{prod.networkType}</span>
-                    </span>
+                      <span className={prodStyles.smCardDesc}>
+                        {prod.networkType}
+                      </span>
+                    </div>
                   </a>
                 </div>
               ))}

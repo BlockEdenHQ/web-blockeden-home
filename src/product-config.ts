@@ -12,129 +12,41 @@ function shuffle(ar: any, seed = new Date().getDate()) {
   return ar;
 }
 
-const descs = [
+export const productConfig = [
   {
-    id: "sui",
-    desc: "Sui is an emerging blockchain platform focused on scalability and user-friendliness. Ideal for businesses and developers looking to leverage modern blockchain technologies.",
-    name: "Sui",
-  },
+    id: "stellar-futurenet-soroban-indexer",
+    name: "Soroban Indexer",
+    networkType: "GraphQL",
+    avatarSrc: "/assets/img/product/stellar-logo.png",
 
-  {
-    id: "aptos",
-    desc: "Aptos is a versatile blockchain designed for enterprise solutions, offering robust security features and high transaction throughput.",
-    name: "Aptos",
-  },
+    urls: [
+      {
+        name: "Futurenet",
+        templateUrl:
+          "https://api.blockeden.xyz/stellar/futurenet/soroban/indexer/${accessKey}/v1/graphql",
+        databaseUrl: "https://blockeden.xyz/analytics/browse/8/schema/public",
+      },
+    ],
 
-  {
-    id: "aptos-indexer",
-    desc: "Aptos Indexer complements the Aptos blockchain by providing advanced data indexing and search capabilities, enhancing data retrieval and analytics.",
-    name: "Aptos Indexer",
+    costs: "2,000 CU / req",
   },
-
-  {
-    id: "openai-chatgpt",
-    desc: "OpenAI ChatGPT is a conversational AI model developed by OpenAI.",
-    name: "OpenAI ChatGPT",
-  },
-
-  {
-    id: "model-serve",
-    desc: "BlockEden.xyz serves open-source machine learning models.",
-    name: "AI Model Serve",
-  },
-
-  {
-    id: "ethereum",
-    desc: "Ethereum is a decentralized, open-source blockchain that features smart contract functionality. It is the pioneering platform for building decentralized applications.",
-    name: "Ethereum",
-  },
-
-  {
-    id: "iotex",
-    desc: "IoTeX is a decentralized platform focused on Internet of Things (IoT) applications, providing tools and infrastructure for IoT solution developers.",
-    name: "IoTeX",
-  },
-
-  {
-    id: "solana",
-    desc: "Solana is a high-performance blockchain supporting builders around the world in creating crypto apps that scale.",
-    name: "Solana",
-  },
-
-  {
-    id: "polygon",
-    desc: "Polygon, formerly known as Matic Network, is a multi-chain scaling solution for Ethereum. It aims to provide faster and cheaper transactions on the Ethereum blockchain.",
-    name: "Polygon",
-  },
-
-  {
-    id: "polygon_zkevm",
-    desc: "Polygon zkEVM is an advanced layer-2 solution under Polygon, leveraging zk-Rollups to increase throughput and reduce costs on the Ethereum network.",
-    name: "Polygon zkEVM",
-  },
-
-  {
-    id: "filecoin",
-    desc: "Filecoin is a decentralized storage network designed to store humanity's most important information. It leverages blockchain technology to ensure files are stored with integrity.",
-    name: "Filecoin",
-  },
-
-  {
-    id: "harmony",
-    desc: "Harmony is a blockchain platform designed for high throughput and low latency, with a focus on cross-chain compatibility.",
-    name: "Harmony",
-  },
-
-  {
-    id: "binance-smart-chain",
-    desc: "Binance Smart Chain (BSC) is a blockchain platform developed by Binance. It offers a parallel chain to Binance Chain, allowing users to build decentralized apps and use smart contracts.",
-    name: "Binance Smart Chain",
-  },
-
-  {
-    id: "arbitrum",
-    desc: "Arbitrum is a layer-2 scaling solution for Ethereum, enhancing its scalability through off-chain computation while ensuring the security of the Ethereum mainnet.",
-    name: "Arbitrum",
-  },
-
-  {
-    id: "optimism",
-    desc: "Optimism provides a layer-2 scaling solution for Ethereum using Optimistic Rollups. It aims to increase the throughput of the Ethereum network without compromising on security.",
-    name: "Optimism",
-  },
-
-  {
-    id: "gnosis",
-    desc: "Gnosis is known for its decentralized prediction markets, but it also offers a range of tools and platforms related to Ethereum-based software development.",
-    name: "Gnosis",
-  },
-
-  {
-    id: "arbitrum-nova",
-    desc: "Arbitrum Nova is an upgraded version of the Arbitrum layer-2 solution, offering enhanced features and improved scalability options for Ethereum developers.",
-    name: "Arbitrum Nova",
-  },
-
-  {
-    id: "near",
-    desc: "NEAR is a decentralized development platform built on a unique sharded and developer-friendly blockchain. It focuses on usability without sacrificing security.",
-    name: "NEAR",
-  },
-
-  {
-    id: "ethstorage-galileo",
-    desc: "EthStorage Galileo is a dedicated storage solution for Ethereum-based data, ensuring fast, secure, and decentralized storage capabilities.",
-    name: "EthStorage Galileo",
-  },
-
   {
     id: "stellar-futurenet-soroban",
-    desc: "Stellar Futurenet Soroban is an advanced iteration of the Stellar network, optimized for high-speed transactions and cross-border financial solutions.",
-    name: "Stellar Futurenet Soroban",
-  },
-];
+    name: "Soroban",
+    networkType: "JSON RPC",
+    avatarSrc: "/assets/img/product/stellar-logo.png",
 
-const original = [
+    urls: [
+      {
+        name: "Futurenet",
+        templateUrl:
+          "https://api.blockeden.xyz/stellar/futurenet/soroban/${accessKey}/",
+        testTemplateUrl: "https://sorobandev.com/tools/remote/get-account",
+      },
+    ],
+
+    costs: "2,000 CU / req",
+  },
   {
     id: "sui",
     name: "Sui",
@@ -431,7 +343,7 @@ const original = [
   },
   {
     id: "binance-smart-chain",
-    name: "Binance Smart Chain",
+    name: "BSC",
     networkType: "JSON RPC",
     avatarSrc: "/assets/img/product/binance-logo.png",
     urls: [
@@ -759,7 +671,7 @@ const original = [
   // },
   {
     id: "ethstorage-galileo",
-    name: "EthStorage Galileo",
+    name: "EthStorage",
     networkType: "JSON RPC",
     avatarSrc: "/assets/img/product/ethstorage-logo.png",
 
@@ -785,32 +697,4 @@ const original = [
       ],
     },
   },
-
-  {
-    id: "stellar-futurenet-soroban",
-    name: "Stellar Futurenet Soroban",
-    networkType: "JSON RPC",
-    avatarSrc: "/assets/img/product/stellar-logo.png",
-
-    urls: [
-      {
-        name: "Futurenet",
-        templateUrl:
-          "https://api.blockeden.xyz/stellar/futurenet/soroban/${accessKey}/",
-        testTemplateUrl: "https://sorobandev.com/tools/remote/get-account",
-      },
-    ],
-
-    costs: "2,000 CU / req",
-  },
-].map((it) => ({
-  ...it,
-  intro: descs.find((networkType) => networkType.id === it.id)?.desc,
-}));
-
-const FROZEN_FIRST_N = 4;
-
-export const productConfig = [
-  ...original.slice(0, FROZEN_FIRST_N),
-  ...shuffle(original.slice(FROZEN_FIRST_N)),
 ];
