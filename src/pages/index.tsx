@@ -6,12 +6,12 @@ import Hls from "hls.js";
 import styles from "./index.module.css";
 import { GetStarted } from "@site/src/components/get-started";
 import { News } from "@site/src/components/news/news";
-import { Features } from "@site/src/components/features";
 import { beConfig } from "../config";
 import { useAos } from "@site/src/components/use-aos";
 import { SeoHead } from "@site/src/components/seo-head";
 import { SlidingLogos } from "@site/src/components/sliding-logos";
 import Link from "@docusaurus/Link";
+import { FeaturesV2 } from "@site/src/components/features-v2";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -70,7 +70,9 @@ function HomepageHeader() {
             <h1 className={clsx("c-main-title hero__title", styles.heroTitle)}>
               {siteConfig.tagline}
             </h1>
-            <p className={clsx("c-main-text lead", styles.lead)}>{beConfig.description}</p>
+            <p className={clsx("c-main-text lead", styles.lead)}>
+              {beConfig.description}
+            </p>
             <div className="d-flex flex-column flex-sm-row justify-content-center align-items-center align-items-sm-start mt-5 c-intro-btn">
               <div className="d-flex flex-column mx-1 text-center">
                 <a
@@ -104,7 +106,7 @@ function HomepageHeader() {
   );
 }
 
-export default function Home(): JSX.Element {
+export default function HomeV2(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout title={beConfig.title} description={siteConfig.tagline}>
@@ -112,7 +114,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <SlidingLogos />
-        <Features />
+        <FeaturesV2 />
         <News />
         <GetStarted />
       </main>
