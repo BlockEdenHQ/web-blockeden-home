@@ -199,7 +199,7 @@ const config = {
                 to: "https://www.linkedin.com/in/dora-noda-35952622a/",
               },
               {
-                label: "info@BlockEden.xyz",
+                label: "Email: info@BlockEden.xyz",
                 to: "mailto:info@BlockEden.xyz",
               },
             ],
