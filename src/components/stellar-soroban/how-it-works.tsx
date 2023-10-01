@@ -14,6 +14,9 @@ export const HowItWorks = () => {
             It’s easy like that - No need to mess with Soroban's golang and rust
             build, docker image, server deployment, and database maintenance.
           </p>
+          <a href="https://docs.google.com/presentation/d/1UYagnPZGyWEJtgVnEXHq2qZlL24IQ145kNLCRj_acvU/edit" className="lead hover-arrow">
+            Explore Pitch Deck
+          </a>
         </div>
       </div>
       <div className="row">
