@@ -22,7 +22,7 @@ export function StellarSorobanPage() {
   let heroLink = "https://blockeden.xyz/analytics/browse/8/schema/public";
   if (Math.random() >= 0.3) {
     heroImg = "https://tp-misc.b-cdn.net/blockeden/soroban-graphql-demo.png";
-    heroLink = "https://blockeden.xyz/api-marketplace/stellar-futurenet-soroban-indexer";
+    heroLink = "https://blockeden.xyz/api-marketplace/stellar-testnet-soroban-indexer";
   }
 
   return (
@@ -169,7 +169,7 @@ export function StellarSorobanPage() {
                 Instant access to transactions, events, ledger entries, and
                 token contract.
               </p>
-              <a href="https://blockeden.xyz/api-marketplace/stellar-futurenet-soroban-indexer" className="lead hover-arrow">
+              <a href="https://blockeden.xyz/api-marketplace/stellar-testnet-soroban-indexer" className="lead hover-arrow">
                 Explore now
               </a>
             </div>
