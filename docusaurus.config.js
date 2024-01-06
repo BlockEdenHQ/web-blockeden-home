@@ -1,7 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
+const {themes} = require('prism-react-renderer');
+const lightTheme = themes.github;
+// const darkTheme = themes.dracula;
 const { beConfig } = require("./src/config");
 // const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const fs = require("fs");
@@ -51,16 +53,9 @@ const config = {
 
   presets: [
     [
-      "docusaurus-preset-openapi",
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        api: {
-          // id: 'cars', // omitted => default instance
-          path: "./src/swagger/aptos-openapi.json",
-          routeBasePath: "aptos-api-reference",
-          sidebarCollapsed: false,
-          sidebarCollapsible: false,
-        },
         docs: {
           editUrl:
             "https://github.com/BlockEdenHQ/web-blockeden-home/edit/main",
@@ -290,7 +285,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Stargately, Inc.`,
       },
       prism: {
-        theme: lightCodeTheme,
+        additionalLanguages: ['bash', 'diff', 'json'],
+        theme: lightTheme,
         // darkTheme: darkCodeTheme,
       },
       colorMode: {

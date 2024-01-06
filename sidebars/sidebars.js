@@ -38,11 +38,6 @@ const sidebars = {
           id: "aptos/analytics-and-graphql",
           label: "Aptos GraphQL and Analytics",
         },
-        {
-          type: "link",
-          href: "/aptos-api-reference/get-ledger-info",
-          label: "Aptos API Reference",
-        },
       ],
     },
     {
