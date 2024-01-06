@@ -51,7 +51,7 @@ Your access URL serves as your unique endpoint to the Aptos Node API. Copy it an
 
 ## API Documentation
 
-Explore our interactive [API documentation](/aptos-api-reference/get-ledger-info) to learn more about the various capabilities and methods available.
+Explore our interactive [API documentation](https://blockeden.xyz/api-marketplace/aptos) to learn more about the various capabilities and methods available.
 
 ## Ready to Innovate!
 
