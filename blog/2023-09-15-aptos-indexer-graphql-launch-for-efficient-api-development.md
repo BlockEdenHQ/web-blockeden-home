@@ -20,7 +20,7 @@ The core idea of GraphQL is "only get the data you need." Clients can retrieve m
 
 ### Why choose Aptos Indexer GraphQL?
 
-Aptos Indexer GraphQL is a high-performance GraphQL API tailor-made for Aptos developers by [blockeden.xyz](https:). It aims to provide the following advantages to Aptos developers:
+Aptos Indexer GraphQL is a high-performance GraphQL API tailor-made for Aptos developers by [blockeden.xyz](http:). It aims to provide the following advantages to Aptos developers:
 
 1. **Simplified development process**
 

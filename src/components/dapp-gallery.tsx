@@ -64,8 +64,8 @@ export function DappGallery({ projects, viewMore }: Props) {
                     {bp.logoUrl && (
                       <div className="icon-round mb-3 mb-md-4 bg-primary">
                         <svg
-                          xmlns="https://www.w3.org/2000/svg"
-                          xmlnsXlink="https://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlnsXlink="http://www.w3.org/1999/xlink"
                           width="24px"
                           height="24px"
                           viewBox="0 0 24 24"

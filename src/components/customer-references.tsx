@@ -14,14 +14,14 @@ export const CustomerReferences: React.FC = () => {
             <div className="card card-body shadow-sm">
               <div className="d-flex mb-3">
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -31,14 +31,14 @@ export const CustomerReferences: React.FC = () => {
                   />
                 </svg>
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -48,14 +48,14 @@ export const CustomerReferences: React.FC = () => {
                   />
                 </svg>
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -65,14 +65,14 @@ export const CustomerReferences: React.FC = () => {
                   />
                 </svg>
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -82,14 +82,14 @@ export const CustomerReferences: React.FC = () => {
                   />
                 </svg>
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -124,14 +124,14 @@ export const CustomerReferences: React.FC = () => {
             <div className="card card-body shadow-sm">
               <div className="d-flex mb-3">
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -141,14 +141,14 @@ export const CustomerReferences: React.FC = () => {
                   />
                 </svg>
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -158,14 +158,14 @@ export const CustomerReferences: React.FC = () => {
                   />
                 </svg>
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -175,14 +175,14 @@ export const CustomerReferences: React.FC = () => {
                   />
                 </svg>
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -192,14 +192,14 @@ export const CustomerReferences: React.FC = () => {
                   />
                 </svg>
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -236,14 +236,14 @@ export const CustomerReferences: React.FC = () => {
             <div className="card card-body shadow-sm">
               <div className="d-flex mb-3">
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -253,14 +253,14 @@ export const CustomerReferences: React.FC = () => {
                   />
                 </svg>
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -270,14 +270,14 @@ export const CustomerReferences: React.FC = () => {
                   />
                 </svg>
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -287,14 +287,14 @@ export const CustomerReferences: React.FC = () => {
                   />
                 </svg>
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -304,14 +304,14 @@ export const CustomerReferences: React.FC = () => {
                   />
                 </svg>
                 <svg
-                  xmlns="https://www.w3.org/2000/svg"
+                  xmlns="http://www.w3.org/2000/svg"
                   width={24}
                   height={24}
                   viewBox="0 0 24 24"
                   fill="none"
                   className="injected-svg icon bg-warning"
                   data-src="/assets/img/icons/interface/star.svg"
-                  xmlnsXlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
                 >
                   <path
                     fillRule="evenodd"
@@ -342,8 +342,8 @@ export const CustomerReferences: React.FC = () => {
       </div>
       <div className="divider">
         <svg
-          xmlns="https://www.w3.org/2000/svg"
-          xmlnsXlink="https://www.w3.org/1999/xlink"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
           width="100%"
           height="96px"
           viewBox="0 0 100 100"
