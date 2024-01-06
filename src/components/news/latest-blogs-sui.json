@@ -40,6 +40,7 @@
         ],
         "image": "https://tp-misc.b-cdn.net/blockeden/stake-sui-with-blockeden-xyz.png"
       },
+      "unlisted": false,
       "prevItem": {
         "title": "An Exploration of a16z Crypto Startup School Projects",
         "permalink": "/blog/2023/06/08/exploration-a16z-crypto-startup-school-projects"
@@ -92,6 +93,7 @@
         ],
         "image": "https://tp-misc.b-cdn.net/blockeden/a_software_engineer_learning_coding_cinematic_portrait.png"
       },
+      "unlisted": false,
       "prevItem": {
         "title": "How does Etherscan make money?",
         "permalink": "/blog/2023/05/30/how-does-etherscan-make-money"
@@ -144,6 +146,7 @@
         ],
         "image": "https://tp-misc.b-cdn.net/blockeden/sui-mainnet-rpc-launch.png"
       },
+      "unlisted": false,
       "prevItem": {
         "title": "BRC20 Tokens: A Promising Contender or a Mere Flash in the Pan?",
         "permalink": "/blog/2023/05/04/BRC20"

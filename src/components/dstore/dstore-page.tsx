@@ -542,7 +542,7 @@ export function DstorePage() {
                 </div>
                 <div className="decoration layer-0">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns="https://www.w3.org/2000/svg"
                     width="338"
                     height="277"
                     viewBox="0 0 338 277"

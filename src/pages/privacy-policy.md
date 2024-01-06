@@ -1,7 +1,7 @@
 # Privacy Policy - How we secure and protect your information.
 
 Effective Date: 2022-10-05
-This Privacy Policy (“Policy”) describes how Stargately, Inc. (“Company” or “we” or “our”) treats information collected or provided in connection with an end user’s (“you” or “your” or “user”) use of the services available via Company’s website at  [blockeden.xyz](http://blockeden.xyz/)  (“Site”) and/or our mobile application (“App”, and collectively with the Site, the “Service”). Please note that your use of the Service constitutes your acceptance of this Policy as set forth below:
+This Privacy Policy (“Policy”) describes how Stargately, Inc. (“Company” or “we” or “our”) treats information collected or provided in connection with an end user’s (“you” or “your” or “user”) use of the services available via Company’s website at  [blockeden.xyz](https://blockeden.xyz/)  (“Site”) and/or our mobile application (“App”, and collectively with the Site, the “Service”). Please note that your use of the Service constitutes your acceptance of this Policy as set forth below:
 # 1. Effective Date; Changes Made To This Privacy Policy.
 This Policy applies to all information collected by or provided to us in connection with the Service. Should we make any material changes to this Policy, we will change the Effective Date above and inform you by email sent to the address associated with your Service account and/or through the Service the next time you log in. We will treat your continued usage of the Service following such notice as your acceptance of the changes.
 # 2. Third-Party Links And Offers.

@@ -30,7 +30,7 @@ Refer to the [JSON RPC](https://github.com/MystenLabs/sui/blob/main/doc/src/buil
 
 The `JsonRpcProvider` class provides a connection to the JSON-RPC Server and should be used for all read-only operations. The default URLs to connect with the RPC server are:
 
-- local: http://127.0.0.1:9000
+- local: https://127.0.0.1:9000
 - DevNet: https://api.blockeden.xyz/sui/devnet/${apiAccessKey}
 - MainNet: https://api.blockeden.xyz/sui/${apiAccessKey}
 

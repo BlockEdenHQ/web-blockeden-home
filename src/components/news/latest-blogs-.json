@@ -41,6 +41,7 @@
         "description": "From September 26-28, 2023, in Madrid, Spain, BlockEden.xyz unveiled the Soroban Indexer and GraphQL at Stellar's annual Meridian conference. We were delighted to showcase our innovations at this esteemed event.",
         "image": "https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck0.png"
       },
+      "unlisted": false,
       "nextItem": {
         "title": "BlockEden.xyz launches Aptos REST Playground",
         "permalink": "/blog/2023/09/20/blockeden-xyz-launches-aptos-rest-playground"
@@ -89,6 +90,7 @@
         ],
         "description": "Explore the Aptos REST Playground: a state-of-the-art Web3 toolkit for developers. Dive into its features for interactive API testing, real-time data analysis, and user-friendly interface, all optimized for Aptos application development. Unveiled by Blockeden.xyz, it's the ultimate solution for efficient and seamless Aptos API exploration and understanding."
       },
+      "unlisted": false,
       "prevItem": {
         "title": "[Pitch Deck] Stellar Soroban Indexer and GraphQL",
         "permalink": "/blog/2023/10/07/soroban-indexer-pitch-deck"
@@ -137,6 +139,7 @@
         "image": "https://tp-misc.b-cdn.net/blockeden/bot-and-money.png",
         "description": "Explore the evolving landscape of web3 bots, their rise on platforms like Telegram, and the fierce competition between giants like Unibot and newcomers such as Banana Gun. Dive into the world of decentralized innovations."
       },
+      "unlisted": false,
       "prevItem": {
         "title": "BlockEden.xyz launches Aptos REST Playground",
         "permalink": "/blog/2023/09/20/blockeden-xyz-launches-aptos-rest-playground"
