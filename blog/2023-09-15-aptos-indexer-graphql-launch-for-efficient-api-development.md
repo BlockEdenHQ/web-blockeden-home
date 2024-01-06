@@ -20,7 +20,7 @@ The core idea of GraphQL is "only get the data you need." Clients can retrieve m
 
 ### Why choose Aptos Indexer GraphQL?
 
-Aptos Indexer GraphQL is a high-performance GraphQL API tailor-made for Aptos developers by [blockeden.xyz](http:). It aims to provide the following advantages to Aptos developers:
+Aptos Indexer GraphQL is a high-performance GraphQL API tailor-made for Aptos developers. It aims to provide the following advantages to Aptos developers:
 
 1. **Simplified development process**
 
@@ -62,54 +62,54 @@ Here is a simple example of using `React` to connect to the Aptos Indexer GraphQ
 import React, { useState, useEffect } from 'react';
 
 function App() {
-  const [data, setData] = useState(null);
+   const [data, setData] = useState(null);
 
-  useEffect(() => {
-    const apiEndpoint = 'https://api.blockeden.xyz/aptos/indexer/8UuXzatAZYDBJC6YZTKD/v1/graphql';
+   useEffect(() => {
+      const apiEndpoint = 'https://api.blockeden.xyz/aptos/indexer/8UuXzatAZYDBJC6YZTKD/v1/graphql';
 
-    const fetchData = async () => {
-      try {
-        const response = await fetch(apiEndpoint, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({
-            query: `
+      const fetchData = async () => {
+         try {
+            const response = await fetch(apiEndpoint, {
+               method: 'POST',
+               headers: {
+                  'Content-Type': 'application/json'
+               },
+               body: JSON.stringify({
+                  query: `
               query {
                 block_metadata_transactions(limit: 2) {
                   block_height
                 }
               }
             `,
-          }),
-        });
+               }),
+            });
 
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
+            if (!response.ok) {
+               throw new Error('Network response was not ok');
+            }
 
-        const result = await response.json();
-        setData(result.data);
+            const result = await response.json();
+            setData(result.data);
 
-      } catch (error) {
-        console.error('GraphQL Request Error:', error);
-      }
-    };
+         } catch (error) {
+            console.error('GraphQL Request Error:', error);
+         }
+      };
 
-    fetchData();
-  }, []);
+      fetchData();
+   }, []);
 
-  return (
-    <div className="App">
-      <h1>Aptos Indexer GraphQL Example</h1>
-      {data ? (
-        <pre>{JSON.stringify(data, null, 2)}</pre>
-      ) : (
-        <p>Loading...</p>
-      )}
-    </div>
-  );
+   return (
+           <div className="App">
+              <h1>Aptos Indexer GraphQL Example</h1>
+              {data ? (
+                      <pre>{JSON.stringify(data, null, 2)}</pre>
+              ) : (
+                      <p>Loading...</p>
+              )}
+           </div>
+   );
 }
 
 export default App;
