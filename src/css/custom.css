@@ -280,6 +280,10 @@ a:hover {
   border-bottom: none;
 }
 
+.themedComponent--dark_xIcU {
+  display: none;
+}
+
 .top-bar>.dropdown-item:hover {
   background-color: #f0f0f0 !important;
 }
