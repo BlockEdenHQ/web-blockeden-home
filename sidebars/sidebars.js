@@ -60,6 +60,11 @@ const sidebars = {
           id: "sui/sui-api-reference",
           label: "Sui API Reference",
         },
+        {
+          type: "doc",
+          id: "sui/sui-indexer",
+          label: "Sui Indexer REST API",
+        },
         require("./sidebar-sui-move"),
         {
           type: "doc",
