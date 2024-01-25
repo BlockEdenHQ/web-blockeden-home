@@ -90,6 +90,22 @@ export const productConfig = [
     costs: "100 CUs / req",
   },
   {
+    id: "sui-indexer",
+    name: "Sui Indexer",
+    networkType: "REST API",
+    avatarSrc: "/assets/img/product/sui.svg",
+
+    urls: [
+      {
+        name: "mainnet",
+        templateUrl:
+          "https://api.blockeden.xyz/sui-indexer/${accessKey}"
+      },
+    ],
+    docUrl: "https://blockeden.xyz/docs/sui/sui-indexer/",
+    costs: "5000 CUs / req",
+  },
+  {
     id: "aptos",
     name: "Aptos",
     networkType: "REST Chain API",
