@@ -42,6 +42,10 @@
         "image": "https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck0.png"
       },
       "unlisted": false,
+      "prevItem": {
+        "title": "BlockEden.xyz High-Availability Blockchain Node Infrastructure",
+        "permalink": "/blog/2024/01/10/delegated-staking-infra"
+      },
       "nextItem": {
         "title": "BlockEden.xyz launches Aptos REST Playground",
         "permalink": "/blog/2023/09/20/blockeden-xyz-launches-aptos-rest-playground"

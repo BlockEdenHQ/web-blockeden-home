@@ -1,5 +1,50 @@
 [
   {
+    "id": "/2024/01/10/delegated-staking-infra",
+    "metadata": {
+      "permalink": "/blog/2024/01/10/delegated-staking-infra",
+      "source": "@site/blog/2024-01-10-delegated-staking-infra.md",
+      "title": "BlockEden.xyz High-Availability Blockchain Node Infrastructure",
+      "description": "Learn about the features and benefits, including simplified node setup, reduced costs, and stable network performance. Explore BlockEden.xyz's proven track record, its expansion across various blockchains, and how it addresses key issues in the industry. Ideal for businesses and individuals looking to leverage blockchain technology efficiently.",
+      "date": "2024-01-10T00:00:00.000Z",
+      "formattedDate": "January 10, 2024",
+      "tags": [
+        {
+          "label": "product",
+          "permalink": "/blog/tags/product"
+        }
+      ],
+      "readingTime": 3.15,
+      "hasTruncateMarker": false,
+      "authors": [
+        {
+          "name": "Dora Noda",
+          "title": "Software Engineer",
+          "url": "https://github.com/doranoda",
+          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
+          "key": "dora"
+        }
+      ],
+      "frontMatter": {
+        "title": "BlockEden.xyz High-Availability Blockchain Node Infrastructure",
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "product"
+        ],
+        "description": "Learn about the features and benefits, including simplified node setup, reduced costs, and stable network performance. Explore BlockEden.xyz's proven track record, its expansion across various blockchains, and how it addresses key issues in the industry. Ideal for businesses and individuals looking to leverage blockchain technology efficiently.",
+        "image": "https://beancount-io.b-cdn.net/upgrade-server.jpg"
+      },
+      "unlisted": false,
+      "nextItem": {
+        "title": "[Pitch Deck] Stellar Soroban Indexer and GraphQL",
+        "permalink": "/blog/2023/10/07/soroban-indexer-pitch-deck"
+      }
+    },
+    "content": "**Node operation made easy with a reliable infrastructure**\n\nBlockEden.xyz introduces an advanced blockchain node infrastructure, enhancing the reliability and performance of blockchain operations. This development empowers customers to manage blockchain nodes easily and efficiently, ensuring the high availability and robustness of their blockchain applications.\n\nBlockchain node operation often encounters issues like network instability, uptime monitoring, complex setup processes, and high maintenance costs. These challenges pose significant hurdles for businesses and individuals seeking to leverage blockchain technology.\n\nBlockEden.xyz's delegated staking infrastructure offers a state-of-the-art solution to these challenges. This high-availability blockchain node infrastructure simplifies node setup, reduces operational costs, and ensures stable and consistent network performance. This makes blockchain technology more accessible and practical for a broader range of users.\n\n![](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck1.png)\n\nBlockEden.xyz has an impressive track record, starting with Aptos and maintaining 99.9% uptime since its mainnet launch. Our services have expanded to include Sui, Solana, and 12 EVM blockchains, demonstrating our adaptability and commitment to staying at the forefront of the industry. With over $45 million worth of tokens staked with us, our clients trust us to provide reliable and secure solutions for their web3 and blockchain needs.\n\n## What is BlockEden.xyz’s Offering of the Delegated Staking Infra?\n1. Integrating with new networks.\n2. Managed/delegated services to run blockchain nodes, including maintaining a service-level agreement, status monitoring, active on-call, and failover.\n3. (Stretch goal) Develop tools to improve efficiency, e.g., distributing rewards.\n\nInternal FAQs\n\n## What are the OKRs for Delegated Staking Infra Trying to Achieve?\n\nGoals:\n* Build a reliable, safe, extensible, and cost-efficient delegated staking infrastructure to sustainably generate revenue streams for BlockEden.xyz.\n  * Reliable: the delegate node should have high availability.\n  * Safe: the funds delegated to us should be safe.\n  * Extensible: the infra should be reusable to expand to another blockchain network.\n  * Cost-efficient: the infra machine cost should be covered by the delegate revenue.\n\nKey Results:\n\n| col1                        | col2                                      |\n|-----------------------------|-------------------------------------------|\n| SLO server uptime           | 99.9%                                     |\n| New network onboarding time | \\<\\= 2 weeks for EVM chains               |\n| Revenue                     | \\>\\= $10,000 income per month per network |\n\n## Why is Delegated Staking Infra Important to BlockEden.xyz?\n\n* It’s the revenue-generating program, bringing resources to do more strategic infra work.\n* It’s an essential infra component to serve chain RPCs, particularly for latency-sensitive use cases.\n\nHow Can Delegated Staking Infra Fail? Would it Cause Customer Dislikes?\n\n* Failures in delegated staking infrastructure primarily occur due to service disruptions and server downtime. These issues can prevent customers from staking tokens or lead to reduced rewards due to slashing penalties. Such disruptions often result in customer dissatisfaction due to unmet expectations of consistent earnings and reliable service.\n\nWhat is the Rollout Plan?\n\n* To be decided after we clear the requirements and make initial integrations.\n\nWhat are the Dependencies?\n\n* Network Selection: The chosen blockchain network plays a critical role. Different networks may have varying protocols, reward structures, and security requirements.\n* Initial Funding: To participate as a validator in the staking process, an initial investment or fund is required. This amount varies depending on the network's criteria and serves as your stake in the network.\n\nWhat are the Risks?\n\n* Fund Safety: Ideally, we should make a product that doesn’t bear the liability for the customer's fund. However, it largely depends on the blockchain's features, e.g., isolation of token owner and node operator permission.\n* Crypto Market Volatility: In a sudden crypto price crash or bearish market, the token rewards might be short to cover the machine cost. A liquidation plan should be in place to ensure funds are secured to operate the infra.\n\nHow to Use this Staking Infra?\n\n* BlockEden.xyz offers comprehensive documentation for getting started with our staking infrastructure, including step-by-step guides for both manual staking processes"
+  },
+  {
     "id": "/2023/10/07/soroban-indexer-pitch-deck",
     "metadata": {
       "permalink": "/blog/2023/10/07/soroban-indexer-pitch-deck",
@@ -42,6 +87,10 @@
         "image": "https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck0.png"
       },
       "unlisted": false,
+      "prevItem": {
+        "title": "BlockEden.xyz High-Availability Blockchain Node Infrastructure",
+        "permalink": "/blog/2024/01/10/delegated-staking-infra"
+      },
       "nextItem": {
         "title": "BlockEden.xyz launches Aptos REST Playground",
         "permalink": "/blog/2023/09/20/blockeden-xyz-launches-aptos-rest-playground"
@@ -101,54 +150,5 @@
       }
     },
     "content": "In modern software development, building robust APIs is crucial. APIs (Application Programming Interfaces) serve as the key for communication and data exchange between different software systems, and an API that is easy to use and test can greatly accelerate the development process. We are excited to announce that we have introduced a brand new feature for Aptos - Aptos REST Playground. This is a high-availability API toolkit based on Aptos development, designed to assist you in building Aptos applications faster and better.\n\n## **What is Aptos REST Playground?**\n\nAptos REST Playground is an interactive Web3 application designed to assist developers in exploring, testing, and understanding the Aptos API with ease. It provides an intuitive [Swagger-based](https://swagger.io/) interactive interface that allows you to construct and send REST requests, view responses, and test to analyze data.\n\nThis tool enables Aptos developers to gain a better understanding of Aptos functionality and build exceptional Aptos applications more quickly and efficiently.\n\n## **Why Choose Aptos REST Playground?**\n\nAptos REST Playground is a high-performance REST API customized specifically for Aptos developers by [Blockeden.xyz](https://blockeden.xyz/). It aims to provide the following advantages to Aptos developers:\n\n1. **Interactive API Testing**\n\nAptos REST Playground allows you to conduct interactive API testing without leaving your browser. It is an interactive application built on [Swagger](https://swagger.io/). You can construct and customize requests, view real-time responses, and make adjustments as needed. This greatly simplifies the process of API testing and debugging.\n\n2. **Real-time Data Analysis**\n\nYou can directly view the data in the API responses within Aptos REST Playground, without the need to write additional code or use third-party tools. This makes it easier for you to comprehend the information returned by the API, facilitating the development of better applications.\n\n3. **User-Friendly**\n\nThe user interface of Aptos REST Playground is highly intuitive, requiring no complex setup or configuration. Whether you are an experienced developer or a beginner, you can easily get started and use it effectively.\n\n## **How to Get Started with Aptos REST Playground?**\n\nEnter our API marketplace and select the Aptos card:\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FwHKJoqtjHOgP_LiNqxJLh.png&w=3840&q=75)\n\nInside the Aptos REST Playground interface, locate the `Test REST chain API` where you can see that we have integrated all the interfaces required for Aptos development:\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FG0cNmuGv8kK8UA124qiIl.png&w=3840&q=75)\n\nHere, you don't need any additional configuration; our playground is ready to use out of the box. Taking `Get Account` as an example, we will show you how to use Aptos REST Playground:\n\n1. Expand the `/account/{address}` table; we have preconfigured some parameters for you. Of course, you can also set your own parameters.\n2. Click the `Try it out` button, and you can access the interface using either our default parameters or any information you set yourself. You will immediately receive the data you need. Pay special attention to the data with an HTTP Code of `200`; it will be your primary focus. With this data, you can analyze any Aptos data request.\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F_GH8ccGTeYkPRxVkrB6bb.png&w=3840&q=75)\n\nSometimes, to test the speed and stability of the product, you may want to build a set of testing code on the frontend yourself. This is allowed and supported by us.\n\nBefore doing so, you need to first locate your BLOCKEDEN_API_KEY, which can be found at [https://blockeden.xyz/dash](https://blockeden.xyz/dash):\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FJYYc1pr2bz-AKdwLSAvOa.png&w=3840&q=75)\n\nIf you haven't created your own `BLOCKEDEN_API_KEY` yet, you can still use the public API key we provide: `8UuXzatAZYDBJC6YZTKD`.\n\nNow, let's create our own simple testing code based on React and the Aptos REST API:\n\n```js\nimport React, { useState, useEffect } from 'react';\n\nfunction App() {\n  const [data, setData] = useState(null);\n\n  useEffect(() => {\n    const address = '0x0000000000000000000000000000000000000000000000000000000000dead';\n    const apiEndpoint = `https://api.blockeden.xyz/aptos/8UuXzatAZYDBJC6YZTKD/v1/accounts/${address}`;\n\n    const fetchData = async () => {\n      try {\n        const response = await fetch(apiEndpoint, {\n          method: 'get',\n          headers: {\n            'Content-Type': 'application/json'\n          }\n        });\n\n        if (!response.ok) {\n          throw new Error('Network response was not ok');\n        }\n\n        const result = await response.json();\n        setData(result);\n\n      } catch (error) {\n        console.error('API Request Error:', error);\n      }\n    };\n\n    fetchData();\n  }, []);\n\n  return (\n    <div className=\"App\">\n      <h1>Aptos Indexer GraphQL Example</h1>\n      {data ? (\n        <pre>{JSON.stringify(data, null, 2)}</pre>\n      ) : (\n        <p>Loading...</p>\n      )}\n    </div>\n  );\n}\n\nexport default App;\n```\n\nWe also support `cURL` testing:\n\n```plain\ncurl -L -X GET 'https://api.blockeden.xyz/aptos/8UuXzatAZYDBJC6YZTKD/v1/accounts/0x0000000000000000000000000000000000000000000000000000000000dead' \\\\\n-H 'Accept: application/json'\n```\n\nAptos REST Playground is a powerful development tool for Aptos, designed to simplify the process of Aptos development and testing. We hope it provides developers with a better working experience and contributes to the creation of exceptional applications. If you have any feedback or suggestions, please don't hesitate to contact us. Thank you for your attention!\n\n------\n\n- Twitter: [https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)\n- Discord: [https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)\n- Source Link: https://blockeden.xyz/blog/2023/09/20/blockeden-xyz-launches-aptos-rest-playground/"
-  },
-  {
-    "id": "/2023/09/16/web3-bots-rise-unibot-vs-banana-gun",
-    "metadata": {
-      "permalink": "/blog/2023/09/16/web3-bots-rise-unibot-vs-banana-gun",
-      "source": "@site/blog/2023-09-16-web3-bots-rise-unibot-vs-banana-gun.md",
-      "title": "The Rise of Web3 Bots: Analyzing Unibot and Its Contenders",
-      "description": "Explore the evolving landscape of web3 bots, their rise on platforms like Telegram, and the fierce competition between giants like Unibot and newcomers such as Banana Gun. Dive into the world of decentralized innovations.",
-      "date": "2023-09-16T00:00:00.000Z",
-      "formattedDate": "September 16, 2023",
-      "tags": [
-        {
-          "label": "investment research",
-          "permalink": "/blog/tags/investment-research"
-        }
-      ],
-      "readingTime": 3.06,
-      "hasTruncateMarker": false,
-      "authors": [
-        {
-          "name": "Dora Noda",
-          "title": "Software Engineer",
-          "url": "https://github.com/doranoda",
-          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
-        }
-      ],
-      "frontMatter": {
-        "title": "The Rise of Web3 Bots: Analyzing Unibot and Its Contenders",
-        "authors": [
-          "dora"
-        ],
-        "tags": [
-          "investment research"
-        ],
-        "image": "https://tp-misc.b-cdn.net/blockeden/bot-and-money.png",
-        "description": "Explore the evolving landscape of web3 bots, their rise on platforms like Telegram, and the fierce competition between giants like Unibot and newcomers such as Banana Gun. Dive into the world of decentralized innovations."
-      },
-      "unlisted": false,
-      "prevItem": {
-        "title": "BlockEden.xyz launches Aptos REST Playground",
-        "permalink": "/blog/2023/09/20/blockeden-xyz-launches-aptos-rest-playground"
-      },
-      "nextItem": {
-        "title": "BlockEden.xyz launches new Aptos Indexer GraphQL Playground",
-        "permalink": "/blog/2023/09/15/aptos-indexer-graphql-launch-for-efficient-api-development"
-      }
-    },
-    "content": "As the CEO of a startup in the web3 domain, I'm often intrigued by emerging tech trends. The rapid ascent of bot platforms, particularly in the context of blockchain and decentralized finance, has caught my attention.\n\n## The New Wave: Telegram Bots in Web3\n\nWith the growth of Unibot, robot concepts are becoming a new area of competition. The landscape now features hundreds of bot-centric and micro-innovative projects. Telegram, a must-have social application in the crypto circle, boasts a staggering 800 million monthly active users. These numbers become even more fascinating when you consider how Telegram Bots are simplifying crypto interactions. Within the platform, bots can handle a variety of tasks, from decentralized finance (DeFi) and miner extractable value (MEV) protection to data analytics, whale tracking, and even community gaming governance. The appeal lies in their accessibility, convenience, and wide-ranging applications.\n\nHowever, rapid growth often brings skepticism and worries. Concerns about the security vulnerabilities of Telegram Bots and the maturity of the technology have begun to surface.\n\n![The Rise of Web3 Bots: Analyzing Unibot and Its Contenders](https://tp-misc.b-cdn.net/blockeden/bot-and-money.png \"The Rise of Web3 Bots: Analyzing Unibot and Its Contenders\")\n\n## Unibot: The Phenomenon\n\nLaunched in June, Unibot took just two months to achieve a phenomenal status, spawning hundreds of imitative projects. It hit a peak market cap of over $200 million, although it later faced stiff competition from \"Banana Gun\", leading to a considerable market share decline. Despite this drop, its current market value stands around $60 million, keeping Unibot as the leading figure in the bot arena.\n\n*Unibot Features*:\n\n- New project tracking\n- Copy-trading capabilities\n- Limit orders\n- Token tracking and precision sniping within Telegram\n- Speedier than conventional decentralized exchanges, outpacing platforms like Uniswap.\n\n*Revenue Model*:\n\n1. **Service Fee**: Unibot charges a 1% service fee. 40% of this is allocated to $UNIBOT Token holders, with the remaining going toward team operations.\n2. **$UNIBOT Token Tax**: The token imposes a 5% tax. 1% of the transaction volume is shared with $UNIBOT holders.\n\nIn its prime, daily revenue reached beyond 300 ETH. Despite challenging market conditions, Unibot has performed impressively, garnering approximately 15,000 users and generating around 8,200 ETH (approx. $13 million) in total revenue within three months.\n\n## Banana Gun: The Challenger\n\nBanana Gun, a recent entrant, has managed to challenge Unibot's dominance. With features similar to Unibot, it has garnered a user base comparable in size, but with slightly more active members. Notably, it's proving to be more effective in its \"sniping\" capabilities. Banana Gun's recent pre-sale raised 800 ETH, and they faced some liquidity withdrawal issues due to contract tax complications.\n\n## The Broader Bot Ecosystem\n\nOther bots in the market focus on various niche aspects, such as:\n- Analyzing contract details for potential red flags, like liquidity pool locks, contract access renunciations, and \"rug pull\" possibilities.\n- Tracking the actions of high-performing wallet addresses.\n- Monitoring newly launched project tokens for potential early investment opportunities.\n\n## Why Are Bots Gaining Traction?\n\n1. Their integration with Telegram, one of the most widely-used applications in the industry, provides a natural congregation of traffic.\n2. The essence of buying and selling remains a fundamental need in finance. The functionalities of these bots revolve around trading, and ultimately, profitability is their selling point.\n\nIn conclusion, the world of web3 bots is evolving rapidly. As decentralized technologies mature, bots will undoubtedly play a significant role in the way we interact with and leverage the capabilities of the blockchain. As a stakeholder in this space, I'm excited to be a part of this journey and look forward to the innovations that lie ahead.\n\n------\n\n- Twitter: [https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)\n- Discord: [https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)\n- Source Link: https://blockeden.xyz/blog/2023/09/16/web3-bots-rise-unibot-vs-banana-gun/"
   }
 ]
