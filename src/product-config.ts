@@ -148,26 +148,26 @@ export const productConfig = [
     docUrl: "https://blockeden.xyz/docs/aptos/analytics-and-graphql/",
     costs: "500 CUs / req",
   },
-  {
-    id: "openai-chatgpt",
-    name: "OpenAI ChatGPT",
-    networkType: "HTTP API",
-    avatarSrc: "/assets/img/product/openai-logo.svg",
-
-    urls: [
-      {
-        name: "api",
-        templateUrl:
-          "https://api.blockeden.xyz/openai/${accessKey}/v1/chat/completions",
-        testTemplateUrl:
-          "https://blockeden.xyz/chat/?endpoint=https%3A%2F%2Fapi.blockeden.xyz%2Fopenai%2F${accessKey}%2Fv1%2Fchat%2Fcompletions",
-      },
-    ],
-
-    docUrl:
-      "https://blockeden.xyz/blog/2023/07/19/unveiling-integration-openai-api-blockeden-api-marketplace/",
-    costs: "10,000 CUs / req",
-  },
+  // {
+  //   id: "openai-chatgpt",
+  //   name: "OpenAI ChatGPT",
+  //   networkType: "HTTP API",
+  //   avatarSrc: "/assets/img/product/openai-logo.svg",
+  //
+  //   urls: [
+  //     {
+  //       name: "api",
+  //       templateUrl:
+  //         "https://api.blockeden.xyz/openai/${accessKey}/v1/chat/completions",
+  //       testTemplateUrl:
+  //         "https://blockeden.xyz/chat/?endpoint=https%3A%2F%2Fapi.blockeden.xyz%2Fopenai%2F${accessKey}%2Fv1%2Fchat%2Fcompletions",
+  //     },
+  //   ],
+  //
+  //   docUrl:
+  //     "https://blockeden.xyz/blog/2023/07/19/unveiling-integration-openai-api-blockeden-api-marketplace/",
+  //   costs: "10,000 CUs / req",
+  // },
   // {
   //   id: "model-serve",
   //   name: "AI Model Serve",

@@ -85,9 +85,6 @@ function HomepageHeader() {
                   <Link href="/docs/intro/" className="text-small hover-arrow">
                     View Documentation
                   </Link>
-                  <a href="/chat/" className="text-small hover-arrow">
-                    Free ChatGPT
-                  </a>
                 </div>
               </div>
               <div className="d-flex flex-column mx-1 text-center">
