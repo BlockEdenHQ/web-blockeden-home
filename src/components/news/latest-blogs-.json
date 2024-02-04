@@ -1,17 +1,62 @@
 [
   {
+    "id": "/2024/02/05/blockeden-xyz-espresso-sequencer",
+    "metadata": {
+      "permalink": "/blog/2024/02/05/blockeden-xyz-espresso-sequencer",
+      "source": "@site/blog/2024-02-05-blockeden-xyz-espresso-sequencer.md",
+      "title": "Our view towards Espresso shared sequencer",
+      "description": "Ethereum L2 rollups are centralized. Espresso is trying to decentralize it, and BlockEden.xyz shares the excitement about this vision.",
+      "date": "2024-02-05T00:00:00.000Z",
+      "formattedDate": "February 5, 2024",
+      "tags": [
+        {
+          "label": "product",
+          "permalink": "/blog/tags/product"
+        }
+      ],
+      "readingTime": 1.83,
+      "hasTruncateMarker": false,
+      "authors": [
+        {
+          "name": "Dora Noda",
+          "title": "Software Engineer",
+          "url": "https://github.com/doranoda",
+          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
+          "key": "dora"
+        }
+      ],
+      "frontMatter": {
+        "title": "Our view towards Espresso shared sequencer",
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "product"
+        ],
+        "description": "Ethereum L2 rollups are centralized. Espresso is trying to decentralize it, and BlockEden.xyz shares the excitement about this vision.",
+        "image": "https://tp-misc.b-cdn.net/blockeden/64aeab361b9e2f29031dfabf_bronzemachine-inside-bw.png"
+      },
+      "unlisted": false,
+      "nextItem": {
+        "title": "BlockEden.xyz High-Availability Delegated Blockchain Node Infrastructure",
+        "permalink": "/blog/2024/01/10/delegated-staking-infra"
+      }
+    },
+    "content": "## **Why Espresso sequencer?**\n\nEthereum L2 rollups are centralized. Take [Optimism Architecture](https://blockeden.xyz/blog/2023/04/15/optimism-architecture/) for example. The globally-single sequencer receives L2 transactions from L2 users, creates L2 blocks accordingly, and then submits to [data availability provider](https://tianpan.co/optimism-bedrock-specs/glossary.html#data-availability-provider) (via a [batcher](https://tianpan.co/optimism-bedrock-specs/glossary.html#batcher)). It also submits [output roots](https://tianpan.co/optimism-bedrock-specs/glossary.html#l2-output-root) to L1.\n\nEspresso is trying to decentralize such sequencer and then achieve credible neutrality, enhance interoperability, mitigate the negative effects of MEV, and encourage long-term economic incentive alignment with L1 validators.\n\n## **How does it work with rollups?**\n\nBefore the shared sequencer:\n\n![](https://i.imgur.com/ls8rBQq.png)\n\nAfter introducing the shared sequencer:\n\n![](https://i.imgur.com/2Fcii43.png)\n\n\n## **What is our motivation to join the Espresso Sequencer as an operator?**\n\n1. Shared vision for solving the composability problem between rollups on Ethereum.\n2. A passion for Yale alums's project.\n3. Our partnership with token holders willing to stake with us and Espresso Sequencer.\n4. Our business model ($45M staked and 21 chains' APIs supported) is built on the decentralization of L1s and L2s.\n5. Our expertise with high availability infrastructure fits into the need.\n6. We contribute to the ecosystem. e.g., Sui indexer, Aptos indexer, explorer, docs, community events, etc.\n\n## **What differentiates us from our competitors?**\n\n1. We use Ssilicon VValley standard techniques to run and monitor our infrastructure.\n2. We started with Aptos with a 99.99% uptime and expanded to include Sui, Solana, and 12 EVM blockchains. Now, there are $45M staked and 21 chains' APIs supported.\n3. We host community events with 10x.pub and offer educational sessions around blockchain system design.\n4. We make ecosystem contributions and build SaaS or mobile apps to improve the user experience.\n\n## **What slashing protection(s) do we offer?**\n\n1. Uptime monitoring transparently with 7/24 hours of on-call rotation among our team.\n2. Use on-call playbook and failover techniques to handle failures.\n3. Use hot standby if necessary.\n4. Committed to staying engaged with the community and upgrading service timely.\n\n## **How do we secure our infrastructure?**\n\nWe proactively use AWS key management service, HTTPs, MFA with YubiKey for cloud accounts, Cloudflare for DDoS, rate limiter, authorization and access control, zero trust architecture, security by design when building our infra, etc. Our team comprises IoTeX founding members and security engineers from Uber and Google."
+  },
+  {
     "id": "/2024/01/10/delegated-staking-infra",
     "metadata": {
       "permalink": "/blog/2024/01/10/delegated-staking-infra",
       "source": "@site/blog/2024-01-10-delegated-staking-infra.md",
       "title": "BlockEden.xyz High-Availability Delegated Blockchain Node Infrastructure",
-      "description": "Learn about the features and benefits, including simplified node setup, reduced costs, and stable network performance. Explore BlockEden.xyz's proven track record, its expansion across various blockchains, and how it addresses key issues in the industry. Ideal for businesses and individuals looking to leverage blockchain technology efficiently.",
+      "description": "Learn about the features and benefits, including simplified node setup, reduced costs, and stable network performance.",
       "date": "2024-01-10T00:00:00.000Z",
       "formattedDate": "January 10, 2024",
       "tags": [
         {
-          "label": "product",
-          "permalink": "/blog/tags/product"
+          "label": "company",
+          "permalink": "/blog/tags/company"
         }
       ],
       "readingTime": 4.005,
@@ -31,12 +76,16 @@
           "dora"
         ],
         "tags": [
-          "product"
+          "company"
         ],
-        "description": "Learn about the features and benefits, including simplified node setup, reduced costs, and stable network performance. Explore BlockEden.xyz's proven track record, its expansion across various blockchains, and how it addresses key issues in the industry. Ideal for businesses and individuals looking to leverage blockchain technology efficiently.",
+        "description": "Learn about the features and benefits, including simplified node setup, reduced costs, and stable network performance.",
         "image": "https://beancount-io.b-cdn.net/upgrade-server.jpg"
       },
       "unlisted": false,
+      "prevItem": {
+        "title": "Our view towards Espresso shared sequencer",
+        "permalink": "/blog/2024/02/05/blockeden-xyz-espresso-sequencer"
+      },
       "nextItem": {
         "title": "[Pitch Deck] Stellar Soroban Indexer and GraphQL",
         "permalink": "/blog/2023/10/07/soroban-indexer-pitch-deck"
@@ -97,58 +146,5 @@
       }
     },
     "content": "From September 26-28, 2023, in Madrid, Spain, BlockEden.xyz unveiled the Soroban Indexer and GraphQL at Stellar's annual Meridian conference. We were delighted to showcase our innovations at this esteemed event. Below is our pitch deck for your perusal.\n\n![soroban-indexer-blockeden-xyz-pitch-deck0.png](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck0.png)\n![soroban-indexer-blockeden-xyz-pitch-deck1.png](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck1.png)\n![soroban-indexer-blockeden-xyz-pitch-deck2.png](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck2.png)\n![soroban-indexer-blockeden-xyz-pitch-deck3.png](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck3.png)\n![soroban-indexer-blockeden-xyz-pitch-deck4.png](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck4.png)\n![soroban-indexer-blockeden-xyz-pitch-deck5.png](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck5.png)\n![soroban-indexer-blockeden-xyz-pitch-deck6.png](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck6.png)\n![soroban-indexer-blockeden-xyz-pitch-deck7.png](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck7.png)\n![soroban-indexer-blockeden-xyz-pitch-deck8.png](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck8.png)\n![soroban-indexer-blockeden-xyz-pitch-deck9.png](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck9.png)\n![soroban-indexer-blockeden-xyz-pitch-deck10.png](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck10.png)\n![soroban-indexer-blockeden-xyz-pitch-deck11.png](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck11.png)\n![soroban-indexer-blockeden-xyz-pitch-deck12.png](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck12.png)\n\n------\n\n- Twitter: [https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)\n- Discord: [https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)\n- Source Link: https://blockeden.xyz/blog/2023/10/07/soroban-indexer-pitch-deck/"
-  },
-  {
-    "id": "/2023/09/20/blockeden-xyz-launches-aptos-rest-playground",
-    "metadata": {
-      "permalink": "/blog/2023/09/20/blockeden-xyz-launches-aptos-rest-playground",
-      "source": "@site/blog/2023-09-20-blockeden-xyz-launches-aptos-rest-playground.md",
-      "title": "BlockEden.xyz launches Aptos REST Playground",
-      "description": "Explore the Aptos REST Playground: a state-of-the-art Web3 toolkit for developers. Dive into its features for interactive API testing, real-time data analysis, and user-friendly interface, all optimized for Aptos application development. Unveiled by Blockeden.xyz, it's the ultimate solution for efficient and seamless Aptos API exploration and understanding.",
-      "date": "2023-09-20T00:00:00.000Z",
-      "formattedDate": "September 20, 2023",
-      "tags": [
-        {
-          "label": "product",
-          "permalink": "/blog/tags/product"
-        },
-        {
-          "label": "aptos",
-          "permalink": "/blog/tags/aptos"
-        }
-      ],
-      "readingTime": 3.78,
-      "hasTruncateMarker": false,
-      "authors": [
-        {
-          "name": "SamLis",
-          "title": "Software Engineer",
-          "url": "https://github.com/samlis8",
-          "imageURL": "https://images.mirror-media.xyz/publication-images/g-MTneq6fymU9PbzD6O4R.jpg?height=2080&width=3120",
-          "key": "simlis8"
-        }
-      ],
-      "frontMatter": {
-        "title": "BlockEden.xyz launches Aptos REST Playground",
-        "authors": [
-          "simlis8"
-        ],
-        "tags": [
-          "product",
-          "aptos"
-        ],
-        "description": "Explore the Aptos REST Playground: a state-of-the-art Web3 toolkit for developers. Dive into its features for interactive API testing, real-time data analysis, and user-friendly interface, all optimized for Aptos application development. Unveiled by Blockeden.xyz, it's the ultimate solution for efficient and seamless Aptos API exploration and understanding."
-      },
-      "unlisted": false,
-      "prevItem": {
-        "title": "[Pitch Deck] Stellar Soroban Indexer and GraphQL",
-        "permalink": "/blog/2023/10/07/soroban-indexer-pitch-deck"
-      },
-      "nextItem": {
-        "title": "The Rise of Web3 Bots: Analyzing Unibot and Its Contenders",
-        "permalink": "/blog/2023/09/16/web3-bots-rise-unibot-vs-banana-gun"
-      }
-    },
-    "content": "In modern software development, building robust APIs is crucial. APIs (Application Programming Interfaces) serve as the key for communication and data exchange between different software systems, and an API that is easy to use and test can greatly accelerate the development process. We are excited to announce that we have introduced a brand new feature for Aptos - Aptos REST Playground. This is a high-availability API toolkit based on Aptos development, designed to assist you in building Aptos applications faster and better.\n\n## **What is Aptos REST Playground?**\n\nAptos REST Playground is an interactive Web3 application designed to assist developers in exploring, testing, and understanding the Aptos API with ease. It provides an intuitive [Swagger-based](https://swagger.io/) interactive interface that allows you to construct and send REST requests, view responses, and test to analyze data.\n\nThis tool enables Aptos developers to gain a better understanding of Aptos functionality and build exceptional Aptos applications more quickly and efficiently.\n\n## **Why Choose Aptos REST Playground?**\n\nAptos REST Playground is a high-performance REST API customized specifically for Aptos developers by [Blockeden.xyz](https://blockeden.xyz/). It aims to provide the following advantages to Aptos developers:\n\n1. **Interactive API Testing**\n\nAptos REST Playground allows you to conduct interactive API testing without leaving your browser. It is an interactive application built on [Swagger](https://swagger.io/). You can construct and customize requests, view real-time responses, and make adjustments as needed. This greatly simplifies the process of API testing and debugging.\n\n2. **Real-time Data Analysis**\n\nYou can directly view the data in the API responses within Aptos REST Playground, without the need to write additional code or use third-party tools. This makes it easier for you to comprehend the information returned by the API, facilitating the development of better applications.\n\n3. **User-Friendly**\n\nThe user interface of Aptos REST Playground is highly intuitive, requiring no complex setup or configuration. Whether you are an experienced developer or a beginner, you can easily get started and use it effectively.\n\n## **How to Get Started with Aptos REST Playground?**\n\nEnter our API marketplace and select the Aptos card:\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FwHKJoqtjHOgP_LiNqxJLh.png&w=3840&q=75)\n\nInside the Aptos REST Playground interface, locate the `Test REST chain API` where you can see that we have integrated all the interfaces required for Aptos development:\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FG0cNmuGv8kK8UA124qiIl.png&w=3840&q=75)\n\nHere, you don't need any additional configuration; our playground is ready to use out of the box. Taking `Get Account` as an example, we will show you how to use Aptos REST Playground:\n\n1. Expand the `/account/{address}` table; we have preconfigured some parameters for you. Of course, you can also set your own parameters.\n2. Click the `Try it out` button, and you can access the interface using either our default parameters or any information you set yourself. You will immediately receive the data you need. Pay special attention to the data with an HTTP Code of `200`; it will be your primary focus. With this data, you can analyze any Aptos data request.\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F_GH8ccGTeYkPRxVkrB6bb.png&w=3840&q=75)\n\nSometimes, to test the speed and stability of the product, you may want to build a set of testing code on the frontend yourself. This is allowed and supported by us.\n\nBefore doing so, you need to first locate your BLOCKEDEN_API_KEY, which can be found at [https://blockeden.xyz/dash](https://blockeden.xyz/dash):\n\n![img](https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FJYYc1pr2bz-AKdwLSAvOa.png&w=3840&q=75)\n\nIf you haven't created your own `BLOCKEDEN_API_KEY` yet, you can still use the public API key we provide: `8UuXzatAZYDBJC6YZTKD`.\n\nNow, let's create our own simple testing code based on React and the Aptos REST API:\n\n```js\nimport React, { useState, useEffect } from 'react';\n\nfunction App() {\n  const [data, setData] = useState(null);\n\n  useEffect(() => {\n    const address = '0x0000000000000000000000000000000000000000000000000000000000dead';\n    const apiEndpoint = `https://api.blockeden.xyz/aptos/8UuXzatAZYDBJC6YZTKD/v1/accounts/${address}`;\n\n    const fetchData = async () => {\n      try {\n        const response = await fetch(apiEndpoint, {\n          method: 'get',\n          headers: {\n            'Content-Type': 'application/json'\n          }\n        });\n\n        if (!response.ok) {\n          throw new Error('Network response was not ok');\n        }\n\n        const result = await response.json();\n        setData(result);\n\n      } catch (error) {\n        console.error('API Request Error:', error);\n      }\n    };\n\n    fetchData();\n  }, []);\n\n  return (\n    <div className=\"App\">\n      <h1>Aptos Indexer GraphQL Example</h1>\n      {data ? (\n        <pre>{JSON.stringify(data, null, 2)}</pre>\n      ) : (\n        <p>Loading...</p>\n      )}\n    </div>\n  );\n}\n\nexport default App;\n```\n\nWe also support `cURL` testing:\n\n```plain\ncurl -L -X GET 'https://api.blockeden.xyz/aptos/8UuXzatAZYDBJC6YZTKD/v1/accounts/0x0000000000000000000000000000000000000000000000000000000000dead' \\\\\n-H 'Accept: application/json'\n```\n\nAptos REST Playground is a powerful development tool for Aptos, designed to simplify the process of Aptos development and testing. We hope it provides developers with a better working experience and contributes to the creation of exceptional applications. If you have any feedback or suggestions, please don't hesitate to contact us. Thank you for your attention!\n\n------\n\n- Twitter: [https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)\n- Discord: [https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)\n- Source Link: https://blockeden.xyz/blog/2023/09/20/blockeden-xyz-launches-aptos-rest-playground/"
   }
 ]

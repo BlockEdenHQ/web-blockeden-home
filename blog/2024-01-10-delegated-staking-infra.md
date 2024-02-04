@@ -1,8 +1,8 @@
 ---
 title: "BlockEden.xyz High-Availability Delegated Blockchain Node Infrastructure"
 authors: [dora]
-tags: [product]
-description: "Learn about the features and benefits, including simplified node setup, reduced costs, and stable network performance. Explore BlockEden.xyz's proven track record, its expansion across various blockchains, and how it addresses key issues in the industry. Ideal for businesses and individuals looking to leverage blockchain technology efficiently."
+tags: [company]
+description: "Learn about the features and benefits, including simplified node setup, reduced costs, and stable network performance."
 image: https://beancount-io.b-cdn.net/upgrade-server.jpg
 ---
 
