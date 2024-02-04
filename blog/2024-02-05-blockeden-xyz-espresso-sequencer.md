@@ -1,5 +1,5 @@
 ---
-title: "Our view towards Espresso shared sequencer"
+title: "BlockEden.xyz plans to join Espresso shared sequencer network"
 authors: [dora]
 tags: [product]
 description: "Ethereum L2 rollups are centralized. Espresso is trying to decentralize it, and BlockEden.xyz shares the excitement about this vision."
