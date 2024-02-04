@@ -19,6 +19,7 @@
   --dropdown-dstore                    : #fd947d;
 
   --ifm-heading-font-weight: 400;
+  --ifm-paragraph-margin-bottom: 0;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
