@@ -40,6 +40,10 @@ article {
   line-height: 24px;
 }
 
+article p {
+  margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0;
+}
+
 .footer.footer--dark {
   background-color: #031328 !important;
 }
