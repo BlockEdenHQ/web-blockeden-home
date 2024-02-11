@@ -1,5 +1,5 @@
 ---
-title: BlockEden.xyz join Stellar to bring the API of its new smart contract platform Soroban to developers
+title: BlockEden.xyz joins Stellar to bring the API of its new smart contract platform Soroban to developers
 authors: [dora]
 tags: [company, product, stellar]
 image: https://tp-misc.b-cdn.net/blockeden/BlockEden-xyz-analytics-share-dashboard.png
@@ -23,7 +23,7 @@ BlockEden.xyz is an API marketplace powering DApps of all sizes for Sui, Aptos, 
 
 1. High availability. We maintain 99.9% uptime since our first API - Aptos main net launch.
 2. Inclusive API offerings and community. Our services have expanded to include Sui, Ethereum, IoTeX, Solana, Polygon, Polygon zkEVM, Filecoin, Harmony, BSC, Arbitrum, Optimism, Gnosis, Arbitrum Nova & EthStorage Galileo. Our community 10x.pub has 4000+ web3 innovators from Silicon Valley, Seattle, and NYC.
-3. Security. With over $45 million worth of tokens staked with us, our clients trust us to provide reliable and secure solutions for their web3 and blockchain needs. 
+3. Security. With over $45 million worth of tokens staked with us, our clients trust us to provide reliable and secure solutions for their web3 and blockchain needs.
 
 We provide a comprehensive suite of services designed to empower every participant in the blockchain space, focusing on three key areas:
 
@@ -39,7 +39,7 @@ This comprehensive expansion into Stellar's infrastructure is set to present dev
 
 **Node operator and Indexer for Soroban RPC and Indexer GraphQL**
 
-As a node operator, BlockEden.xyz runs Soroban RPC, and then provides commercial standard RPCs to developers on the left. Unlike the official endpoints, our RPCs are equipped with rate limits and API meters tailored to developers’ tiered needs. 
+As a node operator, BlockEden.xyz runs Soroban RPC, and then provides commercial standard RPCs to developers on the left. Unlike the official endpoints, our RPCs are equipped with rate limits and API meters tailored to developers’ tiered needs.
 
 BlockEden.xyz also builds an indexer for contract data, tokens, events, etc. in the Soroban smart contract platform.
 
@@ -51,7 +51,7 @@ The index data will serve as GraphQL similar to our [Aptos Indexer](https://clou
 
 **Business Intelligence / Analytics**
 
-Once we get the indexed data above, we will serve business intelligence, similar to our Aptos one, where customers could build [dashboards](https://blockeden.xyz/analytics/public/dashboard/8aebd278-8f33-43ea-95f3-8baf3ecab5cf), [inspect data tables](https://blockeden.xyz/analytics/browse/2/schema/public), and write SQLs. 
+Once we get the indexed data above, we will serve business intelligence, similar to our Aptos one, where customers could build [dashboards](https://blockeden.xyz/analytics/public/dashboard/8aebd278-8f33-43ea-95f3-8baf3ecab5cf), [inspect data tables](https://blockeden.xyz/analytics/browse/2/schema/public), and write SQLs.
 
 ![Image](https://lh6.googleusercontent.com/VJQxpoF6bmKQSMrk0STr_hcwznc_e2bqZPjTPr5jJdiWQHX-Rtt4ZQ3bloDU90LGAHtAJmMvkLKIsyXXbZRk2pUvvFyxgGR9nJY1UthYGUMGjE-O2KNdwfid8Svm4AWWnnRtv05P68jLNrZ32V_OU7Q)
 
