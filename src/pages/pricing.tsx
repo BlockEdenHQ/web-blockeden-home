@@ -130,7 +130,7 @@ export default function Pricing() {
                         <span>
                           <Link
                             href={
-                              "https://blockeden.xyz/dash/create-payment-subscription?planId=price_43HvJxmZxnDHJJ4R22Jm&isCrypto=true"
+                              "https://blockeden.xyz/dash/create-payment-subscription?planId=price_8L39qapm4QmesQC4yGNV&isCrypto=true"
                             }
                           >
                             Pay with crypto
@@ -181,7 +181,7 @@ export default function Pricing() {
                         <span>
                           <Link
                             href={
-                              "https://blockeden.xyz/dash/create-payment-subscription?planId=price_5UuXzatAZYDBJC2YZTKD&isCrypto=true"
+                              "https://blockeden.xyz/dash/create-payment-subscription?planId=price_AkhvFdSckLtLdnMZyhCM&isCrypto=true"
                             }
                           >
                             Pay with crypto
@@ -231,7 +231,7 @@ export default function Pricing() {
                         <span>
                           <Link
                             href={
-                              "https://blockeden.xyz/dash/create-payment-subscription?planId=price_Ve6AjMqzP6MdMUhdFk2u&isCrypto=true"
+                              "https://blockeden.xyz/dash/create-payment-subscription?planId=price_s8G1uobrd9FUwqi7wc3N&isCrypto=true"
                             }
                           >
                             Pay with crypto
