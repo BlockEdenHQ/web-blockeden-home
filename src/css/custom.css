@@ -406,3 +406,8 @@ blockquote {
 .c-link svg {
   vertical-align: middle;
 }
+
+article img {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 10px;
+}
