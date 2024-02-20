@@ -2,10 +2,14 @@
 title: BlockEden.xyz joins Stellar to bring the API of its new smart contract platform Soroban to developers
 authors: [dora]
 tags: [company, product, stellar]
-image: https://tp-misc.b-cdn.net/blockeden/BlockEden-xyz-analytics-share-dashboard.png
+image: https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png
+description: We are excited to share that BlockEden.xyz is joining hands with Stellar, in order to empower developers worldwide.
 ---
 
 We are excited to share that BlockEden.xyz is joining hands with Stellar, in order to empower developers worldwide. Stellar's blockchain platform has been a game-changer in quick and affordable cross-border transactions, while BlockEden.xyz's reliable API offerings for diverse DApps have positioned us as a key player across multiple blockchains. Together, we are poised to inspire a dynamic shift in the realms of blockchain and global finance.
+
+![](https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png)
+
 
 ## **What is Stellar**
 
@@ -15,7 +19,7 @@ Stellar is an open-source, decentralized blockchain network designed to facilita
 
 Soroban is a smart contract platform that is integrated into the existing Stellar blockchain. Developers could develop smart contracts with a Rust dialect and interact with Stellar’s accounts and assets, not other operations like SDEX, AMMs, Claimable Balances, or Sponsorships.
 
-Soroban is still in development but is currently live on the test network named Futurenet.
+The Soroban mainnet upgrade is scheduled for February 20th .
 
 ## **What is BlockEden.xyz**
 
@@ -43,19 +47,20 @@ As a node operator, BlockEden.xyz runs Soroban RPC, and then provides commercial
 
 BlockEden.xyz also builds an indexer for contract data, tokens, events, etc. in the Soroban smart contract platform.
 
-![img](https://lh6.googleusercontent.com/FALEHIEqPxfVXzaz7kntziTFZcaOC19rt56ylfDbJrVl_AHw6fK7KKUUhJjuJOyIZvdKlBP3_Ftu3GNSTKpOvTRsc3Qv9xNANu85o5OssAhkOFS8U1ZvPEdcvcd4rwCf4j2VUz-t7qmwdoUw-t3UGPw)
+![img](https://tp-misc.b-cdn.net/blockeden/soroban-how-indexer-works.png)
 
-The index data will serve as GraphQL similar to our [Aptos Indexer](https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fapi.blockeden.xyz%2Faptos%2Findexer%2F8UuXzatAZYDBJC6YZTKD%2Fv1%2Fgraphql). The exact content of the index data is to be decided, though we will expose at least the developer-facing data models of the Horizon service.
+The index data will serve as [GraphQL](https://blockeden.xyz/api-marketplace/stellar-soroban-indexer). The exact content of the index data is to be decided, though we will expose at least the developer-facing data models of the Horizon service.
 
-![img](https://lh3.googleusercontent.com/Mlvx85ruq5alwNEGjwdqI5PIR76vOb4Snj1xM6H937sG3FOjXSq_UAnXcnKFGghua2TszWC7nukTFp1KMSN25RZMAlNkeTg1bNKAjME6VX3rmjk4lROf3ig1KjqQtHV3kRVkCtfbsWM9VXbYcgI41DQ)
+![img](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-01_99.webp)
 
 **Business Intelligence / Analytics**
 
-Once we get the indexed data above, we will serve business intelligence, similar to our Aptos one, where customers could build [dashboards](https://blockeden.xyz/analytics/public/dashboard/8aebd278-8f33-43ea-95f3-8baf3ecab5cf), [inspect data tables](https://blockeden.xyz/analytics/browse/2/schema/public), and write SQLs.
+![img](https://tp-misc.b-cdn.net/blockeden/soroban-mainnet-analytics.webp)
 
-![Image](https://lh6.googleusercontent.com/VJQxpoF6bmKQSMrk0STr_hcwznc_e2bqZPjTPr5jJdiWQHX-Rtt4ZQ3bloDU90LGAHtAJmMvkLKIsyXXbZRk2pUvvFyxgGR9nJY1UthYGUMGjE-O2KNdwfid8Svm4AWWnnRtv05P68jLNrZ32V_OU7Q)
 
-![img](https://lh5.googleusercontent.com/2TVAvtjxb0EZj6SyGTTFmdB2UtIx2ObDmAlkOSetG6TBO7_B1tQbOX29Pnr23UEzpqTQafqXlIS1AzunECCa5OsZIPtLXgwlV7_hclaHXdwEFRSNavi8xy2QnkfaI1LJd9XZKrRfP7t3TmliSy7hSFU)
+**Soroban RPC**
+
+For developer's convenience, we also serve [the standard JSON RPC](https://blockeden.xyz/api-marketplace/stellar-soroban).
 
 ## **Conclusion**
 

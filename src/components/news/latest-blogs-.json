@@ -1,5 +1,60 @@
 [
   {
+    "id": "/2024/02/19/blockeden-xyz-join-stellar-to-bring-data-of-its-new-smart-contract-platform-soroban-to-developers",
+    "metadata": {
+      "permalink": "/blog/2024/02/19/blockeden-xyz-join-stellar-to-bring-data-of-its-new-smart-contract-platform-soroban-to-developers",
+      "source": "@site/blog/2024-02-19-blockeden-xyz-join-stellar-to-bring-data-of-its-new-smart-contract-platform-soroban-to-developers.md",
+      "title": "BlockEden.xyz joins Stellar to bring the API of its new smart contract platform Soroban to developers",
+      "description": "We are excited to share that BlockEden.xyz is joining hands with Stellar, in order to empower developers worldwide.",
+      "date": "2024-02-19T00:00:00.000Z",
+      "formattedDate": "February 19, 2024",
+      "tags": [
+        {
+          "label": "company",
+          "permalink": "/blog/tags/company"
+        },
+        {
+          "label": "product",
+          "permalink": "/blog/tags/product"
+        },
+        {
+          "label": "stellar",
+          "permalink": "/blog/tags/stellar"
+        }
+      ],
+      "readingTime": 3.355,
+      "hasTruncateMarker": false,
+      "authors": [
+        {
+          "name": "Dora Noda",
+          "title": "Software Engineer",
+          "url": "https://github.com/doranoda",
+          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
+          "key": "dora"
+        }
+      ],
+      "frontMatter": {
+        "title": "BlockEden.xyz joins Stellar to bring the API of its new smart contract platform Soroban to developers",
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "company",
+          "product",
+          "stellar"
+        ],
+        "image": "https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png",
+        "description": "We are excited to share that BlockEden.xyz is joining hands with Stellar, in order to empower developers worldwide."
+      },
+      "unlisted": false,
+      "nextItem": {
+        "title": "BlockEden.xyz spins out Payton to accept crypto payment",
+        "permalink": "/blog/2024/02/11/spin-out-payton"
+      }
+    },
+    "content": "We are excited to share that BlockEden.xyz is joining hands with Stellar, in order to empower developers worldwide. Stellar's blockchain platform has been a game-changer in quick and affordable cross-border transactions, while BlockEden.xyz's reliable API offerings for diverse DApps have positioned us as a key player across multiple blockchains. Together, we are poised to inspire a dynamic shift in the realms of blockchain and global finance.\n\n## **What is Stellar**\n\nStellar is an open-source, decentralized blockchain network designed to facilitate swift, low-cost cross-border transactions. Introduced in 2014 by Jed McCaleb, co-founder of Ripple and eDonkey, the Stellar network operates on a unique consensus protocol rather than the traditional proof-of-work or proof-of-stake mechanisms. People use Stellar network to build applications, issue assets, and build anchors (currency converters).\n\n### Stellar Soroban\n\nSoroban is a smart contract platform that is integrated into the existing Stellar blockchain. Developers could develop smart contracts with a Rust dialect and interact with Stellar’s accounts and assets, not other operations like SDEX, AMMs, Claimable Balances, or Sponsorships.\n\nSoroban is still in development but is currently live on the test network named Futurenet.\n\n## **What is BlockEden.xyz**\n\nBlockEden.xyz is an API marketplace powering DApps of all sizes for Sui, Aptos, Solana, and 12 EVM blockchains. Why do our customers choose us?\n\n1. High availability. We maintain 99.9% uptime since our first API - Aptos main net launch.\n2. Inclusive API offerings and community. Our services have expanded to include Sui, Ethereum, IoTeX, Solana, Polygon, Polygon zkEVM, Filecoin, Harmony, BSC, Arbitrum, Optimism, Gnosis, Arbitrum Nova & EthStorage Galileo. Our community 10x.pub has 4000+ web3 innovators from Silicon Valley, Seattle, and NYC.\n3. Security. With over $45 million worth of tokens staked with us, our clients trust us to provide reliable and secure solutions for their web3 and blockchain needs.\n\nWe provide a comprehensive suite of services designed to empower every participant in the blockchain space, focusing on three key areas:\n\n- For blockchain **protocol builders**, we ensure robust security and decentralization by operating nodes and making long-term ecosystem contributions.\n- For **DApp developers**, we build user-friendly APIs to streamline development and unleash the full potential of decentralized applications.\n- For **token holders**, we offer a reliable staking service to maximize rewards and optimize asset management.\n\n## **What is** **BlockEden.xyz building on Stellar and what** **does this mean for developers?**\n\nBlockEden.xyz is leveraging the Stellar network to offer commercial Soroban RPC and indexed data to help DApp developers to speed up development with a GraphQL API and analytics.\n\nThis comprehensive expansion into Stellar's infrastructure is set to present developers with more resources and tools, potentially facilitating easier adoption and more robust application development within the Stellar blockchain ecosystem.\n\n**Node operator and Indexer for Soroban RPC and Indexer GraphQL**\n\nAs a node operator, BlockEden.xyz runs Soroban RPC, and then provides commercial standard RPCs to developers on the left. Unlike the official endpoints, our RPCs are equipped with rate limits and API meters tailored to developers’ tiered needs.\n\nBlockEden.xyz also builds an indexer for contract data, tokens, events, etc. in the Soroban smart contract platform.\n\n![img](https://tp-misc.b-cdn.net/blockeden/soroban-how-indexer-works.png)\n\nThe index data will serve as GraphQL similar to our [Aptos Indexer](https://cloud.hasura.io/public/graphiql?endpoint=https%3A%2F%2Fapi.blockeden.xyz%2Faptos%2Findexer%2F8UuXzatAZYDBJC6YZTKD%2Fv1%2Fgraphql). The exact content of the index data is to be decided, though we will expose at least the developer-facing data models of the Horizon service.\n\n![img](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-01_99.webp)\n\n**Business Intelligence / Analytics**\n\nOnce we get the indexed data above, we will serve business intelligence, similar to our Aptos one, where customers could build [dashboards](https://blockeden.xyz/analytics/public/dashboard/8aebd278-8f33-43ea-95f3-8baf3ecab5cf), [inspect data tables](https://blockeden.xyz/analytics/browse/2/schema/public), and write SQLs.\n\n![img](https://tp-misc.b-cdn.net/blockeden/soroban-mainnet-analytics.webp)\n\n![](https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png)\n\n\n\n\n\n## **Conclusion**\n\nIn conclusion, as we pave the way towards a new era in blockchain and global finance, our partnership with Stellar represents a significant milestone. Harnessing Stellar's swift, cost-effective transaction capabilities and BlockEden.xyz's high-quality API offerings, we are poised to create a paradigm shift in the way developers engage with the open money network. We hope this work will inspire innovations, trigger advancements, and propel us all towards a more connected and decentralized world. Here's to a future filled with endless possibilities and shared successes."
+  },
+  {
     "id": "/2024/02/11/spin-out-payton",
     "metadata": {
       "permalink": "/blog/2024/02/11/spin-out-payton",
@@ -41,6 +96,10 @@
         "image": "https://tp-misc.b-cdn.net/blockeden/payton-tile.png"
       },
       "unlisted": false,
+      "prevItem": {
+        "title": "BlockEden.xyz joins Stellar to bring the API of its new smart contract platform Soroban to developers",
+        "permalink": "/blog/2024/02/19/blockeden-xyz-join-stellar-to-bring-data-of-its-new-smart-contract-platform-soroban-to-developers"
+      },
       "nextItem": {
         "title": "BlockEden.xyz plans to join Espresso shared sequencer network",
         "permalink": "/blog/2024/02/05/blockeden-xyz-espresso-sequencer"
@@ -96,54 +155,5 @@
       }
     },
     "content": "## **Why Espresso sequencer?**\n\nEthereum L2 rollups are centralized. Take [Optimism Architecture](https://blockeden.xyz/blog/2023/04/15/optimism-architecture/) for example. The globally-single sequencer receives L2 transactions from L2 users, creates L2 blocks accordingly, and then submits to [data availability provider](https://tianpan.co/optimism-bedrock-specs/glossary.html#data-availability-provider) (via a [batcher](https://tianpan.co/optimism-bedrock-specs/glossary.html#batcher)). It also submits [output roots](https://tianpan.co/optimism-bedrock-specs/glossary.html#l2-output-root) to L1.\n\nEspresso is trying to decentralize such sequencer and then achieve credible neutrality, enhance interoperability, mitigate the negative effects of MEV, and encourage long-term economic incentive alignment with L1 validators.\n\n## **How does it work with rollups?**\n\nBefore the shared sequencer:\n\n![](https://i.imgur.com/ls8rBQq.png)\n\nAfter introducing the shared sequencer:\n\n![](https://i.imgur.com/2Fcii43.png)\n\n\n## **What is our motivation to join the Espresso Sequencer as an operator?**\n\n1. Shared vision for solving the composability problem between rollups on Ethereum.\n2. A passion for Yale alums's project.\n3. Our partnership with token holders willing to stake with us and Espresso Sequencer.\n4. Our business model ($45M staked and 21 chains' APIs supported) is built on the decentralization of L1s and L2s.\n5. Our expertise with high availability infrastructure fits into the need.\n6. We contribute to the ecosystem. e.g., Sui indexer, Aptos indexer, explorer, docs, community events, etc.\n\n## **What differentiates us from our competitors?**\n\n1. We use Ssilicon VValley standard techniques to run and monitor our infrastructure.\n2. We started with Aptos with a 99.99% uptime and expanded to include Sui, Solana, and 12 EVM blockchains. Now, there are $45M staked and 21 chains' APIs supported.\n3. We host community events with 10x.pub and offer educational sessions around blockchain system design.\n4. We make ecosystem contributions and build SaaS or mobile apps to improve the user experience.\n\n## **What slashing protection(s) do we offer?**\n\n1. Uptime monitoring transparently with 7/24 hours of on-call rotation among our team.\n2. Use on-call playbook and failover techniques to handle failures.\n3. Use hot standby if necessary.\n4. Committed to staying engaged with the community and upgrading service timely.\n\n## **How do we secure our infrastructure?**\n\nWe proactively use AWS key management service, HTTPs, MFA with YubiKey for cloud accounts, Cloudflare for DDoS, rate limiter, authorization and access control, zero trust architecture, security by design when building our infra, etc. Our team comprises IoTeX founding members and security engineers from Uber and Google."
-  },
-  {
-    "id": "/2024/01/10/delegated-staking-infra",
-    "metadata": {
-      "permalink": "/blog/2024/01/10/delegated-staking-infra",
-      "source": "@site/blog/2024-01-10-delegated-staking-infra.md",
-      "title": "BlockEden.xyz High-Availability Delegated Blockchain Node Infrastructure",
-      "description": "Learn about the features and benefits, including simplified node setup, reduced costs, and stable network performance.",
-      "date": "2024-01-10T00:00:00.000Z",
-      "formattedDate": "January 10, 2024",
-      "tags": [
-        {
-          "label": "company",
-          "permalink": "/blog/tags/company"
-        }
-      ],
-      "readingTime": 4.005,
-      "hasTruncateMarker": false,
-      "authors": [
-        {
-          "name": "Dora Noda",
-          "title": "Software Engineer",
-          "url": "https://github.com/doranoda",
-          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
-        }
-      ],
-      "frontMatter": {
-        "title": "BlockEden.xyz High-Availability Delegated Blockchain Node Infrastructure",
-        "authors": [
-          "dora"
-        ],
-        "tags": [
-          "company"
-        ],
-        "description": "Learn about the features and benefits, including simplified node setup, reduced costs, and stable network performance.",
-        "image": "https://beancount-io.b-cdn.net/upgrade-server.jpg"
-      },
-      "unlisted": false,
-      "prevItem": {
-        "title": "BlockEden.xyz plans to join Espresso shared sequencer network",
-        "permalink": "/blog/2024/02/05/blockeden-xyz-espresso-sequencer"
-      },
-      "nextItem": {
-        "title": "[Pitch Deck] Stellar Soroban Indexer and GraphQL",
-        "permalink": "/blog/2023/10/07/soroban-indexer-pitch-deck"
-      }
-    },
-    "content": "**Node operation made easy with a reliable infrastructure**\n\nBlockEden.xyz introduces an advanced blockchain node infrastructure, enhancing the reliability and performance of blockchain operations. This development empowers customers to manage blockchain nodes easily and efficiently, ensuring the high availability and robustness of their blockchain applications.\n\nBlockchain node operation often encounters issues like network instability, uptime monitoring, complex setup processes, and high maintenance costs. These challenges pose significant hurdles for businesses and individuals seeking to leverage blockchain technology.\n\nBlockEden.xyz's delegated staking infrastructure offers a state-of-the-art solution to these challenges. This high-availability blockchain node infrastructure simplifies node setup, reduces operational costs, and ensures stable and consistent network performance. This makes blockchain technology more accessible and practical for a broader range of users.\n\n![](https://tp-misc.b-cdn.net/blockeden/soroban-indexer-blockeden-xyz-pitch-deck1.png)\n\nBlockEden.xyz has an impressive track record, starting with Aptos and maintaining 99.9% uptime since its mainnet launch. Our services have expanded to include Sui, Solana, and 12 EVM blockchains, demonstrating our adaptability and commitment to staying at the forefront of the industry. With over $45 million worth of tokens staked with us, our clients trust us to provide reliable and secure solutions for their web3 and blockchain needs.\n\n### What is BlockEden.xyz’s Offering of the Delegated Staking Infra?\n\n1. Integrating with new networks.\n2. Managed/delegated services to run blockchain nodes, including maintaining a service-level agreement, status monitoring, active on-call, and failover.\n3. Develop tools to improve efficiency, e.g., distributing rewards.\n\nInternal FAQs\n\n### What are the OKRs for Delegated Staking Infra Trying to Achieve?\n\nGoals:\n* Build a reliable, safe, extensible, and cost-efficient delegated staking infrastructure to sustainably generate revenue streams for BlockEden.xyz.\n  * Reliable: the delegate node should have high availability.\n  * Safe: the funds delegated to us should be safe.\n  * Extensible: the infra should be reusable to expand to another blockchain network.\n  * Cost-efficient: the infra machine cost should be covered by the delegate revenue.\n\n| Items                       | Key Results                |\n| --------------------------- | -------------------------- |\n| SLO server uptime           | 99.9%                      |\n| New network onboarding time | \\<= 2 weeks for EVM chains |\n\n### Why is Delegated Staking Infra Important to BlockEden.xyz?\n\n* It’s the revenue-generating program, bringing resources to do more strategic infra work.\n* It’s an essential infra component to serve chain RPCs, particularly for latency-sensitive use cases.\n\n### How Can Delegated Staking Infra Fail? Would it Cause Customer Dislikes?\n\n* Failures in delegated staking infrastructure primarily occur due to service disruptions and server downtime. These issues can prevent customers from staking tokens or lead to reduced rewards due to slashing penalties. Such disruptions often result in customer dissatisfaction due to unmet expectations of consistent earnings and reliable service.\n\n### What are the Dependencies?\n\n* Network Selection: The chosen blockchain network plays a critical role. Different networks may have varying protocols, reward structures, and security requirements.\n* Initial Funding: To participate as a validator in the staking process, an initial investment or fund is required. This amount varies depending on the network's criteria and serves as your stake in the network.\n\n### What are the Risks?\n\n* Fund Safety: Ideally, we should make a product that doesn’t bear the liability for the customer's fund. However, it largely depends on the blockchain's features, e.g., isolation of token owner and node operator permission.\n* Crypto Market Volatility: In a sudden crypto price crash or bearish market, the token rewards might be short to cover the machine cost. A liquidation plan should be in place to ensure funds are secured to operate the infra.\n\n### How to Use this Staking Infra?\n\n* BlockEden.xyz offers comprehensive documentation for getting started with our staking infrastructure, including step-by-step guides for both manual staking processes\n\n### **Why does staking infra matter to me?**\n\n- **Ease of Access**: You can easily participate in staking and enjoy its benefits without needing deep technical knowledge or extensive resources.\n- **Flexibility for Future Growth**: We provide the capability for future technical integrations with your needs, ensuring that as your staking needs evolve, our infrastructure can accommodate them.\n\n### **How to use this staking infra?**\n\n- To get started with our staking infrastructure, BlockEden.xyz offers comprehensive documentation. This includes step-by-step guides for both manual staking processes and technical integrations.\n- We're committed to supporting your journey, addressing concerns and fulfilling requirements as they arise, ensuring a smooth and effective staking experience.\n\n### **How do I know if this staking infra is the right solution to my problem?**\n\n- To assess if our staking infrastructure suits your requirements, we recommend a phased approach. Start by trialing our service with selected networks. Monitor performance and stability over a set period. Based on this experience and the proven results obtained, you can then evaluate the effectiveness of our solution. This data-driven approach allows for informed decision-making and helps forecast potential future revenues, ensuring alignment with your business objectives."
   }
 ]
