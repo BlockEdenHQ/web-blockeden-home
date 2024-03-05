@@ -14,7 +14,7 @@ function shuffle(ar: any, seed = new Date().getDate()) {
 
 export const productConfig = [
   {
-    id: "stellar-testnet-soroban-indexer",
+    id: "stellar-soroban-indexer",
     name: "Soroban Indexer",
     networkType: "GraphQL",
     avatarSrc: "/assets/img/product/stellar-logo.png",
@@ -31,7 +31,7 @@ export const productConfig = [
     costs: "2,000 CU / req",
   },
   {
-    id: "stellar-futurenet-soroban",
+    id: "stellar-soroban",
     name: "Soroban",
     networkType: "JSON RPC",
     avatarSrc: "/assets/img/product/stellar-logo.png",
