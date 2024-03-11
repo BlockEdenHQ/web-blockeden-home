@@ -1,5 +1,99 @@
 [
   {
+    "id": "/2024/03/11/koii",
+    "metadata": {
+      "permalink": "/blog/2024/03/11/koii",
+      "source": "@site/blog/2024-03-11-koii.md",
+      "title": "Empowering Innovation Through Strategic Partnership with Koii Network",
+      "description": "Discover the partnership between BlockEden.xyz and Koii Network, uniting to democratize the digital landscape with secure, scalable blockchain solutions. Explore how this alliance empowers developers, innovators, and the community with reliable APIs, enhanced privacy, and a supportive ecosystem for decentralized app development.",
+      "date": "2024-03-11T00:00:00.000Z",
+      "formattedDate": "March 11, 2024",
+      "tags": [
+        {
+          "label": "company",
+          "permalink": "/blog/tags/company"
+        }
+      ],
+      "readingTime": 2.22,
+      "hasTruncateMarker": false,
+      "authors": [
+        {
+          "name": "Dora Noda",
+          "title": "Software Engineer",
+          "url": "https://github.com/doranoda",
+          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
+          "key": "dora"
+        }
+      ],
+      "frontMatter": {
+        "title": "Empowering Innovation Through Strategic Partnership with Koii Network",
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "company"
+        ],
+        "description": "Discover the partnership between BlockEden.xyz and Koii Network, uniting to democratize the digital landscape with secure, scalable blockchain solutions. Explore how this alliance empowers developers, innovators, and the community with reliable APIs, enhanced privacy, and a supportive ecosystem for decentralized app development.",
+        "image": "https://tp-misc.b-cdn.net/blockeden/blockedennyz-partners-with-koii.webp"
+      },
+      "unlisted": false,
+      "nextItem": {
+        "title": "BlockEden.xyz Partners with Supra Oracles",
+        "permalink": "/blog/2024/03/11/supra"
+      }
+    },
+    "content": "## Introduction\n\nIn the dynamic realm of blockchain and decentralized technologies, BlockEden.xyz stands as a wave of innovation, security, and community-driven progress for new blockchains. Today, we are glad to announce a new partnership with Koii Network, a visionary platform aimed at decentralizing the power of the internet and returning control to the community. This collaboration is more than a mere alliance; it's a step forward in our commitment to fostering an environment where technology serves the many, not the few.\n\n![](https://tp-misc.b-cdn.net/blockeden/blockedennyz-partners-with-koii.webp)\n\n## BlockEden.xyz: At the Forefront of Blockchain Solutions\n\nBlockEden.xyz is renowned for its robust API marketplace, boasting an impressive $50M staked, 47 APIs, and a community of over 6000 developers. Our dedication to high availability, security, and inclusivity has made us a trusted partner for blockchain protocol builders, DApp developers, and token holders alike.\n\n## Koii Network: Democratizing the Digital Space\n\nKoii Network's mission to decentralize internet power aligns with our vision of a more equitable digital future. By leveraging edge computing and introducing \"Gradual Consensus\" through Koii Tasks, Koii offers an environmentally friendly, cost-effective way for individuals to earn income from their computing resources. Their focus on building fast, scalable, and private systems presents an innovative alternative to conventional social media, publishing, and AI systems.\n\n## A Partnership for the Future\n\nThe partnership between BlockEden.xyz and Koii Network signifies a confluence of shared values and technological synergy. Together, we aim to:\n\n- **Enhance Digital Security and Privacy:** By combining our strengths, we can offer more secure and private digital solutions, safeguarding user data and empowering individuals with control over their digital footprint.\n- **Foster Innovation and Scalability:** This collaboration will accelerate the development of decentralized applications (dApps) that are not only innovative but also scalable and accessible to a broader audience.\n- **Support Community-Led Development:** We are committed to supporting the community's role in shaping the future of technology. This partnership will provide tools, resources, and a supportive ecosystem for developers and innovators to bring their visions to life.\n- **Expand onboarding options and contribute to tooling for Koii node operators:** BlockEden.xyz has deep technical experience running nodes for a plethora of blockchain ecosystems, and will bring industry experience to the Koii ecosystem.\n\n## Conclusion\n\nAs we embark on this journey with Koii Network, BlockEden.xyz remains steadfast in our mission to empower the blockchain space with high-quality, reliable, and inclusive solutions. This partnership is a testament to our belief in collaboration over competition and innovation for the common good. Together, we are paving the way for a future where technology empowers every individual, fostering a more open, fair, and decentralized world.\n\n\n- Twitter: https://twitter.com/BlockEdenHQ\n- Discord: https://discord.gg/4Yfvs2HWey\n- Source Link: https://blockeden.xyz/blog/2024/03/11/koii/"
+  },
+  {
+    "id": "/2024/03/11/supra",
+    "metadata": {
+      "permalink": "/blog/2024/03/11/supra",
+      "source": "@site/blog/2024-03-11-supra.md",
+      "title": "BlockEden.xyz Partners with Supra Oracles",
+      "description": "New partnership between BlockEden.xyz and Supra Oracles, uniting advanced API marketplace capabilities with cutting-edge oracle technology to revolutionize the blockchain ecosystem. Enhance your Web3 experience with unparalleled security, reliability, and cross-chain interoperability, fostering innovation and community growth in the decentralized world.",
+      "date": "2024-03-11T00:00:00.000Z",
+      "formattedDate": "March 11, 2024",
+      "tags": [
+        {
+          "label": "company",
+          "permalink": "/blog/tags/company"
+        }
+      ],
+      "readingTime": 2.05,
+      "hasTruncateMarker": false,
+      "authors": [
+        {
+          "name": "Dora Noda",
+          "title": "Software Engineer",
+          "url": "https://github.com/doranoda",
+          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
+          "key": "dora"
+        }
+      ],
+      "frontMatter": {
+        "title": "BlockEden.xyz Partners with Supra Oracles",
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "company"
+        ],
+        "description": "New partnership between BlockEden.xyz and Supra Oracles, uniting advanced API marketplace capabilities with cutting-edge oracle technology to revolutionize the blockchain ecosystem. Enhance your Web3 experience with unparalleled security, reliability, and cross-chain interoperability, fostering innovation and community growth in the decentralized world.",
+        "image": "https://tp-misc.b-cdn.net/blockeden/blockedennyz-partners-with-supra-oracles.webp"
+      },
+      "unlisted": false,
+      "prevItem": {
+        "title": "Empowering Innovation Through Strategic Partnership with Koii Network",
+        "permalink": "/blog/2024/03/11/koii"
+      },
+      "nextItem": {
+        "title": "Blockchain Regulatory Certainty Act",
+        "permalink": "/blog/2024/02/25/blockchain-regulatory-certainty-act"
+      }
+    },
+    "content": "## A Meeting of Minds: Supra Oracles and BlockEden.xyz\n\n**Supra Oracles** has been instrumental in bridging the gap between traditional Web2 technologies and the burgeoning Web3 horizon. By enhancing oracle technology, cross-chain communication, and consensus mechanisms, Supra is facilitating a seamless transition to a more decentralized and secure digital future. Their Distributed Oracle Agreements (DORA) Protocol ensures that data is sourced, verified, and recorded on blockchains with unmatched accuracy and integrity.\n\n**BlockEden.xyz** emerges as a pioneering API marketplace, distinguished by our unwavering commitment to high availability, comprehensive API offerings, and fortified security measures. Our platform boasts a robust infrastructure with $50M staked, 47 APIs, and a vibrant community of over 6000 developers, all underpinned by a 99.9% overall uptime. We take pride in our inclusive ecosystem, which caters to the diverse needs of blockchain protocol builders, DApp developers, and token holders alike, ensuring a harmonious balance between innovation and security.\n\n## What This Partnership Means for Our Customers\n\nOur alliance with Supra Oracles is more than a partnership; it's a synergy of two entities dedicated to enhancing the blockchain space for developers, innovators, and users worldwide. Here's what our users can expect:\n\n- **Enhanced Security and Reliability:** The integration of Supra's oracle solutions with BlockEden.xyz's APIs means even more secure and reliable data feeds, critical for the development of decentralized applications that users can trust.\n\n- **Expanded Interoperability:** With Supra's focus on cross-chain communication, our customers will benefit from seamless interaction across different blockchain networks, opening up a realm of possibilities for developers to create more versatile and impactful DApps.\n\n- **Innovative Solutions:** The combination of Supra's cutting-edge technology, including the dVRF for decentralized randomness, with BlockEden.xyz's comprehensive API offerings, sets the stage for innovative applications that push the boundaries of what's possible in the Web3 space.\n\n- **Community and Support:** Both BlockEden.xyz and Supra Oracles are deeply committed to their communities, offering resources, support, and education to empower users and developers alike. This partnership amplifies our collective ability to serve our community, fostering growth and innovation within the ecosystem.\n\nIn closing, the collaboration between BlockEden.xyz and Supra Oracles is a testament to our shared vision of a decentralized future, built on the pillars of security, interoperability, and community. We are excited about the opportunities this partnership will unlock for our users and the broader blockchain community, as we continue to navigate the promising yet uncharted territories of Web3 together.\n\n- Twitter: https://twitter.com/BlockEdenHQ\n- Discord: https://discord.gg/4Yfvs2HWey\n- Source Link: https://blockeden.xyz/blog/2024/03/11/supra/"
+  },
+  {
     "id": "/2024/02/25/blockchain-regulatory-certainty-act",
     "metadata": {
       "permalink": "/blog/2024/02/25/blockchain-regulatory-certainty-act",
@@ -37,123 +131,15 @@
         "description": "Explore the Blockchain Regulatory Certainty Act (H.R. 5045), providing safe harbor for blockchain developers and service providers from licensing and registration, fostering innovation in the blockchain industry."
       },
       "unlisted": false,
+      "prevItem": {
+        "title": "BlockEden.xyz Partners with Supra Oracles",
+        "permalink": "/blog/2024/03/11/supra"
+      },
       "nextItem": {
         "title": "BlockEden.xyz joins Stellar to bring the API of its new smart contract platform Soroban to developers",
         "permalink": "/blog/2024/02/19/blockeden-xyz-join-stellar-to-bring-data-of-its-new-smart-contract-platform-soroban-to-developers"
       }
     },
     "content": "The Blockchain Regulatory Certainty Act (H.R. 5045), introduced by Representatives Emmer and Soto on August 17, 2021, marks a pivotal advancement for blockchain technology. This legislation seeks to carve out a safe harbor for blockchain developers and service providers who do not control digital currencies, shielding them from the licensing and registration mandates typically reserved for financial institutions.\n\n![](https://tp-misc.b-cdn.net/blockeden/safe-harbor.webp)\n\n## Core Elements of the Act\n\n- **Safe Harbor Provision**: Targets blockchain entities without control over digital currencies, exempting them from being classified as money transmitters or financial institutions, thus freeing them from burdensome regulatory requirements.\n- **Intellectual Property and State Law Respect**: Maintains the act's non-interference with intellectual property laws and upholds the ability of states to enforce compatible regulations.\n- **Clear Definitions**: Establishes precise definitions for \"blockchain network,\" \"developer,\" \"service,\" \"control,\" and \"digital currency,\" clarifying the act's scope and applicability.\n\n## Impact on the Blockchain Sector\n\nThe act is a significant stride towards regulatory clarity for the blockchain industry, fostering an environment conducive to innovation while ensuring necessary consumer protections. By delineating non-controlling from controlling entities, it focuses regulatory efforts where they're most needed, promoting a secure and flourishing blockchain ecosystem.\n\n## Forward Look\n\nThe Blockchain Regulatory Certainty Act represents a critical step in acknowledging and supporting blockchain technology's growth within a suitable regulatory framework. It's a move towards empowering innovation in the blockchain space, setting a precedent for future legislative efforts in this rapidly evolving field."
-  },
-  {
-    "id": "/2024/02/19/blockeden-xyz-join-stellar-to-bring-data-of-its-new-smart-contract-platform-soroban-to-developers",
-    "metadata": {
-      "permalink": "/blog/2024/02/19/blockeden-xyz-join-stellar-to-bring-data-of-its-new-smart-contract-platform-soroban-to-developers",
-      "source": "@site/blog/2024-02-19-blockeden-xyz-join-stellar-to-bring-data-of-its-new-smart-contract-platform-soroban-to-developers.mdx",
-      "title": "BlockEden.xyz joins Stellar to bring the API of its new smart contract platform Soroban to developers",
-      "description": "We are excited to share that BlockEden.xyz is joining hands with Stellar, in order to empower developers worldwide.",
-      "date": "2024-02-19T00:00:00.000Z",
-      "formattedDate": "February 19, 2024",
-      "tags": [
-        {
-          "label": "company",
-          "permalink": "/blog/tags/company"
-        },
-        {
-          "label": "product",
-          "permalink": "/blog/tags/product"
-        },
-        {
-          "label": "stellar",
-          "permalink": "/blog/tags/stellar"
-        }
-      ],
-      "readingTime": 3.265,
-      "hasTruncateMarker": false,
-      "authors": [
-        {
-          "name": "Dora Noda",
-          "title": "Software Engineer",
-          "url": "https://github.com/doranoda",
-          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
-        }
-      ],
-      "frontMatter": {
-        "title": "BlockEden.xyz joins Stellar to bring the API of its new smart contract platform Soroban to developers",
-        "authors": [
-          "dora"
-        ],
-        "tags": [
-          "company",
-          "product",
-          "stellar"
-        ],
-        "image": "https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png",
-        "description": "We are excited to share that BlockEden.xyz is joining hands with Stellar, in order to empower developers worldwide."
-      },
-      "unlisted": false,
-      "prevItem": {
-        "title": "Blockchain Regulatory Certainty Act",
-        "permalink": "/blog/2024/02/25/blockchain-regulatory-certainty-act"
-      },
-      "nextItem": {
-        "title": "BlockEden.xyz spins out Payton to accept crypto payment",
-        "permalink": "/blog/2024/02/11/spin-out-payton"
-      }
-    },
-    "content": "We are excited to share that BlockEden.xyz is joining hands with Stellar, in order to empower developers worldwide. Stellar's blockchain platform has been a game-changer in quick and affordable cross-border transactions, while BlockEden.xyz's reliable API offerings for diverse DApps have positioned us as a key player across multiple blockchains. Together, we are poised to inspire a dynamic shift in the realms of blockchain and global finance.\n\n<img className=\"border\" src=\"https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png\"/>\n\n## **What is Stellar**\n\nStellar is an open-source, decentralized blockchain network designed to facilitate swift, low-cost cross-border transactions. Introduced in 2014 by Jed McCaleb, co-founder of Ripple and eDonkey, the Stellar network operates on a unique consensus protocol rather than the traditional proof-of-work or proof-of-stake mechanisms. People use Stellar network to build applications, issue assets, and build anchors (currency converters).\n\n### Stellar Soroban\n\nSoroban is a smart contract platform that is integrated into the existing Stellar blockchain. Developers could develop smart contracts with a Rust dialect and interact with Stellar’s accounts and assets, not other operations like SDEX, AMMs, Claimable Balances, or Sponsorships.\n\nThe Soroban mainnet upgrade is scheduled for February 20th .\n\n## **What is BlockEden.xyz**\n\nBlockEden.xyz is an API marketplace powering DApps of all sizes for Sui, Aptos, Solana, and 12 EVM blockchains. Why do our customers choose us?\n\n1. High availability. We maintain 99.9% uptime since our first API - Aptos main net launch.\n2. Inclusive API offerings and community. Our services have expanded to include Sui, Ethereum, IoTeX, Solana, Polygon, Polygon zkEVM, Filecoin, Harmony, BSC, Arbitrum, Optimism, Gnosis, Arbitrum Nova & EthStorage Galileo. Our community 10x.pub has 4000+ web3 innovators from Silicon Valley, Seattle, and NYC.\n3. Security. With over $45 million worth of tokens staked with us, our clients trust us to provide reliable and secure solutions for their web3 and blockchain needs.\n\nWe provide a comprehensive suite of services designed to empower every participant in the blockchain space, focusing on three key areas:\n\n- For blockchain **protocol builders**, we ensure robust security and decentralization by operating nodes and making long-term ecosystem contributions.\n- For **DApp developers**, we build user-friendly APIs to streamline development and unleash the full potential of decentralized applications.\n- For **token holders**, we offer a reliable staking service to maximize rewards and optimize asset management.\n\n## **What is** **BlockEden.xyz building on Stellar and what** **does this mean for developers?**\n\nBlockEden.xyz is leveraging the Stellar network to offer commercial Soroban RPC and indexed data to help DApp developers to speed up development with a GraphQL API and analytics.\n\nThis comprehensive expansion into Stellar's infrastructure is set to present developers with more resources and tools, potentially facilitating easier adoption and more robust application development within the Stellar blockchain ecosystem.\n\n**Node operator and Indexer for Soroban RPC and Indexer GraphQL**\n\nAs a node operator, BlockEden.xyz runs Soroban RPC, and then provides commercial standard RPCs to developers on the left. Unlike the official endpoints, our RPCs are equipped with rate limits and API meters tailored to developers’ tiered needs.\n\nBlockEden.xyz also builds an indexer for contract data, tokens, events, etc. in the Soroban smart contract platform.\n\n<img className=\"border\" src=\"https://tp-misc.b-cdn.net/blockeden/soroban-how-indexer-works.png\"/>\n\nThe index data will serve as [GraphQL](https://blockeden.xyz/api-marketplace/stellar-soroban-indexer). The exact content of the index data is to be decided, though we will expose at least the developer-facing data models of the Horizon service.\n\n<img className=\"border\" src=\"https://tp-misc.b-cdn.net/blockeden/soroban-indexer-01_99.webp\"/>\n\n**Business Intelligence / Analytics**\n\n<img className=\"border\" src=\"https://tp-misc.b-cdn.net/blockeden/soroban-mainnet-analytics.webp\"/>\n\n\n**Soroban RPC**\n\nFor developer's convenience, we also serve [the standard JSON RPC](https://blockeden.xyz/api-marketplace/stellar-soroban).\n\n## **Conclusion**\n\nIn conclusion, as we pave the way towards a new era in blockchain and global finance, our partnership with Stellar represents a significant milestone. Harnessing Stellar's swift, cost-effective transaction capabilities and BlockEden.xyz's high-quality API offerings, we are poised to create a paradigm shift in the way developers engage with the open money network. We hope this work will inspire innovations, trigger advancements, and propel us all towards a more connected and decentralized world. Here's to a future filled with endless possibilities and shared successes."
-  },
-  {
-    "id": "/2024/02/11/spin-out-payton",
-    "metadata": {
-      "permalink": "/blog/2024/02/11/spin-out-payton",
-      "source": "@site/blog/2024-02-11-spin-out-payton.md",
-      "title": "BlockEden.xyz spins out Payton to accept crypto payment",
-      "description": "BlockEden.xyz is on a mission to propel the mass adoption of Web3 for all Internet users. In our continuous efforts to integrate cryptocurrencies into everyday life, we are excited to announce the spinout of Payton.so, a cutting-edge payment solution.",
-      "date": "2024-02-11T00:00:00.000Z",
-      "formattedDate": "February 11, 2024",
-      "tags": [
-        {
-          "label": "company",
-          "permalink": "/blog/tags/company"
-        },
-        {
-          "label": "product",
-          "permalink": "/blog/tags/product"
-        }
-      ],
-      "readingTime": 2.185,
-      "hasTruncateMarker": false,
-      "authors": [
-        {
-          "name": "Dora Noda",
-          "title": "Software Engineer",
-          "url": "https://github.com/doranoda",
-          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
-        }
-      ],
-      "frontMatter": {
-        "title": "BlockEden.xyz spins out Payton to accept crypto payment",
-        "authors": [
-          "dora"
-        ],
-        "tags": [
-          "company",
-          "product"
-        ],
-        "image": "https://tp-misc.b-cdn.net/blockeden/payton-tile.png"
-      },
-      "unlisted": false,
-      "prevItem": {
-        "title": "BlockEden.xyz joins Stellar to bring the API of its new smart contract platform Soroban to developers",
-        "permalink": "/blog/2024/02/19/blockeden-xyz-join-stellar-to-bring-data-of-its-new-smart-contract-platform-soroban-to-developers"
-      },
-      "nextItem": {
-        "title": "BlockEden.xyz plans to join Espresso shared sequencer network",
-        "permalink": "/blog/2024/02/05/blockeden-xyz-espresso-sequencer"
-      }
-    },
-    "content": "BlockEden.xyz is on a mission to propel the mass adoption of Web3 for all Internet users. In our continuous efforts to integrate cryptocurrencies into everyday life, we are excited to announce the spinout of Payton.so, a cutting-edge payment solution.\n\n## Pioneering the Integration of Crypto in Everyday Transactions\n\nAs advocates for the widespread adoption of blockchain technology, we firmly believe that for crypto to become an integral part of people's lives, it needs to seamlessly integrate into payment, retail, and e-commerce. Payton.so is our response to this vision, providing a user-friendly platform to facilitate crypto transactions in daily transactions.\n\n![Payton](https://tp-misc.b-cdn.net/blockeden/payton-blog-hero.webp)\n\n## How to get started?\n\n![How to Pay BlockEden.xyz with APT, USDC, USDT on Aptos](https://tp-misc.b-cdn.net/blockeden/how-to-pay-blockeden-xyz-with-apt.png \"How to Pay BlockEden.xyz with APT, USDC, USDT on Aptos\")\n\n**Step 1: Get Your APT Wallet Ready**\n\nBefore you can pay for your subscription with APT, you will need an APT wallet. You can get any wallet that supports Aptos, like [Pontem](https://pontem.network/). Once you have a wallet, make sure it has enough funds to cover the subscription cost. You can transfer money from other wallets or buy more tokens directly from exchanges like Coinbase, [Hippo.space](https://hippo.space/) or [LiquidSwap](https://liquidswap.com/#/).\n\n**Step 2: Go to Our Website and Select the Subscription Plan**\n\nOnce your wallet is ready, go to BlockEden. xyz's website https://blockeden.xyz/pricing/ and select the best plan for your needs. Then, click *Pay with crypto* and select *APT* over the *Aptos* network as your payment method. This will generate an address with a QR code containing the recipient's address. Please send the **exact amount of coins** to the listed address. Once this is done, you will see *Payment succeeded* and click the button to get back to the dashboard.\n\n**Step 3: Confirm Your Payment**\n\nWhen you have completed the transaction, recheck your wallet balance and ensure that the correct amount has been deducted. If everything looks good, then congratulations! You have successfully paid for your subscription using APT tokens! Now all that's left is to start using our services and enjoy all of their benefits!\n\n## Join the Revolution\n\nWe invite ambitious Web3 organizations, freelancers, and crypto enthusiasts to join us on this exciting journey. Payton.so is more than just a payment solution; it's a catalyst for the widespread adoption of cryptocurrencies in everyday financial transactions.\n\nStay tuned for upcoming features, partnerships, and developments as we work towards making Payton.so the go-to platform for crypto payments in the Web3 era. Together, let's build a decentralized financial future that empowers individuals and organizations worldwide.\n\nStay connected with BlockEden.xyz and Payton.so on our [official website](https://blockeden.xyz/) and follow us on [social media](https://twitter.com/BlockEdenHQ) for the latest updates and insights."
   }
 ]
