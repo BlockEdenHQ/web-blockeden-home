@@ -77,7 +77,7 @@ function HomepageHeader() {
               <div className="d-flex flex-column mx-1 text-center">
                 <a
                   href="/dash/sign-up/"
-                  className="btn btn-lg btn-primary mb-2 d-flex justify-content-center"
+                  className="btn btn-primary mb-2 d-flex justify-content-center"
                 >
                   <span>Sign up for free</span>
                 </a>
@@ -90,7 +90,7 @@ function HomepageHeader() {
               <div className="d-flex flex-column mx-1 text-center">
                 <a
                   href={beConfig.apis}
-                  className="mx-1 btn btn-lg btn-outline-primary mb-2 mt-3 mt-sm-0"
+                  className="mx-1 btn btn-outline-primary mb-2 mt-3 mt-sm-0"
                 >
                   Explore APIs
                 </a>

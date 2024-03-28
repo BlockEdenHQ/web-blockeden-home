@@ -21,6 +21,40 @@ const config = {
   favicon: "img/favicon.svg",
   trailingSlash: true,
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: 'https://discord.gg/4Yfvs2HWey',
+            from: ['/discord'],
+          },
+          {
+            to: 'https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fblockeden.xyz%2F&region=follow_link&screen_name=BlockedenHQ',
+            from: ['/twitter'],
+          },
+          {
+            to: 'https://medium.com/@BlockEden.xyz',
+            from: ['/medium'],
+          },
+          {
+            to: 'https://mirror.xyz/0x1De85782A08Ee77371D7A711B1370fA369b01A89',
+            from: ['/mirror'],
+          },
+          {
+            to: 'https://blockedenxyz.substack.com/',
+            from: ['/substack'],
+          },
+          {
+            to: 'https://www.linkedin.com/in/dora-noda-35952622a/',
+            from: ['/linkedin'],
+          },
+        ],
+      },
+    ],
+  ],
+
   headTags: [
     {
       tagName: "link",

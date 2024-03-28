@@ -2,13 +2,13 @@
 title: BlockEden.xyz Partners with Berachain to Enhance EVM-Compatible Blockchain Development
 authors: [dora]
 tags: [company, product, berachain]
-image: https://tp-misc.b-cdn.net/blockeden/berachain-integration.png
+image: /img/blockedenxyz-partners-with-berachain-to-enhance-evm-compatible-blockchain-development.webp
 description: Exciting partnership announcement between BlockEden.xyz and Berachain, aiming to revolutionize EVM-compatible blockchain development with Proof-of-Liquidity consensus.
 ---
 
 We are thrilled to announce that BlockEden.xyz is forging a groundbreaking partnership with Berachain, marking a significant leap forward in the advancement of EVM-compatible blockchain technology. This collaboration is set to bring the innovative Proof-of-Liquidity consensus mechanism to developers around the globe, offering a more aligned, efficient, and dynamic ecosystem for blockchain projects.
 
-<img className="border" src="https://tp-misc.b-cdn.net/blockeden/berachain-integration.png"/>
+![](/img/blockedenxyz-partners-with-berachain-to-enhance-evm-compatible-blockchain-development.webp)
 
 ## **What is Berachain?**
 
@@ -37,6 +37,17 @@ As a node operator within the Berachain ecosystem, BlockEden.xyz will offer comm
 ### Business Intelligence and Analytics
 
 We are excited to introduce business intelligence and analytics tools specifically designed for the Berachain ecosystem. These tools will empower developers and project teams with actionable insights, fostering informed decision-making and strategic planning.
+
+
+Here are examples for data analytics and indexer GraphQL.
+
+
+
+<img className="border mb-2" src="https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png"/>
+
+
+<img className="border mb-2" src="https://tp-misc.b-cdn.net/blockeden/soroban-graphql-demo.png"/>
+
 
 ## **Conclusion**
 
