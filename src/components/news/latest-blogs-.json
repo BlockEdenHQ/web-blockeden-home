@@ -1,5 +1,60 @@
 [
   {
+    "id": "/2024/04/01/berachain",
+    "metadata": {
+      "permalink": "/blog/2024/04/01/berachain",
+      "source": "@site/blog/2024-04-01-berachain.md",
+      "title": "BlockEden.xyz Partners with Berachain to Enhance EVM-Compatible Blockchain Development",
+      "description": "Exciting partnership announcement between BlockEden.xyz and Berachain, aiming to revolutionize EVM-compatible blockchain development with Proof-of-Liquidity consensus.",
+      "date": "2024-04-01T00:00:00.000Z",
+      "formattedDate": "April 1, 2024",
+      "tags": [
+        {
+          "label": "company",
+          "permalink": "/blog/tags/company"
+        },
+        {
+          "label": "product",
+          "permalink": "/blog/tags/product"
+        },
+        {
+          "label": "berachain",
+          "permalink": "/blog/tags/berachain"
+        }
+      ],
+      "readingTime": 2.7,
+      "hasTruncateMarker": false,
+      "authors": [
+        {
+          "name": "Dora Noda",
+          "title": "Software Engineer",
+          "url": "https://github.com/doranoda",
+          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
+          "key": "dora"
+        }
+      ],
+      "frontMatter": {
+        "title": "BlockEden.xyz Partners with Berachain to Enhance EVM-Compatible Blockchain Development",
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "company",
+          "product",
+          "berachain"
+        ],
+        "image": "/img/blockedenxyz-partners-with-berachain-to-enhance-evm-compatible-blockchain-development.webp",
+        "description": "Exciting partnership announcement between BlockEden.xyz and Berachain, aiming to revolutionize EVM-compatible blockchain development with Proof-of-Liquidity consensus."
+      },
+      "unlisted": false,
+      "nextItem": {
+        "title": "BlockEden.xyz Ventures into the BounceBit Ecosystem as a Prospective Validator and Developer",
+        "permalink": "/blog/2024/03/25/bouncebit"
+      }
+    },
+    "content": "We are thrilled to announce that BlockEden.xyz is forging a groundbreaking partnership with Berachain, marking a significant leap forward in the advancement of EVM-compatible blockchain technology. This collaboration is set to bring the innovative Proof-of-Liquidity consensus mechanism to developers around the globe, offering a more aligned, efficient, and dynamic ecosystem for blockchain projects.\n\n![](/img/blockedenxyz-partners-with-berachain-to-enhance-evm-compatible-blockchain-development.webp)\n\n## **What is Berachain?**\n\nBerachain is a cutting-edge, EVM-compatible blockchain that harnesses the power of Proof-of-Liquidity to provide a robust and scalable platform for decentralized applications. Built on the Polaris framework and powered by the CometBFT consensus engine, Berachain stands out for its novel approach to blockchain consensus that prioritizes liquidity, addresses stake centralization, and fosters a harmonious relationship between protocols and validators.\n\n### Proof-of-Liquidity\n\nAt the heart of Berachain's innovation is the Proof-of-Liquidity consensus mechanism. This groundbreaking approach aims to align the incentives of validators with the broader ecosystem, ensuring liquidity is systematically built into the network. It tackles some of the most pressing challenges in decentralized networks, including stake centralization, by creating a more equitable and synergistic environment for all stakeholders.\n\n## **What is BlockEden.xyz?**\n\nBlockEden.xyz is a prominent API marketplace that powers a wide range of DApps across various blockchains, including Sui, Aptos, Solana, and numerous EVM chains. Our platform is renowned for:\n\n1. **High Availability:** We pride ourselves on maintaining 99.9% uptime, showcasing our commitment to reliability since our initial launch.\n2. **Inclusive API Offerings and Community:** Our extensive service range covers Ethereum, IoTeX, Solana, Polygon, and many more. Our community, 10x.pub, is home to over 4,000 web3 innovators from key tech hubs around the world.\n3. **Security:** With over $50 million in tokens staked with us, our clients trust us to deliver secure, high-quality web3 and blockchain solutions.\n\n## **BlockEden.xyz’s Role in Berachain’s Ecosystem**\n\nBlockEden.xyz is set to leverage Berachain’s innovative Proof-of-Liquidity consensus to provide developers with powerful tools and services, including commercial-standard RPCs, indexed data, and analytics tailored to Berachain's unique environment. Our offerings are designed to simplify development processes, accelerate project launches, and enhance application performance on the Berachain network.\n\n### Node Operator and Indexer Services\n\nAs a node operator within the Berachain ecosystem, BlockEden.xyz will offer commercial-grade RPCs and indexing services, enabling developers to access and utilize Berachain’s rich data resources efficiently. Our indexing services will focus on contract data, tokens, events, and more, providing a critical foundation for advanced DApp development.\n\n### Business Intelligence and Analytics\n\nWe are excited to introduce business intelligence and analytics tools specifically designed for the Berachain ecosystem. These tools will empower developers and project teams with actionable insights, fostering informed decision-making and strategic planning.\n\n\nHere are examples for data analytics and indexer GraphQL.\n\n\n\n<img className=\"border mb-2\" src=\"https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png\"/>\n\n\n<img className=\"border mb-2\" src=\"https://tp-misc.b-cdn.net/blockeden/soroban-graphql-demo.png\"/>\n\n\n## **Conclusion**\n\nThis partnership between BlockEden.xyz and Berachain represents a pivotal moment in the blockchain industry. By combining Berachain's innovative Proof-of-Liquidity consensus with BlockEden.xyz's robust API marketplace and development tools, we are setting the stage for a new era of blockchain development that is more aligned, efficient, and powerful. We are eager to see the transformative projects and applications that will emerge from this collaboration, driving us all towards a more interconnected and decentralized future.\n\nHere's to forging new paths and creating limitless opportunities together with Berachain and our developer community!"
+  },
+  {
     "id": "/2024/03/25/bouncebit",
     "metadata": {
       "permalink": "/blog/2024/03/25/bouncebit",
@@ -47,6 +102,10 @@
         "description": "BlockEden.xyz is excited to dive into the innovative world of BounceBit, contributing as a validator to enhance BTC re-staking infrastructure and expand blockchain possibilities."
       },
       "unlisted": false,
+      "prevItem": {
+        "title": "BlockEden.xyz Partners with Berachain to Enhance EVM-Compatible Blockchain Development",
+        "permalink": "/blog/2024/04/01/berachain"
+      },
       "nextItem": {
         "title": "Empowering Innovation Through Strategic Partnership with Koii Network",
         "permalink": "/blog/2024/03/11/koii"
@@ -102,54 +161,5 @@
       }
     },
     "content": "## Introduction\n\nIn the dynamic realm of blockchain and decentralized technologies, BlockEden.xyz stands as a wave of innovation, security, and community-driven progress for new blockchains. Today, we are glad to announce a new partnership with [Koii Network](https://www.koii.network/), a visionary platform aimed at decentralizing the power of the internet and returning control to the community. This collaboration is more than a mere alliance; it's a step forward in our commitment to fostering an environment where technology serves the many, not the few.\n\n![](https://tp-misc.b-cdn.net/blockeden/blockedennyz-partners-with-koii.webp)\n\n## BlockEden.xyz: At the Forefront of Blockchain Solutions\n\nBlockEden.xyz is renowned for its robust API marketplace, boasting an impressive $50M staked, 47 APIs, and a community of over 6000 developers. Our dedication to high availability, security, and inclusivity has made us a trusted partner for blockchain protocol builders, DApp developers, and token holders alike.\n\n## Koii Network: Democratizing the Digital Space\n\nKoii Network's mission to decentralize internet power aligns with our vision of a more equitable digital future. By leveraging edge computing and introducing \"Gradual Consensus\" through Koii Tasks, Koii offers an environmentally friendly, cost-effective way for individuals to earn income from their computing resources. Their focus on building fast, scalable, and private systems presents an innovative alternative to conventional social media, publishing, and AI systems.\n\n## A Partnership for the Future\n\nThe partnership between BlockEden.xyz and Koii Network signifies a confluence of shared values and technological synergy. Together, we aim to:\n\n- **Enhance Digital Security and Privacy:** By combining our strengths, we can offer more secure and private digital solutions, safeguarding user data and empowering individuals with control over their digital footprint.\n- **Foster Innovation and Scalability:** This collaboration will accelerate the development of decentralized applications (dApps) that are not only innovative but also scalable and accessible to a broader audience.\n- **Support Community-Led Development:** We are committed to supporting the community's role in shaping the future of technology. This partnership will provide tools, resources, and a supportive ecosystem for developers and innovators to bring their visions to life.\n- **Expand onboarding options and contribute to tooling for Koii node operators:** BlockEden.xyz has deep technical experience running nodes for a plethora of blockchain ecosystems, and will bring industry experience to the Koii ecosystem.\n\n## Conclusion\n\nAs we embark on this journey with Koii Network, BlockEden.xyz remains steadfast in our mission to empower the blockchain space with high-quality, reliable, and inclusive solutions. This partnership is a testament to our belief in collaboration over competition and innovation for the common good. Together, we are paving the way for a future where technology empowers every individual, fostering a more open, fair, and decentralized world.\n\n\n- Twitter: https://twitter.com/BlockEdenHQ\n- Discord: https://discord.gg/4Yfvs2HWey\n- Source Link: https://blockeden.xyz/blog/2024/03/11/koii/\n- Koii Network: https://www.koii.network/\n- BlockEden.xyz: https://BlockEden.xyz"
-  },
-  {
-    "id": "/2024/03/11/supra",
-    "metadata": {
-      "permalink": "/blog/2024/03/11/supra",
-      "source": "@site/blog/2024-03-11-supra.md",
-      "title": "BlockEden.xyz Partners with Supra Oracles",
-      "description": "New partnership between BlockEden.xyz and Supra Oracles, uniting advanced API marketplace capabilities with cutting-edge oracle technology to revolutionize the blockchain ecosystem. Enhance your Web3 experience with unparalleled security, reliability, and cross-chain interoperability, fostering innovation and community growth in the decentralized world.",
-      "date": "2024-03-11T00:00:00.000Z",
-      "formattedDate": "March 11, 2024",
-      "tags": [
-        {
-          "label": "company",
-          "permalink": "/blog/tags/company"
-        }
-      ],
-      "readingTime": 2.05,
-      "hasTruncateMarker": false,
-      "authors": [
-        {
-          "name": "Dora Noda",
-          "title": "Software Engineer",
-          "url": "https://github.com/doranoda",
-          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
-        }
-      ],
-      "frontMatter": {
-        "title": "BlockEden.xyz Partners with Supra Oracles",
-        "authors": [
-          "dora"
-        ],
-        "tags": [
-          "company"
-        ],
-        "description": "New partnership between BlockEden.xyz and Supra Oracles, uniting advanced API marketplace capabilities with cutting-edge oracle technology to revolutionize the blockchain ecosystem. Enhance your Web3 experience with unparalleled security, reliability, and cross-chain interoperability, fostering innovation and community growth in the decentralized world.",
-        "image": "https://tp-misc.b-cdn.net/blockeden/blockedennyz-partners-with-supra-oracles.webp"
-      },
-      "unlisted": false,
-      "prevItem": {
-        "title": "Empowering Innovation Through Strategic Partnership with Koii Network",
-        "permalink": "/blog/2024/03/11/koii"
-      },
-      "nextItem": {
-        "title": "Blockchain Regulatory Certainty Act",
-        "permalink": "/blog/2024/02/25/blockchain-regulatory-certainty-act"
-      }
-    },
-    "content": "## A Meeting of Minds: Supra Oracles and BlockEden.xyz\n\n**Supra Oracles** has been instrumental in bridging the gap between traditional Web2 technologies and the burgeoning Web3 horizon. By enhancing oracle technology, cross-chain communication, and consensus mechanisms, Supra is facilitating a seamless transition to a more decentralized and secure digital future. Their Distributed Oracle Agreements (DORA) Protocol ensures that data is sourced, verified, and recorded on blockchains with unmatched accuracy and integrity.\n\n**BlockEden.xyz** emerges as a pioneering API marketplace, distinguished by our unwavering commitment to high availability, comprehensive API offerings, and fortified security measures. Our platform boasts a robust infrastructure with $50M staked, 47 APIs, and a vibrant community of over 6000 developers, all underpinned by a 99.9% overall uptime. We take pride in our inclusive ecosystem, which caters to the diverse needs of blockchain protocol builders, DApp developers, and token holders alike, ensuring a harmonious balance between innovation and security.\n\n## What This Partnership Means for Our Customers\n\nOur alliance with Supra Oracles is more than a partnership; it's a synergy of two entities dedicated to enhancing the blockchain space for developers, innovators, and users worldwide. Here's what our users can expect:\n\n- **Enhanced Security and Reliability:** The integration of Supra's oracle solutions with BlockEden.xyz's APIs means even more secure and reliable data feeds, critical for the development of decentralized applications that users can trust.\n\n- **Expanded Interoperability:** With Supra's focus on cross-chain communication, our customers will benefit from seamless interaction across different blockchain networks, opening up a realm of possibilities for developers to create more versatile and impactful DApps.\n\n- **Innovative Solutions:** The combination of Supra's cutting-edge technology, including the dVRF for decentralized randomness, with BlockEden.xyz's comprehensive API offerings, sets the stage for innovative applications that push the boundaries of what's possible in the Web3 space.\n\n- **Community and Support:** Both BlockEden.xyz and Supra Oracles are deeply committed to their communities, offering resources, support, and education to empower users and developers alike. This partnership amplifies our collective ability to serve our community, fostering growth and innovation within the ecosystem.\n\nIn closing, the collaboration between BlockEden.xyz and Supra Oracles is a testament to our shared vision of a decentralized future, built on the pillars of security, interoperability, and community. We are excited about the opportunities this partnership will unlock for our users and the broader blockchain community, as we continue to navigate the promising yet uncharted territories of Web3 together.\n\n- Twitter: https://twitter.com/BlockEdenHQ\n- Discord: https://discord.gg/4Yfvs2HWey\n- Source Link: https://blockeden.xyz/blog/2024/03/11/supra/"
   }
 ]

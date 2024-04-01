@@ -38,17 +38,6 @@ As a node operator within the Berachain ecosystem, BlockEden.xyz will offer comm
 
 We are excited to introduce business intelligence and analytics tools specifically designed for the Berachain ecosystem. These tools will empower developers and project teams with actionable insights, fostering informed decision-making and strategic planning.
 
-
-Here are examples for data analytics and indexer GraphQL.
-
-
-
-<img className="border mb-2" src="https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png"/>
-
-
-<img className="border mb-2" src="https://tp-misc.b-cdn.net/blockeden/soroban-graphql-demo.png"/>
-
-
 ## **Conclusion**
 
 This partnership between BlockEden.xyz and Berachain represents a pivotal moment in the blockchain industry. By combining Berachain's innovative Proof-of-Liquidity consensus with BlockEden.xyz's robust API marketplace and development tools, we are setting the stage for a new era of blockchain development that is more aligned, efficient, and powerful. We are eager to see the transformative projects and applications that will emerge from this collaboration, driving us all towards a more interconnected and decentralized future.
