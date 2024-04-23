@@ -50,5 +50,5 @@ We are excited to embark on this journey with BounceBit, pushing the boundaries 
 - BounceBit Website: https://bouncebit.io/
 - Twitter: [https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)
 - Discord: [https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)
-- Source Link: https://blockeden.xyz/blog/2024/03/25/soroban-indexer-pitch-deck/
+- Source Link: https://blockeden.xyz/blog/2024/03/25/bouncebit/
 
