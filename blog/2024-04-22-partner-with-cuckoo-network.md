@@ -51,4 +51,4 @@ Both BlockEden.xyz and Cuckoo Network are excited to explore this collaborative 
 - Cuckoo Network Telegram: https://cuckoo.network/tg
 - Twitter: [https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)
 - Discord: [https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)
-- Source Link: https://blockeden.xyz/blog/2024/03/25/soroban-indexer-pitch-deck/
+- Source Link: https://blockeden.xyz/blog/2024/04/22/partner-with-cuckoo-network/
