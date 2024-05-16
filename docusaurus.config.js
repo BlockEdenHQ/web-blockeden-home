@@ -27,7 +27,7 @@ const config = {
       {
         redirects: [
           {
-            to: '/docs/sui-overflow',
+            to: '/docs/sui/sui-overflow/',
             from: ['/sui-overflow'],
           },
           {
