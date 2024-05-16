@@ -27,6 +27,10 @@ const config = {
       {
         redirects: [
           {
+            to: '/docs/sui-overflow',
+            from: ['/sui-overflow'],
+          },
+          {
             to: 'https://discord.gg/4Yfvs2HWey',
             from: ['/discord'],
           },

@@ -68,6 +68,11 @@ const sidebars = {
         require("./sidebar-sui-move"),
         {
           type: "doc",
+          id: "sui/sui-overflow",
+          label: "Sui Overflow",
+        },
+        {
+          type: "doc",
           id: "sui/sui-staking",
           label: "Sui Staking",
         },
