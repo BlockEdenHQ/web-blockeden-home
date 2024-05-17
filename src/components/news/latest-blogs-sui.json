@@ -1,5 +1,55 @@
 [
   {
+    "id": "/2024/05/13/join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz",
+    "metadata": {
+      "permalink": "/blog/2024/05/13/join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz",
+      "source": "@site/blog/2024-05-13-join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz.md",
+      "title": "Join the Sui Overflow Hackathon and Win $5000 in Sui with BlockEden.xyz!",
+      "description": "Join the Sui Overflow hackathon and compete for a share of $5000 in Sui by integrating BlockEden.xyz's RPC and Indexer services. Learn how to participate, the prize distribution, and judging criteria in our latest blog post. Discover the benefits of using BlockEden.xyz and start building your innovative project today!",
+      "date": "2024-05-13T00:00:00.000Z",
+      "formattedDate": "May 13, 2024",
+      "tags": [
+        {
+          "label": "event",
+          "permalink": "/blog/tags/event"
+        },
+        {
+          "label": "sui",
+          "permalink": "/blog/tags/sui"
+        }
+      ],
+      "readingTime": 1.36,
+      "hasTruncateMarker": false,
+      "authors": [
+        {
+          "name": "Dora Noda",
+          "title": "Software Engineer",
+          "url": "https://github.com/doranoda",
+          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
+          "key": "dora"
+        }
+      ],
+      "frontMatter": {
+        "title": "Join the Sui Overflow Hackathon and Win $5000 in Sui with BlockEden.xyz!",
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "event",
+          "sui"
+        ],
+        "image": "https://cuckoo-network.b-cdn.net/2024-05-13-join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz.webp",
+        "description": "Join the Sui Overflow hackathon and compete for a share of $5000 in Sui by integrating BlockEden.xyz's RPC and Indexer services. Learn how to participate, the prize distribution, and judging criteria in our latest blog post. Discover the benefits of using BlockEden.xyz and start building your innovative project today!"
+      },
+      "unlisted": false,
+      "nextItem": {
+        "title": "BlockEden.xyz Decentralizes AI with the AI-to-Earn Platform Cuckoo Network",
+        "permalink": "/blog/2024/04/22/partner-with-cuckoo-network"
+      }
+    },
+    "content": "BlockEden.xyz is excited to announce our Ecosystem Project Prize for participants in the Sui Overflow hackathon during April 21 - June 15, 2024. We're offering a total prize pool of $5000 in Sui for innovative projects that utilize our RPC and Indexer services.\n\n![Join the Sui Overflow Hackathon and Win $5000 in Sui with BlockEden.xyz!](https://cuckoo-network.b-cdn.net/2024-05-13-join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz.webp \"Join the Sui Overflow Hackathon and Win $5000 in Sui with BlockEden.xyz!\")\n\n### How to Participate\n\n1. **Register for Sui Overflow:** Ensure you're signed up for the [Sui Overflow hackathon](https://sui.io/overflow).\n2. **Integrate BlockEden.xyz:** Use our [RPC](https://blockeden.xyz/api-marketplace/sui) and [Indexer](https://blockeden.xyz/api-marketplace/sui-indexer) services in your project.\n3. **Submit Your Project:** Complete your project and submit it by the hackathon deadline.\n\n### Prize Distribution\n\n- **1st Place:** $1500 in Sui (x 1 winner)\n- **2nd Place:** $1000 in Sui (x 2 winners)\n- **3rd Place:** $100 in Sui (x 15 winners)\n\n$5000 in total for 18 winners, distributed in SUI.\n\n### Judging Criteria\n\n- **Innovation:** How creatively you use BlockEden.xyz services.\n- **Impact:** Potential impact on the Sui ecosystem.\n- **Functionality:** The project’s technical performance.\n\n### Why BlockEden.xyz?\n\n- Reliable RPC services\n- Comprehensive Indexer solutions\n- Seamless integration\n\n### Get Started\n\n1. **Visit BlockEden.xyz**: Sign up and access our services at https://blockeden.xyz/dash/sign-up/ and then create your API access key.\n2. **Explore Our Documentation:** Detailed guides to help you integrate https://blockeden.xyz/docs/sui/.\n3. **Join the Hackathon:** Start building and bring your ideas to life.\n\nMake your mark in the Sui ecosystem with BlockEden.xyz!\n\n### Contact Us\n\nConnect with our team for support and to share your innovative ideas:\n\n- Discord: https://discord.gg/4Yfvs2HWey\n- Twitter: https://twitter.com/BlockEdenHQ\n\n[//]: # (- Source Link: https://blockeden.xyz/blog/2024/05/13/join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz/)\n\n😆 Happy hacking!"
+  },
+  {
     "id": "/2023/06/02/stake-sui-with-blockeden-xyz",
     "metadata": {
       "permalink": "/blog/2023/06/02/stake-sui-with-blockeden-xyz",
@@ -104,58 +154,5 @@
       }
     },
     "content": "Blockchain technology has emerged as a leading force in the digital world, offering revolutionary solutions that extend beyond cryptocurrency. Programming languages dedicated to blockchain technology are carving a unique space for themselves. Among these languages, Move has secured a significant spot, thanks to its robustness and inherent security features. Today, we will introduce an innovative tutorial called \"Sui Move,\" designed to teach developers the Move programming language using a learn-by-example approach.\n\n![Dive into Blockchain Programming with Sui Move](https://tp-misc.b-cdn.net/blockeden/a_software_engineer_learning_coding_cinematic_portrait.png \"Dive into Blockchain Programming with Sui Move\")\n\n## Understanding Move: The Programming Language\n\nBefore we jump into the tutorial, let's briefly recap what Move is. Created by Facebook's subsidiary, Diem Association (formerly Libra), Move is a statically-typed, resource-oriented programming language. Its design is centered around enforcing safety and security, making it the ideal language for coding blockchain and cryptocurrency projects. The Sui Move is a variant of the Move programming language.\n\nResources in Move are a key construct that makes it stand out from other blockchain programming languages. These are special types that can't be copied or discarded, only moved between storage locations. This feature allows for precise control over digital assets and significantly mitigates the risk of common security issues, such as double-spending.\n\n<div style={{ display: \"flex\", width: \"100%\", justifyContent: \"center\" }}>\n  <iframe\n    src=\"https://blockedenxyz.substack.com/embed\"\n    width=\"480\"\n    height=\"320\"\n    frameborder=\"0\"\n    scrolling=\"no\"\n  ></iframe>\n</div>\n\n\n## Sui Move: A Learn-by-Example Tutorial\n\nLocated at [https://blockeden.xyz/docs/sui/sui-move/intro/](https://blockeden.xyz/docs/sui/sui-move/intro/), \"Sui Move\" is a comprehensive, learn-by-example tutorial designed to teach developers how to code using the Move programming language.\n\n\"Sui Move\" is constructed on the philosophy that hands-on learning accelerates comprehension and proficiency. The tutorial is divided into small, manageable chunks, each focusing on a specific aspect of Move. This allows learners to not only understand the technicalities of the language but also gain insights into how and where they can be implemented.\n\n\"Sui Move\" stands out in its approach to teaching. Instead of overwhelming the learner with dense theory, it offers an array of examples for every concept. The learner can directly interact with these examples, providing a dynamic learning environment that encourages exploration and understanding at a deep level.\n\nThe tutorial is designed to be accessible for various experience levels. Whether you are a seasoned developer looking to dive into blockchain development or a beginner who's just starting, \"Sui Move\" is tailored to ensure you grasp and master the concepts effectively.\n\n## What You'll Learn\n\n\"Sui Move\" covers a broad range of topics that form the core of Move programming language. Here's a snapshot of what you can expect:\n\n- Understanding the syntax and structure of Move.\n- Deep dive into Move's unique resource-oriented model.\n- Manipulating data using Move's functions and methods.\n- Learning to create and implement Modules and Scripts.\n- Handling exceptions and ensuring security in your Move programs.\n- Learning how to create a custom coin and NFT.\n\n## Why Choose Sui Move?\n\n\"Sui Move\" is not just a tutorial; it's a well-structured learning journey. It offers:\n\n1. **Real-world Examples:** Every concept is paired with a practical example that demonstrates how to use it effectively.\n2. **Comprehensive Coverage:** It provides a thorough understanding of Move, from basic syntax to advanced constructs.\n3. **Step-by-Step Guidance:** Every module is designed to gradually build your understanding, reducing the learning curve and making complex concepts easier to grasp.\n5. **Flexibility:** It caters to a wide range of learners, from beginners to experienced developers.\n\nBlockchain technology is shaping the future of numerous industries, and mastering a language like Move can open new avenues for developers. With \"Sui Move,\" you have a resource that can guide you effectively through your learning journey. So, dive in, start coding, and explore the exciting opportunities that Move and blockchain technology hold for you.\n\nGet started now at https://blockeden.xyz/docs/sui/sui-move/intro/."
-  },
-  {
-    "id": "/2023/05/03/welcomes-the-successful-launch-of-sui-mainnet",
-    "metadata": {
-      "permalink": "/blog/2023/05/03/welcomes-the-successful-launch-of-sui-mainnet",
-      "source": "@site/blog/2023-05-03-welcomes-the-successful-launch-of-sui-mainnet.mdx",
-      "title": "Sui Mainnet Launch: BlockEden.xyz Expands API Suite to Include Next-Generation Blockchain Platform",
-      "description": "We are thrilled to announce that Sui, the highly anticipated blockchain platform, has successfully launched its mainnet. At BlockEden.xyz, we are committed to providing our customers with the most innovative and cutting-edge solutions in the blockchain industry. As a result, we are excited to integrate Sui into our robust API suite, offering developers an even greater range of tools to create groundbreaking applications.",
-      "date": "2023-05-03T00:00:00.000Z",
-      "formattedDate": "May 3, 2023",
-      "tags": [
-        {
-          "label": "product",
-          "permalink": "/blog/tags/product"
-        },
-        {
-          "label": "sui",
-          "permalink": "/blog/tags/sui"
-        }
-      ],
-      "readingTime": 2.895,
-      "hasTruncateMarker": false,
-      "authors": [
-        {
-          "name": "Dora Noda",
-          "title": "Software Engineer",
-          "url": "https://github.com/doranoda",
-          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
-        }
-      ],
-      "frontMatter": {
-        "title": "Sui Mainnet Launch: BlockEden.xyz Expands API Suite to Include Next-Generation Blockchain Platform",
-        "authors": [
-          "dora"
-        ],
-        "tags": [
-          "product",
-          "sui"
-        ],
-        "image": "https://tp-misc.b-cdn.net/blockeden/sui-mainnet-rpc-launch.png"
-      },
-      "unlisted": false,
-      "prevItem": {
-        "title": "BRC20 Tokens: A Promising Contender or a Mere Flash in the Pan?",
-        "permalink": "/blog/2023/05/04/BRC20"
-      },
-      "nextItem": {
-        "title": "297k TPS! Sui Network's Impressive Performance Update: A Look at Throughput and Time to Finality",
-        "permalink": "/blog/2023/04/28/297k-tps-sui-network-s-impressive-performance-update"
-      }
-    },
-    "content": "We are thrilled to announce that Sui, the highly anticipated blockchain platform, has successfully launched its mainnet. At BlockEden.xyz, we are committed to providing our customers with the most innovative and cutting-edge solutions in the blockchain industry. As a result, we are excited to integrate Sui into our robust API suite, offering developers an even greater range of tools to create groundbreaking applications.\n\n![Sui Mainnet Launch: BlockEden.xyz Expands API Suite to Include Next-Generation](https://tp-misc.b-cdn.net/blockeden/sui-mainnet-rpc-launch.png \"Sui Mainnet Launch: BlockEden.xyz Expands API Suite to Include Next-Generation\")\n\n## Why Sui Matters\n\nSui is a next-generation blockchain platform designed to address the challenges faced by existing solutions in scalability, interoperability, and energy efficiency. It brings together the best features from various blockchain technologies, offering a more efficient and flexible platform for developers to build decentralized applications (dApps) and smart contracts. Some key aspects of Sui include:\n\n1. Scalability: Sui employs a unique consensus algorithm, which allows it to process [297k transactions per second](https://blockeden.xyz/blog/2023/04/28/297k-tps-sui-network-s-impressive-performance-update/), thus ensuring high throughput and minimal latency. This makes it an ideal choice for building dApps that require fast and secure transactions.\n3. Energy Efficiency: Sui's consensus algorithm also addresses the energy consumption concerns associated with traditional Proof-of-Work (PoW) mechanisms. By utilizing a more environmentally friendly approach, Sui contributes to a greener and more sustainable blockchain industry.\n\nWhat This Means for BlockEden.xyz Users:\n\nAs Sui joins our API suite, developers can look forward to:\n\n1. Access to Sui's Blockchain: Our API will enable developers to easily interact with the Sui blockchain, allowing them to build and deploy smart contracts, create tokens, and develop dApps on this revolutionary platform.\n2. Continued Support: BlockEden.xyz remains committed to providing exceptional customer support, offering guidance and assistance in implementing Sui's technology within your projects.\n3. Stake with BlockEden.xyz and Earn Rewards: By staking your tokens with BlockEden.xyz, you can participate in the Sui ecosystem and earn rewards for contributing to the platform's growth and security.\n\n<div style={{ display: \"flex\", width: \"100%\", justifyContent: \"center\" }}>\n  <iframe\n    src=\"https://blockedenxyz.substack.com/embed\"\n    width=\"480\"\n    height=\"320\"\n    frameborder=\"0\"\n    scrolling=\"no\"\n  ></iframe>\n</div>\n\n\n## Getting Started with BlockEden.xyz's Sui RPC Key\n\nIf you're ready to start developing on the Sui blockchain using BlockEden.xyz's API suite, follow these simple steps to get your Sui RPC key and kickstart your project:\n\nStep 1: Obtain a Connection String\n\nVisit our API Marketplace at https://blockeden.xyz/api-marketplace to obtain a connection string. This string will enable you to access the Sui blockchain through our API and begin developing your decentralized application.\n\nStep 2: Develop Your First Sui DApp\n\nTo build your first DApp on the Sui platform, follow our comprehensive guide available at https://blockeden.xyz/docs/sui/sui-typescript-sdk/. This tutorial provides step-by-step instructions for setting up your development environment, implementing Sui's TypeScript SDK, and creating a fully functional DApp using the Sui blockchain.\n\nBy following these steps, you'll be well on your way to harnessing the power of the Sui blockchain and BlockEden.xyz's API suite to develop innovative and groundbreaking decentralized applications. If you need any assistance, our dedicated support team is always ready to help guide you through the process.\n\n## Conclusion\n\nBlockEden.xyz is proud to welcome Sui into our growing family of blockchain technologies. By adding Sui to our API suite, we are further expanding the possibilities for developers to create groundbreaking solutions in the blockchain space. As always, we remain dedicated to providing our users with the most innovative and reliable tools to empower their projects and drive the future of decentralized technology.\n\n- Twitter: https://twitter.com/BlockEdenHQ\n- Discord: https://discord.gg/4Yfvs2HWey\n- Source Link: https://blockeden.xyz/blog/2023/05/03/welcomes-the-successful-launch-of-sui-mainnet/"
   }
 ]

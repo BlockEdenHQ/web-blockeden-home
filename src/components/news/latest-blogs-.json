@@ -1,5 +1,55 @@
 [
   {
+    "id": "/2024/05/13/join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz",
+    "metadata": {
+      "permalink": "/blog/2024/05/13/join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz",
+      "source": "@site/blog/2024-05-13-join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz.md",
+      "title": "Join the Sui Overflow Hackathon and Win $5000 in Sui with BlockEden.xyz!",
+      "description": "Join the Sui Overflow hackathon and compete for a share of $5000 in Sui by integrating BlockEden.xyz's RPC and Indexer services. Learn how to participate, the prize distribution, and judging criteria in our latest blog post. Discover the benefits of using BlockEden.xyz and start building your innovative project today!",
+      "date": "2024-05-13T00:00:00.000Z",
+      "formattedDate": "May 13, 2024",
+      "tags": [
+        {
+          "label": "event",
+          "permalink": "/blog/tags/event"
+        },
+        {
+          "label": "sui",
+          "permalink": "/blog/tags/sui"
+        }
+      ],
+      "readingTime": 1.36,
+      "hasTruncateMarker": false,
+      "authors": [
+        {
+          "name": "Dora Noda",
+          "title": "Software Engineer",
+          "url": "https://github.com/doranoda",
+          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
+          "key": "dora"
+        }
+      ],
+      "frontMatter": {
+        "title": "Join the Sui Overflow Hackathon and Win $5000 in Sui with BlockEden.xyz!",
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "event",
+          "sui"
+        ],
+        "image": "https://cuckoo-network.b-cdn.net/2024-05-13-join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz.webp",
+        "description": "Join the Sui Overflow hackathon and compete for a share of $5000 in Sui by integrating BlockEden.xyz's RPC and Indexer services. Learn how to participate, the prize distribution, and judging criteria in our latest blog post. Discover the benefits of using BlockEden.xyz and start building your innovative project today!"
+      },
+      "unlisted": false,
+      "nextItem": {
+        "title": "BlockEden.xyz Decentralizes AI with the AI-to-Earn Platform Cuckoo Network",
+        "permalink": "/blog/2024/04/22/partner-with-cuckoo-network"
+      }
+    },
+    "content": "BlockEden.xyz is excited to announce our Ecosystem Project Prize for participants in the Sui Overflow hackathon during April 21 - June 15, 2024. We're offering a total prize pool of $5000 in Sui for innovative projects that utilize our RPC and Indexer services.\n\n![Join the Sui Overflow Hackathon and Win $5000 in Sui with BlockEden.xyz!](https://cuckoo-network.b-cdn.net/2024-05-13-join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz.webp \"Join the Sui Overflow Hackathon and Win $5000 in Sui with BlockEden.xyz!\")\n\n### How to Participate\n\n1. **Register for Sui Overflow:** Ensure you're signed up for the [Sui Overflow hackathon](https://sui.io/overflow).\n2. **Integrate BlockEden.xyz:** Use our [RPC](https://blockeden.xyz/api-marketplace/sui) and [Indexer](https://blockeden.xyz/api-marketplace/sui-indexer) services in your project.\n3. **Submit Your Project:** Complete your project and submit it by the hackathon deadline.\n\n### Prize Distribution\n\n- **1st Place:** $1500 in Sui (x 1 winner)\n- **2nd Place:** $1000 in Sui (x 2 winners)\n- **3rd Place:** $100 in Sui (x 15 winners)\n\n$5000 in total for 18 winners, distributed in SUI.\n\n### Judging Criteria\n\n- **Innovation:** How creatively you use BlockEden.xyz services.\n- **Impact:** Potential impact on the Sui ecosystem.\n- **Functionality:** The project’s technical performance.\n\n### Why BlockEden.xyz?\n\n- Reliable RPC services\n- Comprehensive Indexer solutions\n- Seamless integration\n\n### Get Started\n\n1. **Visit BlockEden.xyz**: Sign up and access our services at https://blockeden.xyz/dash/sign-up/ and then create your API access key.\n2. **Explore Our Documentation:** Detailed guides to help you integrate https://blockeden.xyz/docs/sui/.\n3. **Join the Hackathon:** Start building and bring your ideas to life.\n\nMake your mark in the Sui ecosystem with BlockEden.xyz!\n\n### Contact Us\n\nConnect with our team for support and to share your innovative ideas:\n\n- Discord: https://discord.gg/4Yfvs2HWey\n- Twitter: https://twitter.com/BlockEdenHQ\n\n[//]: # (- Source Link: https://blockeden.xyz/blog/2024/05/13/join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz/)\n\n😆 Happy hacking!"
+  },
+  {
     "id": "/2024/04/22/partner-with-cuckoo-network",
     "metadata": {
       "permalink": "/blog/2024/04/22/partner-with-cuckoo-network",
@@ -47,6 +97,10 @@
         "description": "Learn about the strategic partnership between BlockEden.xyz and Cuckoo Network, which combines blockchain and decentralized AI to enhance network security and drive innovation. This collaboration aims to redefine the capabilities of AI and blockchain technologies on a global scale, setting new benchmarks for decentralized digital solutions."
       },
       "unlisted": false,
+      "prevItem": {
+        "title": "Join the Sui Overflow Hackathon and Win $5000 in Sui with BlockEden.xyz!",
+        "permalink": "/blog/2024/05/13/join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz"
+      },
       "nextItem": {
         "title": "BlockEden.xyz Ventures into the BounceBit Ecosystem as a Prospective Validator and Developer",
         "permalink": "/blog/2024/03/25/bouncebit"
@@ -112,54 +166,5 @@
       }
     },
     "content": "BlockEden.xyz is thrilled to announce our foray into the pioneering BounceBit ecosystem, aiming to contribute significantly as a validator. BounceBit's unique vision of a BTC re-staking infrastructure combined with a dual-token PoS Layer 1 blockchain captures our imagination and aligns perfectly with our commitment to enhancing blockchain interoperability and asset utility. This partnership signifies our venture into facilitating a more inclusive and dynamic blockchain environment, leveraging Bitcoin's robust security in novel ways.\n\n![](https://tp-misc.b-cdn.net/blockeden/bouncebit-cover.webp)\n\n## Introducing BounceBit\n\nBounceBit is on a mission to redefine the landscape of Bitcoin Layer 2 solutions by creating a standalone, asset-driven PoS Layer 1 sidechain. This innovative ecosystem requires validators to stake both native BounceBit tokens and BTC, establishing a dual-token security system. It marries the inherent stability and security of Bitcoin with the flexibility and innovation of BounceBit’s native functionalities, creating a symbiotic and resilient blockchain network.\n\n### Reimagining Bitcoin's Role in Blockchain\n\nBounceBit's approach diverges from traditional Layer 2 solutions by prioritizing an asset-level integration over protocol-level bindings, enabling a seamless blend of Bitcoin's reliability with EVM compatibility. This creates a fertile ground for interoperability and multi-network yield opportunities for BTC holders, marking a significant advancement in blockchain technology.\n\n## BlockEden.xyz’s Vision with BounceBit\n\nAs we embark on this collaboration, BlockEden.xyz is positioned to harness BounceBit’s infrastructure to offer our sophisticated services, including:\n\n**Validator Contribution and Infrastructure Expertise**: Our deep-rooted expertise in operating high-performance nodes across various blockchains equips us to contribute effectively as a validator within the BounceBit network. Our infrastructure—comprising both cloud services and bare metal solutions—ensures unparalleled reliability, security, and performance.\n\n**Enhancing Blockchain Interoperability**: We are eager to explore and contribute to BounceBit’s vision of unifying BTC across multiple chains. By participating in BounceBit's ecosystem, we aim to facilitate the broader use and integration of BTC in DeFi, expanding its utility and enhancing liquidity across the blockchain spectrum.\n\n**Supporting BounceBit’s Innovative Ecosystem**:  BlockEden.xyz plans to engage with BounceBit's ecosystem by leveraging our technical prowess to develop indexing services, data analytics tools, and APIs tailored for BounceBit. This initiative will provide developers with powerful tools to build on the BounceBit platform, enhancing its capabilities and user experience.\n\nHere are examples for data analytics and indexer GraphQL.\n\n\n\n<img className=\"border mb-2\" src=\"https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png\"/>\n\n\n<img className=\"border mb-2\" src=\"https://tp-misc.b-cdn.net/blockeden/soroban-graphql-demo.png\"/>\n\n\n**A Global Operation for a Decentralized Future**: In alignment with BounceBit's global vision, BlockEden.xyz intends to operate nodes across key regions, contributing to the network's geographical diversity and resilience. This global footprint will enhance the decentralization and robustness of the BounceBit network, fostering a more interconnected and secure blockchain ecosystem.\n\n## Conclusion\n\nOur partnership with BounceBit is more than just a collaboration; it's a shared vision for a future where Bitcoin’s value is maximized across blockchain networks. By becoming a validator and contributing to the BounceBit ecosystem, BlockEden.xyz is at the forefront of driving innovation, security, and interoperability in the blockchain space.\n\nWe are excited to embark on this journey with BounceBit, pushing the boundaries of what is possible in the blockchain domain and opening new avenues for Bitcoin’s utility and blockchain interoperability. Together, we are paving the way for a more connected, secure, and innovative blockchain future.\n\n\n- BounceBit Website: https://bouncebit.io/\n- Twitter: [https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)\n- Discord: [https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)\n- Source Link: https://blockeden.xyz/blog/2024/03/25/bouncebit/"
-  },
-  {
-    "id": "/2024/03/11/koii",
-    "metadata": {
-      "permalink": "/blog/2024/03/11/koii",
-      "source": "@site/blog/2024-03-11-koii.md",
-      "title": "Empowering Innovation Through Strategic Partnership with Koii Network",
-      "description": "Discover the partnership between BlockEden.xyz and Koii Network, uniting to democratize the digital landscape with secure, scalable blockchain solutions. Explore how this alliance empowers developers, innovators, and the community with reliable APIs, enhanced privacy, and a supportive ecosystem for decentralized app development.",
-      "date": "2024-03-11T00:00:00.000Z",
-      "formattedDate": "March 11, 2024",
-      "tags": [
-        {
-          "label": "company",
-          "permalink": "/blog/tags/company"
-        }
-      ],
-      "readingTime": 2.255,
-      "hasTruncateMarker": false,
-      "authors": [
-        {
-          "name": "Dora Noda",
-          "title": "Software Engineer",
-          "url": "https://github.com/doranoda",
-          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
-        }
-      ],
-      "frontMatter": {
-        "title": "Empowering Innovation Through Strategic Partnership with Koii Network",
-        "authors": [
-          "dora"
-        ],
-        "tags": [
-          "company"
-        ],
-        "description": "Discover the partnership between BlockEden.xyz and Koii Network, uniting to democratize the digital landscape with secure, scalable blockchain solutions. Explore how this alliance empowers developers, innovators, and the community with reliable APIs, enhanced privacy, and a supportive ecosystem for decentralized app development.",
-        "image": "https://tp-misc.b-cdn.net/blockeden/blockedennyz-partners-with-koii.webp"
-      },
-      "unlisted": false,
-      "prevItem": {
-        "title": "BlockEden.xyz Ventures into the BounceBit Ecosystem as a Prospective Validator and Developer",
-        "permalink": "/blog/2024/03/25/bouncebit"
-      },
-      "nextItem": {
-        "title": "BlockEden.xyz Partners with Supra Oracles",
-        "permalink": "/blog/2024/03/11/supra"
-      }
-    },
-    "content": "## Introduction\n\nIn the dynamic realm of blockchain and decentralized technologies, BlockEden.xyz stands as a wave of innovation, security, and community-driven progress for new blockchains. Today, we are glad to announce a new partnership with [Koii Network](https://www.koii.network/), a visionary platform aimed at decentralizing the power of the internet and returning control to the community. This collaboration is more than a mere alliance; it's a step forward in our commitment to fostering an environment where technology serves the many, not the few.\n\n![](https://tp-misc.b-cdn.net/blockeden/blockedennyz-partners-with-koii.webp)\n\n## BlockEden.xyz: At the Forefront of Blockchain Solutions\n\nBlockEden.xyz is renowned for its robust API marketplace, boasting an impressive $50M staked, 47 APIs, and a community of over 6000 developers. Our dedication to high availability, security, and inclusivity has made us a trusted partner for blockchain protocol builders, DApp developers, and token holders alike.\n\n## Koii Network: Democratizing the Digital Space\n\nKoii Network's mission to decentralize internet power aligns with our vision of a more equitable digital future. By leveraging edge computing and introducing \"Gradual Consensus\" through Koii Tasks, Koii offers an environmentally friendly, cost-effective way for individuals to earn income from their computing resources. Their focus on building fast, scalable, and private systems presents an innovative alternative to conventional social media, publishing, and AI systems.\n\n## A Partnership for the Future\n\nThe partnership between BlockEden.xyz and Koii Network signifies a confluence of shared values and technological synergy. Together, we aim to:\n\n- **Enhance Digital Security and Privacy:** By combining our strengths, we can offer more secure and private digital solutions, safeguarding user data and empowering individuals with control over their digital footprint.\n- **Foster Innovation and Scalability:** This collaboration will accelerate the development of decentralized applications (dApps) that are not only innovative but also scalable and accessible to a broader audience.\n- **Support Community-Led Development:** We are committed to supporting the community's role in shaping the future of technology. This partnership will provide tools, resources, and a supportive ecosystem for developers and innovators to bring their visions to life.\n- **Expand onboarding options and contribute to tooling for Koii node operators:** BlockEden.xyz has deep technical experience running nodes for a plethora of blockchain ecosystems, and will bring industry experience to the Koii ecosystem.\n\n## Conclusion\n\nAs we embark on this journey with Koii Network, BlockEden.xyz remains steadfast in our mission to empower the blockchain space with high-quality, reliable, and inclusive solutions. This partnership is a testament to our belief in collaboration over competition and innovation for the common good. Together, we are paving the way for a future where technology empowers every individual, fostering a more open, fair, and decentralized world.\n\n\n- Twitter: https://twitter.com/BlockEdenHQ\n- Discord: https://discord.gg/4Yfvs2HWey\n- Source Link: https://blockeden.xyz/blog/2024/03/11/koii/\n- Koii Network: https://www.koii.network/\n- BlockEden.xyz: https://BlockEden.xyz"
   }
 ]
