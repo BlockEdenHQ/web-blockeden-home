@@ -42,6 +42,10 @@
         "description": "Join the Sui Overflow hackathon and compete for a share of $5000 in Sui by integrating BlockEden.xyz's RPC and Indexer services. Learn how to participate, the prize distribution, and judging criteria in our latest blog post. Discover the benefits of using BlockEden.xyz and start building your innovative project today!"
       },
       "unlisted": false,
+      "prevItem": {
+        "title": "Decentralized AI: Permissionless LLM Inference on BlockEden.xyz",
+        "permalink": "/blog/2024/06/20/decentralized-inference-blockeden-xyz"
+      },
       "nextItem": {
         "title": "BlockEden.xyz Decentralizes AI with the AI-to-Earn Platform Cuckoo Network",
         "permalink": "/blog/2024/04/22/partner-with-cuckoo-network"

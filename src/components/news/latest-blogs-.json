@@ -1,5 +1,55 @@
 [
   {
+    "id": "/2024/06/20/decentralized-inference-blockeden-xyz",
+    "metadata": {
+      "permalink": "/blog/2024/06/20/decentralized-inference-blockeden-xyz",
+      "source": "@site/blog/2024-06-20-decentralized-inference-blockeden-xyz.md",
+      "title": "Decentralized AI: Permissionless LLM Inference on BlockEden.xyz",
+      "description": "Discover how BlockEden.xyz revolutionizes AI inference with its decentralized, permissionless infrastructure. Learn about the benefits for AI researchers, hardware operators, and developers in this comprehensive overview of BlockEden.xyz's collaboration with Cuckoo Network on the unique approach to decentralized AI services.",
+      "date": "2024-06-20T00:00:00.000Z",
+      "formattedDate": "June 20, 2024",
+      "tags": [
+        {
+          "label": "ai",
+          "permalink": "/blog/tags/ai"
+        },
+        {
+          "label": "cuckoo chain",
+          "permalink": "/blog/tags/cuckoo-chain"
+        }
+      ],
+      "readingTime": 4.31,
+      "hasTruncateMarker": false,
+      "authors": [
+        {
+          "name": "Dora Noda",
+          "title": "Software Engineer",
+          "url": "https://github.com/doranoda",
+          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
+          "key": "dora"
+        }
+      ],
+      "frontMatter": {
+        "title": "Decentralized AI: Permissionless LLM Inference on BlockEden.xyz",
+        "authors": [
+          "dora"
+        ],
+        "tags": [
+          "ai",
+          "cuckoo chain"
+        ],
+        "image": "https://tp-misc.b-cdn.net/blockeden/decentralized-inference-blockeden-xyz.webp",
+        "description": "Discover how BlockEden.xyz revolutionizes AI inference with its decentralized, permissionless infrastructure. Learn about the benefits for AI researchers, hardware operators, and developers in this comprehensive overview of BlockEden.xyz's collaboration with Cuckoo Network on the unique approach to decentralized AI services."
+      },
+      "unlisted": false,
+      "nextItem": {
+        "title": "Join the Sui Overflow Hackathon and Win $5000 in Sui with BlockEden.xyz!",
+        "permalink": "/blog/2024/05/13/join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz"
+      }
+    },
+    "content": "BlockEden.xyz, known for its Remote Procedure Call (RPC) infrastructure, is expanding into AI inference services. This evolution leverages its open-source, permissionless design to create a marketplace where model researchers, hardware operators, API providers, and users interact seamlessly. The network's Relay Mining algorithm ensures a transparent and verifiable service, presenting a unique opportunity for large model AI researchers to monetize their work without infrastructure maintenance.\n\n## The Core Problem\n\nThe AI landscape faces significant challenges, including:\n\n- **Restricted Model-Serving Environments**: Resource-intensive infrastructure limits AI researchers' ability to experiment with various models.\n- **Unsustainable Business Models for Open Source Innovation**: Independent engineers struggle to monetize their work, relying on major infrastructure providers.\n- **Unequal Market Access**: Enterprise-grade models dominate, leaving mid-tier models and users underserved.\n\n## BlockEden.xyz’s Unique Value Proposition\n\nBlockEden.xyz addresses these issues by decoupling the infrastructure layer from the product and services layer, ensuring an open and decentralized framework. This setup enables high-quality service delivery and aligns incentives among all network participants.\n\nKey benefits include:\n\n- **Established Network**: Utilizing an existing network of BlockEden.xyz's services to streamline model access and service quality.\n- **Separation of Concerns**: Each stakeholder focuses on their strengths, improving overall ecosystem efficiency.\n- **Incentive Alignment**: Cryptographic proofs and performance measurements drive competition and transparency.\n- **Permissionless Models & Supply**: An open marketplace for cost-effective hardware supply.\n\n## Decentralized AI Inference Stakeholders\n\n**Model Providers: Coordinators**\n\nCoordinators manage the product and services layer, optimizing service quality and providing seamless access for applications. Coordinators discreetly ensure supplier integrity by posing as regular users, offering unbiased performance assessments.\n\n**Model Users: Applications**\n\nApplications typically use first-party coordinators but can also access the network with a third-party for enhanced privacy and cost savings. Direct access allows for diverse use case experimentation and eliminates intermediary costs.\n\n**Model Suppliers: Hardware Operators**\n\nSuppliers run inference nodes to earn tokens. Their competencies in DevOps, hardware maintenance, and logging are crucial for network growth. The permissionless approach encourages participation from various hardware providers, including those with idle or dormant resources.\n\n**Model Sources: Engineers & Researchers**\n\nResearchers and institutions that open-source models can earn revenue based on usage. This model incentivizes innovation without the need for infrastructure maintenance, providing a sustainable business model for open-source contributors.\n\n## Working with Cuckoo Network\n\nBlockEden.xyz collaborates with Cuckoo Network to revolutionize AI inference through a decentralized and permissionless infrastructure. This partnership focuses on leveraging both platforms' strengths to create a seamless and efficient ecosystem for AI model deployment and monetization.\n\n#### Key Collaboration Areas\n\n- **Infrastructure Integration**: Combining BlockEden.xyz's robust RPC infrastructure with Cuckoo Network's decentralized model-serving capabilities to offer a scalable and resilient AI inference service.\n- **Model Distribution**: Facilitating the distribution of open-source AI models across the network, enabling researchers to reach a broader audience and monetize their innovations without the need for extensive infrastructure.\n- **Quality Assurance**: Implementing mechanisms for continuous monitoring and assessment of model performance and supplier integrity, ensuring high-quality service delivery and reliability.\n- **Economic Incentives**: Aligning economic incentives across all stakeholders through cryptographic proofs and [performance-based rewards](https://scan.cuckoo.network/token/0xdf0Fba4d78173C86a9D71B3Fbf79Bf2dbaE4b931), fostering a competitive and transparent marketplace.\n- **Privacy and Security**: Enhancing privacy-preserving operations and secure model inference through advanced technologies like Trusted Execution Environments (TEE) and decentralized data storage solutions.\n- **Community and Support**: Building a supportive community for AI researchers and developers, providing resources, guidance, and incentives to drive innovation and adoption within the decentralized AI ecosystem.\n\nBy partnering with Cuckoo Network, BlockEden.xyz aims to create a holistic and decentralized approach to AI inference, empowering researchers, developers, and users with a robust, transparent, and efficient platform for AI model deployment and utilization.\n\n## Input/Output of a Decentralized Inference Network\n\n**LLM Inputs to Cuckoo Network**:\n\n- Open-source models\n- Demand from end-users or Applications\n- Aggregated supply from commodity hardware\n- Quality of service guarantees\n\n**LLM Outputs from Cuckoo Network**:\n\n- No downtime\n- Seamless model experimentation\n- Public model evaluation\n- Privacy-preserving operations\n- Censorship-free models\n\n## Web3 Ecosystem Integrations\n\nBlockEden.xyz's RPC protocol can integrate with other Web3 protocols to enhance Decentralized AI (DecAI):\n\n**Data & Storage Networks**: Seamless integration with decentralized storage solutions like Filecoin/IPFS and Arweave for model storage and data integrity.\n\n**Compute Networks**: Complementary services leveraging decentralized computing layers like Akash and Render, supporting both dedicated and idle hardware.\n\n**Inference Networks**: Flexible deployment models and robust ecosystems supporting diverse inference tasks.\n\n**Applications**: AI agents, consumer apps, and IoT devices benefit from DecAI inference for personalized services, data privacy, and edge decision-making.\n\n## Conclusion\n\nBlockEden.xyz's established infrastructure and economic design unlock new opportunities for open-source AI. By providing a decentralized and verifiable service, it bridges the gap between open-source AI and Web3, enabling innovative, sustainable, and reliable services. This approach allows for greater model diversity, better market access for SMEs, and a new business model for open-source researchers. Future developments will continue to expand the ecosystem, ensuring BlockEden.xyz remains a robust and adaptable solution in the evolving AI and blockchain landscapes.\n\n## Future Work\n\nFuture research will focus on:\n\n- Comprehensive tokenomics aligning incentives with LLM inference performance metrics.\n- Trusted Execution Environment (TEE) options for secure inference.\n- Verification of model inference quality and origin.\n- Strategies for mitigating adversarial behavior in a permissionless environment."
+  },
+  {
     "id": "/2024/05/13/join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz",
     "metadata": {
       "permalink": "/blog/2024/05/13/join-the-sui-overflow-hackathon-and-win-5000-in-sui-with-blockedenxyz",
@@ -42,6 +92,10 @@
         "description": "Join the Sui Overflow hackathon and compete for a share of $5000 in Sui by integrating BlockEden.xyz's RPC and Indexer services. Learn how to participate, the prize distribution, and judging criteria in our latest blog post. Discover the benefits of using BlockEden.xyz and start building your innovative project today!"
       },
       "unlisted": false,
+      "prevItem": {
+        "title": "Decentralized AI: Permissionless LLM Inference on BlockEden.xyz",
+        "permalink": "/blog/2024/06/20/decentralized-inference-blockeden-xyz"
+      },
       "nextItem": {
         "title": "BlockEden.xyz Decentralizes AI with the AI-to-Earn Platform Cuckoo Network",
         "permalink": "/blog/2024/04/22/partner-with-cuckoo-network"
@@ -107,64 +161,5 @@
       }
     },
     "content": "BlockEden.xyz is renowned for enhancing blockchain decentralization, interoperability and asset utility. The partnership with Cuckoo Network extends BlockEden’s influence into the decentralized AI sector, leveraging our blockchain expertise to support Cuckoo’s AI-driven ecosystem.\n\nCuckoo Network introduces a decentralized framework for AI development, addressing key challenges like privacy, censorship, and computational accuracy. By integrating AI with blockchain technology, Cuckoo enables a more robust and user-governed AI infrastructure.\n\n![](/img/2024-04-22-partner-with-cuckoo-network.webp)\n\n## Strategic Synergies\n\nThe collaboration between BlockEden.xyz and Cuckoo Network focuses on several strategic areas:\n\n### Technology Integration\n\nBlockEden.xyz will utilize its blockchain infrastructure to enhance the security and efficiency of Cuckoo’s decentralized AI tasks. This involves providing high-performance node operations that support the Cuckoo ecosystem, ensuring reliable and continuous AI task processing and validation.\n\n* Cuckoo AI (Pre Alpha) https://blockeden.xyz/api-marketplace/cuckoo-ai is a decentralized AI node for coordinators. You can use it now to generate images.\n* Cuckoo Chain (Pre Alpha) https://blockeden.xyz/api-marketplace/cuckoo-chain is a test blockchain L2 for AI.\n\n<img src=\"/img/cuckoo-ai-node.webp\" className=\"border\" />\n\n### Validator Role and Network Security\n\nThrough this partnership, BlockEden.xyz will serve as a validator for the Cuckoo Network, enhancing network security and stability. This role is pivotal in ensuring the integrity and reliability of decentralized AI task processing on Cuckoo’s platform. As a validator, BlockEden will leverage its blockchain expertise to facilitate robust and secure AI operations, benefiting the broader blockchain and AI ecosystems.\n\n### Community and Ecosystem Development\n\nBlockEden.xyz and Cuckoo Network will jointly work on community engagement initiatives, aiming to foster a collaborative environment for developers, AI enthusiasts, and blockchain advocates. This includes educational programs, joint workshops, and hackathons to encourage innovation and practical solutions in the intersecting fields of AI and blockchain.\n\n## Anticipated Outcomes\n\nThe partnership is set to deliver significant advancements in how blockchain and AI technologies interact. Key outcomes include:\n\n- **Enhanced Decentralization**: By operating nodes across key regions, BlockEden.xyz will help decentralize the Cuckoo AI network, promoting a more resilient and secure ecosystem.\n- **Advanced AI Solutions**: Leveraging BlockEden’s blockchain expertise, Cuckoo Network will enhance its AI model development, ensuring greater accuracy and privacy in AI operations.\n- **Broadened Developer Tools**: Together, both entities will develop and provide advanced tools for developers, such as specialized APIs for blockchain and AI interactions, enriching both ecosystems.\n\n## Conclusion\n\nThe partnership between BlockEden.xyz and Cuckoo Network represents a significant advancement toward a future driven by decentralized technologies in AI and blockchain. This alliance supports our shared vision for a decentralized, secure, and efficient digital future, while establishing a precedent for using blockchain technology to enhance the capabilities and global reach of AI solutions.\n\nBoth BlockEden.xyz and Cuckoo Network are excited to explore this collaborative journey, confident that together, we can pave the way for groundbreaking developments in both domains.\n\n- Cuckoo Website: https://cuckoo.network/\n- Cuckoo Network Telegram: https://cuckoo.network/tg\n- Twitter: [https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)\n- Discord: [https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)\n- Source Link: https://blockeden.xyz/blog/2024/04/22/partner-with-cuckoo-network/"
-  },
-  {
-    "id": "/2024/03/25/bouncebit",
-    "metadata": {
-      "permalink": "/blog/2024/03/25/bouncebit",
-      "source": "@site/blog/2024-03-25-bouncebit.md",
-      "title": "BlockEden.xyz Ventures into the BounceBit Ecosystem as a Prospective Validator and Developer",
-      "description": "BlockEden.xyz is excited to dive into the innovative world of BounceBit, contributing as a validator to enhance BTC re-staking infrastructure and expand blockchain possibilities.",
-      "date": "2024-03-25T00:00:00.000Z",
-      "formattedDate": "March 25, 2024",
-      "tags": [
-        {
-          "label": "company",
-          "permalink": "/blog/tags/company"
-        },
-        {
-          "label": "product",
-          "permalink": "/blog/tags/product"
-        },
-        {
-          "label": "bouncebit",
-          "permalink": "/blog/tags/bouncebit"
-        }
-      ],
-      "readingTime": 2.67,
-      "hasTruncateMarker": false,
-      "authors": [
-        {
-          "name": "Dora Noda",
-          "title": "Software Engineer",
-          "url": "https://github.com/doranoda",
-          "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
-        }
-      ],
-      "frontMatter": {
-        "title": "BlockEden.xyz Ventures into the BounceBit Ecosystem as a Prospective Validator and Developer",
-        "authors": [
-          "dora"
-        ],
-        "tags": [
-          "company",
-          "product",
-          "bouncebit"
-        ],
-        "image": "https://tp-misc.b-cdn.net/blockeden/bouncebit-cover.webp",
-        "description": "BlockEden.xyz is excited to dive into the innovative world of BounceBit, contributing as a validator to enhance BTC re-staking infrastructure and expand blockchain possibilities."
-      },
-      "unlisted": false,
-      "prevItem": {
-        "title": "BlockEden.xyz Decentralizes AI with the AI-to-Earn Platform Cuckoo Network",
-        "permalink": "/blog/2024/04/22/partner-with-cuckoo-network"
-      },
-      "nextItem": {
-        "title": "Empowering Innovation Through Strategic Partnership with Koii Network",
-        "permalink": "/blog/2024/03/11/koii"
-      }
-    },
-    "content": "BlockEden.xyz is thrilled to announce our foray into the pioneering BounceBit ecosystem, aiming to contribute significantly as a validator. BounceBit's unique vision of a BTC re-staking infrastructure combined with a dual-token PoS Layer 1 blockchain captures our imagination and aligns perfectly with our commitment to enhancing blockchain interoperability and asset utility. This partnership signifies our venture into facilitating a more inclusive and dynamic blockchain environment, leveraging Bitcoin's robust security in novel ways.\n\n![](https://tp-misc.b-cdn.net/blockeden/bouncebit-cover.webp)\n\n## Introducing BounceBit\n\nBounceBit is on a mission to redefine the landscape of Bitcoin Layer 2 solutions by creating a standalone, asset-driven PoS Layer 1 sidechain. This innovative ecosystem requires validators to stake both native BounceBit tokens and BTC, establishing a dual-token security system. It marries the inherent stability and security of Bitcoin with the flexibility and innovation of BounceBit’s native functionalities, creating a symbiotic and resilient blockchain network.\n\n### Reimagining Bitcoin's Role in Blockchain\n\nBounceBit's approach diverges from traditional Layer 2 solutions by prioritizing an asset-level integration over protocol-level bindings, enabling a seamless blend of Bitcoin's reliability with EVM compatibility. This creates a fertile ground for interoperability and multi-network yield opportunities for BTC holders, marking a significant advancement in blockchain technology.\n\n## BlockEden.xyz’s Vision with BounceBit\n\nAs we embark on this collaboration, BlockEden.xyz is positioned to harness BounceBit’s infrastructure to offer our sophisticated services, including:\n\n**Validator Contribution and Infrastructure Expertise**: Our deep-rooted expertise in operating high-performance nodes across various blockchains equips us to contribute effectively as a validator within the BounceBit network. Our infrastructure—comprising both cloud services and bare metal solutions—ensures unparalleled reliability, security, and performance.\n\n**Enhancing Blockchain Interoperability**: We are eager to explore and contribute to BounceBit’s vision of unifying BTC across multiple chains. By participating in BounceBit's ecosystem, we aim to facilitate the broader use and integration of BTC in DeFi, expanding its utility and enhancing liquidity across the blockchain spectrum.\n\n**Supporting BounceBit’s Innovative Ecosystem**:  BlockEden.xyz plans to engage with BounceBit's ecosystem by leveraging our technical prowess to develop indexing services, data analytics tools, and APIs tailored for BounceBit. This initiative will provide developers with powerful tools to build on the BounceBit platform, enhancing its capabilities and user experience.\n\nHere are examples for data analytics and indexer GraphQL.\n\n\n\n<img className=\"border mb-2\" src=\"https://tp-misc.b-cdn.net/blockeden/soroban-data-analytics.png\"/>\n\n\n<img className=\"border mb-2\" src=\"https://tp-misc.b-cdn.net/blockeden/soroban-graphql-demo.png\"/>\n\n\n**A Global Operation for a Decentralized Future**: In alignment with BounceBit's global vision, BlockEden.xyz intends to operate nodes across key regions, contributing to the network's geographical diversity and resilience. This global footprint will enhance the decentralization and robustness of the BounceBit network, fostering a more interconnected and secure blockchain ecosystem.\n\n## Conclusion\n\nOur partnership with BounceBit is more than just a collaboration; it's a shared vision for a future where Bitcoin’s value is maximized across blockchain networks. By becoming a validator and contributing to the BounceBit ecosystem, BlockEden.xyz is at the forefront of driving innovation, security, and interoperability in the blockchain space.\n\nWe are excited to embark on this journey with BounceBit, pushing the boundaries of what is possible in the blockchain domain and opening new avenues for Bitcoin’s utility and blockchain interoperability. Together, we are paving the way for a more connected, secure, and innovative blockchain future.\n\n\n- BounceBit Website: https://bouncebit.io/\n- Twitter: [https://twitter.com/BlockEdenHQ](https://twitter.com/BlockEdenHQ)\n- Discord: [https://discord.gg/4Yfvs2HWey](https://discord.gg/4Yfvs2HWey)\n- Source Link: https://blockeden.xyz/blog/2024/03/25/bouncebit/"
   }
 ]
