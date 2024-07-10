@@ -68,7 +68,7 @@ export const News = ({ filterTag }: Props) => {
         <div className="row">
           <div className="col">
             <Link
-              href={filterTag ? `/blog/tags/${filterTag}/` : "/blogs/"}
+              href={filterTag ? `/blog/tags/${filterTag}/` : "/blogs"}
               className="hover-arrow"
             >
               View more news
