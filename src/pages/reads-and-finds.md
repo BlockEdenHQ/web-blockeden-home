@@ -2,6 +2,20 @@
 
 ## September 2024
 
+### [Flux Image AI](https://flux-ai.io/)
+
+[Flux Image AI](https://flux-ai.io/): AI-powered image generation technology, supports natural language to image conversion, multiple artistic style options, high-resolution output, and batch generation capabilities.
+Benefits: Intuitive user interface, rapid generation of high-quality images, suitable for creative design and visual content creation, no professional drawing skills required.
+Comparison with MidJourney: Like MidJourney, Flux focuses on image generation rather than text conversations, providing a unique AI-assisted tool for visual creation.
+
+### [Tap4 AI](https://tap4.ai/discover)
+
+[Tap4 AI (tap4.ai)](https://tap4.ai/discover) is the best place to discover and access your favorite AI tools for free. Whether you need AI writing tools, marketing tools, paraphrasing tools, SEO tools, study tools, generator tools, research tools, art tools, music tools, video tools, coding tools, photo tools, and more, you can find them all here. Is there an AI for that? Tap4 AI Tools Directory has it covered.
+
+### Chat o1
+
+[Chat O1](https://chat4o.ai/) harnesses the capabilities of OpenAI o1 and GPT-4o to deliver advanced AI solutions for complex reasoning in science, coding, and mathematics, along with enhanced safety and commercial potential.
+
 ### [Cuckoo.Network](https://cuckoo.network)
 
 Cuckoo Network is revolutionizing decentralized AI with its innovative blockchain platform. As the premier blockchain for AI, Cuckoo Chain offers lightning-fast transactions, minimal costs, and robust AI capabilities powered by GPU mining. Join our thriving ecosystem of developers, miners and users to unlock the full potential of Web3 and AI. Stake $CAI tokens, earn rewards through our airdrop portal, and participate in cutting-edge applications like Cuckoo Art and Cuckoo Chat. Experience the future of decentralized intelligence with Cuckoo Network - where blockchain meets AI innovation.
