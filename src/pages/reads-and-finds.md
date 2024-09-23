@@ -2,6 +2,14 @@
 
 ## September 2024
 
+### [Linfo.ai](https://linfo.ai/)
+
+[Linfo.ai](https://linfo.ai/) is an AI-powered assisted reading tool that transforms your research experience by providing detailed summaries and structured insights from long articles and videos. Dive into interactive mind maps and personalized Q&A to deepen your understanding. Ideal for students, researchers, and professionals, Linfo.ai helps you navigate information overload efficiently and effectively. Start simplifying your reading and research today with Linfo.ai!
+
+### [ResearchFlow](https://rflow.ai/)
+
+[ResearchFlow](https://rflow.ai/) is an AI-powered research engine that transforms how you explore complex topics. Unlike traditional search engines that provide instant answers, ResearchFlow helps you dive deep into your research, creating visual knowledge landscapes as you go. With our intuitive whiteboard interface, you can map out ideas, connect diverse content types, and let AI guide your exploration. ResearchFlow adapts to your thought process, suggesting new paths and connections while maintaining context. Whether you're a researcher, student, or curious mind, ResearchFlow helps you visualize your journey of discovery, turning fleeting thoughts into expansive, interconnected knowledge networks. Experience a new way of learning where every question leads to deeper understanding.
+
 ### [Flux Image AI](https://flux-ai.io/)
 
 [Flux Image AI](https://flux-ai.io/): AI-powered image generation technology, supports natural language to image conversion, multiple artistic style options, high-resolution output, and batch generation capabilities.
