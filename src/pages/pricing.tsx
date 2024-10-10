@@ -129,6 +129,7 @@ export default function Pricing() {
                       <li className="py-1">
                         <span>
                           <Link
+                            style={{visibility: "hidden"}}
                             href={
                               "https://blockeden.xyz/dash/create-payment-subscription?planId=price_8L39qapm4QmesQC4yGNV&isCrypto=true&isPayton=true"
                             }
@@ -180,6 +181,7 @@ export default function Pricing() {
                       <li className="py-1">
                         <span>
                           <Link
+                            style={{visibility: "hidden"}}
                             href={
                               "https://blockeden.xyz/dash/create-payment-subscription?planId=price_AkhvFdSckLtLdnMZyhCM&isCrypto=true&isPayton=true"
                             }
@@ -230,6 +232,7 @@ export default function Pricing() {
                       <li className="py-1">
                         <span>
                           <Link
+                            style={{visibility: "hidden"}}
                             href={
                               "https://blockeden.xyz/dash/create-payment-subscription?planId=price_s8G1uobrd9FUwqi7wc3N&isCrypto=true&isPayton=true"
                             }
