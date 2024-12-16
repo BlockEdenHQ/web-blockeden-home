@@ -36,7 +36,7 @@ async function updateText(text, fileName) {
     const response = await axios.post(
       "https://api.openai.com/v1/chat/completions",
       {
-        model: "gpt-4o-mini", // You can change the model if required
+        model: "gpt-4o", // You can change the model if required
         messages: [
           {
             role: "user",
