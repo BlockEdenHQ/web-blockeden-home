@@ -705,11 +705,11 @@ export const productConfig = [
       chainId: 3334,
       chainName: "Web3Q Galileo",
       symbol: "W3Q",
-      rpcUrls: ["https://galileo.web3q.io:8545"],
+      rpcUrls: ["https://rpc.beta.testnet.l2.quarkchain.io:8545"],
       decimals: 18,
       blockExplorerUrls: [
         "https://api.blockeden.xyz/ethstorage/galileo/8UuXzatAZYDBJC6YZTKD",
-        "https://explorer.galileo.web3q.io",
+        "https://explorer.beta.testnet.l2.quarkchain.io",
       ],
     },
   },
