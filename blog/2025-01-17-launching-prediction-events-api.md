@@ -134,6 +134,19 @@ Example variable:
 }
 ```
 
+## About Cuckoo Network
+
+Cuckoo Network is pioneering the intersection of artificial intelligence and blockchain technology through a decentralized infrastructure. As a leading Web3 platform, Cuckoo Network provides:
+
+- **AI Computing Marketplace**: A decentralized marketplace that connects AI computing power providers with users, ensuring efficient resource allocation and fair pricing
+- **Prediction Market Protocol**: A robust framework for creating and managing decentralized prediction markets
+- **Node Operation Network**: A distributed network of nodes that process AI computations and validate prediction market outcomes
+- **Innovative Tokenomics**: A sustainable economic model that incentivizes network participation and ensures long-term growth
+
+The Cuckoo Prediction Events API is built on top of this infrastructure, leveraging Cuckoo Network's deep expertise in both AI and blockchain technologies. By integrating with Cuckoo Network's ecosystem, developers can access not just prediction market data, but also tap into a growing network of AI-powered services and decentralized computing resources.
+
+This partnership between BlockEden.xyz and Cuckoo Network represents a significant step forward in bringing enterprise-grade prediction market infrastructure to Web3 developers, combining BlockEden.xyz's reliable API delivery with Cuckoo Network's innovative technology stack.
+
 ## Join Our Growing Ecosystem
 
 As we continue to expand our API offerings, we invite developers to join our community and help shape the future of prediction markets in Web3. With our commitment to high availability and robust infrastructure, BlockEden.xyz ensures your applications have the reliable foundation they need to succeed.
