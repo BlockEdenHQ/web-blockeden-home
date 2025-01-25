@@ -1,7 +1,16 @@
+---
+title: "Introducing CryptoNews API: Real-time Market Intelligence for Web3 Builders"
+tags: [CryptoNews, API, Web3, Cryptocurrency, Market Intelligence]
+keywords: [real-time news, sentiment analysis, cryptocurrency, API, Web3 development]
+description: BlockEden.xyz launches the CryptoNews API, offering developers real-time access to cryptocurrency news and market sentiment data, enhancing applications with reliable market intelligence.
+image: https://web-dash-v2.onrender.com/api/og?title=Introducing%20CryptoNews%20API:%20Real-time%20Market%20Intelligence%20for%20Web3%20Builders
+---
+
 # Introducing CryptoNews API: Real-time Market Intelligence for Web3 Builders
 
 BlockEden.xyz is excited to announce the launch of our CryptoNews API, empowering developers with real-time access to comprehensive cryptocurrency news and market sentiment data. This new addition to our API marketplace reflects our commitment to providing developers with the tools they need to build sophisticated, data-driven applications in the Web3 space.
 
+![CryptoNews API](https://web-dash-v2.onrender.com/api/og?title=Introducing%20CryptoNews%20API:%20Real-time%20Market%20Intelligence%20for%20Web3%20Builders)
 
 ## Why CryptoNews API?
 
