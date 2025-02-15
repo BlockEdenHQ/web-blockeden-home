@@ -3,7 +3,7 @@ title: "BlockEden.xyz 1-Year Growth Strategy Plan"
 tags: ["growth", "strategy", "web3", "infrastructure", "blockchain", "api", "staking", "business"]
 keywords: ["BlockEden.xyz", "growth strategy", "Web3 infrastructure", "blockchain API", "staking", "multi-chain support", "developer platform", "API marketplace", "blockchain infrastructure", "revenue model", "operational plan", "market analysis"]
 description: "A comprehensive growth strategy for BlockEden.xyz, detailing plans to double its developer base and expand multi-chain infrastructure services globally. The plan outlines market analysis, revenue models, and operational improvements to strengthen BlockEden's position as a leading Web3 infrastructure provider."
-image: "https://web-dash-v2.onrender.com/api/og?title=BlockEden.xyz%201-Year%20Growth%20Strategy%20Plan"
+image: "https://opengraph-image.blockeden.xyz/api/og-blockeden-xyz?title=BlockEden.xyz%201-Year%20Growth%20Strategy%20Plan"
 ---
 
 # BlockEden.xyz 1-Year Growth Strategy Plan
@@ -12,7 +12,7 @@ image: "https://web-dash-v2.onrender.com/api/og?title=BlockEden.xyz%201-Year%20G
 
 BlockEden.xyz is a Web3 infrastructure provider offering an **API marketplace and staking node service** that connects decentralized applications (DApps) to multiple blockchain networks instantly and securely. The platform supports **27 blockchain APIs** (including emerging Layer-1s like Aptos and Sui) and serves a community of over **6,000 developers** with 99.9% uptime reliability. Over the next year, BlockEden.xyz's primary goal is to **accelerate global user growth** – expanding its developer user base and usage across regions – while strengthening its position as a **leading multi-chain Web3 infrastructure platform**. Key business objectives include: doubling the number of active developers on the platform, expanding support to additional blockchains and markets, increasing recurring revenue through service adoption, and maintaining high service performance and customer satisfaction. This strategy plan outlines an actionable roadmap to achieve these goals, covering market analysis, value proposition, growth tactics, revenue model enhancements, operational improvements, and key success metrics. By leveraging its strengths in multi-chain support and developer-centric services, and by addressing industry opportunities, BlockEden.xyz aims to achieve sustainable global growth and solidify its role in powering the next wave of Web3 applications.
 
-![](https://web-dash-v2.onrender.com/api/og?title=BlockEden.xyz%201-Year%20Growth%20Strategy%20Plan)
+![](https://opengraph-image.blockeden.xyz/api/og-blockeden-xyz?title=BlockEden.xyz%201-Year%20Growth%20Strategy%20Plan)
 
 ## Market Analysis
 

@@ -3,16 +3,16 @@ title: "A16Z’s Crypto 2025 Outlook: Twelve Ideas That Might Reshape the Next I
 tags: [crypto, blockchain, AI, governance, SaaS]
 keywords: [A16Z, crypto 2025, blockchain, AI, decentralized governance, stablecoins, DAOs]
 description: A16Z's 2025 outlook explores the intersection of blockchain, AI, and governance, predicting transformative trends like AI-driven crypto wallets, decentralized autonomous chatbots, and the rise of stablecoins in enterprise. Discover how these innovations could redefine the internet and the challenges they may face.
-image: https://web-dash-v2.onrender.com/api/og?title=A16Z’s%20Crypto%202025%20Outlook:%20Twelve%20Ideas%20That%20Might%20Reshape%20the%20Next%20Internet
+image: https://opengraph-image.blockeden.xyz/api/og-blockeden-xyz?title=A16Z’s%20Crypto%202025%20Outlook:%20Twelve%20Ideas%20That%20Might%20Reshape%20the%20Next%20Internet
 ---
 
 # A16Z’s Crypto 2025 Outlook: Twelve Ideas That Might Reshape the Next Internet
 
 Every year, a16z publishes sweeping predictions on the technologies that will define our future. This time, their crypto team has painted a vivid picture of a 2025 where blockchains, AI, and advanced governance experiments collide.
 
-I’ve summarized and commented on their key insights below, focusing on what I see as the big levers for change — and possible stumbling blocks. If you’re a tech builder, investor, or simply curious about the next wave of the internet, this piece is for you. 
+I’ve summarized and commented on their key insights below, focusing on what I see as the big levers for change — and possible stumbling blocks. If you’re a tech builder, investor, or simply curious about the next wave of the internet, this piece is for you.
 
-![](https://web-dash-v2.onrender.com/api/og?title=A16Z’s%20Crypto%202025%20Outlook:%20Twelve%20Ideas%20That%20Might%20Reshape%20the%20Next%20Internet)
+![](https://opengraph-image.blockeden.xyz/api/og-blockeden-xyz?title=A16Z’s%20Crypto%202025%20Outlook:%20Twelve%20Ideas%20That%20Might%20Reshape%20the%20Next%20Internet)
 
 ## 1. **AI Meets Crypto Wallets**
 

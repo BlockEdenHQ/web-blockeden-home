@@ -3,14 +3,14 @@ title: "Introducing Cuckoo Prediction Events API: Empowering Web3 Prediction Mar
 tags: [Web3, Prediction Markets, API, Blockchain, SaaS]
 keywords: [Cuckoo Prediction Events API, Web3, prediction market developers, GraphQL, real-time data]
 description: The Cuckoo Prediction Events API offers Web3 prediction market developers real-time data access through a flexible GraphQL interface, enhancing market intelligence and integration capabilities.
-image: https://web-dash-v2.onrender.com/api/og?title=Introducing%20Cuckoo%20Prediction%20Events%20API%3A%20Empowering%20Web3%20Prediction%20Market%20Developers
+image: https://opengraph-image.blockeden.xyz/api/og-blockeden-xyz?title=Introducing%20Cuckoo%20Prediction%20Events%20API%3A%20Empowering%20Web3%20Prediction%20Market%20Developers
 ---
 
 # Introducing Cuckoo Prediction Events API: Empowering Web3 Prediction Market Developers
 
 We are excited to announce the launch of the [Cuckoo Prediction Events API](https://blockeden.xyz/api-marketplace/cuckoo-prediction-events), expanding BlockEden.xyz's comprehensive suite of Web3 infrastructure solutions. This new addition to our API marketplace marks a significant step forward in supporting prediction market developers and platforms.
 
-![Cuckoo Prediction Events API](https://web-dash-v2.onrender.com/api/og?title=Introducing%20Cuckoo%20Prediction%20Events%20API%3A%20Empowering%20Web3%20Prediction%20Market%20Developers)
+![Cuckoo Prediction Events API](https://opengraph-image.blockeden.xyz/api/og-blockeden-xyz?title=Introducing%20Cuckoo%20Prediction%20Events%20API%3A%20Empowering%20Web3%20Prediction%20Market%20Developers)
 
 ## What is the Cuckoo Prediction Events API?
 

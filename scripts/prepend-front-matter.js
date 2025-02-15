@@ -54,7 +54,7 @@ Ultimately, our mission is to broaden our reach, spark informed optimism, and po
 I want you to create or update the front matter for the article following the docusaurus-style example, in order to improve SEO and make it more reader-friendly. And then return the full article.
 
 - the description field should be engaging and summarizing the article and optimizing for SEO. Avoid using jargon like "unleash", "explore", "discover", "This article summarizes", etc.
-- image field should be https://web-dash-v2.onrender.com/api/og?title=:title, where title is the title of the article. If there is no such image in the content of the blog, add insert it to be after the first paragraph of the article. If there is no such image in the content of the blog, add insert it to be after the first paragraph of the article.
+- image field should be https://opengraph-image.blockeden.xyz/api/og-blockeden-xyz?title=:title, where title is the title of the article. If there is no such image in the content of the blog, add insert it to be after the first paragraph of the article. If there is no such image in the content of the blog, add insert it to be after the first paragraph of the article.
 - title, description, and image fields should be wrapped with "" so that they are strings
 
 the front matter example:
