@@ -220,4 +220,4 @@ At BlockEden.xyz, we're committed to supporting developers wherever they build, 
 
 ---
 
-*Looking to build on MegaETH or need reliable node infrastructure for high-throughput applications? [Contact BlockEden.xyz](https://blockeden.xyz/contact/) to learn how we can support your development with our 99.9% uptime guarantee and specialized RPC services across 27+ blockchains.*
+*Looking to build on MegaETH or need reliable node infrastructure for high-throughput applications? [Contact Email: info@BlockEden.xyz](mailto://info@BlockEden.xyz) to learn how we can support your development with our 99.9% uptime guarantee and specialized RPC services across 27+ blockchains.*
