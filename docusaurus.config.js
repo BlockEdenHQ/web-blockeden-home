@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const {themes} = require('prism-react-renderer');
+const { themes } = require("prism-react-renderer");
 const lightTheme = themes.github;
 // const darkTheme = themes.dracula;
 const { beConfig } = require("./src/config");
@@ -23,36 +23,36 @@ const config = {
 
   plugins: [
     [
-      '@docusaurus/plugin-client-redirects',
+      "@docusaurus/plugin-client-redirects",
       {
         redirects: [
           {
-            to: '/docs/sui/sui-overflow/',
-            from: ['/sui-overflow'],
+            to: "/docs/sui/sui-overflow/",
+            from: ["/sui-overflow"],
           },
           {
-            to: 'https://discord.gg/4Yfvs2HWey',
-            from: ['/discord'],
+            to: "https://discord.gg/4Yfvs2HWey",
+            from: ["/discord"],
           },
           {
-            to: 'https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fblockeden.xyz%2F&region=follow_link&screen_name=BlockedenHQ',
-            from: ['/twitter'],
+            to: "https://twitter.com/intent/follow?region=follow_link&screen_name=BlockEdenHQ",
+            from: ["/twitter", "/x"],
           },
           {
-            to: 'https://medium.com/@BlockEden.xyz',
-            from: ['/medium'],
+            to: "https://medium.com/@BlockEden.xyz",
+            from: ["/medium"],
           },
           {
-            to: 'https://mirror.xyz/0x1De85782A08Ee77371D7A711B1370fA369b01A89',
-            from: ['/mirror'],
+            to: "https://mirror.xyz/0x1De85782A08Ee77371D7A711B1370fA369b01A89",
+            from: ["/mirror"],
           },
           {
-            to: 'https://blockedenxyz.substack.com/',
-            from: ['/substack'],
+            to: "https://blockedenxyz.substack.com/",
+            from: ["/substack"],
           },
           {
-            to: 'https://www.linkedin.com/in/dora-noda-35952622a/',
-            from: ['/linkedin'],
+            to: "https://www.linkedin.com/in/dora-noda-35952622a/",
+            from: ["/linkedin"],
           },
         ],
       },
@@ -91,7 +91,7 @@ const config = {
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -323,7 +323,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Stargately, Inc.`,
       },
       prism: {
-        additionalLanguages: ['bash', 'diff', 'json'],
+        additionalLanguages: ["bash", "diff", "json"],
         theme: lightTheme,
         // darkTheme: darkCodeTheme,
       },

@@ -20,9 +20,10 @@
     "fm": "node scripts/prepend-front-matter.js"
   },
   "dependencies": {
-    "@docusaurus/core": "3.1.0",
-    "@docusaurus/plugin-client-redirects": "3.1.0",
-    "@docusaurus/preset-classic": "3.1.0",
+    "@docusaurus/core": "3.5.2",
+    "@docusaurus/plugin-client-redirects": "3.5.2",
+    "@docusaurus/preset-classic": "3.5.2",
+    "@giscus/react": "^3.1.0",
     "@iconfu/svg-inject": "^1.2.3",
     "@mdx-js/react": "^3.0.0",
     "aos": "^3.0.0-beta.6",
