@@ -7,13 +7,14 @@
       "title": "Join the Sui Overflow Hackathon and Win $5000 in Sui with BlockEden.xyz!",
       "description": "Join the Sui Overflow hackathon and compete for a share of $5000 in Sui by integrating BlockEden.xyz's RPC and Indexer services. Learn how to participate, the prize distribution, and judging criteria in our latest blog post. Discover the benefits of using BlockEden.xyz and start building your innovative project today!",
       "date": "2024-05-13T00:00:00.000Z",
-      "formattedDate": "May 13, 2024",
       "tags": [
         {
+          "inline": true,
           "label": "event",
           "permalink": "/blog/tags/event"
         },
         {
+          "inline": true,
           "label": "sui",
           "permalink": "/blog/tags/sui"
         }
@@ -26,7 +27,8 @@
           "title": "Software Engineer",
           "url": "https://github.com/doranoda",
           "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
+          "key": "dora",
+          "page": null
         }
       ],
       "frontMatter": {
@@ -61,13 +63,14 @@
       "title": "Stake SUI and earn rewards with BlockEden.xyz",
       "description": "Earning rewards by staking your SUI with BlockEden.xyz through the Sui Wallet, Martian Wallet, or Suiet! We're excited to announce that SUI staking on Mainnet is finally accessible, providing an opportunity for you to generate passive income from your $SUI by earning staking rewards. This guide will explain, step by step, how to use your preferred Sui wallets: Sui Wallet, Suiet, and Martian Wallet.",
       "date": "2023-06-02T00:00:00.000Z",
-      "formattedDate": "June 2, 2023",
       "tags": [
         {
+          "inline": true,
           "label": "staking",
           "permalink": "/blog/tags/staking"
         },
         {
+          "inline": true,
           "label": "sui",
           "permalink": "/blog/tags/sui"
         }
@@ -80,7 +83,8 @@
           "title": "Software Engineer",
           "url": "https://github.com/doranoda",
           "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
+          "key": "dora",
+          "page": null
         }
       ],
       "frontMatter": {
@@ -114,13 +118,14 @@
       "title": "Dive into Blockchain Programming with Sui Move",
       "description": "Blockchain technology has emerged as a leading force in the digital world, offering revolutionary solutions that extend beyond cryptocurrency. Programming languages dedicated to blockchain technology are carving a unique space for themselves. Among these languages, Move has secured a significant spot, thanks to its robustness and inherent security features. Today, we will introduce an innovative tutorial called \"Sui Move,\" designed to teach developers the Move programming language using a learn-by-example approach.",
       "date": "2023-05-18T00:00:00.000Z",
-      "formattedDate": "May 18, 2023",
       "tags": [
         {
+          "inline": true,
           "label": "sui",
           "permalink": "/blog/tags/sui"
         },
         {
+          "inline": true,
           "label": "tutorial",
           "permalink": "/blog/tags/tutorial"
         }
@@ -133,7 +138,8 @@
           "title": "Software Engineer",
           "url": "https://github.com/doranoda",
           "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
+          "key": "dora",
+          "page": null
         }
       ],
       "frontMatter": {

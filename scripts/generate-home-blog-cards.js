@@ -1,6 +1,5 @@
-const {
-  blogPosts,
-} = require("../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json");
+const blogArchive = require("../.docusaurus/docusaurus-plugin-content-blog/default/p/blog-archive-61f.json");
+const blogPosts = blogArchive.archive.blogPosts;
 const fs = require("fs");
 
 function generate(filename, filterTag) {
@@ -9,7 +8,7 @@ function generate(filename, filterTag) {
       if (!filterTag) {
         return true;
       } else {
-        return p.metadata.tags.some((t) => t.label === filterTag);
+        return p.metadata.tags && p.metadata.tags.some((t) => t.label === filterTag);
       }
     })
     .slice(0, 3);

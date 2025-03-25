@@ -7,38 +7,44 @@
       "title": "Sony's Soneium: Bringing Blockchain to the Entertainment World",
       "description": "Sony's Soneium is a Layer-2 blockchain on Ethereum, designed to integrate Web3 innovations with mainstream internet services. Developed by Sony Block Solutions Labs, Soneium aims to make blockchain technology accessible and scalable for everyday use, focusing on entertainment, creative content, and fan engagement.",
       "date": "2025-03-18T00:00:00.000Z",
-      "formattedDate": "March 18, 2025",
       "tags": [
         {
+          "inline": true,
           "label": "Sony",
           "permalink": "/blog/tags/sony"
         },
         {
+          "inline": true,
           "label": "Soneium",
           "permalink": "/blog/tags/soneium"
         },
         {
+          "inline": true,
           "label": "Layer-2",
           "permalink": "/blog/tags/layer-2"
         },
         {
+          "inline": true,
           "label": "Blockchain",
           "permalink": "/blog/tags/blockchain"
         },
         {
+          "inline": true,
           "label": "Ethereum",
           "permalink": "/blog/tags/ethereum"
         },
         {
+          "inline": true,
           "label": "Web3",
           "permalink": "/blog/tags/web-3"
         },
         {
+          "inline": true,
           "label": "Technology",
           "permalink": "/blog/tags/technology"
         }
       ],
-      "readingTime": 5.25,
+      "readingTime": 5.105,
       "hasTruncateMarker": false,
       "authors": [],
       "frontMatter": {
@@ -72,7 +78,7 @@
         "permalink": "/blog/2025/03/16/intro-to-megaeth"
       }
     },
-    "content": "In the rapidly evolving landscape of blockchain technology, a familiar name has stepped into the arena with a bold vision. Sony, the entertainment and technology giant, has launched Soneium—an Ethereum Layer-2 blockchain designed to bridge the gap between cutting-edge Web3 innovations and mainstream internet services. But what exactly is Soneium, and why should you care? Let's dive in.\n\n![](https://opengraph-image.blockeden.xyz/api/og-blockeden-xyz?title=Sony's%20Soneium:%20Bridging%20Web3%20and%20Mainstream%20Internet%20with%20Layer-2%20Blockchain)\n\n## What is Soneium?\n\nSoneium is a Layer-2 blockchain built on top of Ethereum, developed by Sony Block Solutions Labs—a joint venture between Sony Group and Startale Labs. Launched in January 2025 after a successful testnet phase, Soneium aims to \"realize the open internet that transcends boundaries\" by making blockchain technology accessible, scalable, and practical for everyday use.\n\nThink of it as Sony's attempt to make blockchain as user-friendly as its PlayStations and Walkmans once made gaming and music.\n\n## The Tech Behind Soneium\n\nFor the tech-curious among us, Soneium is built on **Optimism's OP Stack**, which means it uses the same optimistic rollup framework as other popular Layer-2 solutions. In plain English? It processes transactions off-chain and only periodically posts compressed data back to Ethereum, making transactions faster and cheaper while maintaining security.\n\nSoneium is fully compatible with the Ethereum Virtual Machine (EVM), so developers familiar with Ethereum can easily deploy their applications on the platform. It also joins Optimism's \"Superchain\" ecosystem, allowing it to communicate easily with other Layer-2 networks like Coinbase's Base.\n\n## What Makes Soneium Special?\n\nWhile there are already several Layer-2 solutions on the market, Soneium stands out for its focus on **entertainment, creative content, and fan engagement**—areas where Sony has decades of experience and vast resources.\n\nImagine buying a movie ticket and receiving an exclusive digital collectible that grants access to bonus content. Or attending a virtual concert where your NFT ticket becomes a memento with special perks. These are the kinds of experiences Sony envisions building on Soneium.\n\nThe platform is designed to support:\n\n- **Gaming experiences** with faster transactions for in-game assets\n- **NFT marketplaces** for digital collectibles\n- **Fan engagement apps** where communities can interact with creators\n- **Financial tools** for creators and fans\n- **Enterprise blockchain solutions**\n\n## Sony's Partnerships Power Soneium\n\nSony isn't going it alone. The company has forged strategic partnerships to bolster Soneium's development and adoption:\n\n- **Startale Labs**, a Singapore-based blockchain startup led by Sota Watanabe (co-founder of Astar Network), is Sony's key technical partner\n- **Optimism Foundation** provides the underlying technology\n- **Circle** ensures that USD Coin (USDC) serves as a primary currency on the network\n- **Samsung** has made a strategic investment through its venture arm\n- **Alchemy, Chainlink, Pyth Network, and The Graph** provide essential infrastructure services\n\nSony is also leveraging its internal divisions—including Sony Pictures, Sony Music Entertainment, and Sony Music Publishing—to pilot Web3 fan engagement projects on Soneium. For example, the platform has already hosted NFT campaigns for the \"Ghost in the Shell\" franchise and various music artists under Sony's label.\n\n## Early Signs of Success\n\nDespite being just a few months old, Soneium has shown promising traction:\n\n- Its testnet phase saw over **15 million active wallets** and processed over **47 million transactions**\n- Within the first month of mainnet launch, Soneium attracted over **248,000 on-chain accounts** and about **1.8 million addresses** interacting with the network\n- The platform has successfully launched several NFT drops, including a collaboration with Web3 music label Coop Records\n\nTo fuel growth, Sony and Astar Network launched a **100-day incentive campaign** with a 100 million token reward pool, encouraging users to try out apps, supply liquidity, and be active on the platform.\n\n## Security and Scalability: A Balancing Act\n\nSecurity is paramount for Sony, especially as it carries its trusted brand into the blockchain space. Soneium inherits Ethereum's security while adding its own protective measures.\n\nInterestingly, Sony has taken a somewhat controversial approach by blacklisting certain smart contracts and tokens deemed to infringe on intellectual property. While this has raised questions about decentralization, Sony argues that some curation is necessary to protect creators and build trust with mainstream users.\n\nOn the scalability front, Soneium's very purpose is to enhance Ethereum's throughput. By processing transactions off-chain, it can handle a much higher volume of transactions at much lower costs—crucial for mass adoption of applications like games or large NFT drops.\n\n## The Road Ahead\n\nSony has outlined a multi-phase roadmap for Soneium:\n\n1. First year: Onboarding Web3 enthusiasts and early adopters\n2. Within two years: Integrating Sony products like Sony Bank, Sony Music, and Sony Pictures\n3. Within three years: Expanding to enterprises and general applications beyond Sony's ecosystem\n\nThe company is gradually rolling out its **NFT-driven Fan Marketing Platform**, which will allow brands and artists to easily issue NFTs to fans, offering perks like exclusive content and event access.\n\nWhile Soneium currently relies on ETH for gas fees and uses ASTR (Astar Network's token) for incentives, there's speculation about a potential Soneium native token in the future.\n\n## How Soneium Compares to Other Layer-2 Networks\n\nIn the crowded Layer-2 market, Soneium faces competition from established players like Arbitrum, Optimism, and Polygon. However, Sony is carving a unique position by leveraging its entertainment empire and focusing on creative use cases.\n\nUnlike purely community-driven Layer-2 networks, Soneium benefits from Sony's brand trust, access to content IP, and a potentially huge user base from existing Sony services.\n\nThe trade-off is less decentralization (at least initially) compared to networks like Optimism and Arbitrum, which have issued tokens and implemented community governance.\n\n## The Big Picture\n\nSony's Soneium represents a significant step toward blockchain mass adoption. By focusing on content and fan engagement—areas where Sony excels—the company is positioning Soneium as a bridge between Web3 enthusiasts and everyday consumers.\n\nIf Sony can successfully convert even a fraction of its millions of customers into Web3 participants, Soneium could become one of the first truly mainstream blockchain platforms.\n\nThe experiment has just begun, but the potential is enormous. As the lines between entertainment, technology, and blockchain continue to blur, Soneium may well be at the forefront of this convergence, bringing blockchain technology to the masses one gaming avatar or music NFT at a time.\n\n_What do you think about Sony's blockchain ambitions? Are you excited about the potential of Soneium to bring blockchain to mainstream entertainment? Share your thoughts in the comments below!_"
+    "content": "In the rapidly evolving landscape of blockchain technology, a familiar name has stepped into the arena with a bold vision. Sony, the entertainment and technology giant, has launched Soneium—an Ethereum Layer-2 blockchain designed to bridge the gap between cutting-edge Web3 innovations and mainstream internet services. But what exactly is Soneium, and why should you care? Let's dive in.\n\n![](https://opengraph-image.blockeden.xyz/api/og-blockeden-xyz?title=Sony's%20Soneium:%20Bridging%20Web3%20and%20Mainstream%20Internet%20with%20Layer-2%20Blockchain)\n\n## What is Soneium?\n\nSoneium is a Layer-2 blockchain built on top of Ethereum, developed by Sony Block Solutions Labs—a joint venture between Sony Group and Startale Labs. Launched in January 2025 after a successful testnet phase, Soneium aims to \"realize the open internet that transcends boundaries\" by making blockchain technology accessible, scalable, and practical for everyday use.\n\nThink of it as Sony's attempt to make blockchain as user-friendly as its PlayStations and Walkmans once made gaming and music.\n\n## The Tech Behind Soneium\n\nFor the tech-curious among us, Soneium is built on **Optimism's OP Stack**, which means it uses the same optimistic rollup framework as other popular Layer-2 solutions. In plain English? It processes transactions off-chain and only periodically posts compressed data back to Ethereum, making transactions faster and cheaper while maintaining security.\n\nSoneium is fully compatible with the Ethereum Virtual Machine (EVM), so developers familiar with Ethereum can easily deploy their applications on the platform. It also joins Optimism's \"Superchain\" ecosystem, allowing it to communicate easily with other Layer-2 networks like Coinbase's Base.\n\n## What Makes Soneium Special?\n\nWhile there are already several Layer-2 solutions on the market, Soneium stands out for its focus on **entertainment, creative content, and fan engagement**—areas where Sony has decades of experience and vast resources.\n\nImagine buying a movie ticket and receiving an exclusive digital collectible that grants access to bonus content. Or attending a virtual concert where your NFT ticket becomes a memento with special perks. These are the kinds of experiences Sony envisions building on Soneium.\n\nThe platform is designed to support:\n\n- **Gaming experiences** with faster transactions for in-game assets\n- **NFT marketplaces** for digital collectibles\n- **Fan engagement apps** where communities can interact with creators\n- **Financial tools** for creators and fans\n- **Enterprise blockchain solutions**\n\n## Sony's Partnerships Power Soneium\n\nSony isn't going it alone. The company has forged strategic partnerships to bolster Soneium's development and adoption:\n\n- **Startale Labs**, a Singapore-based blockchain startup led by Sota Watanabe (co-founder of Astar Network), is Sony's key technical partner\n- **Optimism Foundation** provides the underlying technology\n- **Circle** ensures that USD Coin (USDC) serves as a primary currency on the network\n- **Samsung** has made a strategic investment through its venture arm\n- **Alchemy, Chainlink, Pyth Network, and The Graph** provide essential infrastructure services\n\nSony is also leveraging its internal divisions—including Sony Pictures, Sony Music Entertainment, and Sony Music Publishing—to pilot Web3 fan engagement projects on Soneium. For example, the platform has already hosted NFT campaigns for the \"Ghost in the Shell\" franchise and various music artists under Sony's label.\n\n## Early Signs of Success\n\nDespite being just a few months old, Soneium has shown promising traction:\n\n- Its testnet phase saw over **15 million active wallets** and processed over **47 million transactions**\n- Within the first month of mainnet launch, Soneium attracted over **248,000 on-chain accounts** and about **1.8 million addresses** interacting with the network\n- The platform has successfully launched several NFT drops, including a collaboration with Web3 music label Coop Records\n\nTo fuel growth, Sony and Astar Network launched a **100-day incentive campaign** with a 100 million token reward pool, encouraging users to try out apps, supply liquidity, and be active on the platform.\n\n## Security and Scalability: A Balancing Act\n\nSecurity is paramount for Sony, especially as it carries its trusted brand into the blockchain space. Soneium inherits Ethereum's security while adding its own protective measures.\n\nInterestingly, Sony has taken a somewhat controversial approach by blacklisting certain smart contracts and tokens deemed to infringe on intellectual property. While this has raised questions about decentralization, Sony argues that some curation is necessary to protect creators and build trust with mainstream users.\n\nOn the scalability front, Soneium's very purpose is to enhance Ethereum's throughput. By processing transactions off-chain, it can handle a much higher volume of transactions at much lower costs—crucial for mass adoption of applications like games or large NFT drops.\n\n## The Road Ahead\n\nSony has outlined a multi-phase roadmap for Soneium:\n\n1. First year: Onboarding Web3 enthusiasts and early adopters\n2. Within two years: Integrating Sony products like Sony Bank, Sony Music, and Sony Pictures\n3. Within three years: Expanding to enterprises and general applications beyond Sony's ecosystem\n\nThe company is gradually rolling out its **NFT-driven Fan Marketing Platform**, which will allow brands and artists to easily issue NFTs to fans, offering perks like exclusive content and event access.\n\nWhile Soneium currently relies on ETH for gas fees and uses ASTR (Astar Network's token) for incentives, there's speculation about a potential Soneium native token in the future.\n\n## How Soneium Compares to Other Layer-2 Networks\n\nIn the crowded Layer-2 market, Soneium faces competition from established players like Arbitrum, Optimism, and Polygon. However, Sony is carving a unique position by leveraging its entertainment empire and focusing on creative use cases.\n\nUnlike purely community-driven Layer-2 networks, Soneium benefits from Sony's brand trust, access to content IP, and a potentially huge user base from existing Sony services.\n\nThe trade-off is less decentralization (at least initially) compared to networks like Optimism and Arbitrum, which have issued tokens and implemented community governance.\n\n## The Big Picture\n\nSony's Soneium represents a significant step toward blockchain mass adoption. By focusing on content and fan engagement—areas where Sony excels—the company is positioning Soneium as a bridge between Web3 enthusiasts and everyday consumers.\n\nIf Sony can successfully convert even a fraction of its millions of customers into Web3 participants, Soneium could become one of the first truly mainstream blockchain platforms.\n\nThe experiment has just begun, but the potential is enormous. As the lines between entertainment, technology, and blockchain continue to blur, Soneium may well be at the forefront of this convergence, bringing blockchain technology to the masses one gaming avatar or music NFT at a time."
   },
   {
     "id": "/2025/03/16/intro-to-megaeth",
@@ -82,25 +88,29 @@
       "title": "MegaETH: The 100,000 TPS Layer-2 Aiming to Supercharge Ethereum",
       "description": "MegaETH is revolutionizing Ethereum's scalability with its 100,000 TPS Layer-2 solution, offering unprecedented speed and performance while raising questions about decentralization and security trade-offs.",
       "date": "2025-03-16T00:00:00.000Z",
-      "formattedDate": "March 16, 2025",
       "tags": [
         {
+          "inline": true,
           "label": "Ethereum",
           "permalink": "/blog/tags/ethereum"
         },
         {
+          "inline": true,
           "label": "Layer-2",
           "permalink": "/blog/tags/layer-2"
         },
         {
+          "inline": true,
           "label": "Blockchain",
           "permalink": "/blog/tags/blockchain"
         },
         {
+          "inline": true,
           "label": "MegaETH",
           "permalink": "/blog/tags/mega-eth"
         },
         {
+          "inline": true,
           "label": "Scalability",
           "permalink": "/blog/tags/scalability"
         }
@@ -147,29 +157,34 @@
       "title": "Scaling Blockchains: How Caldera and the RaaS Revolution Are Shaping Web3's Future",
       "description": "How Rollups-as-a-Service (RaaS) platforms like Caldera are transforming blockchain scalability, enabling millions of transactions with reduced costs and enhanced security, and shaping the future of Web3?",
       "date": "2025-03-16T00:00:00.000Z",
-      "formattedDate": "March 16, 2025",
       "tags": [
         {
+          "inline": true,
           "label": "Blockchain",
           "permalink": "/blog/tags/blockchain"
         },
         {
+          "inline": true,
           "label": "Web3",
           "permalink": "/blog/tags/web-3"
         },
         {
+          "inline": true,
           "label": "RaaS",
           "permalink": "/blog/tags/raa-s"
         },
         {
+          "inline": true,
           "label": "Caldera",
           "permalink": "/blog/tags/caldera"
         },
         {
+          "inline": true,
           "label": "Ethereum",
           "permalink": "/blog/tags/ethereum"
         },
         {
+          "inline": true,
           "label": "Scalability",
           "permalink": "/blog/tags/scalability"
         }

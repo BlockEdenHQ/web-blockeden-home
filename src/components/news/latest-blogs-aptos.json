@@ -7,13 +7,14 @@
       "title": "[Pitch Deck] Stellar Soroban Indexer and GraphQL",
       "description": "From September 26-28, 2023, in Madrid, Spain, BlockEden.xyz unveiled the Soroban Indexer and GraphQL at Stellar's annual Meridian conference. We were delighted to showcase our innovations at this esteemed event.",
       "date": "2023-10-07T00:00:00.000Z",
-      "formattedDate": "October 7, 2023",
       "tags": [
         {
+          "inline": true,
           "label": "product",
           "permalink": "/blog/tags/product"
         },
         {
+          "inline": true,
           "label": "aptos",
           "permalink": "/blog/tags/aptos"
         }
@@ -26,7 +27,8 @@
           "title": "Software Engineer",
           "url": "https://github.com/doranoda",
           "imageURL": "https://avatars.githubusercontent.com/u/38552114?v=4",
-          "key": "dora"
+          "key": "dora",
+          "page": null
         }
       ],
       "frontMatter": {
@@ -61,13 +63,14 @@
       "title": "BlockEden.xyz launches Aptos REST Playground",
       "description": "Explore the Aptos REST Playground: a state-of-the-art Web3 toolkit for developers. Dive into its features for interactive API testing, real-time data analysis, and user-friendly interface, all optimized for Aptos application development. Unveiled by Blockeden.xyz, it's the ultimate solution for efficient and seamless Aptos API exploration and understanding.",
       "date": "2023-09-20T00:00:00.000Z",
-      "formattedDate": "September 20, 2023",
       "tags": [
         {
+          "inline": true,
           "label": "product",
           "permalink": "/blog/tags/product"
         },
         {
+          "inline": true,
           "label": "aptos",
           "permalink": "/blog/tags/aptos"
         }
@@ -80,7 +83,8 @@
           "title": "Software Engineer",
           "url": "https://github.com/samlis8",
           "imageURL": "https://images.mirror-media.xyz/publication-images/g-MTneq6fymU9PbzD6O4R.jpg?height=2080&width=3120",
-          "key": "simlis8"
+          "key": "simlis8",
+          "page": null
         }
       ],
       "frontMatter": {
@@ -114,13 +118,14 @@
       "title": "BlockEden.xyz launches new Aptos Indexer GraphQL Playground",
       "description": "Introducing Aptos Indexer GraphQL, a tailor-made high-performance GraphQL framework by blockeden.xyz for Aptos developers. Dive into the benefits, usage, and how to get started with this robust API development tool.",
       "date": "2023-09-15T00:00:00.000Z",
-      "formattedDate": "September 15, 2023",
       "tags": [
         {
+          "inline": true,
           "label": "product",
           "permalink": "/blog/tags/product"
         },
         {
+          "inline": true,
           "label": "aptos",
           "permalink": "/blog/tags/aptos"
         }
@@ -133,7 +138,8 @@
           "title": "Software Engineer",
           "url": "https://github.com/samlis8",
           "imageURL": "https://images.mirror-media.xyz/publication-images/g-MTneq6fymU9PbzD6O4R.jpg?height=2080&width=3120",
-          "key": "simlis8"
+          "key": "simlis8",
+          "page": null
         }
       ],
       "frontMatter": {
